@@ -38,3 +38,28 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 **Description:** <i>Full Reborn Revert. A collection of snippets that changes the look of Ellexides themes to look like the original reborn. Works with Quiet too. (Screenshots may be outdated.)</i>
 
 ![](https://i.imgur.com/N1hOAxh.jpg)
+
+## [Old Titlebar](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Titlebar.css)
+
+**Description:** <i>Restores the old titlebar seen in Reborn 7.5-7.9</i>
+
+![](https://i.imgur.com/VycNFQr.gif)
+
+## [Top Bar Remover](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Remove%20Top%20Bar.css)
+
+**Description:** <i>Hides the top line bar in Reborn.</i>
+
+![](https://i.imgur.com/aZQRepP.png)
+
+## [Transparent CSS Editor](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
+
+**Description:** <i>Makes the Custom CSS editor transparent. Dont bug me that the selection is unthemed (Its JS that manages that).</i>
+
+![](https://cdn.discordapp.com/attachments/449569809613717518/493061226482368513/2018-09-22_09-08-20.gif)
+
+## [Weed](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Weed.css)
+
+**Description:** <i>I want to die.</i>
+
+![](https://cdn.discordapp.com/attachments/449569809613717518/497915972699684864/2018-10-05_18-40-13.gif)
+
