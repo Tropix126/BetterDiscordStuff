@@ -14,3 +14,10 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 
 ![](https://i.imgur.com/JiEWevZ.png)
 ![](https://i.imgur.com/p4Jjmpb.png)
+
+## [Game Grid](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css)
+
+**Description:** <i>Similar to FriendGrid, but with the library. I did not make this code, satoru did, I only made it compatible with Reborn/Quiet</i>
+
+![](https://i.imgur.com/JiEWevZ.png)
+![](https://i.imgur.com/p4Jjmpb.png)
