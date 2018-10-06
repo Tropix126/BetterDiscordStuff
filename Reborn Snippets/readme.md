@@ -20,3 +20,15 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 **Description:** <i>Similar to FriendGrid, but with the library. I did not make this code, satoru did, I only made it compatible with Reborn/Quiet</i>
 
 ![](https://i.imgur.com/HuR7dTS.gif)
+
+## [Large Reactins](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css)
+
+**Description:** <i>Adds larger reactions as seen as izys themes.</i>
+
+![](https://i.imgur.com/DruHiZU.gif)
+
+## [Large Reactins](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css)
+
+**Description:** <i>Adds larger reactions as seen as izys themes.</i>
+
+![](https://i.imgur.com/DruHiZU.gif)
