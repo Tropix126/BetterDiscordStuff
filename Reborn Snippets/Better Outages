@@ -1,0 +1,10 @@
+/*Better Outage Icon*/
+.theme-dark .guildsError-3cFMtY:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+.theme-dark .guildsError-3cFMtY {
+    background:transparent;
+    border-color:transparent;
+    color: #fff;
+}
