@@ -1,0 +1,9 @@
+/*Material Embeds*/
+.embed-IeVjo6:hover {
+    transform: scale(1.05); 
+    transition: transform .2s
+}
+.embed-IeVjo6 {
+    box-shadow: 0 0 40px rgba(0,0,0,0.5) !important;
+    border-radius:5px !important;
+}
