@@ -1,0 +1,10 @@
+/*Weed displayed below add guilds icon.*/
+.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:before {
+    background-image: url(https://tropix126.github.io/RebornAddons/download.svg);
+    -webkit-filter: hue-rotate(177deg) invert();
+    background-size: 25px;
+    animation: hue-rotate 30s linear infinite;
+    background-repeat:no-repeat;
+    margin-bottom:-115px;
+    margin-left:24px;
+}
