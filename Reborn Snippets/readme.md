@@ -1,4 +1,4 @@
-## Discord Reborn Snippets by Tropix
+## Derealised Snippets by Tropix
 If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
 * ***Feel free to use/modify these to your hearts consent.*** 
 
@@ -19,5 +19,4 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 
 **Description:** <i>Similar to FriendGrid, but with the library. I did not make this code, satoru did, I only made it compatible with Reborn/Quiet</i>
 
-![](https://i.imgur.com/JiEWevZ.png)
-![](https://i.imgur.com/p4Jjmpb.png)
+![](https://i.imgur.com/HuR7dTS.gif)
