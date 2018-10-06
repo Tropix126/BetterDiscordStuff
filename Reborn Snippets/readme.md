@@ -1,6 +1,6 @@
 ## Discord Reborn Snippets by Tropix
 If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
-***Feel free to use/modify these to your hearts consent.*** 
+* ***Feel free to use/modify these to your hearts consent.*** 
 
 ## [Better Outages](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Better%20Outages.css)
 
