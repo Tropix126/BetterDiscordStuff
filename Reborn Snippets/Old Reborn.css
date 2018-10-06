@@ -159,7 +159,7 @@
 /*5. Home Icon*/
 /*5.a. Icon*/
 .homeIcon-1FoKUJ {
-	-webkit-mask: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/chatIcon.svg);
+	-webkit-mask: url(https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/resources/homeicon.svg);
 	-webkit-mask-size: var(--home-size);
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center
@@ -173,7 +173,7 @@
 /*7. User Popouts*/
 /*7.a. User Popout Pattern*/
 .headerTop-3C2Zn0 {
-    background-image: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/bg.svg) !important;
+    background-image: url(https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/resources/pattern.svg) !important;
     background-size: 9em !important;
 }
 /*8. Scrollbars */
