@@ -21,14 +21,20 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 
 ![](https://i.imgur.com/HuR7dTS.gif)
 
-## [Large Reactins](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css)
+## [Large Reactions](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css)
 
 **Description:** <i>Adds larger reactions as seen as izys themes.</i>
 
 ![](https://i.imgur.com/DruHiZU.gif)
 
-## [Large Reactins](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css)
+## [Material Embeds](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Material%20Embeds.css)
 
-**Description:** <i>Adds larger reactions as seen as izys themes.</i>
+**Description:** <i>Adds shadow to embed boxes and zooms in on hover</i>
 
-![](https://i.imgur.com/DruHiZU.gif)
+![](https://cdn.discordapp.com/attachments/449569809613717518/492912835307896840/2018-09-21_23-19-14.gif)
+
+## [Old Reborn](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Reborn.css)
+
+**Description:** <i>Full Reborn Revert. A collection of snippets that changes the look of Ellexides themes to look like the original reborn. Works with Quiet too. (Screenshots may be outdated.)</i>
+
+![](https://i.imgur.com/N1hOAxh.jpg)
