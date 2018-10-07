@@ -6,7 +6,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Better Outages](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Better%20Outages.css)
 
 **Description:** <i>Makes the outage icon transparent and applies a few more perks.</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Better%20Outages.css");
 ```
@@ -15,7 +14,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Account Details in Margin](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Details%20In%20Margin.css)
 
 **Description:** <i>Credits to BakedPVP for helping. Adds a margin to the members area and puts your Name and discriminator in it.</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Details%20In%20Margin.css");
 ```
@@ -25,7 +23,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Game Grid](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css)
 
 **Description:** <i>Similar to FriendGrid, but with the library. I did not make this code, satoru did, I only made it compatible with Reborn/Quiet</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Game%20Grid.css");
 ```
@@ -34,7 +31,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Large Reactions](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css)
 
 **Description:** <i>Adds larger reactions as seen as izys themes.</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css");
 ```
@@ -43,7 +39,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Material Embeds](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Material%20Embeds.css)
 
 **Description:** <i>Adds shadow to embed boxes and zooms in on hover</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Material%20Embeds.css");
 ```
@@ -52,7 +47,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Old Reborn](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Reborn.css)
 
 **Description:** <i>Full Reborn Revert. A collection of snippets that changes the look of Ellexides themes to look like the original reborn. Works with Quiet too. (Screenshots may be outdated.)</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Reborn.css");
 ```
@@ -61,7 +55,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Old Titlebar](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Titlebar.css)
 
 **Description:** <i>Restores the old titlebar seen in Reborn 7.5-7.9</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Titlebar.css");
 ```
@@ -70,7 +63,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Top Bar Remover](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Remove%20Top%20Bar.css)
 
 **Description:** <i>Hides the top line bar in Reborn.</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Remove%20Top%20Bar.css");
 ```
@@ -79,7 +71,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Transparent CSS Editor](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
 
 **Description:** <i>Makes the Custom CSS editor transparent. Dont bug me that the selection is unthemed (Its JS that manages that).</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css");
 ```
@@ -88,7 +79,6 @@ If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="ht
 ## [Weed](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Weed.css)
 
 **Description:** <i>I want to die.</i>
-**IMPORT CODE**
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Weed.css");
 ```
