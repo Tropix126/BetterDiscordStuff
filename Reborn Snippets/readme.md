@@ -1,7 +1,7 @@
 ## Derealised Snippets by Tropix
 If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
 * ***Feel free to use/modify these to your hearts consent.*** 
-* ***I update these frequently, so expect a patch for a broken theme.*** 
+* ***I update these frequently, so you can expect a patch for any broken snippet.*** 
 
 ## [Better Outages](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Better%20Outages.css)
 
