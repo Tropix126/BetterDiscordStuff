@@ -1,5 +1,5 @@
-## Derealised Snippets by Tropix
-If you find any bugs with these, please DM me @Tropix#0001 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
+## Derealised Snippets by Tropical
+If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
 * ***Feel free to use/modify these to your hearts consent.*** 
 * ***I update these frequently, so you can expect a patch for any broken snippet.*** 
 
