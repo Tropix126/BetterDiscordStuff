@@ -42,7 +42,7 @@ If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Material%20Embeds.css");
 ```
-![](https://cdn.discordapp.com/attachments/449569809613717518/492912835307896840/2018-09-21_23-19-14.gif)
+![](https://cdn.discordapp.com/attachments/449175562573840386/501166012289515530/2018-10-14_17-54-36.gif)
 
 ## [Old Reborn](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Reborn.css)
 
