@@ -84,3 +84,11 @@ If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="
 ```
 ![](https://cdn.discordapp.com/attachments/449569809613717518/497915972699684864/2018-10-05_18-40-13.gif)
 
+## [Minimized Server Dropdown](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css)
+
+**Description:** <i>Inspired by old BMT. Compatible with monsters reborn/quiet [NOT IZY].</i>
+```css
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
+```
+![](https://cdn.discordapp.com/attachments/449569809613717518/503400233988784128/2018-10-20_21-46-59.gif)
+
