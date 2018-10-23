@@ -51,7 +51,7 @@
      	animation-delay: 4s
      }
 /*1.b. Server Message */
-.ui-standard-sidebar-view #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
+.theme-dark .standardSidebarView-3F1I7i #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
     display: block;
     position: relative;
     background: var(--main-color);
@@ -70,7 +70,7 @@
     content: "Hey, I see you are using my patch for Reborn! \A If you would like, you can give me feedback or get support at: \A\A bit.ly/derealised \A\A Also, we have addons, tag requests and more themes.\AHave a great day!";
 }
 /*1.c. Settings Sidebar*/
-.ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
     -webkit-box-flex: 1;
     -webkit-box-pack: end;
     display: -webkit-box;
@@ -78,14 +78,14 @@
     display: flex;
     justify-content: flex-end;
 }
-.ui-standard-sidebar-view .sidebar-region {
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
     -ms-flex: 1 0 218px;
     -ms-flex-pack: end;
     flex: 1 0 218px;
     z-index: 1;
 }
-.ui-standard-sidebar-view .sidebar-region, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
-    background:transparent !important;
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+    background-color: transparent !important;
 }
 /*1.d. Titlebar*/
 .titleBar-AC4pGV div {
