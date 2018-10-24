@@ -6,6 +6,8 @@
      1.c. Settings Sidebar
      1.d. Titlebar
      1.e. Theme and Plugin Dialogs
+     1.f. Darkness Filter
+     1.g. Headers
 2. Tooltips
      2.a. Tooltip Theming
 3. Shadow
@@ -14,6 +16,7 @@
 4. Guilds
      4.a. Guilds Roundness
      4.b. Guilds Size
+     4.c. Unread Indicators
 5. Home Icon 
      5.a Icon
 6. Fonting
@@ -25,15 +28,19 @@
 9. Channels and Categories
      9.a. Channel Theming
      9.b. Category Theming
+10. Chat Area
+     10.a Jump To Present
+11. Friends List
+     11.a. Menu Buttons
 /*
 /*============== REVERTS ==============*/
 /*1. User Settings, Popouts, and Titlebar : */
 /*1.a. Greeting*/
-     .version {
+.version {
      	display: inline-block;
      	margin: 0px 0px 0px 0px
      }
-     body:before {
+body:before {
      	content: "You are using Reborn. Have a great day!";
      	z-index: 1000000000000000000000000;
      	color: #fff;
@@ -91,6 +98,8 @@
 .titleBar-AC4pGV div {
     transform: scale(1) !important;
 }
+div[class*="titleBar-"] div:nth-of-type(4) {background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;}
+div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 /*1.e. Theme and Plugin Dialogs*/
 #bd-settingspane-container .ui-switch-item {
 	flex-direction: column;
@@ -122,6 +131,31 @@
 .bda-slist li:nth-child(odd) {
 	background: #121213;
 	border-top: 1px solid #121213
+}
+/*1.f. Darkness Filter*/
+.theme-dark .standardSidebarView-3F1I7i{background:rgba(0,0,0,0.4) !important;}
+/*1.g. Headers*/
+.menu-Sp6bN1 {
+    background: var(--tertiary-color) !important;
+    animation: opacity 100ms ease, context-open-new 300ms cubic-bezier(0, 0, 0, 1) !important;
+}
+
+.popouts-3dRSmE .popout-3sVMXz.popoutBottom-1YbShG.popoutbottom .menu-Sp6bN1 {
+    animation: opacity 100ms ease, context-open-new 300ms cubic-bezier(0, 0, 0, 1) !important;
+}
+.theme-dark .footer-3oZnEF {
+    bottom:none !important;
+    opacity:0.5 !important;
+}
+  .theme-dark .ui-standard-sidebar-view .content-region {
+      background: transparent;
+  }
+  .theme-dark .ui-standard-sidebar-view {
+      background: rgba(0,0,0,0.4);
+}
+.theme-dark .bda-slist .bda-header {
+    color: #f6f6f7;
+    border-bottom: 2px solid var(--main-color);
 }
 /*2. Tooltips/*
 /*2.a. Tooltip Theming*/
@@ -155,6 +189,20 @@
 .iconSizeLarge-161qtT {
     height: 46px; !important;
     width: 46px; !important;
+}
+/*4.c. Unread Indicators*/
+.guild-1EfMGQ.selected-ML3OIq:before {
+    box-shadow:none !important;
+    border-radius:5px !important;
+    margin-top: -21px !important;
+}
+.guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
+    margin-left:2px !important;
+}
+.guild-1EfMGQ.unread-qLkInr:before {
+    border-radius: 5px !important;
+    background:var(--hover-color) !important;
+    box-shadow: none !important;
 }
 /*5. Home Icon*/
 /*5.a. Icon*/
@@ -216,4 +264,37 @@
     padding: 0 8px;
     border-radius: 0px;
   }
+/*10. Chat Area
+10.a. Jump To Present*/
+.chat-3bRxxu .jumpToPresentBar-9P20AM:before{display:none !important;}   
+.chat-3bRxxu .jumpToPresentBar-9P20AM{border-radius:7px 7px 0px 0px !important;}
+.chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child {
+    font-family:"Whitney" !important;
+    font-size:13px !important;
+    color:white !important;
+}
+.jumpToPresentBar-9P20AM button:last-child {
+    -webkit-transition: color .2s !important;
+    color: hsla(0,0%,100%,.6) !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: color .2s;
+}
+.jumpToPresentBar-9P20AM button {
+    background: none;
+    color: #fff;
+    line-height: 14px;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+.jumpToPresentBar-9P20AM {margin-bottom:-15px !important;}
+.jumpToPresentBar-9P20AM:hover {background:var(--hover-color) !important;}
+.chat-3bRxxu .jumpToPresentBar-9P20AM:before {display:none !important;}
+/*11. Friends List
+11.a. Buttons*/
+.theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white;}
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;
+}
 /*==== THANKS FOR USING THIS ADDON ====*/
