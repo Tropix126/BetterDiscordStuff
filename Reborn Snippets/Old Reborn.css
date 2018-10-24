@@ -32,6 +32,8 @@
      10.a Jump To Present
 11. Friends List
      11.a. Menu Buttons
+12. Mentions
+    12.a. Mentions
 /*
 /*============== REVERTS ==============*/
 /*1. User Settings, Popouts, and Titlebar : */
@@ -296,5 +298,24 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 .theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
 .theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white;}
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;
+}
+/*12. Mentions
+12.a. Mentions*/
+.theme-dark .wrapper-3WhCwL {
+    background:var(--quaternary-color);
+    border-radius:3px;
+    color:var(--main-color);
+}
+.theme-dark .wrapper-3WhCwL:hover {
+    background-color: var(--hover-color) !important;
+    color: #fff;
+    opacity: 0.9;
+    transition: .2s all linear;
+}
+
+.containerCozy-jafyvG .isMentioned-N-h9aa {
+    background:var(--secondary-color);
+    border-radius:3px;
+    box-shadow:none;
 }
 /*==== THANKS FOR USING THIS ADDON ====*/
