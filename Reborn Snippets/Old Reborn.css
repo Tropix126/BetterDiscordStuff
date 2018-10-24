@@ -17,6 +17,7 @@
      4.a. Guilds Roundness
      4.b. Guilds Size
      4.c. Unread Indicators
+     4.d. Guilds Menu
 5. Home Icon 
      5.a Icon
 6. Fonting
@@ -205,6 +206,13 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
     border-radius: 5px !important;
     background:var(--hover-color) !important;
     box-shadow: none !important;
+}
+/*4.d. Guilds Menu*/
+.side-8zPYf6 .item-PXvHYJ:hover {
+    background:var(--quaternary-color) !important;
+} 
+.name-3YKhmS {
+    margin-bottom:5px;
 }
 /*5. Home Icon*/
 /*5.a. Icon*/
