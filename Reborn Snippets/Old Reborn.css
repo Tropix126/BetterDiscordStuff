@@ -160,6 +160,14 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
     color: #f6f6f7;
     border-bottom: 2px solid var(--main-color);
 }
+/*Title Header*/
+.side-8zPYf6 .header-2RyJ0Y, .theme-dark #bd-settings-sidebar .ui-tab-bar-header {
+    border-bottom:2px solid var(--main-color) !important;
+    color:white !important;
+    font-size:15px !important;
+    text-align:center !important;
+    margin-bottom:3px !Important;
+}
 /*2. Tooltips/*
 /*2.a. Tooltip Theming*/
 .tooltip-black {
