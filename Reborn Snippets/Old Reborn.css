@@ -106,34 +106,34 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 /*1.e. Theme and Plugin Dialogs*/
 #bd-settingspane-container .ui-switch-item {
 	flex-direction: column;
-	margin-top: 8px
+	margin-top: 8px;
 }
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
 	background: rgba(0, 0, 0, 0.6)!important;
-	border-radius: 2px!important
+	border-radius: 2px!important;
 }
 .ui-standard-sidebar-view .bda-slist li:hover {
 	transform: scale(1.02);
-	box-shadow: 0px 0px 6px 0px #161617
+	box-shadow: 0px 0px 6px 0px #161617;
 }
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
 	background: #161617;
-	border-top: 0px solid transparent
+	border-top: 0px solid transparent;
 }
 .ui-standard-sidebar-view .bda-slist li {
 	background: rgba(0, 0, 0, 0.6)!important;
-	border-radius: 2px!important
+	border-radius: 2px!important;
 }
 .ui-standard-sidebar-view .bda-slist li {
 	background: #161617;
 	border-bottom: 0px solid transparent;
 	margin-top: 7px;
 	box-shadow: 0px 0px 3px 0px #161617;
-	transition: .2s all linear
+	transition: .2s all linear;
 }
 .bda-slist li:nth-child(odd) {
 	background: #121213;
-	border-top: 1px solid #121213
+	border-top: 1px solid #121213;
 }
 /*1.f. Darkness Filter*/
 .theme-dark .standardSidebarView-3F1I7i{background:rgba(0,0,0,0.4) !important;}
@@ -228,13 +228,13 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 	-webkit-mask: url(https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/resources/homeicon.svg);
 	-webkit-mask-size: var(--home-size);
 	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-position: center
+	-webkit-mask-position: center;
 }
 /*6. Fonting*/
 /*6.a. Username Font*/
 .accountDetails-3k9g4n .username {
 	font-size: 120%;
-	font-family: "Satisfy"
+	font-family: "Satisfy";
 }
 /*7. User Popouts*/
 /*7.a. User Popout Pattern*/
@@ -246,22 +246,22 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 /*8.a. Chat Scrollbar*/
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 	border: 3px solid transparent !important;
-	background-color: rgba(0, 0, 0, 0.4) !important
+	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 /*9. Channels and Categories */
 /*9.a. Channel Theming*/
 .contentSelectedText-3wUhMi,
 .contentSelectedVoice-1WDIBM {
-	background-color: var(--quaternary-color);
-	border-color: var(--quaternary-color)
+	background-color: rgba(0,0,0,.6);
+	border-color:none !important;
 }
 .contentSelectedText-3wUhMi,
 .contentSelectedVoice-1WDIBM,
 .contentHoveredText-2D9B-x {
-	border-radius: 5px
+	border-radius: 5px;
 }
 .contentHoveredText-2D9B-x {
-	border-color: transparent
+	border-color: transparent;
 }
 .channel-2QD9_O.selected-1HYmZZ .member-3W1lQa:hover, a, .channel-2QD9_O:hover a, .usernameOnline-3jr_0Y .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a {
     border-radius:5px !important;
