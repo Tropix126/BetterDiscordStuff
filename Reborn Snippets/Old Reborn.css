@@ -253,7 +253,7 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 .contentSelectedText-3wUhMi,
 .contentSelectedVoice-1WDIBM {
 	background-color: rgba(0,0,0,.6);
-	border-color:none !important;
+	border:none !important;
 }
 .contentSelectedText-3wUhMi,
 .contentSelectedVoice-1WDIBM,
@@ -261,12 +261,12 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 	border-radius: 5px;
 }
 .contentHoveredText-2D9B-x {
-	border-color: transparent;
+	border:none !important;
 }
 .channel-2QD9_O.selected-1HYmZZ .member-3W1lQa:hover, a, .channel-2QD9_O:hover a, .usernameOnline-3jr_0Y .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a {
     border-radius:5px !important;
-    border-left:transparent !important;
-    border-right:transparent !important;
+    border-left:none !important;
+    border-right:none !important;
 }
 /*9.b. Category Theming*/
 .nameDefault-2DI02H {
