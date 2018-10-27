@@ -317,9 +317,9 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 /*11. Friends List
 11.a. Buttons*/
 .theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
-.theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white;}
-#friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;
-}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white !important;}
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;}
+
 /*12. Mentions
 12.a. Mentions*/
 .theme-dark .wrapper-3WhCwL {
