@@ -105,36 +105,14 @@ body:before {
 div[class*="titleBar-"] div:nth-of-type(4) {background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;}
 div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 /*1.e. Theme and Plugin Dialogs*/
-#bd-settingspane-container .ui-switch-item {
-	flex-direction: column;
-	margin-top: 8px;
-}
-.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-	background: rgba(0, 0, 0, 0.6)!important;
-	border-radius: 2px!important;
-}
-.ui-standard-sidebar-view .bda-slist li:hover {
-	transform: scale(1.02);
-	box-shadow: 0px 0px 6px 0px #161617;
-}
-.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
-	background: #161617;
-	border-top: 0px solid transparent;
-}
-.ui-standard-sidebar-view .bda-slist li {
-	background: rgba(0, 0, 0, 0.6)!important;
-	border-radius: 2px!important;
-}
-.ui-standard-sidebar-view .bda-slist li {
-	background: #161617;
-	border-bottom: 0px solid transparent;
-	margin-top: 7px;
-	box-shadow: 0px 0px 3px 0px #161617;
-	transition: .2s all linear;
-}
-.bda-slist li:nth-child(odd) {
-	background: #121213;
-	border-top: 1px solid #121213;
+.theme-dark .bda-slist li:hover {transform: scale(1.02); box-shadow: 0px 0px 6px 0px #161617 !important;}
+.theme-dark .bda-slist .bda-header {border-bottom: 2px solid var(--main-color) !important;}
+.theme-dark .bda-slist li {
+    background:var(--secondary-color) !important;
+    border-bottom:none;
+    box-shadow: 0px 0px 3px 0px #161617;
+    transition: .2s all linear;
+    border-top: 1px solid #121213 !important;
 }
 /*1.f. Darkness Filter*/
 .theme-dark .standardSidebarView-3F1I7i{background:rgba(0,0,0,0.4) !important;}
