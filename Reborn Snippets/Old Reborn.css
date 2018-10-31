@@ -2,12 +2,11 @@
 /* Table of Contents/
 1. User Settings, Popouts, and Titlebar:
      1.a. Greeting Message
-     1.b. Server Message
-     1.c. Settings Sidebar
-     1.d. Titlebar
-     1.e. Theme and Plugin Dialogs
-     1.f. Darkness Filter
-     1.g. Headers
+     1.b. Settings Sidebar
+     1.c. Titlebar
+     1.d. Theme and Plugin Dialogs
+     1.e. Darkness Filter
+     1.f. Headers
 2. Tooltips
      2.a. Tooltip Theming
 3. Shadow
@@ -63,26 +62,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 
 }
-/*1.b. Server Message */
-.theme-dark .standardSidebarView-3F1I7i #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    display: block;
-    position: relative;
-    background: var(--main-color);
-    padding: 10px 15px;
-    white-space: pre;
-    margin-bottom: -10px;
-    margin-top: 15px;
-    border-radius: 2px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
-    font-weight: 600;
-    color: #fff;
-    text-transform: initial;
-    text-align: center;
-}
-#bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Hey, I see you are using my patch for Reborn! \A If you would like, you can give me feedback or get support at: \A\A bit.ly/derealised \A\A Also, we have addons, tag requests and more themes.\AHave a great day!";
-}
-/*1.c. Settings Sidebar*/
+/*1.b. Settings Sidebar*/
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
     -webkit-box-flex: 1;
     -webkit-box-pack: end;
@@ -100,13 +80,13 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
     background-color: transparent !important;
 }
-/*1.d. Titlebar*/
+/*1.c. Titlebar*/
 .titleBar-AC4pGV div {
     transform: scale(1) !important;
 }
 div[class*="titleBar-"] div:nth-of-type(4) {background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;}
 div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
-/*1.e. Theme and Plugin Dialogs*/
+/*1.d. Theme and Plugin Dialogs*/
 .theme-dark .bda-slist li:hover {transform: scale(1.02); box-shadow: 0px 0px 6px 0px #161617 !important;}
 .theme-dark .bda-slist .bda-header {border-bottom: 2px solid var(--main-color) !important;}
 .theme-dark .bda-slist li {
@@ -116,9 +96,9 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
     transition: .2s all linear;
     border-top: 1px solid #121213 !important;
 }
-/*1.f. Darkness Filter*/
+/*1.e. Darkness Filter*/
 .theme-dark .standardSidebarView-3F1I7i{background:rgba(0,0,0,0.4) !important;}
-/*1.g. Headers*/
+/*1.f. Headers*/
 .menu-Sp6bN1 {
     background: var(--tertiary-color) !important;
     animation: opacity 100ms ease, context-open-new 300ms cubic-bezier(0, 0, 0, 1) !important;
