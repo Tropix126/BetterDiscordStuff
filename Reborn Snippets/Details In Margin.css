@@ -27,12 +27,6 @@
     display: initial;
     padding-top: 53px;
 }
-.theme-dark .members-1998pB {
-    margin-bottom:60px;
-}
-.theme-dark .button-2b6hmh {
-    margin-right:15px;
-}
-.privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {
-    display: none;
-}
+.theme-dark .members-1998pB {margin-bottom:60px;}
+.theme-dark .button-2b6hmh {text-align:center;}
+.privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {display: none;}
