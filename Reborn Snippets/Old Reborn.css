@@ -125,9 +125,10 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
 .side-8zPYf6 .header-2RyJ0Y, .theme-dark #bd-settings-sidebar .ui-tab-bar-header {
     border-bottom:2px solid var(--main-color) !important;
     color:white !important;
-    font-size:15px !important;
+    font-size:14px !important;
     text-align:center !important;
     margin-bottom:3px !Important;
+    padding: 3px 0px !important;
 }
 /*2. Tooltips/*
 /*2.a. Tooltip Theming*/
