@@ -1,7 +1,5 @@
 /*Old Titlebar*/
-.divider-2PMBlV {
-    display: block !important;
-}
+.divider-2PMBlV {display: block !important;}
 .typeWindows-1za-n7 { height: 21px; margin-top: 4px; }
 .titleBar-AC4pGV div { transform: scale(1) !important; }
 .winButton-iRh8-Z { height: 9px; opacity: 0.6; top: 4px; width: 28px; right: 0px;}
@@ -9,6 +7,9 @@
 .titleBar-AC4pGV .winButtonClose-1HsbF-,
 .titleBar-AC4pGV .winButton-iRh8-Z:nth-child(3),
 .titleBar-AC4pGV .winButton-iRh8-Z:nth-child(4) { background-image: none !important;}
+.title-3qD0b-, .titleCall-_b9o8P {height: 46px;}
+.winButton-iRh8-Z:hover:nth-of-type(2) {background:#f04747 !important;}
+.theme-dark .title-3qD0b- {margin-top:1px;}
 .typeWindows-1za-n7 {
     background-color : rgb(22,22,24) !important;
     margin-bottom:-7px;
@@ -23,19 +24,14 @@
     font-family:"Satisfy";
     font-weight:900;
 }
-.title-3qD0b-,
-.titleCall-_b9o8P {
-  height: 46px;
-}
 .winButton-iRh8-Z:hover {
-background:transparent !important;
-}
-.theme-dark .attachButtonPlus-rUdX-B {
-    border-radius:0px;
+    height: 22px;
+    top: -3px;
+    width: 28px;
+    border-radius:0px !important;
+    transition:none !important;
+    background:rgba(255, 255, 255, 0.05) !important;
 }
 .titleWrapper-1l0xT9 .flex-1xMQg5 .flex-1xMQg5, #friends .flex-1xMQg5 .flex-1xMQg5, .activityFeed-28jde9>.flex-1xMQg5>.horizontal-1ae9ci>.flex-1xMQg5:last-child, .gameLibrary-TTDw4Y>.flex-1xMQg5 .flex-1xMQg5:last-child, .applicationStore-1pNvnv>.homeWrapper-3-Wh5T>.flex-1xMQg5 .flex-1xMQg5:last-child, .applicationStore-1pNvnv>.listingWrapper-329f74>.flex-1xMQg5 .flex-1xMQg5:last-child, .applicationStore-1pNvnv>.browseWrapper-2Qy6vG>.flex-1xMQg5 .flex-1xMQg5:last-child {
     margin-right: 0px;
-}
-.theme-dark .title-3qD0b- {
-    margin-top:1px;
 }
