@@ -7,6 +7,7 @@
      1.d. Theme and Plugin Dialogs
      1.e. Darkness Filter
      1.f. Headers
+     1.g. Close Button Margins
 2. Tooltips
      2.a. Tooltip Theming
 3. Shadow
@@ -129,6 +130,14 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
     text-align:center !important;
     margin-bottom:3px !Important;
     padding: 3px 0px !important;
+}
+/*1.g. Close Button and Margins*/
+.theme-dark .bda-slist li {width:660px !important;}
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+    -ms-flex: 1 1 auto !important;
+    -webkit-box-flex: 1 !important;
+    flex: 1 1 auto !important;
+    max-width: 740px !important;
 }
 /*2. Tooltips/*
 /*2.a. Tooltip Theming*/
