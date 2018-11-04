@@ -98,5 +98,5 @@ If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
 ```
-![](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
+![](https://cdn.discordapp.com/attachments/508099922214518839/508631691225726988/unknown.png)
 
