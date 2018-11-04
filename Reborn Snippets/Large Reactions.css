@@ -1,8 +1,7 @@
 /*Large reactions for Monster Reborn*/
 .reaction-1ELvT8 {background: none;position: relative;}
-
+.reaction-1ELvT8 .emoji {transform:scale(.8) !important;}
 .contentCozy-3XX413 .reaction,.contentCozy-3XX413p .reaction-1ELvT8 .emoji {border-radius: 30%;border: none;padding: 4px;width: 24px;height: 24px;margin-bottom: 20px!important;}
-
 .reaction-1ELvT8 .emoji {margin: 0!important;background: none;opacity: 1 !important;}
 .reactionInner-rRPZdY {padding:0px;}
 .reaction-1ELvT8.reactionMe-23mbRf  {background: var(--mc) !important;border-radius: 10px;opacity: 1 !important;}
@@ -10,14 +9,9 @@
 .reaction-1ELvT8 .emoji {width: 32px;height: 32px;padding: 0;margin-right: 4px;transform: none!important;border-radius: 10px;opacity: 1 !important; }
 .theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {color: white;font-weight: 500;}
 .reaction-1ELvT8 .reactionCount-2ddRoS {position: absolute !important;margin-top: 22px !important;color: #fff;opacity: 0.5;left: 0;right: 0;font-size: 11px;letter-spacing: 0;margin: 0 auto;z-index: 5;text-align: center;display: block;min-width: 32px!important;}
-
 .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {opacity: 1;}
-
 .reactions-1xb2Ex .reactionBtn-2na4rd {visibility: visible;opacity: 0.8!important;margin-top: -16px;}
-
 .reaction-1ELvT8::before,.contentCozy-3XX413p .reaction-1ELvT8n::after{content: "";display: block;position: absolute;border-radius: 30%;opacity: 0;}
-
 .reactionMe-23mbRf::after {opacity: 1;}
-
 .reactionMe-23mbRf::after  {top: 1px;left: 1px;width: 32px;height: 32px;-webkit-box-shadow: 0 0 0 2px var(--mc);}
 .theme-dark .reaction-1ELvT8 {background: var(--quaternary-color);}
