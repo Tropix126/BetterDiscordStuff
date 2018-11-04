@@ -1,5 +1,5 @@
 ## Derealised Snippets by Tropical
-Welcome to my derealised snippet library! If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
+Welcome to my derealised snippet library! If you find any bugs with these, please DM me @Tropical#8625 or in the <a href="https://bit.ly/derealised">Derealised Server</a>.
 * ***Feel free to use/modify these to your hearts consent.*** 
 * ***I update these frequently, so you can expect a patch for any broken snippet.*** 
 
