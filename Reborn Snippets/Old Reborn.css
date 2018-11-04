@@ -12,6 +12,7 @@
      2.d. Guilds Menu
      2.e. Wrapper Width
      2.f. Home Icon
+     2.g. Tooltips
 3. Channels and Categories
      3.a. Categories
      3.b. Selected and Hovered Channels
@@ -25,6 +26,7 @@
      5.d. Mentions
      5.e. Reactions
      5.f. Search Bar
+     5.g. Embeds
 6. Fonting
      6.a. Username Font
 7. Friends List
@@ -171,6 +173,10 @@
 	-webkit-mask-position: center;
 }
 
+/*2.g. Tooltips*/
+.tooltip-black {border-radius: 5px !important}
+.tooltip {padding: 5px 8px !important}
+
 /*============== END OF SECTION ============== */
 
 /*3. Channels and Categories
@@ -283,12 +289,41 @@
     text-shadow:transparent !important;
 }
 
+/*5.g. Embeds*/
+.embed-IeVjo6:hover {
+    -webkit-transform: scale(1.03) !important;
+    transform: scale(1.03) !important;
+}
+.theme-dark .embedPill-1Zntps {
+    height: calc(100% - 20px) !important;
+    position: absolute !important;
+    top: 10px !important;
+    left: 6px !important;
+    border-radius: 50px !important;
+    width: 4px !important;
+}
+.embed-IeVjo6 {
+    background-color: rgba(0, 0, 0, 0.66) !important;
+    border-color: rgba(0, 0, 0, 0.66) !important;
+}
+.embed-IeVjo6 {
+    border: 1px solid hsla(0,0%,80%,.3);
+    padding: 8px 10px !important;
+    -webkit-transition: 200ms cubic-bezier(.2, .11, 0, 1);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+    box-shadow: 2px 2px 10px #0c0c0c !important;
+    border-radius:5px;
+}
+.theme-dark .embedInner-1-fpTo {
+    background:transparent !important;
+    border:none !important;
+}
+
 /*============== END OF SECTION ============== */
 
 /*6. Fonting
 6.a. Username Font*/
 .accountDetails-3k9g4n .username {
-	font-size: 120% !important;
 	font-family: "Satisfy" !important;
 }
 
