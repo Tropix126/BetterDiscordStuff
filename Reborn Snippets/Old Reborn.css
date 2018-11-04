@@ -282,6 +282,7 @@
 .reactionMe-23mbRf::after {opacity: 1;}
 .reactionMe-23mbRf::after  {top: 1px;left: 1px;width: 32px;height: 32px;-webkit-box-shadow: 0 0 0 2px var(--mc);}
 .theme-dark .reaction-1ELvT8 {background: var(--quaternary-color);}
+.reaction-1ELvT8 .emoji {transform:scale(.8) !important;}
 
 /*5.f. Search Bar*/
 .theme-dark .search .search-bar .public-DraftEditorPlaceholder-root {
