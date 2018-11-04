@@ -1,20 +1,2 @@
 /*Remove Top Bar*/
-.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
-    border-bottom: transparent !important;
-}
-
-.privateChannels-1nO12o .searchBar-6Kv8R2 {
-    border-bottom: transparent !important;
-}
-
-.title-3qD0b- {
-    border-bottom: transparent !important;
-}
-
-.headerBar-UHpsPw {
-    border-bottom: transparent !important;
-}
-
-.header-2o-2hj {
-    border-bottom: transparent !important;
-}
+.headerBar-UHpsPw, .header-2o-2hj, .title-3qD0b-, .privateChannels-1nO12o .searchBar-6Kv8R2, .guildInner-3DSoA4{border-bottom: none !important;}
