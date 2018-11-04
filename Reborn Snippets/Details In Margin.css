@@ -1,32 +1,32 @@
 /*Account details in margin*/
 .accountDetails-3k9g4n .username {
-    display: inline-block;
-    font-family: "Satisfy";
-    font-weight: 700;
-    font-size: 250%;
-    height: 90px;
-    line-height: 65px;
+    display: inline-block !important;
+    font-family: "Satisfy" !important;
+    font-weight: 700 !important;
+    font-size: 250% !important;
+    height: 90px !important;
+    line-height: 65px !important;
     color: var(--main-color) !important;
-    margin-bottom: -18px;
-    min-width: 111%;
-    max-width: 111%;
-    text-align: center;
-    margin-top:8px;
-    margin-left:-15px
+    margin-bottom: -18px !important;
+    min-width: 111% !important;
+    max-width: 111% !important;
+    text-align: center !important;
+    margin-top:8px !important;
+    margin-left:-15px !important;
 }
 .accountDetails-3k9g4n {
-    position: fixed;
-    right: 0px;
-    height: 75px;
+    position: fixed !important;
+    right: 0px !important;
+    height: 75px !important;
     max-width: 242px !important;
     min-width: 242px !important;
 }
 .accountDetails-3k9g4n .discriminator {
-    right: 5px;
-    position: fixed;
-    display: initial;
-    padding-top: 53px;
+    right: 5px !important;
+    position: fixed !important;
+    display: initial !important;
+    padding-top: 53px !important;
 }
-.theme-dark .members-1998pB {margin-bottom:60px;}
-.theme-dark .button-2b6hmh {text-align:center;}
+.theme-dark .members-1998pB {margin-bottom:60px !important;}
+.theme-dark .button-2b6hmh {margin-right:15px !important;}
 .privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {display: none;}
