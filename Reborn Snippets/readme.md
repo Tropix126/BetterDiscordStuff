@@ -100,10 +100,10 @@ If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="
 ```
 ![](https://cdn.discordapp.com/attachments/508099922214518839/508631691225726988/unknown.png)
 
-## [Public Server Icojn](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
+## [Public Server Icon](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Public%20Server%20Icon.css)
 
 **Description:** <i>Replaces the boring public server text with an icon (Seen in the post 4.0 rewrite).</i>
 ```css
-@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Public%20Server%20Icon.css");
 ```
-![](https://cdn.discordapp.com/attachments/508099922214518839/508631691225726988/unknown.png)
+![](https://cdn.discordapp.com/attachments/508099922214518839/508708729261129729/2018-11-04_12-26-35.gif)
