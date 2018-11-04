@@ -139,6 +139,10 @@ div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
     flex: 1 1 auto !important;
     max-width: 740px !important;
 }
+.theme-dark .closeButton-1tv5uR:hover {
+    border-color:var(--hover-color) !important;
+    background:var(--main-color) !important;
+}
 /*2. Tooltips/*
 /*2.a. Tooltip Theming*/
 .tooltip-black {
