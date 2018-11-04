@@ -68,11 +68,11 @@ If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="
 ```
 ![](https://i.imgur.com/aZQRepP.png)
 
-## [Transparent CSS Editor](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
+## [Transparent CSS Editor](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css)
 
 **Description:** <i>Makes the Custom CSS editor transparent. Dont bug me that the selection is unthemed (Its JS that manages that).</i>
 ```css
-@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css");
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Transparent%20CSS%20Editor.css");
 ```
 ![](https://cdn.discordapp.com/attachments/449569809613717518/493061226482368513/2018-09-22_09-08-20.gif)
 
@@ -91,4 +91,12 @@ If you find any bugs with these, please DM me @Tropical#0001 or in the <a href="
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
 ```
 ![](https://cdn.discordapp.com/attachments/449569809613717518/503400233988784128/2018-10-20_21-46-59.gif)
+
+## [User Popout Pattern](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
+
+**Description:** <i>Adds a nice patterned background to the top of the user popout.</i>
+```css
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Collapsed%20Dropdown%20Menu.css");
+```
+![](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/User%20Popout%20Pattern.css)
 
