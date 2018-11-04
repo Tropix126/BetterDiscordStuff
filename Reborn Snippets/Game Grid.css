@@ -1,4 +1,3 @@
 @import url("https://satoru8.github.io/Addons/Library.css");
-.gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .row-ZLfFhY {
-    background:rgba(0,0,0,0.3) !important;
-}
+.gameLibrary-TTDw4Y .rowWrapper-2fB6P0 .row-ZLfFhY {background:rgba(0,0,0,0.35) !important;}
+.gameLibrary-TTDw4Y .rowWrapper-2fB6P0 {box-shadow:2px 2px 4px rgba(0,0,0,0.5) !important;}
