@@ -1,16 +1,10 @@
-.ace_content, .ace_gutter-layer {
-    background :var(--quaternary-color) !important;
-} 
-.ace-monokai {
-    background: transparent !important;
-}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {box-shadow: 0 1px 0 0 transparent inset !important;}
+.ace_content, .ace_gutter-layer {background :var(--quaternary-color) !important;} 
+.ace-monokai .ace_gutter {background:transparent !important; color: var(--mc) !important}
+.ace-monokai {background: transparent !important;}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: var(--quaternary-color) !important;
     box-shadow: transparent !important;
-}
-.ace-monokai .ace_gutter {
-    background:transparent !important;
-    color: var(--mc) !important
 }
  #bd-customcss-attach-controls button, .bd-detached-css-editor {
     background: var(--mc) !important;
@@ -19,7 +13,4 @@
  #bd-customcss-attach-controls:hover button:hover, .bd-detached-css-editor:hover {
     background: var(--mc) !important;
     border-right: 1px solid var(--hover-color) !important;
-}
-.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-    box-shadow: 0 1px 0 0 transparent inset !important;
 }
