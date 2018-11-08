@@ -37,6 +37,7 @@
      9.a. Greeting Message
      9.b. Background Position
      9.c. Background Brightness
+     9.d. Help Modal
 */
 /*============= OLD REBORN =============
 ===========   BY TROPICAL   ===========*/
@@ -190,10 +191,9 @@
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {background-color: rgba(0,0,0,.6); border:none !important;}
 .contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .contentHoveredText-2D9B-x {border-radius: 5px;}
 .contentHoveredText-2D9B-x {border:none !important;}
-.channel-2QD9_O.selected-1HYmZZ .member-3W1lQa:hover, a, .channel-2QD9_O:hover a, .usernameOnline-3jr_0Y .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a {
+.channel-2QD9_O.selected-1HYmZZ .member-3W1lQa:hover, a, .channel-2QD9_O:hover a, .usernameOnline-3jr_0Y .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a, .member-3W1lQa:hover, .member-3W1lQa.popout-open {
     border-radius:5px !important;
-    border-left:none !important;
-    border-right:none !important;
+    border:none !Important;
 }
 
 /*============== END OF SECTION ============== */
@@ -369,6 +369,22 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 /*9.c. Background Brightness*/
 .theme-dark {
     --primary-color: rgba(0,0,0,0.7) !important;
+}
+
+/*9.d. Help Modal*/
+.need-help-modal .form-inner.loading::after {background:transparent !important;}
+.need-help-modal .header::after {width:520px !important;}
+.need-help-modal .footer::after {display:none !important;}
+:root{--theme-name:"Reborn" !important;}
+.need-help-modal.form.deprecated .header h1::after {
+    font-size:350% !important;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.4) !important;
+    display:inline-block !important;
+    margin-left:130px;
+}
+.need-help-modal.form.deprecated .form-inner.loading {
+    background:rgba(0,0,0,0.3) !important;
+    border:3px solid var(--main-color) !important;
 }
 
 /*============== Thanks for using this addon ;) ============== */
