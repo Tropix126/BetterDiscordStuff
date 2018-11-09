@@ -27,6 +27,7 @@
      5.e. Reactions
      5.f. Search Bar
      5.g. Embeds
+     5.h. Send Messages Area
 6. Fonting
      6.a. Username Font
 7. Friends List
@@ -41,7 +42,10 @@
 */
 /*============= OLD REBORN =============
 ===========   BY TROPICAL   ===========*/
-
+:root  {
+	--orversion:3.3;
+	--theme-name:"Reborn";
+}
 /*1. Settings Menu Area
 1.a. Sidebar*/
 
@@ -118,7 +122,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.2 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v"var(--orversion)" (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -173,7 +177,15 @@
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 }
-
+/*Friend Request Dialog*/
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .badge-1GsMF2 {
+    border:none !important;
+    border-radius:0px !important;
+    box-shadow:none !Important;
+    margin:0;
+    margin-bottom:-1px !important;
+    padding:15px 35px !important;
+}
 /*2.g. Tooltips*/
 .tooltip-black {border-radius: 5px !important}
 .tooltip {padding: 5px 8px !important}
@@ -318,6 +330,12 @@
 .theme-dark .embedInner-1-fpTo {
     background:transparent !important;
     border:none !important;
+}
+
+/*5.h. Send Messages Area*/
+.chat-3bRxxu .channelTextArea-rNsIhG, .theme-dark .container-2Thooq {
+    background:rgba(0,0,0,0.3) !important;
+    border-top:2px solid rgba(0,0,0,0.9);
 }
 
 /*============== END OF SECTION ============== */
