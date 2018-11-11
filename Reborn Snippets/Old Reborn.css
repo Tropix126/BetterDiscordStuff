@@ -123,7 +123,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.4 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.4.1 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
