@@ -29,6 +29,7 @@
      5.g. Embeds
      5.h. Send Messages Area
      5.i. New Server Welcome Message
+     5.j. Chat Dividers
 6. Fonting
      6.a. Username Font
 7. Friends List
@@ -189,8 +190,8 @@
     padding:15px 35px !important;
 }
 /*2.g. Tooltips*/
-.tooltip-black {border-radius: 5px !important}
-.tooltip {padding: 5px 8px !important}
+.tooltip-black {border-radius: 5px !important;}
+.tooltip {padding: 5px 8px !important;}
 
 /*============== END OF SECTION ============== */
 
@@ -344,6 +345,9 @@
 /*5.i. New Server Welcome Message*/
 .base-34jWEe h1 {color: #f1f1f1;}
 
+/*5.j. Chat Dividers*/
+/*New Messages Notif*/
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr>span {background:rgba(0,0,0,0.5) !important;}
 /*============== END OF SECTION ============== */
 
 /*6. Fonting
