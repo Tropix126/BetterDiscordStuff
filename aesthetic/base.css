@@ -1,0 +1,149 @@
+.tooltip {
+    border-radius:50% !important;
+    text-align:center;
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet) !important;
+    height:90px;
+    animation: hue-rotate 1s linear infinite, mentionpulse 1s infinite, spin 10s infinite linear !important;
+    border:5px solid red;
+    width:9999px !important;
+    color:red;
+}
+@keyframes flash {
+    from {filter:invert(100);}
+    to {filter:invert(0);}
+}
+@keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 50px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-128px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(256px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-256px, 0, 0);
+    height:200px !important;
+  }
+
+  40%, 60% {
+    transform: translate3d(256px, 0, 0);
+    height:20px !important;
+  }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate();
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+[class*="avatar-"], .theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq, .image-33JSyf  {
+    animation:spin 2s infinite !important;
+    width:70px !important;
+    height:70px !important;
+}
+.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
+    animation:spin 1s infinite linear;
+    background:purple;
+}
+.theme-dark .members-1998pB {
+    background:yellow !important;
+    animation:hue-rotate 3s linear infinite;
+}
+#app-mount {
+    font-family:"Comic Sans MS";
+    font-size:50px;
+}
+.ui-switch {
+    animation:shake 100ms infinite linear;
+}
+.ace-editor, .ace-monokai, .editor-wrapper, .contentColumnDefault-1VQkGM {
+    background:lightgreen !important;
+}
+.sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e {
+    background:purple !important;
+}
+.containerCozyBounded-1rKFAn {
+    background:darkgreen !important;
+}
+.theme-dark .chat-3bRxxu form {
+    background:pink;
+}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover, .side-8zPYf6 .item-PXvHYJ:hover {
+    animation:spin 5s;
+}
+body:before{content:"PREPARE THY ANUS";z-index:1000000000000000000000000;color:#fff;background:red;top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
+@-webkit-keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+}
+@keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+}
+*::-webkit-scrollbar {
+    width:35px !important;
+}
+
+*{cursor:wait !important;}
+@keyframes jump {
+	0% {
+		transform: translateY(10);
+	}
+	20% {
+		transform: translateY(100);
+	}
+	40% {
+		transform: translateY(600px);
+	}
+	50% {
+		transform: translateY(100);
+	}
+	60% {
+		transform: translateY(15px);
+	}
+	80% {
+		transform: translateY(-69);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+.newMessagesBar-mujexs {
+    height:100px;
+    border-radius:0px;
+    animation:jump 1s linear infinite;
+}
+.header-2o-2hj {animation:spin 1s linear infinite}
+.titleBar-AC4pGV {
+  height:30px !important;
+}
+.markup-2BOw-j {
+  background:black !important;
+  border:1px solid white !important;
+  color:red !Important;
+}
+.theme-dark .guildsWrapper-5TJh6A {
+    transform:rotate(180deg);
+    background:black !important;
+}
