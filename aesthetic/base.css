@@ -65,7 +65,7 @@
 }
 .theme-dark .members-1998pB {
     background:yellow !important;
-    animation:hue-rotate 3s linear infinite;
+    animation:colorPulse 3s linear infinite;
 }
 #app-mount {
     font-family:"Comic Sans MS";
@@ -105,7 +105,6 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     width:35px !important;
 }
 
-*{cursor:wait !important;}
 @keyframes jump {
 	0% {
 		transform: translateY(10);
@@ -132,11 +131,12 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 .newMessagesBar-mujexs {
     height:100px;
     border-radius:0px;
-    animation:jump 1s linear infinite;
+    animation:colorPulse 1s infinite linear;
 }
 .header-2o-2hj {animation:spin 1s linear infinite}
 .titleBar-AC4pGV {
   height:30px !important;
+  animation:shake 10s infinite;
 }
 .markup-2BOw-j {
   background:black !important;
@@ -147,3 +147,71 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     transform:rotate(180deg);
     background:black !important;
 }
+@-webkit-keyframes colorPulse {
+	0% {
+		background-color: #1abc9c;
+	}
+	10% {
+		background-color: #2ecc71;
+	}
+	20% {
+		background-color: #3498db;
+	}
+	30% {
+		background-color: #9b59b6;
+	}
+	40% {
+		background-color: #34495e;
+	}
+	50% {
+		background-color: #f1c40f;
+	}
+	60% {
+		background-color: #e67e22;
+	}
+	70% {
+		background-color: #ecf0f1;
+	}
+	80% {
+		background-color: #95a5a6;
+	}
+	90% {
+		background-color: #f39c12;
+	}
+	100% {
+		background-color: #000000;
+	}
+}
+.theme-dark .membersGroup-v9BXpm {
+  transform:rotate(-10deg);
+}
+.member-3W1lQa:hover {
+    transform: rotate(100deg);
+    transition: 1s all;
+}
+.member-3W1lQa {
+  transform:rotate(10deg);
+}
+.theme-dark .title-3qD0b- {
+  transform:rotate(-1deg);
+  background:linear-gradient(45deg, #006400, #999900) !important;
+}
+.search-bar {
+  animation:colorPulse 1s infinite;
+}
+.privateChannels-1nO12o {
+  background:lightblue;
+  transform:rotate(1deg);
+}
+.theme-dark .container-2Thooq {
+  transform:rotate(10deg) !important;
+}
+.popouts-3dRSmE {
+  margin-top:200px !important;
+}
+.userPopout-3XzG_A {
+  animation:spin 60s infinite;
+  width:500px !important;
+  margin-right:200px
+}
+*{cursor:wait;}
