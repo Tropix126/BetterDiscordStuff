@@ -74,7 +74,7 @@
 .membersWrap-2h-GB4::after {
   content:var(--theme-name)" v" var(--theme-version) !important;
     font-family: "Satisfy";
-    color:rgb(50, 49, 52);
+    color:#2e2e30;
     width: 240px;
     height: 60px;
     position: absolute;
