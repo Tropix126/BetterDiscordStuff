@@ -1,0 +1,418 @@
+/*Full Reborn Revert. A collection of snippets that changes the look of Monsters to the original Reborn.*/
+/* Table of Contents/
+1.Settings Menu Area
+     1.a. Sidebar
+     1.b. Content Area
+     1.c. Close Button
+     1.d. Support Server Dialog
+2. Guild Area
+     2.a. Roundness
+     2.b. Adjusted Sizew
+     2.c. Unread Indicators
+     2.d. Guilds Menu
+     2.e. Wrapper Width
+     2.f. Home Icon
+     2.g. Tooltips
+3. Channels and Categories
+     3.a. Categories
+     3.b. Selected and Hovered Channels
+4. Shadow
+     4.a. Box Shadow
+     4.b. Text Shadow
+5. Chat Area
+     5.a. Jump To Present
+     5.b. Chat Scrollbar
+     5.c. User Popouts
+     5.d. Mentions
+     5.e. Reactions
+     5.f. Search Bar
+     5.g. Embeds
+     5.h. Send Messages Area
+     5.i. New Server Welcome Message
+     5.j. Chat Dividers
+6. Fonting
+     6.a. Username Font
+7. Friends List
+     7.a. Menu Buttons
+8. Titlebar
+     8.a. Main Titlebar
+9. Things That Don't Fit Into Categories smh
+     9.a. Greeting Message
+     9.b. Background Position
+     9.c. Background Brightness
+     9.d. Help Modal
+*/
+/*============= OLD REBORN =============
+===========   BY TROPICAL   ===========*/
+:root  {
+	--theme-name:"Reborn";
+}
+/*1. Settings Menu Area
+1.a. Sidebar*/
+
+/*Margin*/
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+    -webkit-box-flex: 1;
+    -webkit-box-pack: end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+}
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {-ms-flex: 1 0 218px;
+    -ms-flex-pack: end;
+    flex: 1 0 218px;
+    z-index: 1;
+}
+
+/*Makes Sidebar Background Transparent*/
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebarRegionScroller-3MXcoP {
+  background-color: transparent !important;
+}
+
+/*Sidebar Categories*/
+.side-8zPYf6 .header-2RyJ0Y, .theme-dark #bd-settings-sidebar .ui-tab-bar-header {
+    border-bottom:2px solid var(--main-color) !important;
+    color:white !important;
+    font-size:14px !important;
+    text-align:center !important;
+    margin-bottom:3px !Important;
+    padding: 3px 0px !important;
+}
+/*1.b. Content Area*/
+/*Theme and Plugin Dialogs*/
+.theme-dark .bda-slist li:hover {transform: scale(1.02); box-shadow: 0px 0px 6px 0px #161617 !important;}
+.theme-dark .bda-slist .bda-header {border-bottom: 2px solid var(--main-color) !important;}
+.theme-dark .bda-slist li {
+    background:var(--secondary-color) !important;
+    border-bottom:none;
+    box-shadow: 0px 0px 3px 0px #161617;
+    transition: .2s all linear;
+    border-top: 1px solid #121213 !important;
+}
+/*Add Darkness*/
+.theme-dark .standardSidebarView-3F1I7i{background:rgba(0,0,0,0.4) !important;}
+/*1.c. Close Button*/
+
+.theme-dark .bda-slist li {width:660px !important;}
+.contentColumn-2hrIYH, .customColumn-Rb6toI {
+    -ms-flex: 1 1 auto !important;
+    -webkit-box-flex: 1 !important;
+    flex: 1 1 auto !important;
+    max-width: 740px !important;
+}
+.theme-dark .closeButton-1tv5uR:hover {
+    border-color:var(--hover-color) !important;
+    background:var(--main-color) !important;
+}
+/*1.d. Version & Support Server Dialog*/
+
+.theme-dark .standardSidebarView-3F1I7i #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
+    display: block;
+    position: relative;
+    background: var(--main-color);
+    padding: 10px 15px;
+    white-space: pre;
+    margin-bottom: -10px;
+    margin-top: 15px;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    font-weight: 600;
+    color: #fff;
+    text-transform: initial;
+    text-align: center;
+}
+#bd-settingspane-container .content-column.default .ui-form-title.h2::after {
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.4.1 (Addon)\A Support Server: https://bit.ly/derealised \A";
+}
+
+/*============== END OF SECTION ============== */
+
+/*2. Guilds Area
+2.a. Roundness*/
+.guild-1EfMGQ {
+    --roundness: 50px;
+}
+/*Selected Guilds*/
+.selected-ML3OIq {--roundness:15px !important;}
+
+/*2.b. Adjusted Size*/
+.iconSizeLarge-161qtT {
+    height: 46px; !important;
+    width: 46px; !important;
+}
+
+/*2.c. Unread Indicators*/
+.guild-1EfMGQ.selected-ML3OIq:before {
+    box-shadow:none !important;
+    border-radius:5px !important;
+    margin-top: -21px !important;
+}
+.guild-1EfMGQ.selected-ML3OIq:before, .guild-1EfMGQ.unread-qLkInr:before {
+    margin-left:2px !important;
+}
+.guild-1EfMGQ.unread-qLkInr:before {
+    border-radius: 5px !important;
+    background:var(--hover-color) !important;
+    box-shadow: none !important;
+}
+
+/*2.d. Guilds Menu*/
+.name-3YKhmS {
+    margin-bottom:5px;
+}
+.theme-dark .menu-Sp6bN1 {
+    background:var(--secondary-color) !important;
+}
+.header-2o-2hj:hover {
+  background:rgba(0,0,0,0.3) !important;
+}
+
+/*2.e. Wrapper Width*/
+.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {width:76px !important;}
+.guildsWrapper-5TJh6A {width: 76px;}
+.theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq {margin-left:5px !important;}
+
+/*2.f. Home Icon*/
+.homeIcon-1FoKUJ {
+	-webkit-mask: url(https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/resources/homeicon.svg);
+	-webkit-mask-size: var(--home-size);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+}
+/*Friend Request Dialog*/
+.guildsWrapper-5TJh6A .guilds-1q_RqH>div.guild-1EfMGQ:first-child .badge-1GsMF2 {
+    border:none !important;
+    border-radius:0px !important;
+    box-shadow:none !Important;
+    margin:0;
+    margin-bottom:-1px !important;
+    padding:15px 35px !important;
+}
+/*2.g. Tooltips*/
+.tooltip-black {border-radius: 5px !important;}
+.tooltip {padding: 5px 8px !important;}
+
+/*============== END OF SECTION ============== */
+
+/*3. Channels and Categories
+3.a. Categories*/
+.nameDefault-2DI02H {color:#FFF !important;}
+.containerDefault-3GGEv_, .containerDragAfter-3TEhpe, .containerDragBefore-3Dzc5x, .containerUserOver-1Tcb7l {
+    background-color: transparent;
+}
+
+/*3.b. Selected and Hovered Channels*/
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {background-color: rgba(0,0,0,.6); border:none !important;}
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM, .contentHoveredText-2D9B-x {border-radius: 5px;}
+.contentHoveredText-2D9B-x, .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a {border:none !important;}
+.channel-2QD9_O.selected-1HYmZZ .member-3W1lQa:hover, a, .channel-2QD9_O:hover a, .usernameOnline-3jr_0Y .privateChannels-1nO12o .channel-2QD9_O.selected-1HYmZZ:hover a, .member-3W1lQa:hover, .member-3W1lQa.popout-open {
+    border-radius:5px !important;
+    border:none !Important;
+}
+
+/*============== END OF SECTION ============== */
+
+/*4. Shadows
+4.a. Box Shadow*/
+:root {--shadow: transparent}
+[class*="avatar-"], .image-EVRGPw {box-shadow: 0.5px 0.5px 2px black !important;}
+
+/*4.b. Text Shadow*/
+* {
+	text-shadow: 1px 1px 3px black !important;
+}
+/*============== END OF SECTION ============== */
+
+/*5. Chat Area
+5.a. Jump To Present*/
+.chat-3bRxxu .jumpToPresentBar-9P20AM:before{display:none !important;}
+.chat-3bRxxu .jumpToPresentBar-9P20AM{border-radius:7px 7px 0px 0px !important;}
+.chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child {
+    font-family:"Whitney" !important;
+    font-size:13px !important;
+    color:white !important;
+}
+.jumpToPresentBar-9P20AM button:last-child {
+    -webkit-transition: color .2s !important;
+    color: hsla(0,0%,100%,.6) !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: color .2s;
+}
+.jumpToPresentBar-9P20AM button {
+    background: none;
+    color: #fff;
+    line-height: 14px;
+    padding: 6px 10px;
+    text-align: left;
+}
+.jumpToPresentBar-9P20AM {margin-bottom:-15px !important;}
+.jumpToPresentBar-9P20AM:hover {background:var(--hover-color) !important;}
+.chat-3bRxxu .jumpToPresentBar-9P20AM:before {display:none !important;}
+
+/*5.b. Chat Scrollbar*/
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	border: 3px solid transparent !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/*5.c. User Popouts*/
+.headerTop-3C2Zn0 {
+    background-image: url(https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/resources/pattern.svg) !important;
+    background-size: 9em !important;
+}
+
+/*5.d. Mentions*/
+.theme-dark .wrapper-3WhCwL {
+    background:var(--quaternary-color);
+    border-radius:3px;
+    color:var(--main-color);
+}
+.theme-dark .wrapper-3WhCwL:hover {
+    background-color: var(--hover-color) !important;
+    color: #fff;
+    opacity: 0.9;
+    transition: .2s all linear;
+}
+.containerCozy-jafyvG .isMentioned-N-h9aa {
+    background:var(--secondary-color);
+    border-radius:3px;
+    box-shadow:none;
+}
+
+/*5.e. Reactions*/
+.reaction-1ELvT8 {background: none;position: relative;}
+.contentCozy-3XX413 .reaction,.contentCozy-3XX413p .reaction-1ELvT8 .emoji {border-radius: 30%;border: none;padding: 4px;width: 24px;height: 24px;margin-bottom: 20px!important;}
+.reaction-1ELvT8 .emoji {margin: 0!important;background: none;opacity: 1 !important;}
+.reactionInner-rRPZdY {padding:0px;}
+.reaction-1ELvT8.reactionMe-23mbRf  {background: var(--mc) !important;border-radius: 10px;opacity: 1 !important;}
+.reaction-1ELvT8 { border-radius: 10px;background-color: var(--hc);opacity: 0.7 !important;}
+.reaction-1ELvT8 .emoji {width: 32px;height: 32px;padding: 0;margin-right: 4px;transform: none!important;border-radius: 10px;opacity: 1 !important; }
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {color: white;font-weight: 500;}
+.reaction-1ELvT8 .reactionCount-2ddRoS {position: absolute !important;margin-top: 22px !important;color: #fff;opacity: 0.5;left: 0;right: 0;font-size: 11px;letter-spacing: 0;margin: 0 auto;z-index: 5;text-align: center;display: block;min-width: 32px!important;}
+.reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {opacity: 1;}
+.reactions-1xb2Ex .reactionBtn-2na4rd {visibility: visible;opacity: 0.8!important;margin-top: -16px;}
+.reaction-1ELvT8::before,.contentCozy-3XX413p .reaction-1ELvT8n::after{content: "";display: block;position: absolute;border-radius: 30%;opacity: 0;}
+.reactionMe-23mbRf::after {opacity: 1;}
+.reactionMe-23mbRf::after  {top: 1px;left: 1px;width: 32px;height: 32px;-webkit-box-shadow: 0 0 0 2px var(--mc);}
+.theme-dark .reaction-1ELvT8 {background: var(--quaternary-color);}
+.reaction-1ELvT8 .emoji {transform:scale(.8) !important;}
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {color:var(--main-color);}
+	
+/*5.f. Search Bar*/
+.theme-dark .search .search-bar .public-DraftEditorPlaceholder-root {
+    color:rgba(255,255,255,0.5) !important;
+    text-shadow:transparent !important;
+}
+
+/*5.g. Embeds*/
+.embed-IeVjo6:hover {
+    -webkit-transform: scale(1.03) !important;
+    transform: scale(1.03) !important;
+}
+.theme-dark .embedPill-1Zntps {
+    height: calc(100% - 20px) !important;
+    position: absolute !important;
+    top: 10px !important;
+    left: 6px !important;
+    border-radius: 50px !important;
+    width: 4px !important;
+}
+.embed-IeVjo6 {
+    background-color: rgba(0, 0, 0, 0.66) !important;
+    border-color: rgba(0, 0, 0, 0.66) !important;
+}
+.embed-IeVjo6 {
+    border: 1px solid hsla(0,0%,80%,.3);
+    padding: 8px 10px !important;
+    -webkit-transition: 200ms cubic-bezier(.2, .11, 0, 1);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+    box-shadow: 2px 2px 10px #0c0c0c !important;
+    border-radius:5px;
+}
+.theme-dark .embedInner-1-fpTo {
+    background:transparent !important;
+    border:none !important;
+}
+
+/*5.h. Send Messages Area*/
+.chat-3bRxxu .channelTextArea-rNsIhG, .theme-dark .container-2Thooq {
+    background:rgba(0,0,0,0.3) !important;
+    border-top:2px solid rgba(0,0,0,0.9);
+}
+
+/*5.i. New Server Welcome Message*/
+.base-34jWEe h1 {color: #f1f1f1;}
+
+/*5.j. Chat Dividers*/
+/*New Messages Notif*/
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr>span {background:rgba(0,0,0,0.5) !important;}
+/*============== END OF SECTION ============== */
+
+/*6. Fonting
+6.a. Username Font*/
+.accountDetails-3k9g4n .username {
+	font-family: "Satisfy" !important;
+}
+
+/*============== END OF SECTION ============== */
+
+/*7. Friends List
+7.a. Menu Buttons*/
+.theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {border-radius:3px !important;}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {background-color: var(--main-color) !important; color:white !important;}
+#friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: var(--hover-color) !important;}
+
+/*============== END OF SECTION ============== */
+
+/*8. Titlebar
+8.a. Main Titlebar*/
+.titleBar-AC4pGV div {transform: scale(1) !important;}
+div[class*="titleBar-"] div:nth-of-type(4) {background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;}
+div[class*="winButton-"] {transition: 200ms ease; margin-top:2px !important;}
+
+/*============== END OF SECTION ============== */
+
+/*9. Other Things That dont fit into categories smh
+9.a. Greeting Message*/
+body:before{content:"You are using "var(--theme-name)", Have a good day!";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
+@-webkit-keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+}
+@keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+}
+
+/*9.b. Background Position*/
+.appMount-3VJmYg::before {
+  background-position:left !important;
+}
+
+/*9.c. Background Brightness*/
+.theme-dark {
+    --primary-color: rgba(0,0,0,0.7) !important;
+}
+
+/*9.d. Help Modal*/
+.need-help-modal .form-inner.loading::after {background:transparent !important;}
+.need-help-modal .header::after {width:520px !important;}
+.need-help-modal .footer::after {display:none !important;}
+:root{--theme-name:"Reborn" !important;}
+.need-help-modal.form.deprecated .header h1::after {
+    font-size:350% !important;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.4) !important;
+    display:inline-block !important;
+    margin-left:130px;
+}
+.need-help-modal.form.deprecated .form-inner.loading {
+    background:rgba(0,0,0,0.3) !important;
+    border:3px solid var(--main-color) !important;
+}
+
+/*============== Thanks for using this addon ;) ============== */
