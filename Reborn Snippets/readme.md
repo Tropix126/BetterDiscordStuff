@@ -107,3 +107,10 @@ Welcome to my derealised snippet library! If you find any bugs with these, pleas
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Public%20Server%20Icon.css");
 ```
 ![](https://cdn.discordapp.com/attachments/508099922214518839/508708729261129729/2018-11-04_12-26-35.gif)
+
+**Description:** <i>Reverts Queit v5.1 up to the looks of Quiet v7.9 by Omni. Based off of Old Reborn.</i>
+```css
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Quiet.css");
+```
+![](https://cdn.discordapp.com/attachments/508099922214518839/511622185442476073/unknown.png)
+
