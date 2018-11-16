@@ -409,6 +409,7 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     font-size: 250% !important;
     left: 0px !important;
     top: 16px !important;
+    margin:0 !important;
     font-family: Satisfy !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4) !important;
 }
