@@ -1,16 +1,29 @@
-.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {box-shadow: 0 1px 0 0 transparent inset !important;}
-.ace_content, .ace_gutter-layer {background :var(--quaternary-color) !important;} 
+.ace_content {background :var(--tertiary-color) !important;} 
 .ace-monokai .ace_gutter {background:transparent !important; color: var(--mc) !important}
 .ace-monokai {background: transparent !important;}
+.ace_gutter-layer {background:var(--primary-color);}
+.ace-monokai {border-radius:10px !important;}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: var(--quaternary-color) !important;
-    box-shadow: transparent !important;
+    box-shadow: none !important;
 }
- #bd-customcss-attach-controls button, .bd-detached-css-editor {
+.bd-detached-css-editor #bd-customcss-attach-controls button, .standardSidebarView-3F1I7i #bd-customcss-attach-controls button {
     background: var(--mc) !important;
-    border-right: 1px solid var(--mc) !important;
+    border-right:none !important;
+    border-radius: 3px !important;
+    border:none !important;
+    margin-left: 5px;
 }
- #bd-customcss-attach-controls:hover button:hover, .bd-detached-css-editor:hover {
-    background: var(--mc) !important;
-    border-right: 1px solid var(--hover-color) !important;
+.bd-detached-css-editor #bd-customcss-attach-controls button,  #bd-customcss-attach-controls button:hover {
+    background:var(--hover-color) !important;
+    transition:100ms linear;
 }
+.ace_scrollbar-h::-webkit-scrollbar {
+    background:rgba(0,0,0,0.99) !important;
+    height:10px !important;
+    border-radius:50px !important;
+}
+.ace_scrollbar-h::-webkit-scrollbar-thumb, .ace_text-input {
+    background:var(--mc) !important;
+    border-radius:50px;
+} 
