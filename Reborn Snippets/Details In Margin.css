@@ -15,7 +15,7 @@
     margin-left:-15px !important;
 }
 .accountDetails-3k9g4n {
-    position: fixed !important;
+    position: absolute !important;
     right: 0px !important;
     height: 75px !important;
     max-width: 242px !important;
@@ -23,7 +23,7 @@
 }
 .accountDetails-3k9g4n .discriminator {
     right: 5px !important;
-    position: fixed !important;
+    position: absolute !important;
     display: initial !important;
     padding-top: 53px !important;
 }
