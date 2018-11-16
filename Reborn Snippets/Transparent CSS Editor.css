@@ -1,4 +1,5 @@
 .ace_content {background :var(--tertiary-color) !important;} 
+.ace-monokai .ace_marker-layer .ace_active-line {background:var(--quaternary-color);}
 .ace-monokai .ace_gutter {background:transparent !important; color: var(--mc) !important}
 .ace-monokai {background: transparent !important;}
 .ace_gutter-layer {background:var(--primary-color);}
