@@ -123,7 +123,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.4.1 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.5 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -400,19 +400,24 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 }
 
 /*9.d. Help Modal*/
-.need-help-modal .form-inner.loading::after {background:transparent !important;}
-.need-help-modal .header::after {width:520px !important;}
-.need-help-modal .footer::after {display:none !important;}
-:root{--theme-name:"Reborn" !important;}
+.need-help-modal .header {background-color: transparent !important; height: 120px !important;}
+.need-help-modal .header::after {width: 100% !important;}
+.need-help-modal .header h1 {margin-right: 28% !important;}
+.need-help-modal .form-inner.loading {background: transparent !important;}
+.need-help-modal .form-inner.loading::after {background-color: var(--primary-color )!important; width: 78% !important;}
 .need-help-modal.form.deprecated .header h1::after {
-    font-size:350% !important;
-    text-shadow:1px 1px 1px rgba(0,0,0,0.4) !important;
-    display:inline-block !important;
-    margin-left:130px;
+    font-size: 250% !important;
+    left: 0px !important;
+    top: 16px !important;
+    font-family: Satisfy !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4) !important;
 }
-.need-help-modal.form.deprecated .form-inner.loading {
-    background:rgba(0,0,0,0.3) !important;
-    border:3px solid var(--main-color) !important;
+.need-help-modal .footer::after {
+    background-color: var(--secondary-color) !important;
+    width:100% !Important;
+    left: 0!important;
+    border-top: 2px solid var(--main-color) !important;
 }
+
 
 /*============== Thanks for using this addon ;) ============== */
