@@ -402,14 +402,13 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 /*9.d. Help Modal*/
 .need-help-modal .header {background-color: transparent !important; height: 120px !important;}
 .need-help-modal .header::after {width: 100% !important;}
-.need-help-modal .header h1 {margin-right: 28% !important;}
+.need-help-modal .header h1 {margin-right: 28% !important; margin-left:0px !important;}
 .need-help-modal .form-inner.loading {background: transparent !important;}
 .need-help-modal .form-inner.loading::after {background-color: var(--primary-color )!important; width: 78% !important;}
 .need-help-modal.form.deprecated .header h1::after {
     font-size: 250% !important;
     left: 0px !important;
     top: 16px !important;
-    margin:0 !important;
     font-family: Satisfy !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4) !important;
 }
