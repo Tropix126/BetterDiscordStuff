@@ -16,7 +16,7 @@
     border-top:5px solid rgb(38,38,42);
 }
 .titleBar-AC4pGV:before {
-    content: 'Reborn Fork';
+    content: var(--theme-name) " " var(--theme-version);
     color:rgb(160,160,160);
     text-shadow:none;
     left:8px;
