@@ -1,8 +1,8 @@
 .ace_content {background:var(--tertiary-color) !important;} 
-.ace-monokai .ace_marker-layer .ace_active-line {background:var(--quaternary-color);}
-.ace-monokai .ace_gutter {background:transparent !important; color:var(--mc) !important}
+.ace-monokai .ace_marker-layer .ace_active-line {background:var(--quaternary-color) !important;}
+.ace-monokai .ace_gutter {background:transparent !important; color:var(--mc) !important;}
 .ace-monokai {background:transparent !important;}
-.ace_gutter-layer {background:var(--primary-color);}
+.ace_gutter-layer {background:var(--primary-color) !important;}
 .ace-monokai {border-radius:5px 5px 0px 0px !important;}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: var(--quaternary-color) !important;
@@ -13,7 +13,7 @@
     border-right:none !important;
     border-radius: 3px !important;
     border:none !important;
-    margin-left: 5px;
+    margin-left: 5px !important;
 }
 .bd-detached-css-editor #bd-customcss-attach-controls button,  #bd-customcss-attach-controls button:hover {
     background:var(--hover-color) !important;
@@ -26,5 +26,5 @@
 }
 .ace_scrollbar-h::-webkit-scrollbar-thumb, .ace_text-input {
     background:var(--mc) !important;
-    border-radius:50px;
+    border-radius:50px !important;
 } 
