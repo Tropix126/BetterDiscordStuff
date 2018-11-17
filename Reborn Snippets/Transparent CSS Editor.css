@@ -3,7 +3,7 @@
 .ace-monokai .ace_gutter {background:transparent !important; color: var(--mc) !important}
 .ace-monokai {background: transparent !important;}
 .ace_gutter-layer {background:var(--primary-color);}
-.ace-monokai {border-radius:10px !important;}
+.ace-monokai {border-radius:5px 5px 0px 0px !important;}
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: var(--quaternary-color) !important;
     box-shadow: none !important;
@@ -21,7 +21,7 @@
 }
 .ace_scrollbar-h::-webkit-scrollbar {
     background:rgba(0,0,0,0.99) !important;
-    height:10px !important;
+    height:6px !important;
     border-radius:50px !important;
 }
 .ace_scrollbar-h::-webkit-scrollbar-thumb, .ace_text-input {
