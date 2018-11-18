@@ -115,10 +115,16 @@ Welcome to my derealised snippet library! If you find any bugs with these, pleas
 ```
 ![](https://cdn.discordapp.com/attachments/508099922214518839/511622185442476073/unknown.png)
 
-## [Compressed Search Bar]
+## [Compressed Search Bar](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Compressed%20Search.css)
 **Description:** <i>Search bar icon that expands on hover.</i>
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Compressed%20Search.css");
 ```
 ![](https://cdn.discordapp.com/attachments/449569809613717518/513552028052619264/2018-11-17_21-10-46.gif)
 
+## [User Settings Icons](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Settings%20Icons.css)
+**Description:** <i>Puts material icons next to each User Settings option.</i>
+```css
+@import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Settings%20Icons.css");
+```
+![](https://cdn.discordapp.com/attachments/501056910041284614/513553936678912023/2018-11-17_21-19-47.gif)
