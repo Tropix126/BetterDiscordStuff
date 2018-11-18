@@ -108,7 +108,7 @@ Welcome to my derealised snippet library! If you find any bugs with these, pleas
 ```
 ![](https://cdn.discordapp.com/attachments/508099922214518839/508708729261129729/2018-11-04_12-26-35.gif)
 
-## [Old Quiet]
+## [Old Quiet](https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Quiet.css)
 **Description:** <i>Reverts Quiet v5.1 up to the looks of the "Old Quiet 7.9". [ONLY FOR MONSTER THEMES]</i>
 ```css
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Old%20Quiet.css");
