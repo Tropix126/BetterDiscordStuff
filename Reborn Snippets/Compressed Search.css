@@ -1,7 +1,4 @@
 /*Compressed Search Bar*/
-.search .search-bar {
-  width:30px;
-}
-.search .search-bar:hover {
-  width:175px !important;
-}
+.search .search-bar {width:30px;}
+.search .search-bar:hover {width:175px;}
+.search.focused .search-bar {width: 244px !important;}
