@@ -302,7 +302,7 @@
 /*5.f. Search Bar*/
 .theme-dark .search .search-bar .public-DraftEditorPlaceholder-root {
     opacity:0.3;
-    text-shadow:none !important;
+    text-shadow:transparent !important;
 }
 
 /*5.g. Embeds*/
