@@ -219,9 +219,8 @@
 [class*="avatar-"], .image-EVRGPw {box-shadow: 0.5px 0.5px 2px black !important;}
 
 /*4.b. Text Shadow*/
-* {
-	text-shadow: 1px 1px 3px black !important;
-}
+* {text-shadow: 1px 1px 3px black;}
+
 /*============== END OF SECTION ============== */
 
 /*5. Chat Area
