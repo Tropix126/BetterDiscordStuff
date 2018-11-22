@@ -13,6 +13,7 @@
      2.e. Wrapper Width
      2.f. Home Icon
      2.g. Tooltips
+     2.h. Friends Online
 3. Channels and Categories
      3.a. Categories
      3.b. Selected and Hovered Channels
@@ -126,7 +127,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.5.2 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.5.3 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -195,6 +196,20 @@
 /*2.g. Tooltips*/
 .tooltip-black {border-radius: 5px !important;}
 .tooltip {padding: 5px 8px !important;}
+
+/*2.h. Friends Online*/
+.theme-dark .friendsOnline-_wi_fM {
+    margin: 0px -13px 0;
+    line-height: 19px;
+    width: 85px;
+    padding-top: 6px;   
+    padding-bottom: 3px;
+    transition:background .2s linear, color .2s linear
+}
+.theme-dark .friendsOnline-_wi_fM:hover {
+    background:var(--mc);
+    color:white;
+}
 
 /*============== END OF SECTION ============== */
 
