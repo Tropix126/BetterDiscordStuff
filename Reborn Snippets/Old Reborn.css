@@ -41,6 +41,9 @@
      9.b. Background Position
      9.c. Background Brightness
      9.d. Help Modal
+10. Avatars
+     10.a. Avatar Shadow
+     10.b. Status
 */
 /*============= OLD REBORN =============
 ===========   BY TROPICAL   ===========*/
@@ -123,7 +126,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.5.1 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.5.2 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -216,8 +219,6 @@
 /*4. Shadows
 4.a. Box Shadow*/
 :root {--shadow: transparent}
-[class*="avatar-"], .image-EVRGPw {box-shadow: 0.5px 0.5px 2px black !important;}
-
 /*4.b. Text Shadow*/
 * {text-shadow: 1px 1px 3px black;}
 
@@ -418,5 +419,13 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
     border-top: 2px solid var(--main-color) !important;
 }
 
+/*============== END OF SECTION ============== */
+
+/*10. Avatars
+10.a. Avatar Shadow*/
+[class*="avatar-"], .image-EVRGPw {box-shadow: 0.5px 0.5px 2px black !important;}
+
+/*10.b. Status*/
+.status-oxiHuE:not(.status-3fQvEa) {pointer-events: visiblePainted !important;}
 
 /*============== Thanks for using this addon ;) ============== */
