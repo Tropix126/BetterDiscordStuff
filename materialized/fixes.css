@@ -36,7 +36,10 @@ code,
 .video-1FfuMD,
 .theme-dark .footer-1kmXd4,
 .need-help-modal.form.deprecated .header,
-.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.empty-2WtT5s,
+.theme-dark .popoutList-T9CKZQ,
+.theme-dark .searchBar-1MOL6S {
     background:#111111 !important;
 }
 .theme-dark .paginationItem-2lUq0s:after {
@@ -68,7 +71,8 @@ code,
 .newMessagesBar-mujexs,
 #bd-settingspane-container .bd-pfbtn,
 .theme-dark .questionMark-CWEQZn,
-.barFill-23-gu- {
+.barFill-23-gu-,
+.selected-mKYnfr.option-n0icdO {
     background:var(--accent-color) !important;
 }
 .botTagInvert-18-95s,
@@ -79,8 +83,12 @@ code,
 }
 .theme-dark .overlappingBorder-1ysb12,
 .overlappingBorder-1-XPGl,
-code {
+code,
+.selected-mKYnfr.option-n0icdO	{
     border-color:var(--accent-color) !important;
+}
+.foreground-2aE44H {
+    stroke:var(--accent-color) !important
 }
 /*==================HIDE==================*/
 .theme-dark .keybind-KpFkfr {
@@ -111,7 +119,8 @@ code {
 .tag-HanR-9:before,
 .theme-dark .tier1Banner-1B_WXY,
 .headerFancy-1AcCLF,
-.exclusive-3zP8if {
+.exclusive-3zP8if,
+.theme-dark .premium-39U29H:before, .theme-light .premium-39U29H:before {
     background-image:url("https://i.imgur.com/jBXxuba.png") !important;
 }
 /*==================OVERWRITE BORDERS AND BOX SHADOW==================*/
@@ -129,6 +138,11 @@ code {
 code {
     box-shadow:none !important;
 }
+/*Black BG*/
+.cardPrimaryEditable-3KtE4g,
+.theme-dark .background-yZEZik {
+    background:black !important;
+}	
 /*==================MENU FIXES==================*/
 /*Server Dropdown*/
 .menu-Sp6bN1 {
@@ -302,11 +316,56 @@ body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active){
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
     color:#fff !important;
 }
-/*Close Button*/
+/*Close Button Animation Fix*/
 .closeButton-1tv5uR {
     animation: scale 200ms ease 800ms backwards !important;
     transition: all 0.3s cubic-bezier(.4,0,0,1) !important;
 }
 .closeButton-1tv5uR:hover {
     transform: translate(0%,-10%)scale(1.3);
+}
+/*Streamer Mode Button Fix*/
+.theme-dark .button-1MICoQ {
+    text-align:center !important;
+}
+/*Friends Request User Modal Fix*/
+.lookFilled-1Gx00P {
+    left:3px !important;
+    top:-10px !important;
+}
+/*Dropdown Fix*/
+.theme-dark .popoutList-T9CKZQ,
+.theme-dark .searchBar-1MOL6S {
+    background:#111111 !important;
+}
+.selectableItem-1MP3MQ.selected-31soGA {
+    background:var(--accent-color) !important;
+}
+/*Region Select Modal*/
+.regionSelectModal-12e-57 {
+    background:#111111;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background:black !important;
+    border-color:transparent;
+    transition:255ms linear all;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+    border-color:var(--accent-color) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+    color:var(--accent-color) !important;
+}
+.theme-dark .select-2TCrqx .Select-option.is-selected {
+  background:var(--accent-color) !important;
+  color:white !important;
+}
+.Select .Select-menu {
+  background:#111111 !important;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+    background:red !important;
+}
+.theme-dark .add-game-popout {
+    background:#111111;
 }
