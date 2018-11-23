@@ -39,7 +39,8 @@ code,
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .empty-2WtT5s,
 .theme-dark .popoutList-T9CKZQ,
-.theme-dark .searchBar-1MOL6S {
+.theme-dark .searchBar-1MOL6S,
+.theme-dark .hasMore-3e72_v button {
     background:#111111 !important;
 }
 .theme-dark .paginationItem-2lUq0s:after {
@@ -78,7 +79,8 @@ code,
 .botTagInvert-18-95s,
 .theme-dark .wrapper-3WhCwL,
 .spinner-inner,
-.theme-dark .hasMoreButton-1MELpI {
+.theme-dark .hasMoreButton-1MELpI,
+.theme-dark .hasMore-3e72_v button {
     color:var(--accent-color) !important;
 }
 .theme-dark .overlappingBorder-1ysb12,
@@ -130,7 +132,8 @@ code,
 .pageActions-1SVAnA,
 .item-26Dhrx,
 .theme-dark .hasMoreButton-1MELpI,
-.theme-dark .messageGroupWrapper-o-Zw7G {
+.theme-dark .messageGroupWrapper-o-Zw7G,
+.theme-dark .hasMore-3e72_v button {
     border:none !important;
 }
 .need-help-modal.form.deprecated .header input[type=text],
