@@ -73,7 +73,8 @@ code,
 #bd-settingspane-container .bd-pfbtn,
 .theme-dark .questionMark-CWEQZn,
 .barFill-23-gu-,
-.selected-mKYnfr.option-n0icdO {
+.selected-mKYnfr.option-n0icdO,
+.create-guild-container.deprecated .action .btn {
     background:var(--accent-color) !important;
 }
 .botTagInvert-18-95s,
