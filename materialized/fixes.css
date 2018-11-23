@@ -62,7 +62,8 @@ code,
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u,
 .theme-dark .dim-1l4L4y span,
-.selectorButtonSelected-1j4DmC {
+.selectorButtonSelected-1j4DmC,
+.paginationItem-2lUq0s:before {
     background:var(--accent-color) !important;
 }
 .botTagInvert-18-95s,
@@ -102,7 +103,8 @@ code {
 /*==================PATTERN BG==================*/
 .tag-HanR-9:before,
 .theme-dark .tier1Banner-1B_WXY,
-.headerFancy-1AcCLF {
+.headerFancy-1AcCLF,
+.exclusive-3zP8if {
     background-image:url("https://i.imgur.com/jBXxuba.png") !important;
 }
 /*==================OVERWRITE BORDERS AND BOX SHADOW==================*/
