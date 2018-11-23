@@ -1,0 +1,28 @@
+/*Material Embeds for Materialized*/
+.embed-IeVjo6:hover {
+    -webkit-transform: scale(1.03) !important;
+    transform: scale(1.03) !important;
+}
+.theme-dark .embedPill-1Zntps {
+    height: calc(100% - 20px) !important;
+    position: absolute !important;
+    top: 10px !important;
+    left: 6px !important;
+    border-radius: 50px !important;
+    width: 4px !important;
+    background:var(--accent-color) !important;
+}
+.embed-IeVjo6 {
+    background-color: #111111 !important;
+}
+.embed-IeVjo6 {
+    padding: 8px 10px !important;
+    -webkit-transition: 200ms cubic-bezier(.2, .11, 0, 1);
+    transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
+    box-shadow: 2px 2px 10px #0c0c0c !important;
+    border-radius: 5px;
+}
+.theme-dark .embedInner-1-fpTo {
+    background: none !important;
+    border: none !important;
+}
