@@ -89,7 +89,9 @@ code {
 .clickOverride-1J40_l,
 .messageGroupWrapper-o-Zw7G,
 .theme-dark .jumpButton-3DTcS_,
-.searchBar-6Kv8R2 .search-bar {
+.searchBar-6Kv8R2 .search-bar,
+.gamePreview-9weYR2, 
+.info-P9dFwH {
     background:transparent !important;
 }
 /*==================SLIGHT BORDER-RADIUS==================*/
