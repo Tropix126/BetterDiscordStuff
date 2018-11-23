@@ -6,7 +6,6 @@
 .member-3W1lQa.popout-open .content-OzHfo4,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .rowWrapperActive-2L7i9f,
-.searchBar-6Kv8R2 .search-bar,
 .theme-dark .itemBackground-1jfD8p:before,
 .theme-dark .description-2XMjXn,
 .header-1RC2Wb,
@@ -89,7 +88,8 @@ code {
 .theme-dark .searchBox-3Y2Vi7,
 .clickOverride-1J40_l,
 .messageGroupWrapper-o-Zw7G,
-.theme-dark .jumpButton-3DTcS_ 	{
+.theme-dark .jumpButton-3DTcS_,
+.searchBar-6Kv8R2 .search-bar {
     background:transparent !important;
 }
 /*==================SLIGHT BORDER-RADIUS==================*/
