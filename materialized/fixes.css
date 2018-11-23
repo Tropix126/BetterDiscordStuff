@@ -373,3 +373,8 @@ body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active){
 .theme-dark .add-game-popout {
     background:#111111;
 }
+/*Invites*/
+.theme-dark .wrapper-35wsBm {
+    background:#111111 !Important;
+    box-shadow:0 0 5px var(--accent-color) !important;
+}
