@@ -8,11 +8,10 @@
   border-radius:0px !important;
   box-shadow:none !important;
   height:8px;
-  border-top:7px solid rgba(0,0,0,0.3);
   width:500px;
-  bottom:21px;
+  bottom:23px;
   display: table-cell;
   vertical-align: bottom !important;
   margin-bottom:-90px;
   margin-right:-200px !important;
-} 
+}
