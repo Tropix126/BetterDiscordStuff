@@ -34,7 +34,9 @@ code,
 .card-FDVird:before,
 .theme-dark .wrapperHover-1GktnT:hover,
 .theme-dark .queryContainer-RKFJW-,
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .footer-1kmXd4,
+.need-help-modal.form.deprecated .header {
     background:#111111 !important;
 }
 .theme-dark .paginationItem-2lUq0s:after {
@@ -56,7 +58,6 @@ code,
 .mediaBarGrabber-1FqnbN, .mediaBarProgress-1xaPtl,
 .mediaBarProgress-1xaPtl:after,
 .mediaBarProgress-1xaPtl:before,
-.need-help-modal.form.deprecated .header,
 .theme-dark .checkbox-1ix_J3,
 .item-26Dhrx,
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-,
@@ -67,7 +68,8 @@ code,
 }
 .botTagInvert-18-95s,
 .theme-dark .wrapper-3WhCwL,
-.spinner-inner {
+.spinner-inner,
+.theme-dark .hasMoreButton-1MELpI {
     color:var(--accent-color) !important;
 }
 .theme-dark .overlappingBorder-1ysb12,
@@ -86,7 +88,8 @@ code {
 .theme-dark .row-1bU71H,
 .theme-dark .searchBox-3Y2Vi7,
 .clickOverride-1J40_l,
-.messageGroupWrapper-o-Zw7G {
+.messageGroupWrapper-o-Zw7G,
+.theme-dark .jumpButton-3DTcS_ 	{
     background:transparent !important;
 }
 /*==================SLIGHT BORDER-RADIUS==================*/
@@ -105,7 +108,9 @@ code {
 .theme-dark .paymentPane-3bwJ6A,
 .theme-dark .paymentRow-2e7VM6,
 .pageActions-1SVAnA,
-.item-26Dhrx {
+.item-26Dhrx,
+.theme-dark .hasMoreButton-1MELpI,
+.theme-dark .messageGroupWrapper-o-Zw7G {
     border:none !important;
 }
 .need-help-modal.form.deprecated .header input[type=text],
