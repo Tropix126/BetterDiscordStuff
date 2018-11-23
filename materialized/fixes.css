@@ -35,7 +35,8 @@ code,
 .theme-dark .queryContainer-RKFJW-,
 .video-1FfuMD,
 .theme-dark .footer-1kmXd4,
-.need-help-modal.form.deprecated .header {
+.need-help-modal.form.deprecated .header,
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
     background:#111111 !important;
 }
 .theme-dark .paginationItem-2lUq0s:after {
@@ -63,7 +64,11 @@ code,
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u,
 .theme-dark .dim-1l4L4y span,
 .selectorButtonSelected-1j4DmC,
-.paginationItem-2lUq0s:before {
+.paginationItem-2lUq0s:before,
+.newMessagesBar-mujexs,
+#bd-settingspane-container .bd-pfbtn,
+.theme-dark .questionMark-CWEQZn,
+.barFill-23-gu- {
     background:var(--accent-color) !important;
 }
 .botTagInvert-18-95s,
@@ -92,7 +97,9 @@ code {
 .theme-dark .jumpButton-3DTcS_,
 .searchBar-6Kv8R2 .search-bar,
 .gamePreview-9weYR2, 
-.info-P9dFwH {
+.info-P9dFwH,
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv {
     background:transparent !important;
 }
 /*==================SLIGHT BORDER-RADIUS==================*/
@@ -290,4 +297,16 @@ body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active){
 }
 .container-3ayLPN .resultsGroup-r_nuzN .searchClearHistory-2cSSMO:hover {
     background-color: red;
+}
+/*FRIENDS LIST*/
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    color:#fff !important;
+}
+/*Close Button*/
+.closeButton-1tv5uR {
+    animation: scale 200ms ease 800ms backwards !important;
+    transition: all 0.3s cubic-bezier(.4,0,0,1) !important;
+}
+.closeButton-1tv5uR:hover {
+    transform: translate(0%,-10%)scale(1.3);
 }
