@@ -127,7 +127,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.5.3 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn Final Feature Update v3.6 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -441,6 +441,6 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 [class*="avatar-"], .image-EVRGPw {box-shadow: 0.5px 0.5px 2px black !important;}
 
 /*10.b. Status*/
-.status-oxiHuE:not(.status-3fQvEa) {pointer-events: visiblePainted !important;}
+.userPopout-3XzG_A .status-oxiHuE:not(.status-3fQvEa) {pointer-events: visiblePainted !important;}
 
 /*============== Thanks for using this addon ;) ============== */
