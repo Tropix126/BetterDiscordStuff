@@ -7,9 +7,9 @@
      1.d. Support Server Dialog
 2. Guild Area
      2.a. Roundness
-     2.b. Adjusted Sizew
+     2.b. Adjusted Size
      2.c. Unread Indicators
-     2.d. Guilds Menu
+     2.d. Guild Menu
      2.e. Wrapper Width
      2.f. Home Icon
      2.g. Tooltips
@@ -127,7 +127,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn Final Feature Update v3.6 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.6.5 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -137,8 +137,9 @@
 .guild-1EfMGQ {
     --roundness: 50px;
 }
-/*Selected Guilds*/
+/*Selected Guilds + Selected Guilds Transition*/
 .selected-ML3OIq {--roundness:15px !important;}
+.iconSizeLarge-161qtT {transition:linear 250ms border-radius;}
 
 /*2.b. Adjusted Size*/
 .iconSizeLarge-161qtT {
@@ -161,7 +162,7 @@
     box-shadow: none !important;
 }
 
-/*2.d. Guilds Menu*/
+/*2.d. Guild Menu*/
 .name-3YKhmS {
     margin-bottom:5px;
 }
