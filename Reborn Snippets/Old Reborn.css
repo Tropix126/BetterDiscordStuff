@@ -236,7 +236,30 @@
 4.a. Box Shadow*/
 :root {--shadow: transparent}
 /*4.b. Text Shadow*/
-* {text-shadow: 1px 1px 3px black;}
+.role-2irmRk {text-shadow:0px 0px 2px #000 !important;}
+.markup-2BOw-j,
+.username-_4ZSMR,
+.membersGroup-v9BXpm,
+.nameConnectedText-3CzNQn,
+.nameConnectedVoice-MHUX5F,
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameHoveredText-1uO31y,
+.nameHoveredVoice-YJ1Vfd,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.nameMutedText-3Vj4bM,
+.nameMutedVoice-3oxyQZ,
+.nameSelectedText-sp_EUw,
+.nameSelectedVoice-1qSph5,
+.nameUnreadText-DfkrI4,
+.nameUnreadVoice-EVo-wI {
+    text-shadow: 0.5px 0.5px 2px black !important;
+}
+.botTagRegular-2HEhHi,
+.tooltips .tooltip {
+  text-shadow: 0px 1px 3px #000 !important;
+}
 
 /*============== END OF SECTION ============== */
 
