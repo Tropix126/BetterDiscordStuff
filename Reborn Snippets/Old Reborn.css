@@ -18,7 +18,7 @@
      3.a. Categories
      3.b. Selected and Hovered Channels
 4. Shadow
-     4.a. Box Shadow
+     4.a. Remove Shadow
      4.b. Text Shadow
 5. Chat Area
      5.a. Jump To Present
@@ -127,7 +127,7 @@
     text-align: center;
 }
 #bd-settingspane-container .content-column.default .ui-form-title.h2::after {
-    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.6.5 (Addon)\A Support Server: https://bit.ly/derealised \A";
+    content: "Monster Reborn v"var(--theme-version)"\AOldReborn v3.7 (Addon)\A Support Server: https://bit.ly/derealised \A";
 }
 
 /*============== END OF SECTION ============== */
@@ -233,7 +233,7 @@
 /*============== END OF SECTION ============== */
 
 /*4. Shadows
-4.a. Box Shadow*/
+4.a. Remove Shadow*/
 :root {--shadow: transparent}
 /*4.b. Text Shadow*/
 .role-2irmRk {text-shadow:0px 0px 2px #000 !important;}
@@ -254,7 +254,7 @@
 .nameSelectedVoice-1qSph5,
 .nameUnreadText-DfkrI4,
 .nameUnreadVoice-EVo-wI {
-    text-shadow: 0.5px 0.5px 2px black !important;
+    text-shadow: 1px 1px 3px black !important;
 }
 .botTagRegular-2HEhHi,
 .tooltips .tooltip {
