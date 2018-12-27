@@ -8,6 +8,9 @@
     width:9999px !important;
     color:red;
 }
+[style*="/avatars/"] {
+    background-image: url('https://cdn.discordapp.com/emojis/477826738546802694.png?v=1') !important;
+}
 @keyframes flash {
     from {filter:invert(100);}
     to {filter:invert(0);}
@@ -59,6 +62,7 @@
 }
 .container-PNkimc {
     background:#414217 !important;
+	animation:hue-rotate 1.5s linear;
 }
 @keyframes zoom {
 	0% {
