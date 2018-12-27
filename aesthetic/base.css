@@ -62,7 +62,7 @@
 }
 .container-PNkimc {
     background:#414217 !important;
-	animation:hue-rotate 1.5s linear;
+	animation:hue-rotate 15s linear infinite;
 }
 @keyframes zoom {
 	0% {
