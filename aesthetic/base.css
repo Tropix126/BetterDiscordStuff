@@ -8,6 +8,26 @@
     width:9999px !important;
     color:red;
 }
+.modal-1UGdnR {
+  animation:zoom .1s linear infinite;
+}
+.title-3qD0b- {
+  animation:shake 2s linear infinite;
+}
+.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+  color:red;
+  animation:zoom 1s linear infinite;
+}
+.contentHoveredText-2D9B-x,
+.contentHoveredVoice-3p_NEO {
+  transform:rotate(60deg);
+  transition:2.5s all linear;
+}
+[class*=".header-"] {
+  background:red;
+  animation:colorPulse 1s linear infinite;
+}
+
 [style*="/avatars/"] {
     background-image: url('https://cdn.discordapp.com/emojis/477826738546802694.png?v=1') !important;
 }
