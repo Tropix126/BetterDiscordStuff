@@ -58,7 +58,7 @@
 	animation: zoom .2s infinite;
 }
 .container-PNkimc {
-    background-image: linear-gradient(to right, red , blue) !important;
+    background:#414217 !important;
 }
 @keyframes zoom {
 	0% {
