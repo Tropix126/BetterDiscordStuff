@@ -122,7 +122,6 @@ to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
 to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 }
-* {animation:flash 300s infinite;}
 *::-webkit-scrollbar {
     width:45px !important;
 }
