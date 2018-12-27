@@ -54,6 +54,23 @@
     -webkit-filter: hue-rotate(360deg);
   }
 }
+.da-markup {
+	animation: zoom .2s infinite;
+}
+.container-PNkimc {
+    background-image: linear-gradient(to right, red , blue) !important;
+}
+@keyframes zoom {
+	0% {
+		-webkit-transform: scale(1, 1);
+	}
+	50% {
+		-webkit-transform: scale(1.2, 1.2);
+	}
+	100% {
+		-webkit-transform: scale(1, 1);
+	}
+}
 [class*="avatar-"], .theme-dark .guild-1EfMGQ .guildIcon-CT-ZDq, .image-33JSyf  {
     animation:spin 2s infinite !important;
     width:70px !important;
