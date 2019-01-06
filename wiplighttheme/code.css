@@ -1,0 +1,117 @@
+body {background: url(https://i.imgur.com/3EEFjst.jpg); background-size: cover; }
+.chat-3bRxxu form {
+    margin: 4px 25px -5px 25px;
+}
+.app {
+    margin: 25px; 
+    border-radius: 6px;
+    overflow:hidden;
+}
+.contentSelectedText-3wUhMi {
+   background:rgba(242,144,136,0.7);
+}
+.da-contentHoveredText {
+    background:rgba(242,144,136,0.3);
+    transition:100ms all linear;
+}
+.vertical-V37hAW .channels-Ie2l6A {
+    overflow:hidden !important;
+    border-radius:  0 6px 6px 0 !important;
+    margin-right: 25px;
+    background:rgba(32,34,37,0.85) !important;
+}
+.container-PNkimc {
+    background:transparent;
+}
+.da-guildsWrapper {
+    background:rgba(32,34,37,0.7) !important;
+}
+.chat-3bRxxu .content-yTz4x3 {
+    background-size: cover;
+    background-color: inherit;
+}
+.chat-3bRxxu {
+    border-radius:6px;
+    background:rgba(32,34,37,0.5) !important;
+}
+.layer-3QrUeG, .layers-3iHuyZ,
+.container-2lgZY8{
+    background:transparent !important;
+}
+.members-1998pB {
+    background:lightgrey;
+}
+.containerCozy-jafyvG {
+    opacity:0.9;
+    background:white;
+    margin: 15px 15px 0 25px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px ;
+    height: auto;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.homeIcon-1FoKUJ {
+  background-color: white;
+  -webkit-mask: url(https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/resources/homeicon.svg);
+  -webkit-mask-size:28px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+.typing-2GQL18 {
+    background:transparent !important;
+}
+.homeIcon-1FoKUJ defs,
+.homeIcon-1FoKUJ a {
+    display:none;
+}
+.guild-1EfMGQ .guildInner-3DSoA4 {
+    background:transparent !important;
+}
+#app-mount,
+.divider-3gKybi,
+.typing-2GQL18 {
+    background:transparent !important;
+}
+.divider-3gKybi {
+    padding-top:10px;
+}
+.inner-zqa7da {
+    margin:0;
+    border-bottom:2px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+/*Collapsed Member List*/
+.chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical:only-child {margin-right:0px !important;}
+.members-1998pB:hover {transform:translate(0px);}
+.member-3W1lQa {margin-left:20px;}
+.members-1998pB:hover .member-3W1lQa {margin-left:10px;}
+.members-1998pB .memberInner-2CPc3V {
+  opacity:0;
+  transition:opacity 300ms ease, margin 100ms ease;
+}
+.members-1998pB:hover .membersGroup-v9BXpm{
+  font-size: 12px;
+  width: 100% !important;
+  text-align:left;
+}
+.members-1998pB {
+    transform:translate(145px);
+    transition:all 300ms ease;
+	  z-index:100;
+}
+.search-results-wrap {z-index: 200 !important;}
+.members-1998pB:hover .memberInner-2CPc3V {opacity:1;}
+.chat-3bRxxu .content-yTz4x3>.flex-spacer.flex-vertical {
+  margin-right:-145px !important;
+  z-index:100;
+}
+.members-1998pB .membersGroup-v9BXpm {
+  font-size: 8px;
+  padding:2px;
+  transition:all 350ms ease;
+  width:30% !important;
+  height: 27px !important;
+  margin-left: 10px !important;
+  text-align:center;
+}
