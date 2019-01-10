@@ -1008,7 +1008,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 
 /*7.n. Greeting*/
-body:before{content:"Dark Matter Remastered has been loaded.";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+body:before{content:"Aurora has been loaded.";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
 body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
 @-webkit-keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
