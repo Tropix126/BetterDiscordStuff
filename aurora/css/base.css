@@ -202,6 +202,16 @@ body::before {
     background:rgba(0,0,0,0.5) !important;
     border-radius:5px !important;
 }
+.messageGroupBlocked-3wrQQX.revealed-1_RKsf {
+    border:none !important;
+}
+.messageGroupBlocked-3wrQQX {
+    background:rgba(0,0,0,0.5) !important;
+    border:none !important;
+}
+.messageGroupBlockedBtn-1PBBh- {
+    background:transparent !important;
+}
 
 /*3.b. Dividers*/
 .newMessagesBar-mujexs, .unreadBar-3YD_k9 {background:var(--main-color);}
