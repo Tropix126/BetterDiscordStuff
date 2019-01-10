@@ -1946,6 +1946,33 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	background:transparent !important;
 	border:none !important;
 }
+
+.container-3gCOGc {
+	background:var(--backdropblurred) !important;
+	background-size:cover  !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
+.tabBar-1E2ExX .primary-3j8BhM {
+    background:var(--main-color) !important;
+}
+.tabBar-1E2ExX .primarySelected-3uHKZn,
+.itemSelected-1qLhcL {
+    color:#fff !important;
+}
+.da-friendsRow:hover {
+    background:rgba(0,0,0,0.5) !important;
+}
+.friendsAction-__WNE9 {
+    background-color:var(--hover-color) !important;
+}
+.friendTableAddHeader-m9bzFr {
+	background:transparent !important;
+	border:none !important;
+}
+.da-friendsTable .scroller-2FKFPG::-webkit-scrollbar {
+    display:none;
+}
 /*============== END OF SECTION ============== */
 
 /*Thanks so much for using my theme, whoever decided to look here! Also thank you to the derealised server and everyone in it for their tags.*/
