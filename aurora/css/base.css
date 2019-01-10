@@ -277,8 +277,8 @@ body::before {
 }
 
 /*3.h. Scrollbar*/
-.scrollerWrap-2lJEkd .scroller::-webkit-scrollbar {width:10px !important;}
-.scrollerWrap-2lJEkd .scroller::-webkit-scrollbar-track-piece {
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {width:10px !important;}
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
 	background: rgba(0, 0, 0, 0.4) !important;
   border: none;
 }
