@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+::selection {background:var(--hover-color);}
 /*
 /$$$$$$
 /$$__  $$
@@ -7,7 +10,7 @@
 | $$  | $$| $$  | $$| $$      | $$  | $$| $$      /$$__  $$
 | $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$
 |__/  |__/ \______/ |__/       \______/ |__/      \_______/
-											By Tropical
+	       		By Tropical
 
 TABLE OF CONTENTS
 
@@ -32,10 +35,10 @@ TABLE OF CONTENTS
   3.i. Bot Tags
   3.j. Linked Channels and Messages
   3.k. Reactions
-	3.l. Search Bars
-	3.m. Invites
-	3.n. Embeds
-	3.o. Calls
+  3.l. Search Bars
+  3.m. Invites
+  3.n. Embeds
+  3.o. Calls
 
 4. Channels Area
   4.a. Channels
