@@ -524,7 +524,7 @@ body::before {
 .homeIcon-1FoKUJ g {
 	display: none;
 }
-.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
   border-radius: 0px !important;
 }
 .homeIcon-1FoKUJ {
