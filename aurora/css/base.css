@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
-::selection {background:var(--hover-color);}
+::selection {background:var(--main-color-faded);}
 /*
 /$$$$$$
 /$$__  $$
