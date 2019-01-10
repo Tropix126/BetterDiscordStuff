@@ -1055,9 +1055,6 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .topSectionPlaying-1J5E4n {
     background:var(--main-color) !important;
 }
-.lookInverted-2D7oAl.colorBrand-3pXr91 {
-    color:var(--hover-color) !important;
-}
 /*============== END OF SECTION ============== */
 
 /*8. Modals*/
@@ -1371,6 +1368,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .valueChecked-m-4IJZ,
 .ui-switch.checked {
     background:var(--main-color) !important;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color:var(--hover-color) !important;
 }
 .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV {
 	background:rgba(0,0,0,0.5) !important;
