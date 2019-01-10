@@ -277,12 +277,12 @@ body::before {
 }
 
 /*3.h. Scrollbar*/
-.scroller-wrap .scroller::-webkit-scrollbar {width:10px !important;}
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+.scrollerWrap-2lJEkd .scroller::-webkit-scrollbar {width:10px !important;}
+.scrollerWrap-2lJEkd .scroller::-webkit-scrollbar-track-piece {
 	background: rgba(0, 0, 0, 0.4) !important;
   border: none;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+.scrollerWrap-2lJEkdwrap .scroller::-webkit-scrollbar-thumb {
   border:none !important;
   background:var(--main-color);
 }
@@ -470,8 +470,8 @@ body::before {
 	background-position: center;
 	background-attachment: fixed;
 }
-.da-guildsWrapper .scroller-wrap .scroller::-webkit-scrollbar,
-.guildsWrapper-5TJh6A.foldercontent .scroller-wrap .scroller::-webkit-scrollbar {
+.da-guildsWrapper .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
+.guildsWrapper-5TJh6A.foldercontent .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
 	display:none;
 }
 
