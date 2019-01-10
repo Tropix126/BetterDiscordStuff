@@ -277,14 +277,44 @@ body::before {
 }
 
 /*3.h. Scrollbar*/
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {width:10px !important;}
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.da-messagesWrapper .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {width:10px !important;}
+.da-messagesWrapper .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
 	background: rgba(0, 0, 0, 0.4) !important;
-  border: none;
+    border: none !important;
+    display:block !important;
 }
-.scrollerWrap-2lJEkdwrap .scroller::-webkit-scrollbar-thumb {
+.da-messagesWrapper .scroller-2FKFPG::-webkit-scrollbar-thumb {
   border:none !important;
-  background:var(--main-color);
+  background:var(--main-color) !important;
+}
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece {
+    display:none !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar-thumb {
+    background:var(--hover-color) !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar {
+    width:5px !important;
+}
+.da-messagesWrapper .scroller::-webkit-scrollbar {width:10px !important;}
+.da-messagesWrapper .scroller::-webkit-scrollbar-track-piece {
+	background: rgba(0, 0, 0, 0.4) !important;
+    border: none !important;
+    display:block !important;
+}
+.da-messagesWrapper .scroller::-webkit-scrollbar-thumb {
+  border:none !important;
+  background:var(--main-color) !important;
+}
+.da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece,
+.da-guildsWrapper .scroller::-webkit-scrollbar {
+    display:none !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar-thumb {
+    background:var(--hover-color) !important;
+}
+.da-scroller:not(.messages-3amgkR)::-webkit-scrollbar {
+    width:5px !important;
 }
 
 /*3.i. Bot Tags*/
@@ -493,6 +523,9 @@ body::before {
 .homeIcon-1FoKUJ defs,
 .homeIcon-1FoKUJ g {
 	display: none;
+}
+.guild-1EfMGQ:first-child .guildInner-3DSoA4 {
+  border-radius: 0px !important;
 }
 .homeIcon-1FoKUJ {
 	background: var(--main-color);
