@@ -1921,10 +1921,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 .root-26DmKJ {background:transparent;}
 .focused-1Yu0L3 {background:rgba(255,255,255,0.1);}
-.topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+.gameLibrary-TTDw4Y .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
 	background:rgba(255,255,255,0.06)
 }
-.topPill-30KHOu .itemSelected-1qLhcL {
+.gameLibrary-TTDw4Y .topPill-30KHOu .itemSelected-1qLhcL {
 	background:var(--main-color);
 	color:#fff;
 }
