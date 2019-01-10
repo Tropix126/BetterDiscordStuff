@@ -72,6 +72,7 @@ TABLE OF CONTENTS
 	7.k. RTC Connection Popout
 	7.l. Toasts
 	7.m. Profile Popout
+	7.n. Greeting
 
 8. Modals
 	8.a. Transparency
@@ -160,7 +161,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora Beta v0.5';
+	content:'Aurora by Tropical';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -1004,6 +1005,19 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background-size:cover !important;
     background-position:center !important;
 		box-shadow: inset 0 -90px 130px 10px var(--hover-color) !important;
+}
+
+/*7.n. Greeting*/
+body:before{content:"Dark Matter Remastered has been loaded.";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
+body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
+@-webkit-keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}}
+@keyframes version{from{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
+20%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+80%{-webkit-transform:translate(-50%, 20%);transform:translate(-50%, 20%)}
+to{-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);}
 }
 /*============== END OF SECTION ============== */
 
