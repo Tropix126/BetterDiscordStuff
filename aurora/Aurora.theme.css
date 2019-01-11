@@ -10,8 +10,8 @@
 | $$  | $$| $$  | $$| $$      | $$  | $$| $$      /$$__  $$
 | $$  | $$|  $$$$$$/| $$      |  $$$$$$/| $$     |  $$$$$$$
 |__/  |__/ \______/ |__/       \______/ |__/      \_______/
+*/
 
-/*Root*/
 :root {
 /*Color Variables*/
 	--main-color: linear-gradient(to right, #43cea2, #185a9d); /*Accent Color of the Theme*/
