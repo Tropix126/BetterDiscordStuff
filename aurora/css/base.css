@@ -561,6 +561,18 @@ body::before {
 .tooltip:after {
 	display: none;
 }
+.da-tooltip.da-tooltipTop {animation: fadetop 150ms;}
+.da-tooltips .da-tooltip.da-right {animation: faderight 150ms;}
+.da-tooltips .da-tooltip.da-bottom {animation: fadebottom 150ms;}
+.da-tooltips .da-tooltip.da-left {animation: fadeleft 150ms;}
+.da-tooltip.da-top {animation: fadetop 150ms;}
+.da-tooltips .da-tooltip {
+    background: var(--main-color) !important;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
+}
+.da-tooltip:after {
+	display: none;
+}
 /*============== END OF SECTION ============== */
 
 /*6. Members List*/
