@@ -145,6 +145,9 @@ body::before {
 .applicationStore-1pNvnv {
 	border-radius: 6px !important;
 }
+.base-3dtUhz {
+    border-radius:0 0 0 5px !important;
+}
 
 /*1.c. General Transparency*/
 #app-mount,
