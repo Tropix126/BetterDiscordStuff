@@ -1,5 +1,2 @@
-# Aurora Theme for BetterDiscord
-A dark Aurora Borealis discord theme with blurred elements.
-<p align="center">
-  <img alt=".titleImage-3pXr91" src="https://i.imgur.com/0Lbhvzt.png">
-</p>
+# Aurora Base CSS
+The base file is organized into several chapters. Within each chapter, there is a section. Each section contains it's designated CSS rules. This format makes the theme easy to update and easy to modify.
