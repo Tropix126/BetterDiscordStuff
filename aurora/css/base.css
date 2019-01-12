@@ -1768,6 +1768,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .selectableItem-1MP3MQ.selected-31soGA {
     background:var(--main-color) !important;
 }
+.emojiInput-1aLNse {
+	background:transparent !important;
+}
 .autocompleteHeaderBackground-30T70q {background:transparent !important;}
 .autocompleteScroller-iInVqR::-webkit-scrollbar {display:none;}
 .da-auditLog,
