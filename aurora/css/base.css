@@ -111,6 +111,11 @@ TABLE OF CONTENTS
 	11.b. Activity
   11.c. Library 
   11.d. Friends
+
+12. Out of app areas
+	12.a. Login Screen
+	12.b. Crash Screen
+	12.c. Loading Screen
 */
 
 /*1. Background and Sizing*/
@@ -287,7 +292,7 @@ body::before {
 }
 
 /*3.g. Welcome Message*/
-.app .welcomeMessage-3_Mcht h1 {
+.da-h1 {
 	color:var(--hover-color) !important;
 }
 
@@ -348,50 +353,6 @@ body::before {
 /*3.k. Reactions*/
 .reactionMe-23mbRf {background:var(--main-color-faded) !important;}
 .reactionMe-23mbRf .reactionCount-2ddRoS {color:var(--hover-color) !important;}
-/*============== END OF SECTION ============== */
-
-/*4. Channels Area*/
-/*4.a. Channels*/
-.channels-Ie2l6A:hover {width:320px;}
-.channels-Ie2l6A {
-    transition:.3s width ease;
-}
-.contentSelectedText-3wUhMi,
-.channel-2QD9_O.selected-1HYmZZ a {
-	background: var(--main-color)
-}
-.da-contentHoveredText,
-.channel-2QD9_O:hover a,
-.contentConnectedVoice-qL-YrL:active,
-.contentHoveredText-2D9B-x,
-.contentHoveredVoice-3p_NEO:active,
-.contentSelectedVoice-1WDIBM:active {
-	background: var(--main-color-faded);
-	transition: 100ms all linear;
-}
-
-/*4.b. Account Deatils Container*/
-.container-2Thooq {background:transparent !important;}
-.accountDetails-3k9g4n .username {
-	font-family:'Satisfy';
-	font-weight:bold;
-	color:var(--hover-color);
-}
-
-/*4.c. Top Header*/
-.header-2o-2hj {box-shadow:none !important; border-radius:5px !important;}
-
-/*4.d. Transparency*/
-.container-PNkimc {background:transparent !important;}
-.vertical-V37hAW .channels-Ie2l6A {
-	overflow: hidden !important;
-	border-radius: 0 6px 6px 0 !important;
-	margin-right: 25px;
-	background: var(--backdropblurred);
-	background-size:cover !important;
-	background-position: center;
-	background-attachment: fixed;
-}
 
 /*3.l. Search Bars*/
 .da-searchBar .da-searchBarInner {border:none;}
@@ -497,6 +458,54 @@ body::before {
 .path-92Hmty {
 	stroke:var(--hover-color) !important;
 }
+.wrapper-2NJDcI {
+	background-color:var(--main-color-faded) !important;
+	color:#fff;
+}
+/*============== END OF SECTION ============== */
+
+/*4. Channels Area*/
+/*4.a. Channels*/
+.channels-Ie2l6A:hover {width:320px;}
+.channels-Ie2l6A {
+    transition:.3s width ease;
+}
+.contentSelectedText-3wUhMi,
+.channel-2QD9_O.selected-1HYmZZ a {
+	background: var(--main-color)
+}
+.da-contentHoveredText,
+.channel-2QD9_O:hover a,
+.contentConnectedVoice-qL-YrL:active,
+.contentHoveredText-2D9B-x,
+.contentHoveredVoice-3p_NEO:active,
+.contentSelectedVoice-1WDIBM:active {
+	background: var(--main-color-faded);
+	transition: 100ms all linear;
+}
+
+/*4.b. Account Deatils Container*/
+.container-2Thooq {background:transparent !important;}
+.accountDetails-3k9g4n .username {
+	font-family:'Satisfy';
+	font-weight:bold;
+	color:var(--hover-color);
+}
+
+/*4.c. Top Header*/
+.header-2o-2hj {box-shadow:none !important; border-radius:5px !important;}
+
+/*4.d. Transparency*/
+.container-PNkimc {background:transparent !important;}
+.vertical-V37hAW .channels-Ie2l6A {
+	overflow: hidden !important;
+	border-radius: 0 6px 6px 0 !important;
+	margin-right: 25px;
+	background: var(--backdropblurred);
+	background-size:cover !important;
+	background-position: center;
+	background-attachment: fixed;
+}
 /*============== END OF SECTION ============== */
 
 /*5. Guilds*/
@@ -533,7 +542,14 @@ body::before {
 /*5.c. Unread and Selected Indicators*/
 .unread-qLkInr:before {
   background:var(--hover-color) !important;
-	width:8px !important;
+}
+.guild-1EfMGQ.selected-ML3OIq:before,
+.guild-1EfMGQ.unread-qLkInr:before {
+    border-radius:5px !important;
+    width:8px !important;
+}
+.guild-1EfMGQ:first-child.selected-ML3OIq:before {
+    display:none !important;
 }
 .selected-ML3OIq:before {background:var(--main-color) !important;}
 
@@ -785,6 +801,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	background:var(--main-color) !important;
 	border-color:var(--hover-color) !important;
 }
+.da-contextMenu {
+    animation:slide-up 150ms cubic-bezier(0,0,0,1);
+}
 
 /*6.d. User Popouts*/
 .body-3iLsc4,
@@ -812,6 +831,24 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 
 /*7.e. Pinned Messages/Mentions*/
+.themedPopout-25DgLi {
+    background:var(--backdropblurred) !important;
+    background-size:cover !important;
+    background-repeat:no-repeat;
+    box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.5) !important;
+    border:none !important;
+    animation: slide-down 200ms ease !important;
+}
+@keyframes slide-up {
+  from {
+      transform: translate(0%, 10%);
+  }
+}
+@keyframes slide-down {
+  from {
+      transform: translate(0%, -5%);
+  }
+}
 .messagesPopoutWrap-1MQ1bW {
     background:var(--backdrop) !important;
     background-repeat:no-repeat;
@@ -946,6 +983,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .da-emojiPicker .da-scroller::-webkit-scrollbar-thumb {background:var(--hover-color) !important;}
 .da-emojiPicker .da-scroller::-webkit-scrollbar {width:7px !important;}
 #bda-qem {background:transparent !important;}
+/*emoji picker scrollbar and shit*/
+.da-emojiPicker .da-scroller::-webkit-scrollbar-track-piece {
+	background:rgba(0,0,0,0.5);
+}
 .da-emojiPicker,
 #bda-qem-twitch-container,
 #bda-qem-favourite-container{
@@ -1005,6 +1046,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background-repeat:no-repeat;
     background-size:cover !important;
     box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.5);
+}
+.autocomplete-1vrmpx {
+    animation: slide-up 150ms ease;
 }
 .da-categoryFadeBlurple {
     background:var(--main-color) !important;
@@ -1391,6 +1435,17 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .side-8zPYf6 .itemSelected-1qLhcL {
     background:var(--main-color) !important;
 }
+.layer-3QrUeG {
+    animation:settings 300ms cubic-bezier(0,0,0,1);
+}
+@keyframes settings {
+  0% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .sidebarScrollable-1qPI87 .cardPrimary-1Hv-to {
     margin-bottom:35px;
 }
@@ -1704,6 +1759,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .bda-slist li:hover {
     transform:scale(1.02);
 }
+.barFill-23-gu- {
+    background:var(--main-color) !important;
+}
 
 /*9.s. Server Settings*/
 .da-avatarUploaderInner,
@@ -1832,18 +1890,6 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
   }
 }
 
-@keyframes slide-up {
-  from {
-    transform: translate(0, 100%);
-  }
-}
-
-@keyframes slide-down {
-  from {
-    transform: translate(0, -100%);
-  }
-}
-
 @keyframes slide-left {
   from {
     transform: translate(-100);
@@ -1929,6 +1975,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	background-size:cover  !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
+}
+.article-3kb3qm {
+    background-color:rgba(0,0,0,0.25) !important;
 }
 .section-7tu4tu {
 	border:none !important;
@@ -2026,7 +2075,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 
 /*11.c. Library*/
 .gameLibrary-TTDw4Y,
-.root-1BQpZw {
+.root-1BQpZw,
+.root-26DmKJ {
 	background:var(--backdropblurred) !important;
 	background-size:cover  !important;
 	background-repeat: no-repeat !important;
@@ -2120,4 +2170,31 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 /*============== END OF SECTION ============== */
 
+/*12. Out of App Areas*/
+/*12.a. Login Screen*/
+.leftSplit-1qOwnR .wrapper-6URcxg {right:0px !important;}
+.rightSplit-2US0xy,
+.canvas-3XuBXe {
+	display:none !important;
+}
+.da-authBox {
+	background:rgba(0,0,0,0.75) !important;
+	box-shadow:0px 10px 20px rgba(0,0,0,0.5);
+	border:2px solid rgba(0,0,0,0.5);
+}
+
+/*12.b. Crash Screen*/
+.errorPage-u8SYh4 {
+	background:var(--backdropblurred) !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+}
+
+/*12.c. Loading Screen*/
+.container-16j22k {
+    background:var(--backdropblurred) !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+    box-shadow:0 0 0 10000px rgba(0,0,0,0.5) !important;
+}
 /*Thanks so much for using my theme, whoever decided to look here! Also thank you to the derealised server and everyone in it for their tags.*/
