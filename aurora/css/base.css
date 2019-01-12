@@ -133,7 +133,8 @@ body::before {
 }
 
 /*1.b. Spacing*/
-.app {
+.app,
+.app-2rEoOp {
 	margin: 25px;
 	border-radius: 6px;
 	overflow: hidden;
