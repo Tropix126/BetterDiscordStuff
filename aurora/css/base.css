@@ -755,21 +755,21 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     box-shadow: 0 -10px 20px rgba(0,0,0,.15) inset,0 1px 1px rgba(255,255,255,.05) inset;
 }
 .alt-3btY0e:active {opacity: 0; transition: all 100ms ease 100ms}
-.alt-3btY0e .item-1GzJrl:nth-of-type(1) .online-2S838R{
-    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNOSAxNi4yTDQuOCAxMmwtMS40IDEuNEw5IDE5IDIxIDdsLTEuNC0xLjRMOSAxNi4yeiIvPjwvc3ZnPg==);
+.alt-3btY0e .item-1GzJrl:nth-of-type(1) .online-2S838R {
+    background-image: url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/status_asset_1.svg);
     background-size: 55%;
     background-repeat: no-repeat;
     background-position: 50%;
     left: auto;
 }
 .alt-3btY0e .item-1GzJrl:nth-of-type(3) .idle-3DEnRT{
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iLTk0NyA1MjkgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTk0NyA1MjkgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iLTkyOSw1NDQuNSAtOTMwLDU0NiAtOTM2LjIsNTQyLjIgLTkzNi4yLDUzNSAtOTM0LjQsNTM1IC05MzQuNCw1NDEuMiAiLz48L3N2Zz4=);
+    background-image: url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/status_asset_2.svg);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .alt-3btY0e .item-1GzJrl:nth-of-type(4) .dnd-1_xrcq{
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iLTk0NyA1MjkgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgLTk0NyA1MjkgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxyZWN0IHg9Ii05NDAuNCIgeT0iNTQwLjEiIGNsYXNzPSJzdDAiIHdpZHRoPSIxMC45IiBoZWlnaHQ9IjEuOCIvPjwvc3ZnPg==);
+    background-image: url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/status_asset_3.svg);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -1283,10 +1283,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .ragingDemon-bDcoXE .symbol-3ffeCr:before {
 	background: var(--main-color) !important;
 	-webkit-mask-size: cover;
-	-webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="360" height="280"><g fill="none" fill-rule="evenodd"><path fill="#7289DA" d="M73.5062 34.6517s5.385 30.693 36.856 27.542c30.144-3.017 60.38-10.574 94.144-10.542 28 .027 57.742 11.403 60.677-8.383 2.625-17.696-10.272-35.269-46.226-35.269s-85.115 15.484-106.394 19.785c-21.278 4.301-39.057 6.867-39.057 6.867"/><path fill="#7289DA" d="M127.2387 115.8403l2.201-10.251s-15.837-4.3-8.805-20.501c5.872-13.526 45.493-15.77 58.7-7.096 13.208 8.673 13.941 21.289 13.941 21.289s107.128-18.135 118.134 18.925c11.006 37.059-27.149 22.078-54.298 22.078-27.148 0-44.024 3.942-44.024 3.942s50.628 18.925 82.913 39.426 70.846 47.594 47.694 77.274c-23.188 29.725-54.58-2.41-96.121-30.752-52.067-35.523-74.067-47.523-74.067-47.523s-19 41-45 66.226c-35.149 34.1-90.785 29.396-119.402-24.223 0 0 32.532.133 55.765-14.981 25.637-16.677 42.558-41.791 42.558-41.791s-53.564 29.963-80.713 10.25c-27.148-19.712-21.278-27.598-4.402-31.54 14.5-3.388 104.926-30.752 104.926-30.752"/><path fill="#36393E" d="M127.2387 115.8403l-5.732 16.976"/><path fill="#36393E" d="M213.0873 144.2267l-6.581 1.485"/><path d="M0 0h360v280H0z"/></g></svg>') center/contain no-repeat !important;
+	-webkit-mask: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_2.svg') center/contain no-repeat !important;
 }
 .ragingDemon-bDcoXE .symbol-3ffeCr:after {
-	background: url('https://svgshare.com/i/9pB.svg') center/contain no-repeat !important;
+	background: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_1.svg') center/contain no-repeat !important;
 }
 .ddrArrows-lSnH7P .arrow-2enltQ.down-2Ju7Q_ {transform: rotate(270deg);}
 .ddrArrows-lSnH7P .arrow-2enltQ.up-fkTose {transform: rotate(90deg);}
@@ -1308,15 +1308,15 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .ddrArrows-lSnH7P .arrow-2enltQ {
 	position: relative !important;
 	animation: none !important;
-	background: url('https://svgshare.com/i/9pZ.svg') center/contain no-repeat !important;
+	background: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_3.svg') center/contain no-repeat !important;
 }
 .ddrArrows-lSnH7P .arrow-2enltQ:before {
 	-webkit-mask-size: cover;
-	-webkit-mask: url('https://svgshare.com/i/9p_.svg') center/contain no-repeat !important;
+	-webkit-mask: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_4.svg') center/contain no-repeat !important;
 	background: var(--main-color) !important;
 }
 .ddrArrows-lSnH7P .arrow-2enltQ:after {
-	background: url('https://svgshare.com/i/9pa.svg') center/contain no-repeat !important;
+	background: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_5.svg') center/contain no-repeat !important;
 }
 
 /*8.d. Quick Switcher*/
@@ -1372,12 +1372,12 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 .create-3jownz .actionIcon-2IISM_ {
 	-webkit-mask-size: cover;
-	-webkit-mask: url('https://svgshare.com/i/9xZ.svg') 58% no-repeat !important;
+	-webkit-mask: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_6.svg') 58% no-repeat !important;
 	background: var(--main-color) !important;
 }
 .join-33Tr-7 .actionIcon-2IISM_ {
 	-webkit-mask-size: cover;
-	-webkit-mask: url('https://svgshare.com/i/9ww.svg') center/cover no-repeat !important;
+	-webkit-mask: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_6.svg') center/cover no-repeat !important;
 	background: #3ca374 !important;
 }
 .item-1GzJrl.leave-1DRJfn .icon-2doZ3q {
@@ -1675,7 +1675,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	width: 184px;
 	height: 100px;
 	-webkit-mask-size: cover;
-	-webkit-mask: url('https://svgshare.com/i/9q2.svg') !important;
+	-webkit-mask: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_8.svg') !important;
 	background:var(--main-color) !important;
 }
 .icon-4lJsMQ[src="/assets/616e078b351d0df460971441949c53a3.svg"] + * > *:first-child:before {
@@ -1687,7 +1687,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	width: 184px;
 	height: 100px;
 	-webkit-mask-size: cover;
-	-webkit-mask: url('https://svgshare.com/i/9oc.svg') !important;
+	-webkit-mask: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_9.svg') !important;
 	background: var(--main-color) !important;
 }
 .icon-4lJsMQ[src="/assets/616e078b351d0df460971441949c53a3.svg"] + *:after {
@@ -1696,7 +1696,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	right: 20px;
 	width: 184px;
 	height: 100px;
-	content: url('https://svgshare.com/i/9pK.svg') !important;
+	content: url('https://tropix126.github.io/BetterDiscordStuff/aurora/assets/devilbro_asset_10.svg') !important;
 }
 
 /*9.k. Notifications*/
@@ -1786,34 +1786,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     border:none !important;
     border-radius:5px !important;
 }
-.guild-settings-widget .flex-1xMQg5:last-of-type {position: relative !important;}
-.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:after {background: url('https://svgshare.com/i/9qZ.svg') left/contain no-repeat !important;}
-.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:after,
-.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:before,
-.guild-settings-widget img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
-	width: 320px !important;
-	height: 310px !important;
-	opacity: 0.6 !important;
-	pointer-events: none !important;
+img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
+    filter:hue-rotate(1000deg) !important;
 }
-.guild-settings-widget img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
-	box-sizing: border-box !important;
-	padding-right: 340px !important;
-	background: url('https://svgshare.com/i/9od.svg') center/contain no-repeat !important;
-}
-.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:after,
-.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: -15px;
-	-webkit-mask-size: cover;
-}
-.guild-settings-widget .flex-1xMQg5:last-of-type .flexChild-faoVW3:before {
-	-webkit-mask: url('https://svgshare.com/i/9pL.svg') no-repeat !important;
-	background: var(--main-color) !important;
-}
-
 
 /*9.t. Custom CSS Editor*/
 #bd-customcss-detach-container {width: calc(27% - 10px);}
