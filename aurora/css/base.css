@@ -581,7 +581,7 @@ body::before {
 .tooltips .tooltip.tooltip-bottom {animation: fadebottom 150ms;}
 .tooltips .tooltip.tooltip-left {animation: fadeleft 150ms;}
 .tooltip.tooltip-top {animation: fadetop 150ms;}
-.tooltips .tooltip {background: var(--main-color) !important;}
+.tooltips .tooltip, .tooltip-1OS-Ti.black-2bmmnj {background: var(--main-color) !important;}
 .tooltip:after {
 	display: none;
 }
@@ -594,7 +594,8 @@ body::before {
     background: var(--main-color) !important;
     box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
 }
-.da-tooltip:after {
+.da-tooltip:after,
+.tooltip-1OS-Ti.black-2bmmnj:after {
 	display: none;
 }
 /*============== END OF SECTION ============== */
