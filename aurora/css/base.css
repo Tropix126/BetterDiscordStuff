@@ -130,7 +130,7 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
   pointer-events: none;
-  box-shadow: 0 0 0 1000px var(--backdrop-darkness);
+  box-shadow:inset 0 0 0 1000px var(--backdrop-darkness);
 }
 .layer-3QrUeG,
 .layers-3iHuyZ,
