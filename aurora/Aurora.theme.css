@@ -17,7 +17,7 @@
 	--main-color: linear-gradient(150deg, #43cea2, #185a9d); /*Accent Color of the Theme*/
 	--hover-color: rgb(67, 206, 162); /*Secondary Accent of the Theme*/
 	--main-color-faded: rgba(67, 206, 162, 0.2); /*Faded Main Color*/
-/*Backgdrop Variables*/
+/*Backdrop Variables*/
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
 	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop*/
 	--backdrop-darkness:transparent;
