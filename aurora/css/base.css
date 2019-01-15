@@ -45,6 +45,7 @@ TABLE OF CONTENTS
   4.b. Account Details Container
   4.c. Top Header
   4.d. Transparency
+  4.e. Group DM Icon
 
 5. Guilds
   5.a. Wrapper
@@ -72,6 +73,7 @@ TABLE OF CONTENTS
 	7.k. RTC Connection Popout
 	7.l. Toasts
 	7.m. Profile Popout
+	7.n. @Everyone Popout
 
 8. Modals
 	8.a. Transparency
@@ -116,6 +118,12 @@ TABLE OF CONTENTS
 	12.a. Login Screen
 	12.b. Crash Screen
 	12.c. Loading Screen
+
+13. Plugins
+	13.a. Theme and Pluginrepo
+	13.b. BetterFormattingRedux
+	13.c. GoogleTranslateOption
+	13.d. Share Button
 */
 
 /*1. Background and Sizing*/
@@ -178,7 +186,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora by Tropical';
+	content:'Aurora v1.1';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -232,13 +240,16 @@ body::before {
 }
 
 /*3.b. Dividers*/
-.newMessagesBar-mujexs, .unreadBar-3YD_k9 {background:var(--main-color);}
+.unreadBar-3YD_k9 {background:var(--main-color);}
 .newMessagesBar-mujexs button {color:#fff !important;}
 .divider-3gKybi {padding-top: 10px;}
 .dividerContent-2L12VI:before,
 .dividerContent-2L12VI:after,
 .dividerEnabled-2TTlcf {
 	display:none;
+}
+.da-newMessagesBar {
+    background:var(--hover-color) !important;
 }
 .chat-3bRxxu .jumpToPresentBar-9P20AM button:first-child {display:none}
 .jumpToPresentBar-9P20AM{left:auto!important;}
@@ -284,6 +295,15 @@ body::before {
 }
 
 /*3.e. Chat Header*/
+.title-3qD0b- .icon-1R19_H[name="Pin"] {
+    background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI0IDI0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSJub25lIiBkPSJNMCwwaDI0djI0SDBWMHoiLz4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTcuOSwxMy43IDE1LjgsMTIuNiAxNS4xLDUuMyAxNi40LDUgMTYuNCwzIDcuNiwzIDcuNiw1IDguOSw1LjMgOC4yLDEyLjYgNi4xLDEzLjcgNi4xLDE1LjcgDQoJMTEsMTUuNyAxMSwyMSAxMywyMSAxMywxNS43IDE3LjksMTUuNyAiLz4NCjwvc3ZnPg0K) !important;
+}
+.title-3qD0b- .icon-1R19_H[name="NotificationBell"] {
+    background-image:url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDIyYzEuMSAwIDItLjkgMi0yaC00YzAgMS4xLjg5IDIgMiAyem02LTZ2LTVjMC0zLjA3LTEuNjQtNS42NC00LjUtNi4zMlY0YzAtLjgzLS42Ny0xLjUtMS41LTEuNXMtMS41LjY3LTEuNSAxLjV2LjY4QzcuNjMgNS4zNiA2IDcuOTIgNiAxMXY1bC0yIDJ2MWgxNnYtMWwtMi0yeiIvPjwvc3ZnPg==") !important;
+}
+.title-3qD0b- .icon-1R19_H {
+    transform:scale(0.9);
+}
 .aka-1mqp34 {background:var(--main-color);}
 .title-3qD0b-,
 .da-headerBar {
@@ -422,6 +442,13 @@ body::before {
     background:transparent !important;
     border:none !important;
 }
+.imageWrapper-2p5ogY.imageZoom-1n-ADA {
+	box-shadow:0 3px 7px rgba(0,0,0,0.4);
+	transition:250ms box-shadow cubic-bezier(0,0,0,.1);
+}
+.imageWrapper-2p5ogY.imageZoom-1n-ADA:hover {
+		box-shadow:0 5px 15px rgba(0, 0, 0, 0.5);
+}
 
 /*3.o. Calls*/
 .videoBackground-3AY_fu, .videoBackgroundTransition-3wpOSl {
@@ -514,6 +541,16 @@ body::before {
 	background-size:cover !important;
 	background-position: center;
 	background-attachment: fixed;
+}
+
+/*4.e. Group DM Icon*/
+.guild-1EfMGQ .guildInner-3DSoA4 a[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"],
+div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
+	background-image:url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/spectra_asset_1.svg)!important;
+	filter:hue-rotate(320deg);
+}
+.da-channel .da-wrapper .da-inner[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
+	margin-top:-2px;
 }
 /*============== END OF SECTION ============== */
 
@@ -1079,6 +1116,20 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .container-2x5lvQ section {
 	background:rgba(0,0,0,0.25) !important;
 }
+.emptyHintCard-2mUdMe {
+	background:var(--main-color-faded) !important;
+}
+.da-result[style*="rgb(179, 174, 255)"],
+.searchSuggestion-2K8OBX.searchSuggestion-2K8OBX:hover  {
+	background:var(--main-color) !important;
+}
+.da-result[style*="rgb(146, 154, 250)"],
+.da-result[style*="rgb(115, 142, 245)"] {
+	background:var(--hover-color) !important;
+}
+.searchSuggestion-2K8OBX.searchSuggestion-2K8OBX:hover {
+	border-color:var(--hover-color) !important;
+}
 
 /*7.l. Toasts*/
 .toast, .bd-toast {background:var(--main-color);}
@@ -1133,6 +1184,18 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 .topSectionPlaying-1J5E4n {
     background:var(--main-color) !important;
+}
+
+/*7.n. @Everyone Popout*/
+.everyonePopout-nEbJY3{
+	background-color: rgba(0,0,0,0.6) important;
+}
+.everyonePopout-nEbJY3 .footer-2aTx0s{
+	background-color: rgba(0,0,0,0.8) !important;
+}
+.everyonePopout-nEbJY3 .lookOutlined-3sRXeN.colorBrand-3pXr91 {
+	color: var(--hover-color);
+	border-color: var(--hover-color);
 }
 /*============== END OF SECTION ============== */
 
@@ -1366,6 +1429,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .lookLink-9FtZy-.colorBrand-3pXr91 {
 	color:var(--hover-color) !important;
 }
+.wrapper-2ZbzR9 {
+	background:transparent !important;
+}
 .footer-2yfCgX {
 	background:rgba(0,0,0,0.25) !important;
 	box-shadow:none !important
@@ -1445,16 +1511,12 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .side-8zPYf6 .itemSelected-1qLhcL {
     background:var(--main-color) !important;
 }
-.layer-3QrUeG {
-    animation:settings 300ms cubic-bezier(0,0,0,1);
+.da-layer {
+    animation:fadein 1s ease !important;
 }
-@keyframes settings {
-  0% {
-    transform: scale(1.6);
-  }
-  100% {
-    transform: scale(1);
-  }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 .sidebarScrollable-1qPI87 .cardPrimary-1Hv-to {
     margin-bottom:35px;
@@ -1549,6 +1611,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .valueChecked-m-4IJZ,
 .ui-switch.checked {
     background:var(--main-color) !important;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
+.themeDefault-24hCdX {
+    background:rgba(255,255,255,0.25);
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     color:var(--hover-color) !important;
@@ -1982,6 +2048,9 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .sortFilterBar-3hePOV {
 	 border-bottom:2px solid var(--hover-color) !important;
 }
+.da-playerOverflow {
+    background-color:var(--hover-color) !important;
+}
 .focused-1Yu0L3,
 .tile-367QuY,
 .browseSearchInput-Jt8kg0,
@@ -2185,4 +2254,49 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
     background-repeat:no-repeat !important;
     box-shadow:0 0 0 10000px rgba(0,0,0,0.5) !important;
 }
+/*============== END OF SECTION ============== */
+
+/*13. Plugins*/
+/*13.a. Theme and PluginRepo*/
+.themerepo-loadingicon path:nth-of-type(1),
+.pluginrepo-loadingicon path:nth-of-type(1) {
+    fill:var(--hover-color) !important;
+}
+
+/*13.b. BetterFormattingRedux*/
+.bf-toolbar.bf-visible:before, .bf-toolbar.bf-hover:hover:before{
+    background:var(--backdropblurred);
+    background-size:cover !important;
+    background-position:right center !important;
+		box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.25) !important;
+}
+
+.bf-toolbar .format:hover {
+    background:rgba(0,0,0,0.5) !important;
+    border-radius:5px !important;
+}
+.da-guildsError {
+    border-color:var(--hover-color) !important;
+    background:var(--main-color-faded) !important;
+    color:var(--hover-color) !important;
+}
+
+/*13.c. Translate*/
+.popout-3sVMXz.popout-googletranslate .themedPopout-25DgLi {
+    padding:22px 22px 22px 22px !important;
+    animation: slide-up 250ms cubic-bezier(0,0,0,1) !important;
+}
+.reverse-button {
+    transition:250ms all fill;
+}
+.reverse-button:hover {
+    fill:var(--hover-color) !important;
+}
+
+/*13.d. Share Button*/
+.sb-menu-scroller-wrapper {
+	background:var(--backdrop) !important;
+	background-size:cover !important;
+}
+/*============== END OF SECTION ============== */
 /*Thanks so much for using my theme, whoever decided to look here! Also thank you to the derealised server and everyone in it for their tags.*/
