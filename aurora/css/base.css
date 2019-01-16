@@ -200,12 +200,12 @@ body::before {
 /*3. Chat*/
 /*3.a. Messages and Codeblocks*/
 [class*="avatar-"], .image-33JSyf {box-shadow: 0.5px 0.5px 2px black !important;}
-.messageCozy-2JPAPA .image-33JSyf {border-radius:5px;}
+.messageCozy-2JPAPA .image-33JSyf {border-radius:var(--chat-avatar-roundness) !important;}
 .operations-36ENbA>a {color:var(--hover-color) !important;}
 .containerCozy-jafyvG {
 	background: rgba(0,0,0,0.4);
 	margin: 15px 15px 0 25px;
-	border-radius: var(--chat-avatar-roundness);
+	border-radius: 5px;
 }
 .isLocalBot-38G0P0 {
 	background:transparent !important;
