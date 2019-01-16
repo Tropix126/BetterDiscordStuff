@@ -205,7 +205,7 @@ body::before {
 .containerCozy-jafyvG {
 	background: rgba(0,0,0,0.4);
 	margin: 15px 15px 0 25px;
-	border-radius: 5px;
+	border-radius: var(--chat-avatar-roundness);
 }
 .isLocalBot-38G0P0 {
 	background:transparent !important;
