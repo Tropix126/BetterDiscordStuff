@@ -1657,13 +1657,13 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background:rgba(0,0,0,0.5) !important;
     border:none !important;
     box-shadow:0px 0px 5px black;
+    transition: 200ms linear all;
 }
 .da-cardPrimary:hover,
 .cardPrimaryEditable-3KtE4g:hover,
 .codeRedemptionRedirect-1wVR4b:hover,
 .lookOutlined-3sRXeN.colorTransparent-1ewNp9:hover {
     transform: scale(1.03) !important;
-    transition: 200ms linear all;
 }
 .avatar-uploader-inner {
     background:var(--main-color) !important;
