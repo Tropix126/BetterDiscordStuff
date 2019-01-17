@@ -974,7 +974,8 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .hintValue-29ny8Z,
 .react-datepicker__day--selected:after,
 .react-datepicker__day:hover,
-.searchFilter-2ESiM3 {
+.searchFilter-2ESiM3,
+.jumpButton-Ia2hRJ {
      background:var(--main-color) !important;
 }
 .react-datepicker__day {
@@ -1092,7 +1093,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background:var(--backdrop) !important;
     background-repeat:no-repeat;
     background-size:cover !important;
-    box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.5);
+    box-shadow:inset 0 0 0 1000px rgba(0,0,0,0.75);
 }
 .autocomplete-1vrmpx {
     animation: slide-up 150ms ease;
@@ -1666,7 +1667,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     transform: scale(1.03) !important;
 }
 .avatar-uploader-inner {
-    background:var(--main-color) !important;
+    background-color:var(--hover-color) !important;
 }
 .input-cIJ7To:hover,
 .input-cIJ7To:focus,
@@ -1840,9 +1841,11 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 }
 
 /*9.s. Server Settings*/
-.da-avatarUploaderInner,
 .selectableItem-1MP3MQ.selected-31soGA {
     background:var(--main-color) !important;
+}
+.da-avatarUploaderInner {
+	background-color:var(--hover-color) !important;
 }
 .emojiInput-1aLNse {
 	background:transparent !important;
