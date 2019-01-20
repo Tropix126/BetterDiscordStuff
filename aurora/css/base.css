@@ -566,35 +566,8 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 /*3.p. Typing Indicators*/
-.da-chat form .da-typing {
-  background-color: rgba(0,0,0,0.7) !important;
-  bottom: 100%;
-  padding-left: 20px;
-  animation: opacity 300ms ease;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
-  -ms-transform: scale(1);
-  transform: scale(1);
-  width: auto;
-  padding-right: 20px;
-  padding-top: 0px;
-  border-radius: 5px 5px 0 0;
-  margin-left: 15px;
-  box-shadow: 0 -3px 20px rgba(0,0,0,.1);
-  opacity: 1;
-  transition: all 200ms ease;
-  text-overflow: ellipsis;
-  z-index: 5;
-}
 .ellipsis-19qdx6 .spinnerItem-2HfQC8 {
     background:var(--main-color) !important;
-}
-.da-autocomplete {
-    z-index:6 !important;
-}
-.typing-2GQL18 .text-1y-e8- {
-  line-height: 26px;
-  text-overflow: ellipsis;
 }
 /*============== END OF SECTION ============== */
 
