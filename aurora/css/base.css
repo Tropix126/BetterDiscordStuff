@@ -281,7 +281,8 @@ body::before {
 	background-repeat:no-repeat;
 	background: inherit;
 }
-.chat-3bRxxu {
+.chat-3bRxxu,
+.noChannel-Z1DQK7 {
 	border-radius: 6px;
 	background: var(--backdropblurred) !important;
 	background-size:cover !important;
