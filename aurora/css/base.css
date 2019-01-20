@@ -14,7 +14,6 @@
 
 TABLE OF CONTENTS
 
-
 1. Background and Sizing
   1.a. Main Background
   1.b. Spacing
@@ -604,6 +603,9 @@ div[style*="width: 100%; height: 20px"] {
 .channels-Ie2l6A:hover {width:320px;}
 .channels-Ie2l6A {
     transition:.3s width ease;
+}
+.channel-2QD9_O {
+    padding-right:7px;
 }
 .contentSelectedText-3wUhMi,
 .channel-2QD9_O.selected-1HYmZZ a {
