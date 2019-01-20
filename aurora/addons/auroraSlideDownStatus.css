@@ -1,0 +1,98 @@
+@keyframes statusshow {from {opacity: 0;}}
+@keyframes status {from {transform: translateY(-100%) translateX(0%) translateZ(0px);}}
+.menu-Sp6bN1.alt-3btY0e {
+	animation: statusshow 300ms linear !important;
+	transform: translateY(87%) translateX(0%) translateZ(0px);
+	opacity: 1;
+}
+
+#app-mount .menu-Sp6bN1.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
+	height: 60px !important;
+	width: 60px !important;
+	margin: 0 !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e {
+	padding: none !important;
+	border:none !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
+	opacity: 0.6;
+	transition: all .2s ease-in-out;
+	margin-left: 5px !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl .da-status {
+	height: 70px !important;
+	position: absolute;
+	margin-top: 0px !important;
+	border-radius: 0px !important;
+	transform: none !important;
+	border: none !important;
+	width: 60px !important;
+	margin-left: -9px !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover .da-status {
+	box-shadow: inset 0 0 0 2px #fff;
+	transform: scale(1) !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:hover {
+	opacity: 1;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:active {
+	transform: scale(0.8);
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(1) {
+	animation-delay: 150ms !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(3) {
+	animation-delay: 300ms !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(4) {
+	animation-delay: 450ms !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-child(5) {
+	animation-delay: 600ms !important;
+}
+
+.menu-Sp6bN1.alt-3btY0e .item-1GzJrl [class*="status"]:after {
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+
+.menu-Sp6bN1 {
+	pointer-events: initial;
+}
+
+body:active .popoutBottom-1YbShG:not(:active) .menu-Sp6bN1:not(:active) {
+	transform: scale(1.5) !important;
+	opacity: 0 !important;
+	transition: 200ms cubic-bezier(0.5, 0, 0, 0.3), opacity 100ms ease;
+}
+
+body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
+	opacity: 0 !important;
+	transition: 150ms ease;
+}
+
+.popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"] .menu-Sp6bN1 * {
+	pointer-events: auto;
+}
+
+.popout-3sVMXz.popoutTopLeft-b5Eb3O {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.popout-3sVMXz.popoutTop-3uu9vG,
+.popout-3sVMXz.popoutTopLeft-b5Eb3O {
+	overflow: visible !important;
+}
