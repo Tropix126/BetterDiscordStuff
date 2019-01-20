@@ -193,7 +193,7 @@
 .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status.status-unknown {
     border: none;
 }
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsTableBody-1ZhKif {
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsTableBody-1ZhKif>div {
 	display: flex !important;
   flex-flow: row wrap !important;
   justify-content: safe !important;
