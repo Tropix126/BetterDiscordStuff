@@ -1,0 +1,29 @@
+.privateChannels-1nO12o header {
+  margin-top: -5px;
+}
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+  display: inline-block;
+  margin:4px;
+  width: calc(25% - 10px);
+}
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
+  height: 50%;
+  flex-direction: column;
+  background:transparent !important;
+}
+.da-channels:hover .privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+    transform:scale(.7);
+}
+.da-channels:hover .privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .da-name {
+    font-size:17px;
+}
+.privateChannels-1nO12o .channel-2QD9_O:hover:not([style="height: 42px; opacity: 1;"]) a,
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a:hover .da-name,
+.privateChannels-1nO12o .channel-2QD9_O.da-selected:not([style="height: 42px; opacity: 1;"]) a,
+.channel-2QD9_O.da-selected:not([style="height: 42px; opacity: 1;"]) a .da-name {
+    color:var(--hover-color) !important;
+}
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
+  font-size: 12px;
+  margin-left:6px;
+}
