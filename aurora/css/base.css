@@ -39,6 +39,7 @@ TABLE OF CONTENTS
   3.m. Invites
   3.n. Embeds
   3.o. Calls
+  3.p. Typing Indicators
 
 4. Channels Area
   4.a. Channels
@@ -46,6 +47,7 @@ TABLE OF CONTENTS
   4.c. Top Header
   4.d. Transparency
   4.e. Group DM Icon
+  4.f. Channel Notice
 
 5. Guilds
   5.a. Wrapper
@@ -82,6 +84,7 @@ TABLE OF CONTENTS
 	8.d. Quick Switcher
 	8.e. Screenshare Modal
 	8.f. Add/Create Guilds Modal
+	8.g. Reactions Modal
 
 9. Settings
   9.a. Transparency and Sidebar
@@ -104,6 +107,7 @@ TABLE OF CONTENTS
   9.r. BD Settings
   9.s. Server Settings
   9.t. Custom CSS Editor
+  9.u. Changelog
 
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
 	10. Keyframes
@@ -124,6 +128,9 @@ TABLE OF CONTENTS
 	13.b. BetterFormattingRedux
 	13.c. GoogleTranslateOption
 	13.d. Share Button
+	13.e. Read All Notifications
+
+14. Roundness
 */
 
 /*1. Background and Sizing*/
@@ -186,7 +193,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora v1.1';
+	content:'Aurora v1.2.1';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -199,6 +206,7 @@ body::before {
 
 /*3. Chat*/
 /*3.a. Messages and Codeblocks*/
+.da-containerCozy .inner-zqa7da {background:rgba(0,0,0,0.25) !important;}
 [class*="avatar-"], .image-33JSyf {box-shadow: 0.5px 0.5px 2px black !important;}
 .messageCozy-2JPAPA .image-33JSyf {border-radius:var(--chat-avatar-roundness) !important;}
 .operations-36ENbA>a {color:var(--hover-color) !important;}
@@ -238,6 +246,7 @@ body::before {
 .messageGroupBlockedBtn-1PBBh- {
     background:transparent !important;
 }
+
 
 /*3.b. Dividers*/
 .unreadBar-3YD_k9 {background:var(--main-color);}
@@ -292,6 +301,9 @@ body::before {
 .messagesWrapper-3lZDfY,
 .chat-3bRxxu form {
 	background:transparent !important;
+}
+.button-2vd_v_ {
+	margin-left:7px;
 }
 
 /*3.e. Chat Header*/
@@ -378,6 +390,12 @@ body::before {
   color:#fff !important;
   border-radius:3px;
 }
+.da-isMentionedCozy:after {
+    border-color:var(--hover-color);
+}
+.da-isMentionedCozy {
+    background:var(--main-color-faded) !important;
+}
 
 /*3.k. Reactions*/
 .reactionMe-23mbRf {background:var(--main-color-faded) !important;}
@@ -399,6 +417,55 @@ body::before {
 .searchBar-2pE3BB .search-bar,
 .searchBar-2pE3BB .da-searchBar {
 	background:rgba(0,0,0,0.5) !important;
+}
+div[style*="width: 100%; height: 20px"] {
+    height:15px !important;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2 {
+    position: absolute;
+    bottom: 40px;
+    right: 35px;
+    padding: 0;
+    border-radius:200px !important;
+    transform: translate(50%, 50%) scale(0.2);
+    width: 255px;
+    height: 255px;
+    box-shadow:0px 0px 100px rgba(0,0,0,0.75) !important;
+    background-image: url("https://tropix126.github.io/BetterDiscordStuff/aurora/assets/search.svg"), var(--main-color);
+    background-position: bottom 50% right 78px, bottom 0% right 0%;
+    background-repeat: no-repeat;
+    background-size: 40%, cover;
+    transition:325ms width, 325ms background-size, 325ms right;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2:hover {
+    width:965px;
+    background-size: 12%, cover;
+    right:110px;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2:hover:after {
+    content:"Search Messages";
+    color:#fff;
+    position:absolute;
+    right:220px;
+    height:255px;
+    overflow:hidden;
+    line-height:230px;
+    font-size:88px;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2 input {
+  pointer-events: initial;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2 input::-webkit-input-placeholder {
+    color:transparent;
+}
+.privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarInner-1_Tg2R {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
 }
 
 /*3.m. Invites*/
@@ -498,6 +565,38 @@ body::before {
 	background-color:var(--main-color-faded) !important;
 	color:#fff;
 }
+
+/*3.p. Typing Indicators*/
+.da-chat form .da-typing {
+  background-color: rgba(0,0,0,0.7) !important;
+  bottom: 100%;
+  padding-left: 20px;
+  animation: opacity 300ms ease;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -ms-transform: scale(1);
+  transform: scale(1);
+  width: auto;
+  padding-right: 20px;
+  padding-top: 0px;
+  border-radius: 5px 5px 0 0;
+  margin-left: 15px;
+  box-shadow: 0 -3px 20px rgba(0,0,0,.1);
+  opacity: 1;
+  transition: all 200ms ease;
+  text-overflow: ellipsis;
+  z-index: 5;
+}
+.ellipsis-19qdx6 .spinnerItem-2HfQC8 {
+    background:var(--main-color) !important;
+}
+.da-autocomplete {
+    z-index:6 !important;
+}
+.typing-2GQL18 .text-1y-e8- {
+  line-height: 26px;
+  text-overflow: ellipsis;
+}
 /*============== END OF SECTION ============== */
 
 /*4. Channels Area*/
@@ -527,6 +626,23 @@ body::before {
 	font-weight:bold;
 	color:var(--hover-color);
 }
+.da-accountDetails .username {
+  font-size: 13px;
+  height: 18px;
+  line-height: 18px;
+  font-style:italic;
+  font-weight:500;
+}
+.container-2Thooq .button-2b6hmh {
+    transition:250ms ease all;
+    border-radius:var(--media-roundness);
+}
+.container-2Thooq .button-2b6hmh:hover {
+    background-color:rgba(255,255,255,0.1);
+}
+.container-2Thooq .button-2b6hmh:active {
+    background-color:var(--main-color-faded);
+}
 
 /*4.c. Top Header*/
 .header-2o-2hj {box-shadow:none !important; border-radius:5px !important;}
@@ -552,6 +668,18 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 .da-channel .da-wrapper .da-inner[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	margin-top:-2px;
 }
+
+/*4.f. Channel Notice*/
+.channelNotices-41mJbj .channelNotice-1-XFjC.invite-OjTXrW {
+    background: transparent url(/assets/bf625d222187f542b9d7179109422e2c.svg) no-repeat center 20px;
+}
+.channelNotices-41mJbj .channelNotice-1-XFjC {
+    box-shadow: none;
+}
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+   background-color: var(--hover-color) !important;
+}
+
 /*============== END OF SECTION ============== */
 
 /*5. Guilds*/
@@ -560,6 +688,9 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 .guild-1EfMGQ.folder,
 .friendsOnline-_wi_fM {
 	margin-left:10px;
+}
+#app-mount .guildsWrapper-5TJh6A.foldercontent {
+	border-radius:0px;
 }
 .guildSeparator-1X4GQ1:after {display:none !important;}
 .da-guildsWrapper,
@@ -876,6 +1007,86 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .headerNormal-T_seeN {
     background:transparent !important;
 }
+.da-userPopout::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1 !important;
+		background-image: url(https://cdn.rawgit.com/squee666/Discord-Themes/master/Themes/bg.svg);
+    background-size: 12em !important;
+}
+.header-2BwW8b,
+.body-3iLsc4,
+.footer-1fjuF6 {
+	z-index:2 !important;
+	position:relative;
+}
+.role-2irmRk {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  box-sizing: content-box;
+  height: 16px;
+  margin: 3px;
+  padding: 2px;
+  position: relative;
+  line-height: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  overflow: visible;
+}
+.role-2irmRk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-width: calc(0.65em + 4px) .5em;
+  border-style: solid;
+  border-color: inherit;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+.roleName-32vpEy {
+  margin: 0 4px;
+}
+.roleCircleButton-377y0l {
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+  height: 22px;
+  top: -1px;
+  left: -1px;
+  border-radius: 2px 0 0 2px;
+  width: 0px;
+  display: flex !important;
+  transition: width 200ms;
+}
+.roleCircle-3xAZ1j {
+  display: none;
+}
+.addButton-pcyyf6 {
+  line-height: 10px;
+  width: 22px;
+  box-sizing: border-box;
+  height: 22px;
+}
+.roleRemoveIcon-2-TeGW {
+  display: block;
+}
+.role-2irmRk:hover .roleCircleButton-377y0l {
+  transition: width 0.2s;
+  width: 22px;
+}
+.addButtonIcon-1NMJ8u {
+  height: 7px;
+  width: 7px;
+}
 
 /*7.e. Pinned Messages/Mentions*/
 .themedPopout-25DgLi {
@@ -895,6 +1106,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
   from {
       transform: translate(0%, -5%);
   }
+}
+.iconBadge-2dji3k {
+    border-color:rgba(0,0,0,0.8) !important;
 }
 .messagesPopoutWrap-1MQ1bW {
     background:var(--backdrop) !important;
@@ -1034,6 +1248,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 /*emoji picker scrollbar and shit*/
 .da-emojiPicker .da-scroller::-webkit-scrollbar-track-piece {
 	background:rgba(0,0,0,0.5);
+}
+.fav {
+    background-color:rgba(0,0,0,0.5) !important;
+    border-color:rgba(0,0,0,0.75) !important;
 }
 .da-emojiPicker,
 #bda-qem-twitch-container,
@@ -1504,6 +1722,19 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 	border:none;
 	background:rgba(0,0,0,0.5) !important;
 }
+
+/*8.g. Reactions Modal*/
+#app-mount .sidebar-1-SQro {
+	width:100px !important;
+	background:var(--backdropblurred);
+	background-position:fixed !important;
+}
+.reactors-Blmlhw {
+	background:var(--backdrop) !important;
+	background-attachment:fixed !important;
+	background-size:cover !important;
+	box-shadow:inset 0 0 10000px rgba(0,0,0,0.99);
+}
 /*============== END OF SECTION ============== */
 
 /*9. Settings*/
@@ -1734,6 +1965,15 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background:rgba(0,0,0,0.5) !important;
     border:none !important;
 }
+.bubble-3we2di {
+    background:var(--main-color);
+    background-color:transparent !important;
+    border-radius:5px;
+    box-shadow:none !important;
+}
+.bubble-3we2di::before {
+    display:none;
+}
 
 /*9.j. Overlay/Streamer Mode*/
 .selected-mKYnfr.option-n0icdO {background:var(--main-color);}
@@ -1839,6 +2079,16 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .barFill-23-gu- {
     background:var(--main-color) !important;
 }
+.bd-pfbtn {
+    width:150px;
+    height:25px;
+    transition:250ms box-shadow;
+}
+.bd-pfbtn:hover {
+    box-shadow:0px 2px 10px rgba(0,0,0,0.5);
+}
+
+
 
 /*9.s. Server Settings*/
 .selectableItem-1MP3MQ.selected-31soGA {
@@ -1897,6 +2147,26 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .ace_scrollbar-h::-webkit-scrollbar-thumb, .ace_text-input {
     background:var(--hover-color) !important;
     border-radius:50px !important;
+}
+
+/*9.u Changelog*/
+#bd-settingspane-container .bda-slist::before {
+  content:"What's new in Aurora v1.2.1?\A -New Changelog \A -Small Tweaks to things like buttons\A-New Typing Indicator & Role Design\A-Themed New Areas\A-New Addon";
+  display: block;
+  line-height:22px;
+  font-size:18px;
+  position: relative;
+  background: var(--main-color);
+  padding: 10px 15px;
+  white-space: pre;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  width:310px !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  font-weight: 500;
+  margin-top:-10px;
+  color: #fff;
+  text-transform: none;
 }
 /*============== END OF SECTION ============== */
 
@@ -2301,5 +2571,41 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 	background:var(--backdrop) !important;
 	background-size:cover !important;
 }
+
+/*13.e. Read ALl Notifications*/
+.RANbutton {
+    width:68px;
+    font-size:11px !important;
+}
 /*============== END OF SECTION ============== */
+
+/*14. Roundness*/
+:root {
+	--chat-avatar-roundness:5px;
+	--media-roundness:50px;
+	--guild-hovered-roundness:12px;
+}
+.da-guildsWrapper .guildInner-3DSoA4:hover,
+.da-guild.da-selected .da-guildInner,
+#app-mount .guildsWrapper-5TJh6A.foldercontent .da-guildIcon:hover,
+#app-mount .guildsWrapper-5TJh6A.foldercontent .guildInner-3DSoA4:hover,
+#app-mount .inner-1W0Bkn {
+	border-radius:var(--guild-hovered-roundness) !important;
+}
+.da-guildInner {
+	border-radius:var(--media-roundness) !important;
+	transition:350ms all ease;
+}
+.mask-3OgeRz,
+.image-33JSyf,
+.status-oxiHuE:not(.status-3fQvEa),
+.avatar-small,
+.avatar-xxlarge,
+.inner-1W0Bkn,
+.avatar-large,
+.da-guildsError,
+.da-guildsAdd,
+.da-iconCircle {
+	border-radius:var(--media-roundness) !important;
+}
 /*Thanks so much for using my theme, whoever decided to look here! Also thank you to the derealised server and everyone in it for their tags.*/
