@@ -2588,7 +2588,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .da-guild.da-selected .da-guildInner,
 #app-mount .guildsWrapper-5TJh6A.foldercontent .da-guildIcon:hover,
 #app-mount .guildsWrapper-5TJh6A.foldercontent .guildInner-3DSoA4:hover,
-#app-mount .inner-1W0Bkn {
+#app-mount .da-guildsWrapper .inner-1W0Bkn {
 	border-radius:var(--guild-hovered-roundness) !important;
 }
 .da-guildInner {
@@ -2604,7 +2604,8 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .avatar-large,
 .da-guildsError,
 .da-guildsAdd,
-.da-iconCircle {
+.da-iconCircle,
+#app-mount .da-privateChannels .inner-1W0Bkn {
 	border-radius:var(--media-roundness) !important;
 }
 /*Thanks so much for using my theme, whoever decided to look here! Also thank you to the derealised server and everyone in it for their tags.*/
