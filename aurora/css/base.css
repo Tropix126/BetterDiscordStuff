@@ -702,7 +702,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 	background-attachment: fixed;
 }
 .guildsWrapper-5TJh6A.foldercontent .da-guildIcon {
-    border-radius:50px !important;
+    border-radius:var(--media-roundness) !important;
 }
 .da-guildsWrapper .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
 .guildsWrapper-5TJh6A.foldercontent .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
