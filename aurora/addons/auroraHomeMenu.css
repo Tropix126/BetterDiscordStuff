@@ -22,3 +22,6 @@
   font-size: 11.3px !important;
   margin-left:-10px !important;
 }
+.da-privateChannels .da-channel {
+    padding-right:0px;
+}
