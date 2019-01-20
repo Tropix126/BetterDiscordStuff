@@ -1,4 +1,4 @@
-/*//META{"name":"Aurora","description":"A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.","author":"Tropical","version":"1", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/aurora/"}*//**/
+/*//META{"name":"Aurora","description":"A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.","author":"Tropical","version":"1.2", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/aurora/"}*//**/
 /*Import CSS From Github*/
 @import url('https://tropix126.github.io/BetterDiscordStuff/aurora/css/base.css');
 /*
@@ -20,8 +20,9 @@
 /*Backdrop Variables*/
 	--backdrop: url(https://i.imgur.com/xcjXx3E.jpg); /*Normal Backdrop*/
 	--backdropblurred: url(https://i.imgur.com/ExNrzGV.jpg); /*Darker/Blurred Version of Backdrop*/
-	--backdrop-darkness:transparent;
-/*Other Variables*/
-	--chat-avatar-roundness:5px;
-	--media-roundness:50px;
+	--backdrop-darkness:transparent; /*Brightness of var(--backdrop);*/
+/*Roundness Variables*/
+	--chat-avatar-roundness:5px !important; /*Roundness of chat avatars*/
+	--media-roundness:50px !important; /*General Roundness*/
+	--guild-hovered-roundness:12px !important; /*Roundness of servers on hover*/
 }
