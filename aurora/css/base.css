@@ -802,10 +802,9 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
   height: calc(100% - 1px) !important;
   width: calc(100% - 1px) !important;
   margin: 0;
-  top: -1px;
-  left: -1px;
+  top: -2px;
+  left: -2px;
   background: transparent;
-	border-radius:50px !important;
   border:2px solid;
   transition-duration: .5s;
   box-shadow: none;
