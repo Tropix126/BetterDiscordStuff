@@ -795,28 +795,6 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
   --invisible: #747f8d;
   --streaming: #643da7;
 }
-.member-3W1lQa [class*="status-"] {transition: all ease .05s}
-.status-oxiHuE:not(.status-3fQvEa) {
-  height: calc(100% - 1px);
-  width: calc(100% - 1px);
-  margin: 0;
-  background: transparent;
-  border:2px solid;
-  transition-duration: .5s;
-  box-shadow: none;
-  pointer-events: none;
-}
-.mask-3OgeRz,
-.image-33JSyf {
-  -webkit-mask: none;
-  mask: none;
-}
-.status-oxiHuE:not(.status-3fQvEa).online-2S838R {border-color: var(--online) !important;}
-.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT {border-color: var(--idle) !important;}
-.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {border-color: var(--dnd) !important;}
-.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {border-color: var(--streaming) !important;}
-.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek {border-color: var(--offline) !important;}
-.status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0 {border-color: var(--invisible) !important;}
 /*============== END OF SECTION ============== */
 
 /*7. Popouts and Dropdowns*/
