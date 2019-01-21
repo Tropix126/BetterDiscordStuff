@@ -694,7 +694,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 .da-guildsWrapper,
 .guildsWrapper-5TJh6A.foldercontent {
 	background: var(--backdropblurred);
-	width:90px !important;
+	width:90px;
 	background-size:cover !important;
 	background-position: center;
 	background-attachment: fixed;
