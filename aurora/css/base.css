@@ -788,7 +788,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 
 /*6.c. User Status*/
 :root {
-	--online: #43b581;
+  --online: #43b581;
   --idle: #faa61a;
   --dnd: #f04747;
   --offline: #636b75;
@@ -797,8 +797,8 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 }
 .member-3W1lQa [class*="status-"] {transition: all ease .05s}
 .status-oxiHuE:not(.status-3fQvEa) {
-  height: calc(100% - 1px) !important;
-  width: calc(100% - 1px) !important;
+  height: calc(100% - 1px);
+  width: calc(100% - 1px);
   margin: 0;
   top: -2px;
   left: -2px;
