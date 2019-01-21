@@ -12,7 +12,6 @@
     flex-direction: row;
     flex-basis: 300px;
     transition: opacity 300ms;
-    width:calc(20% + 20px);
     display:inline-block;
     position: relative;
 }
