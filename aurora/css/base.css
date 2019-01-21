@@ -2193,13 +2193,13 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
   white-space: pre;
   margin-bottom: 15px;
   border-radius: 4px;
-  width:420px !important;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   font-weight: 500;
   margin-top:-10px;
   color: #fff;
   text-transform: none;
   overflow:hidden;
+  width:fit-content;
 }
 /*============== END OF SECTION ============== */
 
