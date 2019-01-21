@@ -2633,10 +2633,8 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .bda-slist li[data-name="ShowHiddenChannels"]:after,
 .bda-slist li[data-name="ThemeRepo"]:after,
 .bda-slist li[data-name="CreationDate"]:after,
-.bda-slist li[data-name="Compact Members List"]:after,
 .bda-slist li[data-name="Friends List Restyle"]:after,
 .bda-slist li[data-name="FullSizePfp"]:after,
-.bda-slist li[data-name="GlowStatus"]:after,
 .bda-slist li[data-name="Large Chat Avatars"]:after,
 .bda-slist li[data-name="ServerColumns"]:after {
     content:'Compatible with Aurora';
@@ -2657,11 +2655,11 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
     margin-left:200px;
 }
 .bda-slist li[data-name="GoogleTranslateOption"]:after {
-    margin-top:-156px;
+    margin-top:-140px;
     margin-left:265px;
 }
 .bda-slist li[data-name="CreationDate"]:after {
-    margin-top:-93px;
+    margin-top:-124px;
     margin-left:175px;
 }
 .bda-slist li[data-name="PersonalPins"]:after {
@@ -2681,29 +2679,24 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
     margin-left:245px;
 }
 .bda-slist li[data-name="ServerFolders"]:after {
-    margin-top:-165px;
+    margin-top:-155px;
     margin-left:180px;
 }
 .bda-slist li[data-name="Share Button"]:after {
-    margin-top:-108px;
-    margin-left:185px;
+    margin-top:-92px;
+    margin-left:183px;
 }
 .bda-slist li[data-name="ShowHiddenChannels"]:after {
     margin-top:-125px;
     margin-left:215px;
 }
-.bda-slist li[data-name="Compact Members List"]:after,
 .bda-slist li[data-name="Friends List Restyle"]:after {
     margin-top:-82px;
-    margin-left:190px;
+    margin-left:195px;
 }
 .bda-slist li[data-name="FullSizePfp"]:after {
-    margin-top:-97px;
+    margin-top:-80px;
     margin-left:140px;
-}
-.bda-slist li[data-name="GlowStatus"]:after {
-    margin-top:-100px;
-    margin-left:145px;
 }
 .bda-slist li[data-name="Large Chat Avatars"]:after {
     margin-top:-82px;
