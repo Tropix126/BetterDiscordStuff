@@ -192,7 +192,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora v1.2.1';
+	content:'Aurora v1.2.2';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -245,7 +245,9 @@ body::before {
 .messageGroupBlockedBtn-1PBBh- {
     background:transparent !important;
 }
-
+.option-1l2vXE .lookFilled-1Gx00P.colorGreen-29iAKY {
+    background:var(--main-color) !important;
+}
 
 /*3.b. Dividers*/
 .unreadBar-3YD_k9 {background:var(--main-color);}
@@ -313,6 +315,18 @@ body::before {
 .title-3qD0b- .icon-1R19_H[name="NotificationBell"] {
     background-image:url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDIyYzEuMSAwIDItLjkgMi0yaC00YzAgMS4xLjg5IDIgMiAyem02LTZ2LTVjMC0zLjA3LTEuNjQtNS42NC00LjUtNi4zMlY0YzAtLjgzLS42Ny0xLjUtMS41LTEuNXMtMS41LjY3LTEuNSAxLjV2LjY4QzcuNjMgNS4zNiA2IDcuOTIgNiAxMXY1bC0yIDJ2MWgxNnYtMWwtMi0yeiIvPjwvc3ZnPg==") !important;
 }
+.title-3qD0b- .icon-1R19_H[name="Phone"]:hover {
+    animation:shake 150ms linear infinite;
+}
+@keyframes shake {
+    from {
+        transform: rotate(-7deg);
+    }
+    to {
+        transform: rotate(7deg);
+    }
+}
+
 .title-3qD0b- .icon-1R19_H {
     transform:scale(0.9);
 }
@@ -426,7 +440,7 @@ div[style*="width: 100%; height: 20px"] {
     bottom: 40px;
     right: 35px;
     padding: 0;
-    border-radius:500px !important;
+    border-radius:border-radius:calc(var(--media-roundness) + 75px) !important;
     transform: translate(50%, 50%) scale(0.2);
     width: 255px;
     height: 255px;
@@ -601,6 +615,14 @@ div[style*="width: 100%; height: 20px"] {
 	font-family:'Satisfy';
 	font-weight:bold;
 	color:var(--hover-color);
+}
+@keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}
+.button-2b6hmh:hover .buttonInner-LmnaN_ {
+    animation:4s spin linear infinite;
 }
 .da-accountDetails .username {
   font-size: 13px;
@@ -874,6 +896,19 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     -webkit-backface-visibility:hidden;
     background: transparent !important;
     animation: anim-status 400ms cubic-bezier(.4,0,0,1) backwards;
+}
+.da-menu.da-alt {
+    border:2px solid var(--main-color-faded);
+    box-shadow:inset 0px 0px 0px 1000px rgba(0,0,0,0.5) !important;
+}
+.alt-3btY0e .item-1GzJrl .online-2S838R, .alt-3btY0e .item-1GzJrl .idle-3DEnRT, .alt-3btY0e .item-1GzJrl .dnd-1_xrcq, .alt-3btY0e .item-1GzJrl .invisible-1kp8Z0 {
+    margin-top:10px !important;
+}
+.alt-3btY0e .item-1GzJrl:nth-of-type(5) .status-oxiHuE {
+  background-image: url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/status_asset_4.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 .alt-3btY0e.menu-Sp6bN1 {box-shadow:inset 0px 0px 0px 1000px rgba(0,0,0,0.7);}
 .alt-3btY0e .item-1GzJrl:first-of-type {padding-left:0px !important; box-sizing: content-box !important;}
@@ -1819,6 +1854,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .ui-switch.checked {
     background:var(--main-color) !important;
 }
+.option-1l2vXE .lookFilled-1Gx00P.colorGreen-29iAKY {
+    background:var(--main-color) !important;
+}
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
 .themeDefault-24hCdX {
     background:rgba(255,255,255,0.25);
@@ -2126,7 +2164,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 #bd-settingspane-container .bda-slist::before {
-  content:"What's new in Aurora v1.2.1?\A -New Changelog \A -Small Tweaks to things like buttons\A-New Typing Indicator & Role Design\A-Themed New Areas\A-New Addon";
+  content:"What's new in Aurora v1.2.2?\A -Animated Icons! \A -Several new addons.\A-Status Picker Redesign.\A -Support for var(--media-roundness) on Search Bubble.";
   display: block;
   line-height:22px;
   font-size:18px;
@@ -2136,7 +2174,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
   white-space: pre;
   margin-bottom: 15px;
   border-radius: 4px;
-  width:310px !important;
+  width:420px !important;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   font-weight: 500;
   margin-top:-10px;
@@ -2445,6 +2483,17 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .friend-table-add-header {
 	background:transparent !important;
 	border:none !important;
+}
+.da-friendsTable .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    border:none;
+    background:var(--main-color) !important;
+}
+.da-friendsTable .scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color:rgba(0,0,0,0.5) !important;
+    border:none;
+}
+.da-friendsTable .scroller-2FKFPG::-webkit-scrollbar {
+    width: 10px !important;
 }
 .container-3gCOGc {
 	background:var(--backdropblurred) !important;
