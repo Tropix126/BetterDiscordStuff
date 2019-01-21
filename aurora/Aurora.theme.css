@@ -1,4 +1,4 @@
-/*//META{"name":"Aurora","description":"A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.","author":"Tropical","version":"1.2", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/aurora/"}*//**/
+/*//META{"name":"Aurora","description":"A cozy dark theme with blurred elements and gradients. Requires BetterDiscord's Normalized classes function to be enabled.","author":"Tropical","version":"1.2.2", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/aurora/"}*//**/
 /*Import CSS From Github*/
 @import url('https://tropix126.github.io/BetterDiscordStuff/aurora/css/base.css');
 /*
@@ -25,4 +25,11 @@
 	--chat-avatar-roundness:5px !important; /*Roundness of chat avatars*/
 	--media-roundness:50px !important; /*General Roundness*/
 	--guild-hovered-roundness:12px !important; /*Roundness of servers on hover*/
+/*Status Variables*/
+	--online: #43b581 !important; /*Color When someone is Online*/
+	--idle: #faa61a !important; /*Color When someone is Idle*/
+	--dnd: #f04747 !important; /*Color When someone is in Do Not Disturb*/
+	--offline: #636b75 !important; /*Color When someone is offline*/
+	--invisible: #747f8d !important; /*Color When someone is Invisible*/
+	--streaming: #643da7 !important; /*Color When someone is Streaming*/
 }
