@@ -128,6 +128,7 @@ TABLE OF CONTENTS
 	13.c. GoogleTranslateOption
 	13.d. Share Button
 	13.e. Read All Notifications
+	13.f. Compatibility Tags
 
 14. Roundness
 */
@@ -192,7 +193,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora v1.2.2';
+	content:'Aurora v1.2.3';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -662,8 +663,9 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
 	background-image:url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/spectra_asset_1.svg)!important;
 	filter:hue-rotate(320deg);
 }
-.da-channel .da-wrapper .da-inner[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
-	margin-top:-2px;
+.da-privateChannels .da-channel .da-image,
+.da-privateChannels .da-channel .da-avatar {
+    box-shadow:none !important;
 }
 
 /*4.f. Channel Notice*/
@@ -818,6 +820,20 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"]{
   -webkit-mask: none;
   mask: none;
 }
+.status-oxiHuE.typing-1KJk_j {
+  background-color: rgba(0, 0, 0, .6) !important;
+  height: calc(100% - 1px) !important;
+  width: calc(100% - 1px) !important;
+  left:-2px;
+}
+.status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL {border-radius:var(--media-roundness) !important;}
+.status-oxiHuE.typing-1KJk_j.online-2S838R.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--online) !important;}
+.status-oxiHuE.typing-1KJk_j.idle-3DEnRT.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--idle) !important;}
+.status-oxiHuE.typing-1KJk_j.dnd-1_xrcq.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--dnd) !important;}
+.status-oxiHuE.typing-1KJk_j.streaming-2_dnHe.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--streaming) !important;}
+.status-oxiHuE.typing-1KJk_j.offliasne-3qoTek.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--offline) !important;}
+.status-oxiHuE.typing-1KJk_j.invisible-1kp8Z0.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--invisible) !important;}
+
 /*============== END OF SECTION ============== */
 
 /*7. Popouts and Dropdowns*/
@@ -2167,7 +2183,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*9.u Changelog*/
 #bd-settingspane-container .bda-slist::before {
-  content:"What's new in Aurora v1.2.2?\A -Animated Icons! \A -Several new addons.\A-Status Picker Redesign.\A -Support for var(--media-roundness) on Search Bubble.";
+  content:"What's new in Aurora v1.2.2 and v1.2.3?\A -Animated Icons! \A -Several new addons.\A-Status Picker Redesign.\A -Support for var(--media-roundness) on Search Bubble.\A-Compatibility Tags for Themes & Plugins";
   display: block;
   line-height:22px;
   font-size:18px;
@@ -2599,10 +2615,103 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 	background-size:cover !important;
 }
 
-/*13.e. Read ALl Notifications*/
+/*13.e. Read All Notifications*/
 .RANbutton {
     width:68px;
     font-size:11px !important;
+}
+
+/*13.f. Compatibility Tags*/
+.bda-slist li[data-name="BetterFormattingRedux"]:after,
+.bda-slist li[data-name="Discord Experiments"]:after,
+.bda-slist li[data-name="GoogleTranslateOption"]:after,
+.bda-slist li[data-name="PersonalPins"]:after,
+.bda-slist li[data-name="PluginRepo"]:after,
+.bda-slist li[data-name="ReadAllNotificationsButton"]:after,
+.bda-slist li[data-name="ServerFolders"]:after,
+.bda-slist li[data-name="Share Button"]:after,
+.bda-slist li[data-name="ShowHiddenChannels"]:after,
+.bda-slist li[data-name="ThemeRepo"]:after,
+.bda-slist li[data-name="CreationDate"]:after,
+.bda-slist li[data-name="Compact Members List"]:after,
+.bda-slist li[data-name="Friends List Restyle"]:after,
+.bda-slist li[data-name="FullSizePfp"]:after,
+.bda-slist li[data-name="GlowStatus"]:after,
+.bda-slist li[data-name="Large Chat Avatars"]:after,
+.bda-slist li[data-name="ServerColumns"]:after {
+    content:'Compatible with Aurora';
+    background:var(--main-color);
+    padding:2px;
+    width:160px;
+    height:18px;
+    border-radius:3px;
+    display:block;
+    position:absolute;
+}
+.bda-slist li[data-name="BetterFormattingRedux"]:after {
+    margin-top:-93px;
+    margin-left:220px;
+}
+.bda-slist li[data-name="Discord Experiments"]:after {
+    margin-top:-65px;
+    margin-left:200px;
+}
+.bda-slist li[data-name="GoogleTranslateOption"]:after {
+    margin-top:-156px;
+    margin-left:265px;
+}
+.bda-slist li[data-name="CreationDate"]:after {
+    margin-top:-93px;
+    margin-left:175px;
+}
+.bda-slist li[data-name="PersonalPins"]:after {
+    margin-top:-125px;
+    margin-left:165px;
+}
+.bda-slist li[data-name="PluginRepo"]:after {
+    margin-top:-125px;
+    margin-left:160px;
+}
+.bda-slist li[data-name="ThemeRepo"]:after {
+    margin-top:-125px;
+    margin-left:170px;
+}
+.bda-slist li[data-name="ReadAllNotificationsButton"]:after {
+    margin-top:-125px;
+    margin-left:245px;
+}
+.bda-slist li[data-name="ServerFolders"]:after {
+    margin-top:-165px;
+    margin-left:180px;
+}
+.bda-slist li[data-name="Share Button"]:after {
+    margin-top:-108px;
+    margin-left:185px;
+}
+.bda-slist li[data-name="ShowHiddenChannels"]:after {
+    margin-top:-125px;
+    margin-left:215px;
+}
+.bda-slist li[data-name="Compact Members List"]:after,
+.bda-slist li[data-name="Friends List Restyle"]:after {
+    margin-top:-82px;
+    margin-left:190px;
+}
+.bda-slist li[data-name="FullSizePfp"]:after {
+    margin-top:-97px;
+    margin-left:140px;
+}
+.bda-slist li[data-name="GlowStatus"]:after {
+    margin-top:-100px;
+    margin-left:145px;
+}
+.bda-slist li[data-name="Large Chat Avatars"]:after {
+    margin-top:-82px;
+    margin-left:180px;
+}
+.bda-slist li[data-name="ServerColumns"]:after {
+    margin-top:-82px;
+    margin-left:180px;
 }
 /*============== END OF SECTION ============== */
 
