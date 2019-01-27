@@ -2743,7 +2743,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 }
 
 /*13.j. StatusEverywhere*/
-.da-messageCozy .da-status {
+#app-mount .da-messageCozy .da-status {
 	border-radius:var(--chat-avatar-roundness) !important;
 }
 /*============== END OF SECTION ============== */
