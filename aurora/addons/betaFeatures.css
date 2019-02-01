@@ -171,5 +171,5 @@
 
 /*changelog*/
 #bd-settingspane-container .bda-slist::before {
-  content:"What's new in Aurora v1.2.x?\A -Animated Icons! \A -Several new addons.\A-Status Picker Redesign.\A -Support for var(--media-roundness) on Search Bubble.\A-Compatibility Tags for Themes & Plugins\A -Reply System, Permissions Viewer, DetailedSeverTooltips and StatusEverywhere are now themed!\A=======BETA FEATURES=======\AWhat's new in Aurora BETA v2.3X?\A-New Titlebar\ALarger Reactions\A-Category Animations\A-Reactions Overhaul\A-More SVGS!\ATweak Account Details Container(yes, again ugh.)\A-Fix Server Dropdown Positioning.";
+  content:"What's new in Aurora v1.2.x?\A -Animated Icons! \A -Several new addons.\A-Status Picker Redesign.\A -Support for var(--media-roundness) on Search Bubble.\A-Compatibility Tags for Themes & Plugins\A -Reply System, Permissions Viewer, DetailedSeverTooltips and StatusEverywhere are now themed!\A=======BETA FEATURES=======\AWhat's new in Aurora BETA v2.3X?\A-New Titlebar\A-Larger Reactions\A-Category Animations\A-Reactions Overhaul\A-More SVGS!\A-Tweak Account Details Container(yes, again ugh.)\A-Fix Server Dropdown Positioning.";
 }
