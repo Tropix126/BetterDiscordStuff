@@ -259,7 +259,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora v2.40';
+	content:'Aurora v2.41';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -1180,9 +1180,12 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
   width: calc(100% - 1px) !important;
   left:-2px;
 }
+.status-oxiHuE.animate-iYrs3- {
+    transition: none !important;
+}
 .status-oxiHuE.typing-1KJk_j .pulsingEllipsisItem-32hhWL {border-radius:var(--media-roundness) !important;}
 .status-oxiHuE.typing-1KJk_j.online-2S838R.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--online) !important;}
-.status-oxiHuE.typing-1KJk_j.idle-3DEnRT.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--dnd) !important;}
+.status-oxiHuE.typing-1KJk_j.idle-3DEnRT.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--idle) !important;}
 .status-oxiHuE.typing-1KJk_j.dnd-1_xrcq.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--dnd) !important;}
 .status-oxiHuE.typing-1KJk_j.streaming-2_dnHe.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--streaming) !important;}
 .status-oxiHuE.typing-1KJk_j.offliasne-3qoTek.typing-1KJk_j .pulsingEllipsisItem-32hhWL {background-color: var(--offline) !important;}
@@ -3440,7 +3443,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .da-guildsError,
 .da-guildsAdd,
 .da-iconCircle,
-#app-mount .da-privateChannels .inner-1W0Bkn {
+#app-mount .da-privateChannels .inner-1W0Bkn,
+.da-guildPlaceholder,
+.callAvatarBorder-1D_KaE,
+.da-callAvatar {
 	border-radius:var(--media-roundness) !important;
 }
 /*============== END OF SECTION ============== */
