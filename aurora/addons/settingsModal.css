@@ -1,0 +1,28 @@
+.layers-3iHuyZ {
+    align-items:center;
+    justify-content:center;
+}
+.layers-3iHuyZ > .layer-3QrUeG:first-child {
+  opacity: 1 !important;
+  transform: none !important;
+}
+.layers-3iHuyZ > .layer-3QrUeG:nth-child(2)::before {
+  content: "";
+  position: fixed !important;
+  background: rgba(0,0,0,0.75);
+  height:10000%;
+  width:10000%;
+  top: calc((100% - 70%) / -1); left: calc((100% - 50%) / -1);
+}
+.layers-3iHuyZ > .layer-3QrUeG:nth-child(2) {
+  width: 70%;
+  height: 70%;
+  top:unset;
+  bottom:unset;
+  right:unset;
+  left:unset;
+  border-radius:7px;
+  z-index:100;
+  transform: translateZ(0);
+  overflow:visible;
+}
