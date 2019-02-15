@@ -7,6 +7,11 @@
   margin-right:2px;
   width: calc(25% - 10px);
 }
+.da-privateChannels .da-channel .wrapper-232cHJ {
+    position:absolute;
+    top:20px;
+    transform:scale(0.7);
+}
 .privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
   height: 50%;
   flex-direction: column;
