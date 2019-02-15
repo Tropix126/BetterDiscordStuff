@@ -202,3 +202,45 @@
 .friendsTableBody-1ZhKif[class*="scroller"] .friendsRow-2yicud {
     min-width: 20%
 }
+.listRow-hutiT_:hover {background:rgba(0,0,0,0.5) !important;}
+.listRow-hutiT_ {
+    background: rgba(0,0,0,0.35);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin: 14px;
+    width:109px;
+    height:70px;
+    flex-direction: row;
+    flex-basis: 300px;
+    transition: opacity 300ms;
+    display:inline-block;
+    position: relative;
+    transition:250ms background;
+}
+.guildNick-3uAm3i {
+    position:absolute;
+}
+.root-SR8cQa {
+    width:700px;
+}
+.listName-3w10cx {
+    margin-top:7px;
+}
+.body-3ND3kc {
+    height:300px;
+}
+.listAvatar-1NlAhb {
+    box-shadow: none;
+    opacity: 0.8;
+    transition: opacity 500ms, transform .2s linear, box-shadow .2s linear;
+    transform: scale(0.97) perspective(1px);
+}
+.listRow-hutiT_:hover .listAvatar-1NlAhb {
+    opacity: 1;
+    transform: scale(1) perspective(1px);
+    box-shadow: none
+}
+#app-mount .friendsRow-2yicud:hover {
+    border-radius:initial !important;
+    padding:initial !important;
+}
