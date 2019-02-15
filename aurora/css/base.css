@@ -1030,7 +1030,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .guildSeparator-1X4GQ1:after {display:none !important;}
 .da-guildsWrapper,
 .guildsWrapper-5TJh6A.foldercontent {
-	background: var(--backdropblurred)
+	background: var(--backdropblurred);
 	width:90px;
 	background-size:cover !important;
 	background-position: center;
@@ -3472,3 +3472,4 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 /*Made with ♥ by Tropical and the Derealised Community.
 Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
+
