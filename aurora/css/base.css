@@ -954,7 +954,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	overflow: hidden !important;
 	border-radius: 0 6px 6px 0 !important;
 	margin-right: 25px;
-	background: var(--backdropblurred)
+	background: var(--backdropblurred);
 	background-size:cover !important;
 	background-position: center;
 	background-attachment: fixed;
