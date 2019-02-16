@@ -1169,6 +1169,14 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
   box-shadow: none;
   pointer-events: none;
 }
+:root {
+	--online: #43b581;
+	--idle: #faa61a;
+	--dnd: #f04747;
+	--offline: #636b75;
+	--invisible: #747f8d;
+	--streaming: #643da7;
+}
 .mask-3OgeRz,
 .image-33JSyf {
   -webkit-mask: none;
