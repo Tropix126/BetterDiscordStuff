@@ -2353,7 +2353,7 @@ body #app-mount .side-8zPYf6 .itemSelected-1qLhcL,
 body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
     background:var(--main-color) !important;
 }
-.da-layer {
+.layers-3iHuyZ>.layer-3QrUeG {
     animation:fadein 1s ease !important;
 }
 @keyframes fadein {
