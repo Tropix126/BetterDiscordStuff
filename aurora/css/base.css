@@ -1400,7 +1400,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
     background:transparent !important;
 }
 .headerSpotify-zpWxgT {
-    background:var(--hover-color);
+    background:var(--main-color-faded);
 }
 .headerSpotify-zpWxgT .anchor-3Z-8Bb {
     color:#fff !important;
