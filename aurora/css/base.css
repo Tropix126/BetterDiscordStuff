@@ -59,34 +59,35 @@ TABLE OF CONTENTS
   5.e. Tooltips
 
 6. Members List
-	6.a. Transparency
-	6.b. Selected and Hovered Content
-	6.c. User Status
+  6.a. Transparency
+  6.b. Selected and Hovered Content
+  6.c. User Status
 
 7. Popups and Dropdowns
-	7.a. Server Dropdown
-	7.b. Status Picker
-	7.c. Context Menus
-	7.d. User Popouts
-	7.e. Pinned Messages/Mentions
-	7.f. Search Popout
-	7.g. Add to Group DM
-	7.h. Select Popouts
-	7.i. Emoji Picker
-	7.j. Gif Picker
-	7.k. RTC Connection Popout
-	7.l. Toasts
-	7.m. @Everyone Popout
+  7.a. Server Dropdown
+  7.b. Status Picker
+  7.c. Context Menus
+  7.d. User Popouts
+  7.e. Pinned Messages/Mentions
+  7.f. Search Popout
+  7.g. Add to Group DM
+  7.h. Select Popouts
+  7.i. Emoji Picker
+  7.j. Gif Picker
+  7.k. RTC Connection Popout
+  7.l. Toasts
+  7.m. @Everyone Popout
 
 8. Modals
-	8.a. Transparency
-	8.b. Upload Modal
-	8.c. Keyboard Shortcuts Modal
-	8.d. Quick Switcher
-	8.e. Screenshare Modal
-	8.f. Add/Create Guilds Modal
-	8.g. Reactions Modal
+  8.a. Transparency
+  8.b. Upload Modal
+  8.c. Keyboard Shortcuts Modal
+  8.d. Quick Switcher
+  8.e. Screenshare Modal
+  8.f. Add/Create Guilds Modal
+  8.g. Reactions Modal
   8.h. Profile Modal
+  8.i. Download Apps Screen
 
 9. Settings
   9.a. Transparency and Sidebar
@@ -112,30 +113,30 @@ TABLE OF CONTENTS
   9.u. Changelog
 
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
-	10. Keyframes
+   10. Keyframes
 
 11. Store, Activity, Library, Friends and Server Discovery
-	11.a. Store
-	11.b. Activity
+  11.a. Store
+  11.b. Activity
   11.c. Library
   11.d. Friends
 
 12. Out of app areas
-	12.a. Login Screen
-	12.b. Crash Screen
-	12.c. Loading Screen
+  12.a. Login Screen
+  12.b. Crash Screen
+  12.c. Loading Screen
 
 13. Plugins
-	13.a. Theme and Pluginrepo
-	13.b. BetterFormattingRedux
-	13.c. GoogleTranslateOption
-	13.d. Share Button
-	13.e. Read All Notifications
-	13.f. Compatibility Tags
-	13.g. DetailedServerTooltips
-	13.h. Reply System
-	13.i. Permissions Viewer
-	13.j. StatusEverywhere
+  13.a. Theme and Pluginrepo
+  13.b. BetterFormattingRedux
+  13.c. GoogleTranslateOption
+  13.d. Share Button
+  13.e. Read All Notifications
+  13.f. Compatibility Tags
+  13.g. DetailedServerTooltips
+  13.h. Reply System
+  13.i. Permissions Viewer
+  13.j. StatusEverywhere
 
 14. Roundness
 
@@ -259,7 +260,7 @@ body::before {
 /*2.a. Main Titlebar*/
 .wordmark-2iDDfm path {display:none;}
 .wordmark-2iDDfm:after {
-	content:'Aurora v2.42';
+	content:'Aurora v2.44';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -365,10 +366,6 @@ body::before {
 	background:transparent !important;
 	border:none !important;
 	box-shadow:none !important;
-}
-.itemContainer-WiE19S,
-.emptyMessage-2wGhmr {
-	display:none;
 }
 .markup-2BOw-j pre {
     background:transparent !important;
@@ -528,6 +525,19 @@ body::before {
 /*3.g. Welcome Message*/
 .da-h1 {
 	color:var(--hover-color) !important;
+}
+.exclamation-1mi7Vi {-webkit-mask-image: url(https://discordapp.com/assets/7616be62f9b90270b5a2e1fe9d2ece4f.svg);}
+.share-1EA-d2 {-webkit-mask-image: url(https://discordapp.com/assets/07778297eb1e1e3d9bd3cd302920d5fb.svg);}
+.mobile-3_KEmF {-webkit-mask-image: url(https://discordapp.com/assets/83d501f2b7dd2987302ce29b321f4494.svg);}
+.twitter-1TN3uJ {
+  -webkit-mask-image: url(https://discordapp.com/assets/326d79eb53886c88437e99a3754b1cd0.svg);
+  -webkit-mask-size: 77%;
+}
+.icon-2shpbb {
+  -webkit-mask-size:95%;
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  background:var(--main-color) !important;
 }
 
 /*3.h. Scrollbar*/
@@ -2349,6 +2359,55 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {opacity: 0;transition:150ms ea
 .header-QKLPzZ .wrapper-2F3Zv8:active .da-status {
   display:none;
   border:none !important;
+}
+
+/*8.i. Download Apps Screen*/
+.backdrop-1wrmKB {
+	background:rgba(0,0,0,0.75) !important;
+}
+.downloadApps-wbBFdZ {
+	background:var(--backdropblurred);
+	background-size:cover;
+	border:3px solid var(--hover-color);
+}
+.platform-iik236.active-iLSdWQ {
+	border-color:var(--hover-color) !important;
+}
+.platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
+	background:var(--main-color) !important;
+	color:#fff !important;
+}
+.platform-iik236 .icon-2Pk7pb,
+.downloadButton-1bWXpg {
+	background:rgba(0,0,0,0.5) !important;
+}
+.platform-iik236 {
+	border-color:rgba(0,0,0,0.5) !important;
+}
+.platform-iik236 p {
+	color:rgba(0,0,0,0.5) !important;
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .icon-2Pk7pb {
+	background:var(--main-color) !important;
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.apple-1fKN59 {
+  -webkit-mask-image: url(https://discordapp.com/assets/57568e1cfc37c81cf56db9498b4f128a.svg);
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.windows-29yOum {
+  -webkit-mask-image: url(https://discordapp.com/assets/d6221c5e88f5cb89f125868c077e9859.svg)
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.linux-15cW1y {
+  -webkit-mask-image: url(https://discordapp.com/assets/a3bee2061afed80c5bd76ff38cd18f0e.svg);
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.ios-Z7K-rr {
+  -webkit-mask-image: url(https://discordapp.com/assets/0c460e9b848f5c4cc964ae9c62c0f9b9.svg);
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .icon-2Pk7pb.android-gGrHJu {
+  -webkit-mask-image: url(https://discordapp.com/assets/676bfec9f4343f6fcdf0a12ae313a3de.svg);
+}
+.platform-iik236.active-iLSdWQ p,
+.header-nJMe-Q {
+	color:var(--hover-color) !important;
 }
 /*============== END OF SECTION ============== */
 
