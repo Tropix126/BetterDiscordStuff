@@ -109,7 +109,7 @@ TABLE OF CONTENTS
   9.q. Dev Options
   9.r. BD Settings
   9.s. Server Settings
-  9.t. Custom CSS Editor
+  9.t. Ace CSS Editor
   9.u. Changelog
 
 10. Tag Animations (Animations by EllexideCodes, added here for support on tags.)
@@ -137,6 +137,7 @@ TABLE OF CONTENTS
   13.h. Reply System
   13.i. Permissions Viewer
   13.j. StatusEverywhere
+  13.k. Date Viewer
 
 14. Roundness
 
@@ -524,6 +525,9 @@ body::before {
 /*3.e. Chat Header*/
 .title-3qD0b- .icon-1R19_H[name="Pin"] {
     background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI0IDI0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSJub25lIiBkPSJNMCwwaDI0djI0SDBWMHoiLz4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTcuOSwxMy43IDE1LjgsMTIuNiAxNS4xLDUuMyAxNi40LDUgMTYuNCwzIDcuNiwzIDcuNiw1IDguOSw1LjMgOC4yLDEyLjYgNi4xLDEzLjcgNi4xLDE1LjcgDQoJMTEsMTUuNyAxMSwyMSAxMywyMSAxMywxNS43IDE3LjksMTUuNyAiLz4NCjwvc3ZnPg0K) !important;
+}
+.title-3qD0b- .icon-1R19_H[name="Pin"] path {
+  visibility:hidden;
 }
 .title-3qD0b- .icon-1R19_H[name="NotificationBell"] {
     background-image:url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDIyYzEuMSAwIDItLjkgMi0yaC00YzAgMS4xLjg5IDIgMiAyem02LTZ2LTVjMC0zLjA3LTEuNjQtNS42NC00LjUtNi4zMlY0YzAtLjgzLS42Ny0xLjUtMS41LTEuNXMtMS41LjY3LTEuNSAxLjV2LjY4QzcuNjMgNS4zNiA2IDcuOTIgNiAxMXY1bC0yIDJ2MWgxNnYtMWwtMi0yeiIvPjwvc3ZnPg==") !important;
@@ -3084,6 +3088,9 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 .bda-slist .bda-footer a {
 	color:var(--hover-color);
 }
+h2.ui-form-title {
+    text-transform:none !important;
+}
 #bd-settingspane-container .ui-switch-item .style-description {
 	border:none;
 }
@@ -3154,7 +3161,7 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
   background:rgba(0,0,0,0.25) !important;
 }
 
-/*9.t. Custom CSS Editor*/
+/*9.t. Ace CSS Editor*/
 #bd-customcss-detach-container {
 	width: calc(27% - 10px);
 }
@@ -3199,6 +3206,143 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 .ace_scrollbar-h::-webkit-scrollbar-thumb, .ace_text-input {
     background:var(--hover-color) !important;
     border-radius:50px !important;
+}
+#ace_settingsmenu {
+	position: absolute;
+	top: 10vh;
+	right: 20vw;
+	bottom: 10vh;
+	left: 20vw;
+	background-color: #36393f;
+	border-radius: 5px;
+	padding-right: 20px;
+    box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+}
+#ace_settingsmenu::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+#ace_settingsmenu::-webkit-scrollbar-thumb {
+    background-color: rgba(32,34,37,.6);
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+#ace_settingsmenu::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+#ace_settingsmenu .ace_optionsMenuEntry {
+    height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+#ace_settingsmenu .ace_optionsMenuEntry:hover {
+	background: none;
+}
+#ace_settingsmenu > *:last-child {
+    color: #f6f6f7;
+	float: right;
+}
+#ace_settingsmenu .ace_optionsMenuEntry label {
+    color: #f6f6f7;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    flex: 1 0 auto;
+    font-weight: 500;
+	margin-right: 10px;
+}
+#ace_settingsmenu .ace_optionsMenuEntry input[type="text"],
+#ace_settingsmenu .ace_optionsMenuEntry select {
+	box-sizing: border-box;
+    flex: 0 1 auto;
+	width: 200px;
+	float: none !important;
+    background-color: rgba(0,0,0,.1);
+    border-color: rgba(0,0,0,.3);
+    color: #f6f6f7;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    transition: background-color .15s ease,border .15s ease;
+    font-size: 16px;
+}
+#ace_settingsmenu .ace_optionsMenuEntry input[type="text"]:hover,
+#ace_settingsmenu .ace_optionsMenuEntry select:hover {
+	border-color: #040405;
+}
+#ace_settingsmenu .ace_optionsMenuEntry input[type="text"]:focus,
+#ace_settingsmenu .ace_optionsMenuEntry select:focus {
+	border-color: #7289da;
+}
+#ace_settingsmenu .ace_optionsMenuEntry select option {
+    background-color: #303339;
+    color: #f6f6f7;
+}
+#ace_settingsmenu input[type="checkbox"] {
+    position: relative;
+		cursor:pointer;
+    width: 44px;
+    height: 24px;
+	float: none !important;
+}
+#ace_settingsmenu input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background: #72767d;
+    border-radius: 14px;
+    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+}
+#ace_settingsmenu input[type="checkbox"]:checked:before {
+    background: #7289da;
+}
+#ace_settingsmenu input[type="checkbox"]:after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    background: #f6f6f7;
+    border-radius: 10px;
+    transition: all .15s ease;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.05), 0 2px 2px 0 rgba(0,0,0,.1), 0 3px 3px 0 rgba(0,0,0,.05);
+}
+#ace_settingsmenu input[type="checkbox"]:checked:after {
+    transform: translateX(20px);
+}
+.ace_closeButton {
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	top: calc(10vh - 13px);
+	right: calc(20vw - 13px);
+	z-index: 10000;
+	background-color: #36393f;
+    border-radius: 50%;
+    border: 2px solid #72767d;
+	padding: 0;
+	cursor: pointer;
+}
+.ace_closeButton:before {
+	content: "✖";
+	color: #dcddde;
+	margin-left: 11px;
+	line-height: 34px;
+	text-align: center;
+	vertical-align: middle;
+}
+.ace_closeButton:hover {
+	filter: brightness(120%);
 }
 
 /*9.u Changelog*/
@@ -3903,6 +4047,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 /*13.j. StatusEverywhere*/
 #app-mount .da-messageCozy .da-status {
 	border-radius:var(--chat-avatar-roundness) !important;
+}
+
+/*13.k. Date Viewer*/
+#dv-mount {
+    background:transparent !important;
 }
 /*============== END OF SECTION ============== */
 
