@@ -996,21 +996,17 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .accountDetails-3k9g4n .username {
 	max-width:unset !important;
 }
-.da-accountDetails .username {
-  font-weight:500;
-}
-/*Account details in margin*/
 .da-membersWrap {
-    margin-bottom:90px;
+    margin-bottom:90px !important;
 }
-.container-2Thooq .flex-1xMQg5 {margin-left:13px;}
+.container-2Thooq .flex-1xMQg5 {margin-left:13px !important;}
 .button-2b6hmh {
-    margin-right:25px;
+    margin-right:25px !important;
 }
 .vertical-V37hAW .channels-Ie2l6A:hover .button-2b6hmh {
-    margin-left:20px;
+    margin-left:20px !important;
 }
-.privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {display: none;}
+.privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {display: none !important;}
 .accountDetails-3k9g4n .username {z-index:99 !important;}
 .searchResultsWrap-2DKFzt {z-index:100 !important;}
 .vertical-V37hAW .channels-Ie2l6A {
@@ -1018,26 +1014,26 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
     overflow:visible !important;
 }
 .vertical-V37hAW .channels-Ie2l6A .accountDetails-3k9g4n .username {
-    display: inline-block;
-    font-size: 250%;
-    line-height: 85px;
-    min-width: 240px;
-    height:100px;
-    margin-left:-15px;
-    text-align: center;
+    display: inline-block !important;
+    font-size: 250% !important;
+    line-height: 85px !important;
+    min-width: 240px !important;
+    height:100px !important;
+    margin-left:-15px !important;
+    text-align: center !important;
 }
 #app-mount .accountDetails-3k9g4n {
-    position:absolute;
-    right: 0px;
-    height: 124px;
-    min-width: 240px;
-    border-top:1px solid hsla(0,0%,100%,.06);
+    position:absolute !important;
+    right: 0px !important;
+    height: 124px !important;
+    min-width: 240px !important;
+    border-top:1px solid hsla(0,0%,100%,.06) !important;
 }
 .accountDetails-3k9g4n .discriminator {
-    right: 5px;
-    position: absolute;
-    display: initial;
-    margin-top: 75px;
+    right: 5px !important;
+    position: absolute !important;
+    display: initial !important;
+    margin-top: 75px !important;
 }
 .container-2Thooq .avatar-3JE4B3:hover .da-online:after {
     content:'Online';
