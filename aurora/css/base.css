@@ -1719,11 +1719,6 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 	background:rgba(0,0,0,0.75) !important;
 	padding:7px;
 }
-.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-	background:var(--main-color) !important;
-	border-color:var(--hover-color) !important;
-}
 @keyframes context-open-new {
   0% {
     transform: scale(1, 0);
@@ -2923,18 +2918,6 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 }
 .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
 	background:var(--hover-color) !important;
-}
-.da-checkBox {
-	transition:250ms all linear;
-}
-.da-checked {
-    filter:brightness(10);
-    background-color:transparent !important;
-    border-width:2px;
-}
-.checkbox-1ix_J3:not(.checked-3_4uQ9) {
-    border-color:rgba(255,255,255,0.2) !important;
-    border-width:2px;
 }
 .lookFilled-1Gx00P.hoverGreen-1gjdJc {
     background:rgba(0,0,0,0.5);
