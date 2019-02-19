@@ -2903,6 +2903,20 @@ body #app-mouont .side-8zPYf6 .itemSelected-1qLhcL:hover {
 .ui-switch.checked {
     background:var(--main-color) !important;
 }
+[stroke*="114, 137, 218"],
+[stroke*="#7289da"] {
+    stroke:var(--hover-color) !important;
+}
+.checked-3_4uQ9 {
+    background:transparent !important;
+}
+.checkbox-1ix_J3[style*="114, 137, 218"] {
+    border-color:var(--hover-color) !important;
+}
+.checkbox-1ix_J3 {
+    border-width:2px;
+    transition:150ms all ease;
+}
 .option-1l2vXE .lookFilled-1Gx00P.colorGreen-29iAKY {
     background:var(--main-color) !important;
 }
