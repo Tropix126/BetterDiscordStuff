@@ -15,5 +15,8 @@
     transform:none !important;
 } 
 body #app-mount .da-app .da-channels:hover .da-container .button-2b6hmh {
-    margin-right:25px !important;
+    margin-right:5px !important;
+}
+body #app-mount .da-app .da-channels:hover .da-container .da-flex {
+    margin-left:-10px !important;
 }
