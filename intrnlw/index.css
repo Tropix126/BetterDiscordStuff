@@ -27,8 +27,10 @@
   background:red;
   animation:colorPulse 1s linear infinite;
 }
-
-[style*="/avatars/"] {
+[style*="/avatars/"]:nth-child(odd) {
+    background-image: url('https://cdn.discordapp.com/emojis/421680893548167198.png?v=1') !important;
+}
+[style*="/avatars/"]:nth-child(even) {
     background-image: url('https://cdn.discordapp.com/emojis/477826738546802694.png?v=1') !important;
 }
 @keyframes flash {
