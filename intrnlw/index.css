@@ -8,6 +8,13 @@
     width:9999px !important;
     color:red;
 }
+.container-3gCOGc {
+    background:radial-gradient(black, black, red, blue, red, green, blue, green, orange, red);
+}
+button {
+    background:url('https://cdn.discordapp.com/emojis/477826738546802694.png?v=1') !important;
+    background-size:50% !important;
+}
 .modal-1UGdnR {
   animation:zoom .1s linear infinite;
 }
