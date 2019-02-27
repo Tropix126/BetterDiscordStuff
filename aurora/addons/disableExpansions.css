@@ -7,16 +7,6 @@
 .da-title .da-searchBar {
     width:150px !important;
 }
-.da-channels .da-container .username,
-.da-channels .da-container .discriminator{
-    text-align:left;
-}
 .container-2Thooq .avatar-3JE4B3 {
     transform:none !important;
 } 
-body #app-mount .da-app .da-channels:hover .da-container .button-2b6hmh {
-    margin-right:5px !important;
-}
-body #app-mount .da-app .da-channels:hover .da-container .da-flex {
-    margin-left:0px !important;
-}
