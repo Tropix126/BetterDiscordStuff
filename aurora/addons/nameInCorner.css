@@ -1,0 +1,47 @@
+@mixin nameInCorner {
+.accountDetails-3k9g4n {  
+	text-align: center;
+}
+.accountDetails-3k9g4n .username {
+	max-width:unset !important;
+}
+#app-mount .da-app .da-membersWrap {
+    margin-bottom:90px !important;
+}
+#app-mount .da-app .container-2Thooq .flex-1xMQg5 {margin-left:13px !important;}
+#app-mount .da-app .button-2b6hmh {
+    margin-right:25px !important;
+}
+#app-mount .vertical-V37hAW .channels-Ie2l6A:hover .button-2b6hmh {
+    margin-left:20px !important;
+}
+#app-mount .da-app .privateChannels-1nO12o ~ .container-2Thooq .accountDetails-3k9g4n {display: none !important;}
+#app-mount .da-app .accountDetails-3k9g4n .username {z-index:99 !important;}
+#app-mount .da-app .searchResultsWrap-2DKFzt {z-index:100 !important;}
+#app-mount .da-app .vertical-V37hAW .channels-Ie2l6A {
+    z-index: 2 !important;
+    overflow:visible !important;
+}
+#app-mount .da-app .vertical-V37hAW .channels-Ie2l6A .accountDetails-3k9g4n .username {
+    display: inline-block !important;
+    font-size: 250% !important;
+    line-height: 85px !important;
+    min-width: 240px !important;
+    height:100px !important;
+    margin-left:-15px !important;
+    text-align: center !important;
+}
+#app-mount .da-app .accountDetails-3k9g4n {
+    position:absolute !important;
+    right: 0px !important;
+    height: 124px !important;
+    min-width: 240px !important;
+    border-top:1px solid hsla(0,0%,100%,.06) !important;
+}
+#app-mount .da-app .accountDetails-3k9g4n .discriminator {
+    right: 5px !important;
+    position: absolute !important;
+    display: initial !important;
+    margin-top: 75px !important;
+}
+}
