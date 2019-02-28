@@ -362,7 +362,7 @@ body::before {
 }
 .spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {
   opacity: 1;
-  filter: blur(3px);
+  filter: blur(5px);
 }
 .spoilerWarning-2aAZq1 {
   background-color: rgba(0,0,0,0.5) !important;
