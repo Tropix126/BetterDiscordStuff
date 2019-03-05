@@ -57,6 +57,10 @@ TABLE OF CONTENTS
   5.c. Unread and Selected Indicators
   5.d. Home Icon
   5.e. Tooltips
+  5.a. Canary Wrapper
+  5.b. Canary Add Guilds
+  5.c. Canary Unread Ind.
+  5.d. Canary HomeIcon
 
 6. Members List
   6.a. Transparency
@@ -1340,6 +1344,123 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .bd-tooltipArrow {
 	display: none;
 }
+
+/*5.a. Canary Wrapper*/
+.container-2td-dC,
+.container-1ETFDs,
+.guild-1EfMGQ.folder {
+	margin-left:10px;
+}
+.da-friendsOnline {
+  margin-left:0px;
+}
+/*Canary Roundness*/
+.wrapper-1Rf91z .wrapper-2lTRaf:hover,
+.container-2td-dC.da-selected .wrapper-2lTRaf,
+#app-mount .wrapper-1Rf91z.foldercontent .guildIcon-VlWW86:hover,
+#app-mount .wrapper-1Rf91z.foldercontent .wrapper-2lTRaf:hover,
+#app-mount .wrapper-1Rf91z .inner-1W0Bkn {
+	border-radius:var(--guild-hovered-roundness) !important;
+}
+.wrapper-2lTRaf {
+	border-radius:var(--media-roundness) !important;
+	transition:350ms all ease;
+}
+.da-guildsError {
+    border-color:var(--hover-color) !important;
+    background:var(--main-color-faded) !important;
+    color:var(--hover-color) !important;
+}
+.wrapper-2lTRaf {
+  background:transparent !important;
+}
+#app-mount .wrapper-1Rf91z.foldercontent {
+	border-radius:0px;
+}
+.guildSeparator-3s64Iy:after {
+	display:none !important;
+}
+.wrapper-1Rf91z,
+.wrapper-1Rf91z.foldercontent {
+	background:var(--backdropblurred);
+	width:90px;
+	background-size:cover !important;
+	background-position: center;
+	background-attachment: fixed;
+}
+.wrapper-1Rf91z.foldercontent .guildIcon-VlWW86 {
+    border-radius:var(--media-roundness) !important;
+}
+.wrapper-1Rf91z .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
+.wrapper-1Rf91z.foldercontent .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
+.wrapper-1Rf91z.foldercontent .scroller-wrap .scroller::-webkit-scrollbar {
+	display:none;
+}
+.container-2td-dC .wrapper-2lTRaf:hover,
+.container-2td-dC.da-selected .wrapper-2lTRaf {
+    background-color:rgba(0,0,0,0.5) !important;
+    box-shadow:0 0 15px rgba(0,0,0,0.5) !important;
+}
+
+/*5.b. Canary Add Guilds Button*/
+.circleIconButton-jET_ig {
+	background:rgba(0,0,0,0.5) !important;
+	border:none;
+  margin-left:10px;
+}
+
+/*5.c. Canary Unread Indicators*/
+.unread-2OHH1w:before {
+  background:var(--hover-color) !important;
+}
+.wrapper-1Rf91z .unread-2OHH1w:before {
+  box-shadow: 0 0 15px var(--hover-color);
+  transition: all .2s ease;
+}
+.wrapper-1Rf91z .selected-nT-gM3:before {
+  box-shadow:0 0 12px black;
+}
+.wrapper-1Rf91z .selected-nT-gM3:before,
+.wrapper-1Rf91z .unread-2OHH1w:hover:before {
+  border-radius: 20px;
+  height: 40px;
+  margin-top: -20px;
+}
+
+.selected-nT-gM3:before,
+.unread-2OHH1w:before {
+    border-radius:5px !important;
+    width:8px !important;
+}
+.guild-1EfMGQ:first-child.selected-ML3OIq:before {
+    display:none !important;
+}
+.selected-nT-gM3:before {
+	background:var(--main-color) !important;
+}
+
+/*5.d. Canary HomeIcon*/
+.wrapper-232cHJ {
+	background:var(--main-color) !important;
+}
+.homeIcon-tEMBK1 defs,
+.homeIcon-tEMBK1 g {
+	display: none;
+}
+#app-mount .wrapper-1Rf91z .guilds-1q_RqH>.container-2td-dC:first-child .wrapper-2lTRaf {
+  border-radius: 0px !important;
+  background:transparent !important;
+  box-shadow:none !important;
+}
+.homeIcon-tEMBK1 {
+	background: var(--main-color);
+	-webkit-mask: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIxIDZoLTJ2OUg2djJjMCAuNTUuNDUgMSAxIDFoMTFsNCA0VjdjMC0uNTUtLjQ1LTEtMS0xem0tNCA2VjNjMC0uNTUtLjQ1LTEtMS0xSDNjLS41NSAwLTEgLjQ1LTEgMXYxNGw0LTRoMTBjLjU1IDAgMS0uNDUgMS0xeiIvPjwvc3ZnPg==');
+	-webkit-mask-size: 30px;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	transition:250ms all ease;
+}
+
 /*============== END OF SECTION ============== */
 
 /*6. Members List*/
