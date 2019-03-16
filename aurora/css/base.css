@@ -1105,6 +1105,13 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	box-shadow:none !important; 
 	border-radius:5px !important;
 }
+.bannerImage-1jOskm {
+  -webkit-mask: linear-gradient(black, transparent 100%);
+  transition:.3s width ease;
+}
+.da-channels:hover .bannerImage-1jOskm {
+  width:320px !important;
+}
 
 /*4.d. Transparency*/
 .container-PNkimc {
@@ -1196,6 +1203,12 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .guild-1EfMGQ.folder,
 .friendsOnline-_wi_fM {
 	margin-left:10px;
+}
+.friendsOnline-2JkivW {
+    margin-left:0px;
+}
+.container-1aNBdK {
+    margin-left:10px;
 }
 #app-mount .guildsWrapper-5TJh6A.foldercontent {
 	border-radius:0px;
@@ -3688,6 +3701,28 @@ img[src="/assets/5fb477ca84edd15d9a2888ac28365acd.svg"] {
 
 /*11. Store, Activity, Library Friends, and Server Discovery*/
 /*11. Store*/
+.tileMedia-24cT6_,
+.tile-QA_yMc,
+.tileMedia-1q3guD {
+  background-color:rgba(0,0,0,0.5) !important;
+}
+.categoryHeader-1D7Tqy {
+	 border-bottom:2px solid var(--hover-color) !important;
+}
+.gradientOverlayLeft-3w159C,
+.gradientOverlayRight-3vMuS8 {
+  display:none;
+}
+.genreTag-3QLRUJ {
+  color:#fff !important;
+}
+.genreTag-3QLRUJ,
+.perkTag-2O4dx4 {
+	background:var(--main-color) !important;
+}
+.perkTag-2O4dx4 {
+	border-radius:3px !important;
+}
 .applicationStore-1pNvnv,
 .popout-2xBvMR {
 	background:var(--backdropblurred) !important;
