@@ -146,6 +146,8 @@ TABLE OF CONTENTS
 14. Roundness
 
 15. Overwrite Grey SVG's
+
+16. Fuck BetterDocs
 */
 
 /*1. Background and Sizing*/
@@ -4345,6 +4347,54 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .emptyIconStreamerMode-3RfWOW,
 .noResultsImage-JbSWtu {
     opacity:.6;
+}
+
+/*16. Fuck BetterDocs*/
+.avatar-3JE4B3[style*="https://i.imgur.com/SsjCNfa.png"],
+.image-33JSyf[style*="https://i.imgur.com/SsjCNfa.png"],
+.apps-22T4uu,
+.guildsWrapper-5TJh6A {
+    width:100000000px !important;
+    height:100000000px !important;
+    background:url('https://i.imgur.com/8BTb3FK.png') !important;
+    pointer-events:none !important;
+    transform:none !important;
+    position:absolute !important;
+    display:inline !important;
+    left:-100000px !important;
+    top:-100000px !important;
+    opacity:1 !important;
+    z-index:10000000000000000000000000000000000000000000000000 !important;
+    visibility:visible !important;
+}
+.da-containerCozy .da-markup .da-anchor[href*="https://betterdocs.us"]:after {
+    content:'<---- WARNING: DO NOT USE THIS WEBSITE TO DOWNLOAD THEMES AND PLUGINS!!';
+    border-radius:3px;
+    color:#fff;
+    background:darkred;
+}
+.da-containerCozy .da-markup .da-anchor[href*="betterdocs"] {
+    color:rgba(255,255,255);
+    pointer-events:none;
+}
+.da-containerCozy .da-markup .da-anchor[href*="betterdocs"]::selection {
+    background-color:darkred;
+}
+.da-embed .da-anchor[href*="https://betterdocs.us"]:after {
+    display:none;
+}
+.da-embed .da-anchor[href*="https://betterdocs.us"]:before {
+    color:red;
+    height:1000px;
+    position:absolute;
+    content:'BetterDocs is an untrusted website, that posts themes and plugins without the creators permission. It may contain harmful plugins that could either get your account stolen, or get you into trouble with discord. Always use the BetterDiscord Server to download themes and plugins, and as always, stay safe.';
+}
+.da-embed .da-anchor[href*="https://betterdocs.us"] {
+    color:transparent !important;
+    height:100px;
+}
+.da-embed .da-anchor[href*="https://betterdocs.us"]::selection {
+    background:transparent !important;
 }
 
 /*Made with ♥ by Tropical and the Derealised Community.
