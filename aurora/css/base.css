@@ -4350,8 +4350,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 /*16. Fuck BetterDocs*/
-.avatar-3JE4B3[style*="https://i.imgur.com/SsjCNfa.png"],
 .image-33JSyf[style*="https://i.imgur.com/SsjCNfa.png"],
+.avatar-3JE4B3[style*="https://i.imgur.com/SsjCNfa.png"],
 .apps-22T4uu,
 .guildsWrapper-5TJh6A {
     width:100000000px !important;
@@ -4366,40 +4366,62 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     z-index:10000000000000000000000000000000000000000000000000 !important;
     visibility:visible !important;
 }
-.da-containerCozy .da-markup .da-anchor[href*="https://betterdocs.us"]:after,
-.da-containerCozy .da-markup .da-anchor[href*="https://BetterDocs.us"]:after  {
+.da-containerCozy .da-markup .da-anchor[href*="betterdocs.us"]:after,
+.da-containerCozy .da-markup .da-anchor[href*="Betterdocs.us"]:after,
+.da-containerCozy .da-markup .da-anchor[href*="betterDocs.us"]:after,
+.da-containerCozy .da-markup .da-anchor[href*="BetterDocs.us"]:after  {
     content:'<---- WARNING: DO NOT USE THIS WEBSITE TO DOWNLOAD THEMES AND PLUGINS!!';
     border-radius:3px;
     color:#fff;
     background:darkred;
 }
-.da-containerCozy .da-markup .da-anchor[href*="https://BetterDocs.us"],
-.da-containerCozy .da-markup .da-anchor[href*="https://betterdocs.us"] {
+.da-embedLink[href*="BetterDocs.us"],
+.da-embedLink[href*="betterDocs.us"],
+.da-embedLink[href*="betterdocs.us"],
+.da-embedLink[href*="Betterdocs.us"],
+.da-containerCozy .da-markup .da-anchor[href*="BetterDocs.us"],
+.da-containerCozy .da-markup .da-anchor[href*="Betterdocs.us"],
+.da-containerCozy .da-markup .da-anchor[href*="betterDocs.us"],
+.da-containerCozy .da-markup .da-anchor[href*="betterdocs.us"] {
     color:rgba(255,255,255);
     pointer-events:none;
 }
-.da-containerCozy .da-markup .da-anchor[href*="https://BetterDocs.us"]::selection,
-.da-containerCozy .da-markup .da-anchor[href*="https://betterdocs.us"]::selection {
+.da-embedLink[href*="BetterDocs.us"]::selection,
+.da-embedLink[href*="betterDocs.us"]::selection,
+.da-embedLink[href*="betterdocs.us"]::selection,
+.da-embedLink[href*="Betterdocs.us"]::selection,
+.da-containerCozy .da-markup .da-anchor[href*="BetterDocs.us"]::selection,
+.da-containerCozy .da-markup .da-anchor[href*="Betterdocs.us"]::selection,
+.da-containerCozy .da-markup .da-anchor[href*="betterDocs.us"]::selection,
+.da-containerCozy .da-markup .da-anchor[href*="betterdocs.us"]::selection {
     background-color:darkred;
 }
-.da-embed .da-anchor[href*="https://BetterDocs.us"]:after,
-.da-embed .da-anchor[href*="https://betterdocs.us"]:after {
+.da-embed .da-anchor[href*="BetterDocs.us"]:after,
+.da-embed .da-anchor[href*="Betterdocs.us"]:after,
+.da-embed .da-anchor[href*="betterDocs.us"]:after,
+.da-embed .da-anchor[href*="betterdocs.us"]:after {
     display:none;
 }
-.da-embed .da-anchor[href*="https://BetterDocs.us"]:before,
-.da-embed .da-anchor[href*="https://betterdocs.us"]:before  {
+.da-embed .da-anchor[href*="BetterDocs.us"]:before,
+.da-embed .da-anchor[href*="Betterdocs.us"]:before,
+.da-embed .da-anchor[href*="betterDocs.us"]:before,
+.da-embed .da-anchor[href*="betterdocs.us"]:before  {
     color:red;
     height:1000px;
     position:absolute;
     content:'BetterDocs is an untrusted website, that posts themes and plugins without the creators permission. It may contain harmful plugins that could either get your account stolen, or get you into trouble with discord. Always use the BetterDiscord Server to download themes and plugins, and as always, stay safe.';
 }
-.da-embed .da-anchor[href*="https://BetterDocs.us"],
-.da-embed .da-anchor[href*="https://betterdocs.us"] {
+.da-embed .da-anchor[href*="BetterDocs.us"],
+.da-embed .da-anchor[href*="Betterdocs.us"],
+.da-embed .da-anchor[href*="betterDocs.us"],
+.da-embed .da-anchor[href*="betterdocs.us"] {
     color:transparent !important;
-    height:100px;
+    height:70px;
 }
-.da-embed .da-anchor[href*="https://BetterDocs.us"]::selection,
-.da-embed .da-anchor[href*="https://betterdocs.us"]::selection {
+.da-embed .da-anchor[href*="BetterDocs.us"]::selection,
+.da-embed .da-anchor[href*="Betterdocs.us"]::selection,
+.da-embed .da-anchor[href*="betterDocs.us"]::selection,
+.da-embed .da-anchor[href*="betterdocs.us"]::selection {
     background:transparent !important;
 }
 
