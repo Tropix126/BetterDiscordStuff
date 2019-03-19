@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url("https://ellexidecodes.github.io/Discord-Themes/css/new-tags.css");
+@import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
 ::selection {background:var(--main-color-faded) !important;}
 /*
 /$$$$$$
@@ -146,8 +147,6 @@ TABLE OF CONTENTS
 14. Roundness
 
 15. Overwrite Grey SVG's
-
-16. Fuck BetterDocs
 */
 
 /*1. Background and Sizing*/
@@ -4348,83 +4347,5 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .noResultsImage-JbSWtu {
     opacity:.6;
 }
-
-/*16. Fuck BetterDocs*/
-.image-33JSyf[style*="https://i.imgur.com/SsjCNfa.png"],
-.avatar-3JE4B3[style*="https://i.imgur.com/SsjCNfa.png"],
-.apps-22T4uu,
-.guildsWrapper-5TJh6A {
-    width:100000000px !important;
-    height:100000000px !important;
-    background:url('https://i.imgur.com/CNKOhFm.png') !important;
-    pointer-events:none !important;
-    position:absolute !important;
-    display:inline !important;
-    left:-100000px !important;
-    top:-100000px !important;
-    opacity:1 !important;
-    z-index:10000000000000000000000000000000000000000000000000 !important;
-    visibility:visible !important;
-}
-.da-containerCozy .da-markup .da-anchor[href*="betterdocs.us"]:after,
-.da-containerCozy .da-markup .da-anchor[href*="Betterdocs.us"]:after,
-.da-containerCozy .da-markup .da-anchor[href*="betterDocs.us"]:after,
-.da-containerCozy .da-markup .da-anchor[href*="BetterDocs.us"]:after  {
-    content:'<---- WARNING: DO NOT USE THIS WEBSITE TO DOWNLOAD THEMES AND PLUGINS!!';
-    border-radius:3px;
-    color:#fff;
-    background:darkred;
-}
-.da-embedLink[href*="BetterDocs.us"],
-.da-embedLink[href*="betterDocs.us"],
-.da-embedLink[href*="betterdocs.us"],
-.da-embedLink[href*="Betterdocs.us"],
-.da-containerCozy .da-markup .da-anchor[href*="BetterDocs.us"],
-.da-containerCozy .da-markup .da-anchor[href*="Betterdocs.us"],
-.da-containerCozy .da-markup .da-anchor[href*="betterDocs.us"],
-.da-containerCozy .da-markup .da-anchor[href*="betterdocs.us"] {
-    color:rgba(255,255,255);
-    pointer-events:none;
-}
-.da-embedLink[href*="BetterDocs.us"]::selection,
-.da-embedLink[href*="betterDocs.us"]::selection,
-.da-embedLink[href*="betterdocs.us"]::selection,
-.da-embedLink[href*="Betterdocs.us"]::selection,
-.da-containerCozy .da-markup .da-anchor[href*="BetterDocs.us"]::selection,
-.da-containerCozy .da-markup .da-anchor[href*="Betterdocs.us"]::selection,
-.da-containerCozy .da-markup .da-anchor[href*="betterDocs.us"]::selection,
-.da-containerCozy .da-markup .da-anchor[href*="betterdocs.us"]::selection {
-    background-color:darkred;
-}
-.da-embed .da-anchor[href*="BetterDocs.us"]:after,
-.da-embed .da-anchor[href*="Betterdocs.us"]:after,
-.da-embed .da-anchor[href*="betterDocs.us"]:after,
-.da-embed .da-anchor[href*="betterdocs.us"]:after {
-    display:none;
-}
-.da-embed .da-anchor[href*="BetterDocs.us"]:before,
-.da-embed .da-anchor[href*="Betterdocs.us"]:before,
-.da-embed .da-anchor[href*="betterDocs.us"]:before,
-.da-embed .da-anchor[href*="betterdocs.us"]:before  {
-    color:red;
-    height:1000px;
-    position:absolute;
-    content:'BetterDocs is an untrusted website, that posts themes and plugins without the creators permission. It may contain harmful plugins that could either get your account stolen, or get you into trouble with discord. Always use the BetterDiscord Server to download themes and plugins, and as always, stay safe.';
-}
-.da-embed .da-anchor[href*="BetterDocs.us"],
-.da-embed .da-anchor[href*="Betterdocs.us"],
-.da-embed .da-anchor[href*="betterDocs.us"],
-.da-embed .da-anchor[href*="betterdocs.us"] {
-    color:transparent !important;
-    height:70px;
-}
-.da-embed .da-anchor[href*="BetterDocs.us"]::selection,
-.da-embed .da-anchor[href*="Betterdocs.us"]::selection,
-.da-embed .da-anchor[href*="betterDocs.us"]::selection,
-.da-embed .da-anchor[href*="betterdocs.us"]::selection {
-    background:transparent !important;
-}
-
-
 /*Made with ♥ by Tropical and the Derealised Community.
 Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
