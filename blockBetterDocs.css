@@ -1,15 +1,14 @@
-.image-33JSyf[style*="https://i.imgur.com/SsjCNfa.png"],
-.avatar-3JE4B3[style*="https://i.imgur.com/SsjCNfa.png"],
-.guildsWrapper-5TJh6A {
-    width:100000000px !important;
-    height:100000000px !important;
-    background:url('https://i.imgur.com/CNKOhFm.png') !important;
-    pointer-events:none !important;
+html[class="gr__betterdocs_us"] body #app-mount {
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+    background-image:url('https://i.imgur.com/uvL8ISE.png') !important;
+    cursor:not-allowed !important;
     position:absolute !important;
-    display:inline !important;
-    left:-100000px !important;
-    top:-100000px !important;
+    display:block !important;
     opacity:1 !important;
+    left:0 !important;
+    top:0 !important;
+    margin:0 !important;
     z-index:10000000000000000000000000000000000000000000000000 !important;
     visibility:visible !important;
 }
