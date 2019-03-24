@@ -422,7 +422,7 @@ a {
 .header-2o-2hj,
 .container-2Thooq{
     background-color:var(--lv1) !important;
-    box-shadow:inset 0 0 100000px rgba(255,255,255,0.07), 0 0 5px var(--lv1) !important;
+    box-shadow:inset 0 0 100000px rgba(255,255,255,0.07) !important;
 }
 .title-3qD0b-,
 .header-2o-2hj {
