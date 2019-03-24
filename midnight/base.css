@@ -956,20 +956,9 @@ div[style*="width: 100%; height: 20px"] {
     box-shadow:0 0 12px 2px var(--accent);
     background:var(--accent) !important;
     color:#fff !important;
-    position:absolute;
-    bottom:50px;
-    z-index:1000;
 }
 .plus-3UqSQu {
     font-size:27px;
-}
-.container-11WMXy .circleIconButton-jET_ig {
-    position:relative !important;
-    z-index:1;
-    bottom:0px;
-}
-.scroller-2TZvBN {
-    padding-bottom:92px !important;
 }
 .guildSeparator-3s64Iy:after {
     left:-3px;
