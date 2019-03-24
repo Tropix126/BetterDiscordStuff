@@ -8,6 +8,10 @@
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
     background-color:var(--lv1);
 }
+.headerBar-UHpsPw,
+.header-2o-2hj {
+    height:40px !important;
+}
 .attachButtonDivider-3Glu60 {
     display:none;
 }
@@ -858,8 +862,8 @@ div[style*="width: 100%; height: 20px"] {
   text-shadow:0 0 12px;
 }
 .bd-detached-editor #bd-customcss-detach-container {
-    margin-top:46px;
-    border-top:2px solid var(--accent);
+    margin-top:38px;
+    border-color:var(--hover);
 }
 .appMount-3lHmkl {
     background:var(--lv1);
@@ -920,7 +924,7 @@ div[style*="width: 100%; height: 20px"] {
     background-color: var(--accent);
 }
 #app-mount .wrapper-1Rf91z {
-  margin-top: 45px;
+  margin-top:40px;
   background-color: var(--lv1) !important;
   overflow: visible;
   width:55px;
@@ -957,6 +961,8 @@ div[style*="width: 100%; height: 20px"] {
   display: flex;
   z-index:1000;
   justify-content: center;
+  margin-top:5px;
+  height:42px;
 }
 .guildsError-b7zR5H {
     width:40px;
@@ -1025,7 +1031,8 @@ div[style*="width: 100%; height: 20px"] {
   -webkit-mask-size: 23px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-  margin-top:7px;
+  margin-top:4px;
+  margin-left:2px;
 }
 
 .homeButton-2Cw51C defs, .homeButton-2Cw51C g {
@@ -1069,7 +1076,7 @@ div[style*="width: 100%; height: 20px"] {
   margin-top: 0px;
 }
 .winButton-iRh8-Z {
-  top: 11px;
+  top:7px;
   height: 36px;
   width: 30px;
   right: 8px;
