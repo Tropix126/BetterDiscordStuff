@@ -366,7 +366,7 @@ a {
 .channelTextArea-rNsIhG {
   padding-top:0 !important;
   margin-bottom:0;
-  height:52px;
+  height:51px;
   background:rgba(255,255,255,0.07);
 }
 .members-1998pB {
@@ -947,6 +947,39 @@ div[style*="width: 100%; height: 20px"] {
     margin-left:-17px;
     transform:scale(.9);
 }
+.circleIconButton-jET_ig{
+    width:40px;
+    height:40px;
+    border-radius:0;
+    margin-left:-2px;
+    border:none;
+    box-shadow:0 0 12px 2px var(--accent);
+    background:var(--accent) !important;
+    color:#fff !important;
+    position:fixed;
+    bottom:50px;
+    z-index:1000;
+}
+.plus-3UqSQu {
+    font-size:27px;
+}
+.container-11WMXy .circleIconButton-jET_ig {
+    position:relative !important;
+    z-index:1;
+    bottom:0px;
+}
+.scroller-2TZvBN {
+    padding-bottom:92px !important;
+}
+.guildSeparator-3s64Iy:after {
+    left:-3px;
+    background:var(--accent) !important;
+    box-shadow:0 0 12px 2px var(--accent);
+}
+.friendsOnline-2JkivW {
+    color:var(--accent) !important;
+    text-shadow:0 0 12px;
+}
 .container-2td-dC {
     margin-left:-2px;
     margin-bottom:0px;
@@ -993,12 +1026,14 @@ div[style*="width: 100%; height: 20px"] {
 	margin-left: -54px !important;
 	bottom: 0px !important;
 	position: absolute;
+        z-index:2;
+        bottom:-1px !important;
 }
 .theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
     height: calc(100vh - 53px) !important;
 }
 .membersWrap-2h-GB4 {
-    border-bottom:53px solid rgba(255,255,255,0.07);
+    border-bottom:51px solid rgba(255,255,255,0.07);
 }
 .titleBar-AC4pGV {
   transform: translateY(-6px);
