@@ -53,7 +53,7 @@
 }
 .side-8zPYf6 .header-2RyJ0Y,
 #bd-settings-sidebar .ui-tab-bar-header {
-    border-bottom:2px solid var(--accent);
+    border-bottom:2px solid var(--hover);
     color:var(--accent) !important;
     text-align:center;
     margin-top:10px;
@@ -428,7 +428,7 @@ a {
 .header-2o-2hj,
 .scrollerWrap-1IAIlv .scroller-2TZvBN>.container-1ETFDs,
 .privateChannels-1nO12o:after {
-    border-bottom:2px solid var(--accent);
+    border-bottom:2px solid var(--hover);
 }
 .container-PNkimc {
     background-color:var(--lv1) !important;
@@ -958,7 +958,30 @@ div[style*="width: 100%; height: 20px"] {
   left: -6px;
   width: 70px;
   display: flex;
+  z-index:1000;
   justify-content: center;
+}
+.guildsError-b7zR5H {
+    width:40px;
+    height:40px;
+    line-height:35px;
+    margin-left:-2px;
+    border-radius:0;
+    box-shadow:0 0 12px #f04747;
+}
+.scroller-2TZvBN {
+    padding-bottom:50px;
+}
+.typing-2GQL18 {
+    margin-bottom:10px !important;
+    opacity:.7 !important;
+    trnasition:250ms all linear
+}
+.da-chat:hover .typing-2GQL18 {
+    opacity:1 !important;
+}
+.scroller-2TZvBN {
+    padding-bottom:50px;
 }
 .friendsOnline-2JkivW {
     margin-left:-17px;
