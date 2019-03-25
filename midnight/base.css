@@ -1215,6 +1215,8 @@ div[style*="width: 100%; height: 20px"] {
 }
 
 /* games tab */
+.smallCarousel-2e0IQc {background-color: rgba(255,255,255,.05)}
+.article-3kb3qm {background-color: var(--lv1) !important;}
 .wrapper-2TxpI8,
 .itemBackground-2vEldQ {background-color: var(--lv1) !important}
 .itemBackground-2vEldQ:before {background: radial-gradient(ellipse at top,transparent,var(--lv1)),linear-gradient(90deg,var(--lv1) 0,transparent 40%,transparent 60%,var(--lv1)),linear-gradient(0deg,var(--lv1) 0,transparent 25%) !important;}
@@ -1360,6 +1362,11 @@ div[style*="width: 100%; height: 20px"] {
 .nameCellInfo-11WjkQ {transition: padding .2s ease;}
 .row-1Lmx44:hover .nameCellInfo-11WjkQ {padding-left: 7px;}
 /* activity tab */
+.card-7JP0BX {
+  background-color: var(--lv1) !important;
+  border-radius: 0;
+  border-left: 3px solid var(--accent);
+}
 .article-3BkSTW,
 .carousel-2WxMes {
   background-color: var(--lv1) !important;
