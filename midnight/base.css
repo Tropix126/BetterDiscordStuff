@@ -1183,8 +1183,7 @@ div[style*="width: 100%; height: 20px"] {
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh- {background: transparent !important;}
 
 /* headerbar searchbar n stuff */
-.header-2o-2hj,
-.headerBar-UHpsPw {
+.headerBar-UHpsPw:not(.title-3qD0b-) {
   background-color: rgba(255,255,255,0.07) !important;
   height: 45px;
 }
