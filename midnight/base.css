@@ -972,6 +972,18 @@ div[style*="width: 100%; height: 20px"] {
     border-radius:0;
     box-shadow:0 0 12px #f04747;
 }
+.unreadMentionsIndicatorBottom-BXS58x {
+    bottom:50px;
+}
+.mention-1f5kbO {
+    background:var(--accent);
+    border-radius:0;
+    padding-left:3px;
+    padding-right:3px;
+}
+.mention-1f5kbO:hover {
+    background:var(--hover);
+}
 .scroller-2TZvBN {
     padding-bottom:50px;
 }
@@ -996,7 +1008,6 @@ div[style*="width: 100%; height: 20px"] {
     border-radius:0;
     margin-left:-2px;
     border:none;
-    box-shadow:0 0 12px 2px var(--accent);
     background:var(--accent) !important;
     color:#fff !important;
 }
