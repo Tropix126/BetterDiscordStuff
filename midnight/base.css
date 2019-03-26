@@ -1616,16 +1616,12 @@ div[style*="width: 100%; height: 20px"] {
     border-radius:0;
 }
 .newMessagesBar-mujexs {
-    background:var(--lv1);
+    background:var(--accent);
     border-radius:0;
-    border-top:none !important;
-    border:2px solid var(--hover);
     transition:150ms ease all;
 }
 .newMessagesBar-mujexs:hover {
-    box-shadow:inset 0 0 10000px rgba(255,255,255,0.1), 0 0 8px var(--hover);
-    background:var(--lv1);
-    border-color:var(--accent);
+    background:var(--hover);
 }
 .newMessagesBar-mujexs button {
     color:#fff !important;
