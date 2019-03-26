@@ -1482,9 +1482,6 @@ div[style*="width: 100%; height: 20px"] {
   border: 2px solid var(--accent);
   animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
 }
-.da-tooltip {
-    box-shadow:none;
-}
 .helper-2c73HK,
 .separator-2zcjq8 {
     display:none;
