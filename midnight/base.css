@@ -1130,42 +1130,41 @@ div[style*="width: 100%; height: 20px"] {
 .app-19_DXt {
   border:1px solid var(--lv1);
 }
-.da-tooltip {
+.tooltip-1OS-Ti {
     border-radius:0;
     background:var(--lv1) !important;
     box-shadow:inset 0 0 9999px rgba(255,255,255,0.075);
     border:2px solid var(--accent);
-    box-shadow:0 0 5px var(--accent);
     padding:5px 10px;
     font-weight:550;
     color:var(--accent);
 }
-.da-tooltip.da-right {
+.tooltip-1OS-Ti.right-KM_vfY {
     animation:tooltipRL 250ms cubic-bezier(0.23, 1, .3, 1);
     transform-origin:10%;
 }
-.da-tooltip.da-right:after {
+.tooltip-1OS-Ti.right-KM_vfY:after {
     border-right-color:var(--accent) !important;
 }
-.da-tooltip.da-left {
+.tooltip-1OS-Ti.left-1wV7VO {
     animation:tooltipRL 250ms cubic-bezier(0.23, 1, .3, 1);
     transform-origin:90%;
 }
-.da-tooltip.da-left:after {
+.tooltip-1OS-Ti.left-1wV7VO:after {
     border-left-color:var(--accent) !important;
 }
-.da-tooltip.da-top {
+.tooltip-1OS-Ti.top-1pTh1F {
     animation:tooltipTB 250ms cubic-bezier(0.23, 1, .3, 1);
     transform-origin:0% 90%;
 }
-.da-tooltip.da-top:after {
+.tooltip-1OS-Ti.top-1pTh1F:after {
     border-top-color:var(--accent) !important;
 }
-.da-tooltip.da-bottom {
+.tooltip-1OS-Ti.bottom-19kp6S {
     animation:tooltipTB 250ms cubic-bezier(0.23, 1, .3, 1);
     transform-origin:0% 10%;
 }
-.da-tooltip.da-bottom:after {
+.tooltip-1OS-Ti.bottom-19kp6S:after {
     border-bottom-color:var(--accent) !important;
 }
 @keyframes tooltipRL {
