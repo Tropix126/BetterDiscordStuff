@@ -394,7 +394,7 @@ a {
 ::-webkit-scrollbar {border: none !important;width: 6px !important;}
 ::-webkit-scrollbar-track {background: transparent;border: none !important;}
 ::-webkit-scrollbar-track-piece {background: transparent !important;border: none !important;}
-::-webkit-scrollbar-thumb {background: var(--accent) !important;border-radius: 20px !important;border: none !important;}
+::-webkit-scrollbar-thumb {background: var(--accent) !important;border-radius: 0px !important;border: none !important;}
 /*Dividers*/
 .dividerContent-2L12VI,
 .hasMore-3e72_v button {
