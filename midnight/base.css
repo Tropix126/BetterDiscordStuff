@@ -1440,3 +1440,152 @@ div[style*="width: 100%; height: 20px"] {
   background-color: var(--lv1)!important;
   border-radius: 0;
 }
+
+/*//META{"name":"Midnight","description":"Description","author":"Tropical","version":"0.0"}*//*/*/
+@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/base.css');
+:root {
+    --lv1:#00000f;
+    --BetterDocsBlockerBlack1:var(--lv1);
+    --accent:#1973d3;
+    --hover:#135193;
+}
+.invite-271nFU .icon-2doZ3q {
+  -webkit-mask:url("https://discordapp.com/assets/d4ff0d2af68cd1119f0d16ef79d1369c.svg");
+  background:var(--accent) !important;
+}
+.item-1GzJrl {
+  padding: 10px;
+  width: 40px;
+  justify-content: center;
+  transition:150ms ease all;
+}
+.item-1GzJrl:hover {
+    background:rgba(255,255,255,0.1) !important;
+}
+.icon-2doZ3q {
+    margin: 0;
+}
+.label-1Y-LW5 {
+  display: none;
+}
+@keyframes scale1 {
+  0% {
+    opacity:0;
+    transform: translateX(-50%) scaleX(0);
+  }
+  100% {
+    opacity:1;
+    transform: translateX(-50%) scaleX(1);
+  }
+}
+.menu-Sp6bN1 {
+  display: flex;
+  width: fit-content;
+  border-radius:0;
+  background:var(--lv1) !important;
+}
+.popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
+  width: fit-content !important;
+  top: 40px !important;
+  left: 200px !important;
+  box-shadow:0 0 12px var(--accent);
+  animation:scale1 300ms ease !important;
+  border-radius:0;
+  transform: translateX(-50%) !important;
+  border: 2px solid var(--accent);
+  animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
+}
+.da-tooltip {
+    box-shadow:none;
+}
+.helper-2c73HK,
+.separator-2zcjq8 {
+    display:none;
+}
+.alt-3btY0e .item-1GzJrl {
+    padding:20px 15px !important;
+    transition:150ms ease all;
+    width:initial !important;
+    border-left:4px solid rgba(255,255,255,0.2);
+}
+.alt-3btY0e .item-1GzJrl:hover {
+    background:rgba(255,255,255,0.075) !important;
+    border-left:4px solid var(--accent);
+    box-shadow:inset 10px 0px 15px -7px var(--hover);
+}
+.alt-3btY0e .item-1GzJrl:active {
+    background:rgba(255,255,255,0.1) !important;
+}
+.alt-3btY0e .item-1GzJrl:hover .statusIconText-3b4TkH {
+    padding-left:7px;
+}
+.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
+    text-shadow:0 0 10px;
+    transition:150ms ease all;
+}
+.menu-Sp6bN1.alt-3btY0e {
+    display:block;
+    background:var(--lv1) !important;
+    animation:menu1 250ms ease backwards;
+    transform-origin:0% 100%;
+    border-radius:0 !important;
+    width:220px;
+}
+.popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z {
+    border-radius:0;
+    width:300px;
+    margin-left:-5px;
+}
+@keyframes menu1 {
+    0% {
+        transform:scaleY(0);
+    }
+    100% {
+        transform:scaleY(1);
+    }
+}
+@keyframes menuItem1 {
+	from {
+		opacity: 0;
+		transform: translate(0, 50%);
+	}
+	to {
+		opacity: 1;
+	}
+}
+.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
+    font-weight:500;
+}
+.alt-3btY0e .item-1GzJrl .statusIconText-3b4TkH {
+	animation: menuItem1 200ms ease;
+	animation-delay: 0ms;
+	animation-fill-mode:forwards;
+}
+.alt-3btY0e .item-1GzJrl:first-child .statusIconText-3b4TkH {
+    color:var(--online) !important;
+}
+.alt-3btY0e .item-1GzJrl:nth-child(3) .statusIconText-3b4TkH {
+    color:var(--idle) !important;
+}
+.alt-3btY0e .item-1GzJrl:nth-child(4) .statusIconText-3b4TkH {
+    color:var(--dnd) !important;
+}
+.alt-3btY0e .item-1GzJrl:nth-child(5) .statusIconText-3b4TkH {
+    color:var(--invisible) !important;
+}
+.menu-Sp6bN1.alt-3btY0e .status-3fQvEa {
+    transform:scale(1.75);
+}
+.idle-3DEnRT {
+    box-shadow:0 0 12px var(--idle);
+}
+.online-2S838R {
+    box-shadow:0 0 12px var(--online);
+}
+.dnd-1_xrcq {
+    box-shadow:0 0 12px var(--dnd);
+}
+.invisible-1kp8Z0 {
+    box-shadow:0 0 12px var(--invisible);
+}
+
