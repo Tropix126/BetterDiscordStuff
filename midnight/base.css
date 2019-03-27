@@ -628,7 +628,7 @@ a {
     padding-left: 5px !important;
 }
 .privateChannels-1nO12o header {
-    /*border-bottom: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
     color: var(--accent) !important;
     text-align: center;
     margin-top: 10px;
@@ -638,8 +638,7 @@ a {
     text-transform: uppercase;
     opacity:1;
     margin:10px;
-    margin-right:2px;*/
-    display:none;
+    margin-right:2px;
 }
 .privateChannels-1nO12o header {
   margin-top: -20px;
