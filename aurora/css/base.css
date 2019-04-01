@@ -2,12 +2,6 @@
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/blockBetterDocs.css');
 ::selection {background:var(--main-color-faded) !important;}
-img,
-.da-image,
-.da-avatar,
-.da-icon {
-    background-image:url(https://i.imgur.com/gIth0Yt.png) !important;
-}
 /*
 /$$$$$$
 /$$__  $$
