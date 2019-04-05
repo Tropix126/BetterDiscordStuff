@@ -1133,6 +1133,9 @@ background-color: var(--invisible) !important;
     transform: translateX(-50%) scaleX(1);
   }
 }
+.search-2oPWTC .searchBar-3dMhjb {
+    background:transparent !important;
+}
 .menu-Sp6bN1 {
   display: flex;
   width: fit-content;
