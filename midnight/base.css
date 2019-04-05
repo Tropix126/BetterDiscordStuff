@@ -1143,7 +1143,7 @@ background-color: var(--invisible) !important;
   width: fit-content !important;
   top: 40px !important;
   left: 200px !important;
-  box-shadow:0 0 12px var(--accent);
+  box-shadow:0 0 12px rgba(0,0,0,0.5);
   animation:scale1 300ms ease !important;
   border-radius:0;
   transform: translateX(-50%) !important;
