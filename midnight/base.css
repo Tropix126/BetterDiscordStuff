@@ -820,7 +820,7 @@ background-color: var(--invisible) !important;
     background-color: var(--accent);
 }
 #app-mount .wrapper-1Rf91z {
-  margin-top:40px;
+  margin-top:20px;
   background-color: var(--lv1) !important;
   overflow: visible;
   width:55px;
@@ -1409,4 +1409,19 @@ background-color: var(--invisible) !important;
   content:'Please get me away from this hell.';
   font-size:initial;
   color:#fff;
+}
+.newMessagesBar-mujexs {
+    padding:3px;
+}
+.newMessagesBar-mujexs button:last-child {
+    border:1px solid;
+}
+.buttons-205you {
+    position:fixed;
+    right:0%;
+    top:95%;
+    z-index:100000000000000;
+}
+.layers-3iHuyZ>.layer-3QrUeG {
+    position:fixed;
 }
