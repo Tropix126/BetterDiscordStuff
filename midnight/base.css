@@ -1163,7 +1163,7 @@ background-color: var(--invisible) !important;
 .alt-3btY0e .item-1GzJrl:hover {
     background:rgba(255,255,255,0.075) !important;
     border-left:4px solid var(--accent);
-    box-shadow:inset 10px 0px 15px -7px var(--hover);
+    box-shadow:inset 10px 0px 15px -15px var(--hover);
 }
 .alt-3btY0e .item-1GzJrl:active {
     background:rgba(255,255,255,0.1) !important;
