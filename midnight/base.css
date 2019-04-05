@@ -298,7 +298,7 @@ a {
 .inner-zqa7da {
   border-radius:0px;
   padding:3px;
-  background-color:transparent !important;
+  background:rgba(255,255,255,0.07) !important;
 }
 #app-mount .messageCozy-2JPAPA:only-of-type .isMentionedCozy-3isp7y .markup-2BOw-j:not(:empty) {
   padding-left:15px;
@@ -375,7 +375,7 @@ a {
   padding-top:0 !important;
   margin-bottom:0;
   height:51px;
-  background:rgba(255,255,255,0.07);
+  background:transparent;
 }
 .members-1998pB {
   background:transparent !important;
