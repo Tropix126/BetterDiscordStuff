@@ -1422,7 +1422,7 @@ background-color: var(--invisible) !important;
 .buttons-205you {
     position:fixed;
     right:0%;
-    top:95%;
+    top:auto;
     z-index:100000000000000;
 }
 .layers-3iHuyZ>.layer-3QrUeG {
