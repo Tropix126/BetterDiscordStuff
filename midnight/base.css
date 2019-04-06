@@ -2060,10 +2060,10 @@ polyline[stroke*="#7289da"] {
     background-color: rgb(199, 0, 67) !important;
 }
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR:hover {
-    background-color: rgb(73, 152, 76);
+    background-color: rgb(73, 152, 76) !important;
 }
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover {
-    background-color: rgb(73, 152, 76);
+    background-color: rgb(73, 152, 76) !important;
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
     display: block;
