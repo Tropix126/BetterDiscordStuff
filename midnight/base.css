@@ -2141,11 +2141,14 @@ polyline[stroke*="#7289da"] {
     backface-visibility: hidden;
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
-  top: 80px;
-  left: 50%;
   width: 100%;
+  top:72% !important;
+  left:0 !important;
   display: flex !important;
 }
 .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .iconSizeSmall-3aWgx9 {
-    background-color: transparent;
+  background-color: transparent;
+  border-radius:0 !important;
+  width:40px !important;
+  height:40px !important;
 }
