@@ -1782,3 +1782,37 @@ polyline[stroke*="#7289da"] {
 .emojiInput-1aLNse {
     background:transparent !important;
 }
+.bd-toast {
+    background:var(--accent);
+    border-radius:0 !important;
+}
+.container-3JkMqB .search-MFQ5bU {
+    border-radius:0;
+    border-left:2px solid rgba(255,255,255,0.1);
+    background:rgba(255,255,255,0.08);
+}
+.unfollowButton-2uoMXv .contents-18-Yxp {
+    color:#fff;
+}
+.searchResultsContainer-1ma_dc {
+    background:var(--lv1) !important;
+    border-radius:0;
+    box-shadow:inset 0 0 1000px rgba(255,255,255,0.2) !important;
+}
+.itemIcon-3gdJnE {
+    border-radius:0;
+}
+.searchOption-8nCYo-.selected-1r_nkg {
+    background-color:rgba(255,255,255,0.15) !important;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.15);
+    border-left:2px solid rgba(255,255,255,0.5);
+    padding-left:15px !important;
+}
+.searchOption-8nCYo- {
+    border-radius:0px;
+    transition:150ms all ease;
+    background:rgba(255,255,255,0.02);
+    margin-top:8px;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.02);
+    border-left:2px solid rgba(255,255,255,0.1);
+}
