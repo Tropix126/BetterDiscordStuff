@@ -1,4 +1,5 @@
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 ::selection {
   background-color:var(--accent) !important;
   color:#fff;
