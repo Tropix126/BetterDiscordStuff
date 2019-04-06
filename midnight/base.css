@@ -1698,3 +1698,87 @@ polyline[stroke*="#7289da"] {
     border-radius:0 !important;
     box-shadow:inset 0 0 10000px rgba(255,255,255,0.1), 0 0 12px rgba(255,255,255,0.1) !important;
 }
+.avatarUploaderInner-3UNxY3 {
+    background-color:var(--accent);
+    border-radius:0;
+}
+.avatarUploaderIndicator-2G-aIZ {
+    border-radius:0;
+    margin-top:76px;
+    margin-right:-4px;
+    background-color:var(--lv1) !important;
+    box-shadow:inset 0 0 1000px rgba(255,255,255,0.09) !important;
+}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    border-radius:0;
+}
+.lookGhost-2Fn_0-.colorBrand-3pXr91 {
+    color:var(--accent) !important;
+    background:rgba(255,255,255,0.06);
+}
+.customScroller-26gWhv>div {
+    max-width:unset;
+}
+.auditLog-3jNbM6 {
+    border-radius:0 !important;
+    border:0;
+}
+.sidebarScrollable-1qPI87 .description-3_Ncsb {
+    margin-top:20px;
+}
+.sidebarScrollable-1qPI87 .itemSelected-1qLhcL {
+    padding-top:7px !important;
+    width:initial !important;
+}
+#app-mount .sidebarScrollable-1qPI87 .header-2RyJ0Y {
+    width:100% !important;
+}
+.popoutList-T9CKZQ {
+    background:var(--lv1) !important;
+    border-radius:0;
+    box-shadow:inset 0 0 10000px rgba(255,255,255,0.1) !important;
+}
+.popoutList-T9CKZQ ::-webkit-scrollbar {
+    display:none;
+}
+.selectableItem-1MP3MQ {
+    border-radius:0px;
+    transition:150ms all ease;
+    background:rgba(255,255,255,0.08);
+    margin-top:7px;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
+    border-left:2px solid rgba(255,255,255,0.1);
+}
+.selectableItem-1MP3MQ:hover {
+    background-color:rgba(255,255,255,0.15) !important;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.15);
+    border-left:2px solid rgba(255,255,255,0.5);
+    padding-left:15px !important;
+}
+.selectableItem-1MP3MQ.selected-31soGA {
+    background:var(--accent) !important;
+    border-radius:0;
+    box-shadow:0 0 12px var(--accent);
+}
+.searchBar-1MOL6S {
+    background:transparent !important;
+}
+.colorPickerSwatch-5GX3Ve.default-cS_caM,
+.colorPickerSwatch-5GX3Ve.noColor-1pdBDm{
+    border-radius:0;
+    width:50px;
+    height:50px;
+}
+.colorPickerSwatch-5GX3Ve {
+    border-radius:0;
+    border:2px solid rgba(0,0,0,0.2);
+}
+#app-mount .colorPickerCustom-2CWBn2 {
+    background:var(--lv1) !important;
+    border:none;
+    box-shadow:inset 0 0 10000px rgba(255,255,255,0.06) !important;
+    border-bottom:2px solid rgba(255,255,255,0.1) !important;
+}
+.emojiInput-1aLNse {
+    background:transparent !important;
+}
