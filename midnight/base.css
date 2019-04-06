@@ -2000,4 +2000,16 @@ polyline[stroke*="#7289da"] {
 .playerOverflow-2Hf77M {
     border-radius:0;
 }
-
+.content-35aVm0 {
+  border-radius:0px;
+  transition:150ms all ease;
+  background:rgba(255,255,255,0.08) !important;
+  box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
+  border-left:2px solid rgba(255,255,255,0.1);
+  margin-top:7px;
+}
+.content-35aVm0:hover {
+  background-color:rgba(255,255,255,0.15) !important;
+  box-shadow:0 0 2px 2px rgba(255,255,255,0.15);
+  border-left:2px solid rgba(255,255,255,0.5);
+}
