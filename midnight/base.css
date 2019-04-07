@@ -296,20 +296,20 @@ a {
     padding:0 20px;
 }
 .headerCozy-2N9HOL {
-    padding-top:7px;
-    padding-bottom:4px;
-    background:rgba(255,255,255,0.03);
-    width:101%;
-    margin-left:-12px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    background: rgba(255,255,255,0.03);
+    width: 100%;
+    margin-left: 0;
 }
 .username-_4ZSMR {
-    border-left:3px solid currentColor;
-    padding-left:7px;
-    margin-left:-8px;
-    padding-top:3px;
-    padding-bottom:5px;
-    text-shadow:0 0 12px currentColor;
-    box-shadow:inset 10px 0px 15px -12px currentColor;
+    border-left: 3px solid currentColor;
+    padding-left: 7px;
+    margin-left: -22px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    text-shadow: 0 0 12px currentColor;
+    box-shadow: inset 10px 0px 15px -12px currentColor;
 }
 .containerCozy-jafyvG {
     margin-top:17px;
