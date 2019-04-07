@@ -2206,7 +2206,7 @@ polyline[stroke*="#7289da"] {
     margin-top:4px;
 }
 .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
-    margin-bottom:12px;
+    margin-bottom:14px;
 }
 .container-1UB9sr {
     background: var(--lv1) !important;
@@ -2265,3 +2265,6 @@ polyline[stroke*="#7289da"] {
 .activityFeed-1C0EmJ {
     background:var(--lv1) !important;
 }
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::after,
+.large-3ChYtB:not(.wrapper-2F3Zv8)[style*="182064839827521536"]::after {
+	display:none;
