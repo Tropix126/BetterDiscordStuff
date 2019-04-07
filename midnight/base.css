@@ -1402,7 +1402,7 @@ background-color: var(--invisible) !important;
     box-shadow:inset 0 0 10000px rgba(255,255,255,0.14);
 }
 .bd-detached-editor .buttons-205you {
-    position:initial;
+    position:initial !important;
 }
 .search-2oPWTC .searchBar-3dMhjb {
     background:transparent !important;
