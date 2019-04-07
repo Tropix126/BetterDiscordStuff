@@ -2255,3 +2255,8 @@ polyline[stroke*="#7289da"] {
 .tabBar-1E2ExX .primarySelected-3uHKZn {
     background:#fff !important;
 }
+.input-autosize:hover .input-autosize-input,
+.input-autosize-input:focus {
+    box-shadow:none !important;
+    background:transparent !important;
+}
