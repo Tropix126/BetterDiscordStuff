@@ -248,7 +248,7 @@ a {
   margin:25px;
   width:93%;
   margin-left:35px;
-  padding-top:0;
+  padding:0;
   background: rgba(255,255,255,0.08);
   border-left:2px solid rgba(255,255,255,0.08);
   transition:150ms all ease;
@@ -260,7 +260,7 @@ a {
   border-radius:0;
   border:0;
   box-shadow:0 0 2px 2px rgba(0,0,0,0.1);
-  background-color:rgba(255,255,255,0.08) !important;
+  background-color:rgba(0,0,0,0.25) !important;
 }
 .username-_4ZSMR {
   text-shadow:0 0 12px currentColor;
@@ -278,7 +278,7 @@ a {
   margin-top: 12px;
 }
 .messageCozy-2JPAPA:only-of-type .markup-2BOw-j:not(:empty):not(a):not(.embedContentInner-FBnk7v) {
-  padding-bottom:32px;
+  padding-bottom:25px;
 }
 .embed-IeVjo6,
 .containerCozy-B4noqO>* {
@@ -2167,16 +2167,4 @@ polyline[stroke*="#7289da"] {
 .friendsColumnStatus-ZH4ho2,
 .iconSizeSmall-3aWgx9 {
     transition:150ms ease all;
-}
-.container-16j22k {
-    background-color:var(--lv1);
-}
-.quote-3aooyW {
-    font-size: 26px;
-    font-style: none;
-    text-shadow:0 0 12px;
-}
-.contentBase-11jeVK {
-    font-size: 22px;
-    font-weight: 0;
 }
