@@ -253,9 +253,6 @@ a {
   border-left:2px solid rgba(255,255,255,0.08);
   transition:150ms all ease;
 }
-.containerCozy-jafyvG {
-    padding-bottom:10px !important;
-}
 .markup-2BOw-j code {
   background:transparent !important;
 }
@@ -281,7 +278,7 @@ a {
   margin-top: 12px;
 }
 .messageCozy-2JPAPA:only-of-type .markup-2BOw-j:not(:empty):not(a):not(.embedContentInner-FBnk7v) {
-  padding-bottom:25px;
+  padding-bottom:32px;
 }
 .embed-IeVjo6,
 .containerCozy-B4noqO>* {
