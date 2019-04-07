@@ -2341,3 +2341,7 @@ polyline[stroke*="#7289da"] {
 .buttonColor-1agP3J {
     background:var(--lv1) !important;
 }
+.wrapper-2NJDcI {
+    background:rgba(255,255,255,0.07);
+    border-radius:0;
+}
