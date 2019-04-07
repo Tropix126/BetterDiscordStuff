@@ -709,6 +709,7 @@ z-index: 100;
   margin: 0;
   top: 0;
   left: 0;
+  border-radius:0 !important;
   background: transparent;
   border:2px solid;
   box-sizing: border-box;
