@@ -2650,3 +2650,66 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .backdrop-1wrmKB {
   background:var(--lv1) !important;
 }
+.option-96V44q:after,
+.searchResult-3pzFAB:before,
+.searchResult-3pzFAB:after {
+	display:none !important;
+}
+.searchResult-3pzFAB .hit-NLlWXA {
+  box-shadow:none !important;
+}
+.container-3ayLPN {
+  box-shadow:0 0 12px var(--lv1) !important;
+}
+.option-96V44q {
+  border-radius:0px;
+  transition:150ms all ease;
+  background:rgba(255,255,255,0.08);
+  margin-top:7px;
+  box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
+  border-left:2px solid rgba(255,255,255,0.1);
+}
+.option-96V44q.selected-rZcOL- {
+  background-color:rgba(255,255,255,0.15) !important;
+  box-shadow:0 0 2px 2px rgba(255,255,255,0.15);
+  border-left:2px solid rgba(255,255,255,0.5);
+  padding-left:15px !important;
+}
+.searchResultsWrap-2DKFzt {
+    background:var(--lv1) !important;
+    width:450px;
+    border-bottom:51px solid rgba(255,255,255,0.07) !important;
+}
+.searchHeader-1l-wpR {
+    background:transparent !important;
+}
+.searchFilter-2ESiM3,
+.searchAnswer-3Dz2-q,
+#app-mount .hintValue-29ny8Z,
+.jumpButton-Ia2hRJ {
+  background:var(--accent) !important;
+  border-radius:0 !important;
+  box-shadow:0 0 12px var(--accent);
+}
+.react-datepicker__day--selected:after,
+.react-datepicker__day:hover {
+     background:var(--accent) !important;
+}
+.react-datepicker,
+.react-datepicker__header,
+.searchResult-3pzFAB .hit-NLlWXA,
+.channelSeparator-1X1FuH .channelName-1QajIf {
+    background:transparent !important;
+}
+.searchResult-3pzFAB .hit-NLlWXA {
+  border:none !important;
+}
+.react-datepicker__day {
+    border-color:transparent !important;
+    background:rgba(0,0,0,0.5) !important;
+    transition:150ms ease all !important;
+}
+.container-16j22k,
+.noChannel-Z1DQK7 {
+  background:var(--lv1) !important;
+}
