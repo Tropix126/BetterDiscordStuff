@@ -1,10 +1,3 @@
-/*//META{"name":"Midnight","description":"Description","author":"Tropical","version":"0.0"}*//*/*/
-:root {
-    --lv1:#00000f;
-    --BetterDocsBlockerBlack1:var(--lv1);
-    --accent:#1973d3;
-    --hover:#135193;
-}
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 ::selection {
