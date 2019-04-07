@@ -2636,3 +2636,17 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
    background-color: var(--accent) !important;
 }
+.modal-3HD5ck {
+  background:var(--lv1) !important;
+  box-shadow:inset 0 0 10000px rgba(255,255,255,0.07) !important;
+  border-radius:0;
+  width:800px;
+}
+.footer-2yfCgX {
+  background:rgba(255,255,255,0.04) !important;
+  box-shadow:none !important;
+  border-radius:0 !important;
+}
+.backdrop-1wrmKB {
+  background:var(--lv1) !important;
+}
