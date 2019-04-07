@@ -299,7 +299,7 @@ a {
     padding-top:7px;
     padding-bottom:4px;
     background:rgba(255,255,255,0.03);
-    width:2000px;
+    width:101%;
     margin-left:-12px;
 }
 .username-_4ZSMR {
@@ -924,7 +924,6 @@ background-color: var(--invisible) !important;
 .container-2Thooq {
 	width: 335px;
 	margin-left: -55px !important;
-        width:334px;
         background:var(--lv1) !important;
         box-shadow:inset 0 0 10000px rgba(255,255,255,0.08) !important;
 	position: absolute;
@@ -2196,4 +2195,60 @@ polyline[stroke*="#7289da"] {
 .hideGameUpdateProgressIndicator-YAQq-w,
 .downloadProgressCircle-3_wgim {
   position:absolute;
+}
+.container-3-pyIM,
+.icon-2Po-VO{
+    padding-top:25px;
+}
+.icon-2Po-VO {
+    margin-top:4px;
+}
+.large-3ChYtB:not(.wrapper-2F3Zv8)::before {
+    margin-bottom:12px;
+}
+.container-1UB9sr {
+    background: var(--lv1) !important;
+    box-shadow: inset 0 0 10000px rgba(255,255,255,0.02) !important;
+}
+.wrapper-29NfPK {
+    background-color:var(--lv1) !important;
+}
+.video-1FfuMD {
+    background-color:transparent !important;
+}
+.isLocalBot-38G0P0 {
+    background-image:none !important;
+    box-shadow:none !important;
+}
+.callAvatarBorder-1D_KaE,
+.callAvatar-v-u4BM,
+.wrapper-29NfPK .iconsWrapper-1RelE3,
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    border-radius:0 !important;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    box-shadow:0 0 12px #f04747;
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background:rgba(255,255,255,0.1);
+    box-shadow:0 0 12px 1px rgba(255,255,255,0.1);
+}
+.path-92Hmty {
+    stroke:var(--accent) !important;
+}
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
+    box-shadow:inset 0 0 0 2px var(--accent);
+}
+.quickSelectPopout-X1hvgV {
+    border-radius:0;
+    background:var(--lv1) !important; 
+    box-shadow:inset 0 0 1000px rgba(255,255,255,0.08) !important;
+}
+.regionSelectFlag-1htPow {
+    border-radius:0;
+    background-color:var(--accent) !important;
+}
+.check-2by_h9 {
+    background:var(--accent) !important;
+    -webkit-mask:url(https://discordapp.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg);
 }
