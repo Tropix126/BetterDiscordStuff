@@ -2268,3 +2268,76 @@ polyline[stroke*="#7289da"] {
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="402272736665272320"]::after,
 .large-3ChYtB:not(.wrapper-2F3Zv8)[style*="182064839827521536"]::after {
 	display:none;
+}
+.icon-2hm0JA,
+.container-35JN_A,
+.card-GqTca8,
+.section-3TvauS,
+.applicationIcon-3-RUVw,
+.video-3zO734,
+.twitchSectionPreview-22ZCfA,
+.buttonColor-1agP3J,
+.wrapper-Qvfyci,
+.popout-3G62UL,
+.popout-3G62UL *,
+.body-3YPTZ5,
+.partyMember-923s4S,
+.partyMemberOverflow-Nei5T6,
+.headerIcon-1xLMqh, 
+.multipleIconWrapper-2TXVB4,
+.wrapper-129saQ {
+    border-radius:0 !important;
+}
+.activityFeed-1C0EmJ .image-3g0L65 {
+    z-index:-1;
+}
+.activityFeed-1C0EmJ .buttonColor-1agP3J {
+    z-index:100;
+}
+.partyMember-923s4S {
+    mask:none;
+    -webkit-mask:none;
+    margin-left:4px;
+}
+.wrapper-9ppXpy,
+.partyMemberOverflow-Nei5T6,
+.recentlyPlayedContainer-2F3MqS,
+.empty-hejAOj {
+    background:rgba(255,255,255,0.04) !important;
+    box-shadow:none !important;
+}
+.outer-2IVh5n,
+.inset-GQDQYw {
+    box-shadow:0 0 12px #000;
+    background:rgba(255,255,255,0.05) !important;
+}
+.section-3TvauS,
+.separator-1N1EBC {
+    background:transparent !important;
+}
+.layout-1cQCv2 {
+    background-image:none !important;
+}
+.partyMemberOverflow-Nei5T6 {
+    margin-left:4px;
+}
+.grid-1rkoVH .unwrapped-37iUtM,
+.memberListItem-vHCzSI:hover {
+    background-color:rgba(255,255,255,0.1) !important;
+    transition:150ms ease all;
+}
+.popoutContainer-3WC9HR:hover,
+.enabled-5QKLzu:hover{
+    background:rgba(255,255,255,0.075) !important;
+}
+.popoutContainer-3WC9HR,
+.memberListItem-vHCzSI {
+    transition:150ms ease all;
+}
+.grid-1rkoVH .unwrapped-37iUtM:hover {
+    background-color:rgba(255,255,255,0.15) !important;
+}
+.popout-3G62UL,
+.buttonColor-1agP3J {
+    background:var(--lv1) !important;
+}
