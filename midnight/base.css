@@ -2713,3 +2713,43 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .noChannel-Z1DQK7 {
   background:var(--lv1) !important;
 }
+.item-3T2z1R {
+    border-radius:0 !important;
+    border:none;
+}
+.messagesPopoutWrap-1MQ1bW {
+    background:var(--lv1) !important;
+    border-radius:0 !important;
+}
+.messageGroupWrapper-o-Zw7G,
+.header-ykumBX {
+    background:transparent !important;
+    border:none !important;
+    border-radius:0 !important;
+}
+.messagesPopoutWrap-1MQ1bW .containerCozy-jafyvG {
+    margin-left:10px !important;
+    margin-right:10px !important;
+}
+.header-ykumBX {
+    box-shadow:none !important;
+    background:rgba(255,255,255,0.15) !important;
+}
+.header-ykumBX .title-3pkaKd {
+    font-weight:500 !important;
+}
+.jumpButton-3DTcS_ {
+    background:var(--accent) !important;
+    box-shadow:0 0 12px var(--accent);
+    border-radius:0;
+}
+.messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+    box-shadow:none !important;
+    background:transparent !important;
+}
+.appMount-3lHmkl {
+  background-color:var(--lv1) !important;
+}
+.layers-3iHuyZ {
+  background:var(--lv1) !important;
+}
