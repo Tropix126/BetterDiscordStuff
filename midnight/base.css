@@ -3029,3 +3029,14 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
   border-radius:0 !important;
 }
+.root-SR8cQa .tabBarContainer-1s1u-z {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+.root-SR8cQa .header-QKLPzZ .additionalActionsIcon-1FoUlE {
+    position:absolute;
+    top:15px;
+    right:15px;
+    padding:5px;
+}
