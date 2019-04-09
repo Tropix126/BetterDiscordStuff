@@ -147,7 +147,8 @@ a {
 }
 .userSettingsSecurity-3IYeMF:hover .defaultColor-1_ajX0,
 .userSettingsAccount-2eMFVR:hover .defaultColor-1_ajX0,
-.contentColumnDefault-1VQkGM:hover .defaultColor-1_ajX0 {
+.contentColumnDefault-1VQkGM:hover .defaultColor-1_ajX0,
+.modal-3HD5ck:hover .defaultColor-1_ajX0 {
     color:var(--accent) !important;
     border-color:var(--accent) !important;
     font-weight:500;
@@ -3039,4 +3040,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     top:15px;
     right:15px;
     padding:5px;
+}
+.jumpToPresentBar-9P20AM button:first-child {
+    display:none;
+}
+.jumpToPresentBar-9P20AM {
+    width:118px;
+    border-radius:0;
 }
