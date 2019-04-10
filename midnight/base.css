@@ -523,9 +523,9 @@ a {
   border-left:2px solid rgba(255,255,255,0.8);
 }
 @keyframes unread {
-    0% {box-shadow:0 0 15px 3px var(--hover);}
-    50% {box-shadow:0 0 20px 6px var(--hover);}
-    100% {box-shadow:0 0 15px 3px var(--hover);}
+    0% {box-shadow:0 0 10px 1px var(--hover);}
+    50% {box-shadow:0 0 17px 3px var(--hover);}
+    100% {box-shadow:0 0 10px 1px var(--hover);}
 }
 .unread-1Dp-OI {
   margin-top:1px;
