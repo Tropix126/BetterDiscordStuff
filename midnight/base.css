@@ -3057,7 +3057,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 .inner-zqa7da .textArea-2Spzkt {
     transition:150ms ease border, 150ms ease box-shadow;
-    border-bottom:3px solid rgba(255,255,255,0.1);
+    border-bottom:2px solid rgba(255,255,255,0.1);
 }
 .attachButton-1UjEWA {
   opacity: 0.45;
@@ -3107,4 +3107,100 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .icon-3D60ES {
     transform:scale(.85) !important;
     width:30px;
+}
+.userPopout-3XzG_A {
+    border-radius:0;
+    background:var(--lv1) !important;
+    box-shadow:0 0 12px 1px var(--lv1);
+}
+.footer-1fjuF6 {
+    background:rgba(255,255,255,0.08) !important;
+}
+.headerNormal-T_seeN {
+    background:linear-gradient(rgba(255,255,255,0.08) 95%, var(--hover)) !important;
+}
+.body-3iLsc4 {
+    background:rgba(255,255,255,0.04) !important;
+    border-top:2px solid var(--accent);
+}
+.headerPlaying-j0WQBV {
+    background:var(--accent) !important;
+}
+.quickMessage-1yeL4E {
+    background:transparent !important;
+    transition:150ms ease border, 150ms ease box-shadow;
+    box-shadow:none !important;
+    border-radius:0;
+    border:none;
+    border-bottom:2px solid rgba(255,255,255,0.1) !important;
+}
+.quickMessage-1yeL4E:focus {
+    border-color:var(--accent) !important;
+    box-shadow: 0 6px 10px -8px var(--accent) !important;
+}
+.role-2irmRk {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  box-sizing: content-box;
+  height: 16px;
+  margin: 3px;
+  padding: 2px;
+  position: relative;
+  line-height: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  overflow: visible;
+}
+.role-2irmRk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-width: calc(0.65em + 4px) .5em;
+  border-style: solid;
+  border-color: inherit;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+.roleName-32vpEy {
+  margin: 0 4px;
+}
+.roleCircleButton-377y0l {
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+  height: 22px;
+  top: -1px;
+  left: -1px;
+  border-radius: 2px 0 0 2px;
+  width: 0px;
+  display: flex !important;
+  transition: width 200ms;
+}
+.roleCircle-3xAZ1j {
+  display: none;
+}
+.addButton-pcyyf6 {
+  line-height: 10px;
+  width: 22px;
+  box-sizing: border-box;
+  height: 22px;
+}
+.roleRemoveIcon-2-TeGW {
+  display: block;
+}
+.role-2irmRk:hover .roleCircleButton-377y0l {
+  transition: width 0.2s;
+  width: 22px;
+}
+.addButtonIcon-1NMJ8u {
+  height: 7px;
+  width: 7px;
+}
+.avatarHint-1qgaV3,
+.userPopout-3XzG_A .activity-11LB_k * {
+    border-radius:0 !important;
 }
