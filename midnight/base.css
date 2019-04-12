@@ -2003,7 +2003,8 @@ polyline[stroke*="#7289da"] {
     flex-flow: row wrap;
     justify-content: center;
 }
-#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
+#app-mount .container-3gCOGc .friendsTable-133bsv .scroller-2FKFPG > div:not(.friendsRow-2yicud),
+#app-mount .container-3gCOGc .friendsTable-133bsv .scroller-2FKFPG {
     background: transparent;
     animation:fade 500ms ease;
     border-radius:0 !important;
