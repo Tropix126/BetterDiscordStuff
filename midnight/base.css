@@ -30,6 +30,9 @@
 #bd-settings-sidebar .ui-tab-bar-separator{
     display:none;
 }
+#bd-settings-sidebar .ui-tab-bar-item {
+    margin-top:10px;
+}
 .side-8zPYf6 .itemDefault-3Jdr52,
 #bd-settings-sidebar .ui-tab-bar-item {
     border-radius:0px;
