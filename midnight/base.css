@@ -3478,3 +3478,9 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     color:var(--accent) !important;
     font-weight:500;
 }
+#app-mount .interactive-1FxC7B {
+    border-radius:0;
+}
+#app-mount .interactive-1FxC7B:hover {
+    background:var(--lv1) !important;
+}
