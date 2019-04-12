@@ -3000,6 +3000,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   top:-22% !important;
   z-index:100000000 !important;
   border:200px solid rgba(0,0,0,0.5);
+  border-left-width:215px !important;
   animation:opacity .5s ease;
 }
 @keyframes opacity {
