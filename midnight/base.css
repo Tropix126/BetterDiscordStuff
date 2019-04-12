@@ -3444,3 +3444,36 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .modalTitle-37O4n6 .content-2Add9f {
     text-shadow:0 0 12px;
 }
+.root-SR8cQa .header-QKLPzZ .lookFilled-1Gx00P,
+.root-SR8cQa .header-QKLPzZ .lookInverted-2D7oAl {
+    border-radius:0 !important;
+}
+.standardSidebarView-3F1I7i #editor-detached button {
+    background-color:var(--accent) !important;
+    border-radius:0px;
+    box-shadow:0 0 12px 1px var(--accent);
+    transition:150ms all ease;
+    font-weight:300;
+}
+.standardSidebarView-3F1I7i #editor-detached button:hover {
+    background-color:var(--hover) !important;
+    box-shadow:0 0 12px 1px var(--hover);
+}
+.standardSidebarView-3F1I7i #editor-detached h3 {
+    font-weight:600;
+}
+#bd-settingspane-container h2.ui-form-title {
+    text-transform: none;
+    text-align: center;
+    color: rgba(255,255,255,0.5) !important;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+    width:100%;
+    transition: 250ms all ease;
+    font-weight: 300;
+}
+#bd-settingspane-container:hover h2.ui-form-title {
+    border-color:var(--accent);
+    color:var(--accent) !important;
+    font-weight:500;
+}
