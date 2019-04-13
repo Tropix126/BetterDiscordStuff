@@ -3568,6 +3568,9 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     border-color:var(--accent);
     position:absolute;
 }
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+	border-color:var(--accent);
+}
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
     text-shadow:0 0 12px;
     padding-left:20px;
@@ -3766,4 +3769,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9.selected-39BZ4S,
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/flags.svg) !important
+}
+#bda-qem {
+    display:none;
 }
