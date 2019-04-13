@@ -3487,3 +3487,24 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 #app-mount .interactive-1FxC7B:hover {
     background:var(--lv1) !important;
 }
+.tier2HeaderBackground-2BUqcl path[fill="rgb(128,167,255)"],
+.tier2HeaderBackground-2BUqcl path[fill="rgb(71,112,228)"],
+.tier2HeaderBackground-2BUqcl path[fill="rgb(156,184,255)"] {
+    fill:var(--accent);
+}
+.headerAnimation-1Uc0L6 {
+    width:100%;
+    left:0;
+}
+.tier2HeaderBackground-2BUqcl {
+    background-image: linear-gradient(90deg,var(--accent),#fff) !important;
+}
+.option-1l2vXE {
+    border-radius:0;
+    background:rgba(255,255,255,0.05) !important;
+}
+.price-1rEl-z {
+    background:var(--lv1) !important;
+    border-radius:0;
+    color:var(--accent) !important;
+}
