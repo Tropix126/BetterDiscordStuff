@@ -3770,6 +3770,44 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
   background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/flags.svg) !important
 }
+#bda-qem {
+    background:var(--lv1) !important;
+    border-radius:0 !important;
+    border:1px solid rgba(255,255,255,0.1);
+    box-shadow:0 0 12px var(--lv1);
+}
+#bda-qem button {
+    color:rgba(255,255,255,0.5) !important;
+    border-radius:0 !important;
+    border:0;
+    transition:150ms ease all;
+    box-shadow:none !important;
+}
+#bda-qem button.active {
+    background:var(--accent) !important;
+    box-shadow:0 0 12px var(--accent) !important;
+    color:#fff !important;
+}
+#bda-qem button:hover {
+    background:rgba(255,255,255,0.07);
+}
+#bda-qem-favourite-container,
+#bda-qem-twitch-container{
+    background:var(--lv1);
+    height:302px;
+    width:377px !important;
+    box-shadow:0 0 12px var(--lv1);
+    border:1px solid rgba(255,255,255,0.1);
+}
+.emote-container:hover {
+    border-radius:0 !important;
+    box-shadow:0 0 0 2px var(--accent), 0 0 2px 2px var(--accent);
+    background-color:rgba(255,255,255,0.07) !important;
+}
+.emote-container {
+    width:28px;
+    height:28px;
+}
 .searchBarTag-2xRzm8 {
     background:rgba(255,255,255,0.075) !important;
 }
