@@ -3610,3 +3610,160 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   background: var(--accent);
   border-radius:0 !important;
 }
+.emojiPicker-3m1S-j {
+    flex-direction: row-reverse;
+    background:var(--lv1);
+    border-radius:0;
+    box-shadow:0 0 12px var(--lv1);
+    border:1px solid rgba(255,255,255,0.1);
+}
+.emojiPicker-3m1S-j .categories-1feg4n {
+    height: 300px;
+    background:rgba(255,255,255,0.07);
+    flex-direction:column;
+    margin:0;
+    padding:0 5px;
+    padding-left:7px;
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+    background:transparent;
+}
+.emojiPicker-3m1S-j .category-2U57w6 {
+    color:#fff;
+    opacity:.55;
+    font-weight:600;
+}
+.emojiPicker-3m1S-j .header-1nkwgG {
+    width:0;
+}
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
+    position:absolute;
+    top:250px;
+    left:40px;
+    width:270px;
+}
+.diversitySelector-tmmMv0 {
+    position:absolute;
+    top:260px;
+    left:335px;
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input {
+    color:#fff !important;
+}
+.premiumPromo-yVfLiA {
+    background:var(--lv1) !important;
+    border-radius:0 !important;
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder {
+    text-shadow:0 0 12px;
+    color:#fff;
+    opacity:.2;
+}
+.searchBarIcon-1J6sKG .icon-3cZ1F_ img {
+    filter:brightness(2);
+    opacity:.4;
+}
+.popout-2nUePc {
+    margin-top:-45px !important;
+    margin-left:-150px !important;
+    flex-direction:row !important;
+    height:28px !important;
+    padding:5px;
+    background:var(--lv1) !important;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.07), inset 0 0 1000px rgba(255,255,255,0.07) !important;
+    border-radius:0 !important;
+    border:0 !important;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 {
+    height:250px;
+    margin-top:2px;
+    width:325px !important;
+}
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+    width:100%;
+    top:2px !important;
+    background:var(--lv1);
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+    border-color:transparent;
+}
+.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ,
+.emojiPicker-3m1S-j ::-webkit-scrollbar {
+    display:none;
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq:hover {
+    opacity:1 !important;
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+    transition:150ms ease all;
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq {
+    opacity:.5 !important;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA:hover,
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+    border-radius:0 !important;
+    box-shadow:0 0 0 2px var(--accent), 0 0 2px 2px var(--accent);
+    background-color:rgba(255,255,255,0.07) !important;
+}
+.popoutTopRight-3BzFIE.noArrow-3BYQ0Z {
+    margin-left:-10px;
+}
+.emojiPicker-3m1S-j .noSearchResultsContainer-3Dee0U {
+    width:325px;
+}
+.sadImage-2ph8SI {
+    filter:invert(1) brightness(15);
+}
+/*from https://ellexidecodes.github.io/Discord-Themes/css/base.css*/
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/frequent.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/custom.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/people.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/nature.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/food.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/activity.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/travel.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/objects.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/symbols.svg) !important
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9.selected-39BZ4S,
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9:hover {
+  background-image: url(https://ellexidecodes.github.io/Discord-Themes/assets/emojiCategory/flags.svg) !important
+}
