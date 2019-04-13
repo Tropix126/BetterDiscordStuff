@@ -442,22 +442,26 @@ a {
 .privateChannels-1nO12o:after {
     border-bottom:2px solid var(--hover);
 }
+.channels-Ie2l6A {background-color:var(--lv1);}
 .privateChannels-1nO12o:after {
-    content:'Home';
+    content:'';
     background:var(--lv1);
-    box-shadow:inset 0 0 1000px rgba(255,255,255,0.07);;
-    padding-left:129px;
-    padding-right:131px;
+    box-shadow:inset 0 0 1000px rgba(255,255,255,0.07);
     font-weight:600;
     height:38px;
     line-height:34px;
     top:0px;
     position:absolute;
     color:#fff;
-    z-index:1;
+    z-index:0;
+    width: 100%;
 }
-.privateChannels-1nO12o .scroller-2FKFPG {
-    margin-top:50px;
+.privateChannels-1nO12o .scroller-2FKFPG[style*="padding-top"] {
+  padding-top: 0 !important;
+}
+.privateChannels-1nO12o .scrollerWrap-2lJEkd {
+  position: relative;
+  z-index: 1;
 }
 .container-PNkimc {
     background-color:var(--lv1) !important;
@@ -661,20 +665,25 @@ a {
   margin:10px;
   margin-right:2px;
 }
-.privateChannels-1nO12o header {
-margin-top: -20px;
-}
 #app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
-display: inline-block;
-margin-left:8px !important;
-margin-right:2px !important;
-margin-top:0px !important;
-padding:initial !important;
-width: calc(25% - 10px);
-background:transparent !important;
-box-shadow:none !important;
-border:none !important;
+  display: inline-block;
+  margin: 0;
+  padding:initial !important;
+  width: 25%;
+  background:transparent !important;
+  box-shadow: none !important;
+  border:none !important;
+  height: 38px;
 }
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .linkButtonIcon-Mlm5d6 {margin:0}
+#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .name-2WpE7M{display:none}
 .da-privateChannels .da-channel .wrapper-232cHJ {
   position:absolute;
   top:20px;
@@ -940,7 +949,6 @@ background-color: var(--invisible) !important;
 .base-3dtUhz {
     border-radius:0px !important;
 }
-
 .homeButton-2Cw51C {
   background-color: #fff !important;
   -webkit-mask: url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/asset_home.svg);
@@ -950,7 +958,6 @@ background-color: var(--invisible) !important;
   margin-top:4px;
   margin-left:2px;
 }
-
 .homeButton-2Cw51C defs, .homeButton-2Cw51C g {
   display: none;
 }
@@ -958,17 +965,13 @@ background-color: var(--invisible) !important;
     background-color: var(--lv1) !important;
     box-shadow: inset 0 0 100000px rgba(255,255,255,0.07);
 }
-
 #app-mount .downloadProgressCircle-yTgLNF {
   top: 0px;
 }
-
 .circleBackground-OqqxHM {
   fill: var(--blurple-sheer);
   stroke: var(--greyple-sheer);
 }
-
-
 .button-2b6hmh {margin:0 !important;}
 .container-2Thooq {
 	width: 335px;
@@ -979,8 +982,8 @@ background-color: var(--invisible) !important;
         z-index:2;
         bottom:-2px !important;
 }
-.theme-dark .guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
-    height: calc(100vh - 53px) !important;
+.guildsWrapper-5TJh6A, .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
+    height: calc(100vh - 50px) !important;
 }
 .membersWrap-2h-GB4 {
     border-bottom:52px solid rgba(255,255,255,0.07);
