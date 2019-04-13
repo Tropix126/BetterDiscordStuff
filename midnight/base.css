@@ -3777,7 +3777,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     box-shadow:0 0 12px var(--lv1);
     position:absolute;
     top:-30px;
-    z-index:-1;
 }
 #bda-qem button {
     color:rgba(255,255,255,0.5) !important;
