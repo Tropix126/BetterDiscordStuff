@@ -43,12 +43,6 @@
     box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
     border-left:2px solid rgba(255,255,255,0.1);
 }
-#bd-settings-sidebar div[style*="font-size"] {
-  box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
-  border-left:2px solid rgba(255,255,255,0.1);
-  background:rgba(255,255,255,0.08);
-  margin: 10px 0;
-}
 #bd-settings-sidebar div[style*="font-size"]:last-of-type {margin-bottom: 3px;}
 .sidebarRegionScroller-3MXcoP,
 #app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd {
