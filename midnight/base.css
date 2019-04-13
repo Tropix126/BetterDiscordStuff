@@ -43,6 +43,13 @@
     box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
     border-left:2px solid rgba(255,255,255,0.1);
 }
+#bd-settings-sidebar div[style*="font-size"] {
+  box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
+  border-left:2px solid rgba(255,255,255,0.1);
+  background:rgba(255,255,255,0.08);
+  margin: 10px 0;
+}
+#bd-settings-sidebar div[style*="font-size"]:last-of-type {margin-bottom: 3px;}
 .sidebarRegionScroller-3MXcoP,
 #app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd {
   justify-content: center;
@@ -453,7 +460,7 @@ a {
     top:0px;
     position:absolute;
     color:#fff;
-    z-index:0;
+    z-index:1;
     width: 100%;
 }
 .privateChannels-1nO12o .scroller-2FKFPG[style*="padding-top"] {
@@ -461,7 +468,6 @@ a {
 }
 .privateChannels-1nO12o .scrollerWrap-2lJEkd {
   position: relative;
-  z-index: 1;
 }
 .container-PNkimc {
     background-color:var(--lv1) !important;
@@ -662,7 +668,7 @@ a {
   line-height: 16px;
   text-transform: uppercase;
   opacity:1;
-  margin:10px;
+  margin:45px 10px 10px 10px;
   margin-right:2px;
 }
 #app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
@@ -674,7 +680,13 @@ a {
   box-shadow: none !important;
   border:none !important;
   height: 38px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
 }
+#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):nth-child(1) {margin-left: 25% !important;}
+#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):nth-child(2) {margin-left: 50% !important;}
+#app-mount .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):nth-child(3) {margin-left: 75% !important;}
 .privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
   height: 100% !important;
   width: 100%;
@@ -689,11 +701,10 @@ a {
   top:20px;
   transform:scale(0.7);
 }
-
 .privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
-height: 50%;
-flex-direction: column;
-background:transparent !important;
+  height: 50%;
+  flex-direction: column;
+  background:transparent !important;
 }
 .privateChannels-1nO12o .channel-2QD9_O:hover:not([style="height: 42px; opacity: 1;"]) a,
 .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover .da-name,
@@ -703,8 +714,8 @@ background:transparent !important;
   text-shadow:0 0 12px;
 }
 .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
-font-size: 11.3px !important;
-margin-left:-10px !important;
+  font-size: 11.3px !important;
+  margin-left:-10px !important;
 }
 .da-privateChannels .da-channel {
   padding-right:0px;
