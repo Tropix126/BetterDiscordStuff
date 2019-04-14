@@ -3851,3 +3851,13 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     border-radius:0;
     left:17%;
 }
+.content-1-zrf2 {
+    padding:25px;
+    background:rgba(255,255,255,0.07);
+    max-width:210px;
+    text-align:left;
+    box-shadow:0 0 12px 2px rgba(255,255,255,0.07), inset 0 0 12px var(--lv1);
+}
+.status-1JTY3j:after {
+    content:' to Discord';
+}
