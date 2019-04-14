@@ -1,5 +1,4 @@
 ## Midnight
-Discord Theme
 ---
 ## Copyright and License
 ### Terms Used
