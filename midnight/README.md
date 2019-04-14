@@ -2,7 +2,7 @@
 ![](https://i.imgur.com/AAUTQ5J.png)
 
 ---
-<h1 align="center">Copyright and License</h1>
+## Copyright and License
 ### Terms Used
 - Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We", "Theme Developers", "Theme Developer", "Developers", "Devloper")
 - Content ("Themes", "product", "items", "codes", "assets")
