@@ -4,7 +4,7 @@
 ---
 ## Copyright and License
 ### Terms Used
-- Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We")
+- Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We", "Theme Developers", "Theme Developer", "Developers", "Devloper")
 - Content ("Themes", "product", "items", "codes", "assets")
 - User ("You", "User", "they", "them", "their")
 ---
@@ -40,6 +40,8 @@ The author reserves the right to request take down of any content that is found 
 - [Spectra's Github](https://github.com/codedotspectra)  
 - [BetterDiscord Server 1 (#official theme list)](https://discord.gg/0Tmfo5ZbORCRqbAd)  
 - [BetterDiscord Server 2 (#official theme list)](https://discord.gg/2HScm8j)   
+- [BetterDiscordLibrary](https://betterdiscordlibrary.com)  
+## NO OTHER SITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM EITHER THEME DEVELOPER
 ---
 **All these terms apply to all files in this repository**
 ---
