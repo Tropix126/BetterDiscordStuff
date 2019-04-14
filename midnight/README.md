@@ -1,4 +1,4 @@
-## Midnight - Discord Theme by Tropical and Jack "Spectra" Neth
+<h1 align="center">Midnight - Discord Theme by Tropical and Jack "Spectra" Neth</h1>
 ![](https://i.imgur.com/AAUTQ5J.png)
 
 ---
