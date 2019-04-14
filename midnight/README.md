@@ -1,7 +1,6 @@
 ## Midnight - Discord Theme by Tropical and Jack "Spectra" Neth
-<p align="center">
-  <img alt=".midnightTitleImage-3pXr91" src="https://i.imgur.com/AAUTQ5J.png">
-</p>
+![](https://i.imgur.com/AAUTQ5J.png)
+
 ---
 ## Copyright and License
 ### Terms Used
