@@ -41,7 +41,7 @@ The author reserves the right to request take down of any content that is found 
 - [BetterDiscord Server 1 (#official theme list)](https://discord.gg/0Tmfo5ZbORCRqbAd)  
 - [BetterDiscord Server 2 (#official theme list)](https://discord.gg/2HScm8j)   
 - [BetterDiscordLibrary](https://betterdiscordlibrary.com)  
-## NO OTHER SITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM EITHER THEME DEVELOPER
+## NO OTHER WEBSITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM EITHER THEME DEVELOPER
 ---
 **All these terms apply to all files in this repository**
 ---
