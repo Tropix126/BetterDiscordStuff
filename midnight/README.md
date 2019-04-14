@@ -9,7 +9,7 @@
 ### Introduction
 The authors, Tropical and Spectra reserve the right to all content found in this repository. The content is intellectual property and will remain as such indefinitely. If any one person decides to use, in whole or in part, the code, they agree to be bound by the rules stated herein by the author.
 
-Author reserves the right to request take down of any content that is found to be in violation of these terms.
+The author reserves the right to request take down of any content that is found to be in violation of these terms.
 ---
 ### Contact:
 + Discord: Tropical#8908 (254362351170617345), Spectra#7698 (286208664623120384)
