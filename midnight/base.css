@@ -3861,3 +3861,14 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .status-1JTY3j:after {
     content:' to Discord';
 }
+.quickswitcher-3JagVE{
+    background:transparent !important;
+    border-radius:0;
+}
+.quickswitcher-3JagVE * {
+    border-radius:0 !important;
+}
+.input-2VB9rf {
+    background:rgba(255,255,255,0.08) !important;
+    z-index:1000;
+}
