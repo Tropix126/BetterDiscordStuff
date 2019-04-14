@@ -41,4 +41,4 @@ Author reserves the right to request take down of any content that is found to b
 ---
 **All these terms apply to all files in this repository**
 ---
-Copyright © 2017 - Present, Jack "Spectra" Neth and Tropical
+Copyright © 2019 - Present, Jack "Spectra" Neth and Tropical
