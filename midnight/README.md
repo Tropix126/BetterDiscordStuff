@@ -1,4 +1,4 @@
-## Midnight
+## Midnight - Discord Theme by Tropical and Jack "Spectra" Neth
 ---
 ## Copyright and License
 ### Terms Used
