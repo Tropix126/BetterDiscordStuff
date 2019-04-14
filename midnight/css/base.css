@@ -3889,3 +3889,95 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .container-VSDcQc ::-webkit-scrollbar {
     display:none;
 }
+.bda-slist li {
+    border-radius:0px;
+    padding:9px !important;
+    transition:250ms all ease;
+    background:rgba(255,255,255,0.08);
+    margin-top:7px;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.08);
+    border-left:2px solid rgba(255,255,255,0.1) !important;
+    border:0;
+    width:99%;
+    margin-left:5px !important;
+}
+#bd-settingspane-container h2.ui-form-title,
+.contentRegion-3nDuYy .defaultColor-1_ajX0 {
+    position:sticky;
+    top:0;
+    background:var(--lv1);
+    z-index:10;
+    height:50px;
+    width:104%;
+    margin-left:-20px;
+    padding-top:15px;
+}
+.bda-slist li:hover {
+    background-color:rgba(255,255,255,0.1) !important;
+    box-shadow:0 0 2px 2px rgba(255,255,255,0.1);
+    border-left:2px solid rgba(255,255,255,0.5);
+    padding-left:15px !important;
+}
+.repo-controls {
+    margin-top:10px;
+}
+.bda-slist .bda-footer,
+.bda-slist .bda-header{
+    border:0;
+}
+.bda-footer button {
+    background:var(--accent) !important;
+    border-radius:0 !important;
+    transition:150ms ease al;
+}
+.bda-footer button:hover {
+    background:var(--hover) !important;
+}
+.themerepo-loadingicon path:nth-of-type(1),
+.pluginrepo-loadingicon path:nth-of-type(1) {
+    fill:var(--accent) !important;
+}
+.Repo-modal .modal-3HD5ck,
+#dv-mount {
+    width:100% !important;
+}
+#dv-mount {
+    background:transparent !important;
+}
+#bd-settingspane-container .bd-pfbtn {
+    border-radius:0;
+}
+.notice-2FJMB4 {
+    top:37px;
+    border-radius:0 !important;
+}
+.emojiButton-3uL3Aw[style*="margin-right"] {
+    margin-right:0 !important;
+}
+.bd-detached-editor .emojiButton-3uL3Aw[style*="margin-right"] {
+    margin-right:39px !important;
+}
+.ServerFolders-modal * {
+    border-radius:0 !important;
+}
+.DevilBro-modal .swatches .ui-color-picker-swatch {
+    margin-left:5px;
+}
+.container-2td-dC.folder .badge-3dItlm.folder.count {
+    background:var(--accent) !important;
+}
+.themedPopout-25DgLi:not(.messagesPopoutWrap-1MQ1bW) {
+    padding:10px !important;
+    background:var(--lv1) !important;
+    box-shadow:inset 0 0 10000px rgba(255,255,255,0.07) !important;
+    border-radius:0;
+}
+.reply-list {
+    border-radius:0;
+    background:var(--lv1);
+    box-shadow:inset 0 0 1000px rgba(255,255,255,0.03);
+}
+.reply-item {
+    border-radius:0;
+    background:rgba(255,255,255,0.07);
+}
