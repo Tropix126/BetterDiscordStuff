@@ -1,8 +1,8 @@
-<h1 align="center">Midnight - Discord Theme by Tropical and Jack "Spectra" Neth</h1>
+## Midnight - Discord Theme by Tropical and Jack "Spectra" Neth
 ![](https://i.imgur.com/AAUTQ5J.png)
 
 ---
-## Copyright and License
+<h1 align="center">Copyright and License</h1>
 ### Terms Used
 - Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We", "Theme Developers", "Theme Developer", "Developers", "Devloper")
 - Content ("Themes", "product", "items", "codes", "assets")
