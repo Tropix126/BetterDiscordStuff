@@ -3872,3 +3872,20 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     background:rgba(255,255,255,0.08) !important;
     z-index:1000;
 }
+.container-VSDcQc,
+.autocompleteShadow-iiGWFU,
+.popout-3sVMXz header,
+.popout-3sVMXz section {
+    border-radius:0 !important;
+}
+.popout-3sVMXz header,
+.popout-3sVMXz section {
+    background:var(--lv1) !important;
+}
+.row-rrHHJU.selected-1pIgLL {
+    background: linear-gradient(90deg,rgba(255,255,255,0.08),transparent) !important;
+}
+.positionBottom-3oo9L9 .autocompleteArrowWrapper-3Z7OuM,
+.container-VSDcQc ::-webkit-scrollbar {
+    display:none;
+}
