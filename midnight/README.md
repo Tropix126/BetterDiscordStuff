@@ -4,7 +4,7 @@
 ---
 ## Copyright and License
 ### Terms Used
-- Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We", "Theme Developers", "Theme Developer", "Developers", "Devloper")
+- Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We", "Theme Developers", "Theme Developer", "Developers", "Developer")
 - Content ("Themes", "product", "items", "codes", "assets")
 - User ("You", "User", "they", "them", "their")
 ---
