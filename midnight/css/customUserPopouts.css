@@ -95,7 +95,7 @@
     border:2px solid rgb(253, 169, 76);
     box-shadow:0 0 12px rgb(253, 169, 76);
     opacity:.75;
-    animation:keyframeTropical 1.5s ease infinite, keyframeScaleIn 350ms cubic-bezier(0,0,0,1);
+    animation:keyframeTropical 1.5s ease infinite, keyframeFadeIn 350ms ease;
 }
 
 /*Spectra*/
