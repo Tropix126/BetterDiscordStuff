@@ -7,7 +7,7 @@
   text-shadow:0 0 12px #fff !important;
 }
 #bd-settingspane-container .bda-slist::before {
-    content:"Need support with the theme, want to report a bug, have a suggestion, or want extra features like a tag or custom\apopout? Join the Black Box server for support on all of my themes and more.\ahttps://bit.ly/blackboxserver";
+    content:"Need support with the theme, want to report a bug, have a suggestion, or want extra features like a tag or custom popout? Join the Black Box server\a for support, polls, addons and more. https://bit.ly/blackboxserver";
     background: var(--accent);
     line-height:20px;
     white-space: pre;
@@ -18,6 +18,7 @@
     padding:15px;
     box-shadow:0 0 12px 2px rgba(255,255,255,0.08);
     border-left:2px solid rgba(255,255,255,0.3);
+    text-align:center;
 }
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
