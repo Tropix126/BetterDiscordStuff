@@ -7,7 +7,7 @@
   text-shadow:0 0 12px #fff !important;
 }
 #bd-settingspane-container .bda-slist::before {
-    content:"Need support with the theme, want to report a bug, have a suggestion, or want extra features like a tag or custom popout? Join the Black Box server\a for support, polls, addons and more. https://bit.ly/blackboxserver";
+    content:"Midnight Release 1.0\aNeed support with the theme, want to report a bug, have a suggestion, or want extra features like a tag or custom popout? Join the Black Box server\a for support, polls, addons and more. https://bit.ly/blackboxserver";
     background: var(--accent);
     line-height:20px;
     white-space: pre;
