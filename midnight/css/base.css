@@ -11,7 +11,8 @@
     background: var(--accent);
     line-height:20px;
     white-space: pre;
-    margin-bottom: 15px;
+    display:block;
+    margin-top:10px;
     color:#b9bbbe !important;
     transition:250ms ease all !important;
     background-color:rgba(255,255,255,0.08);
@@ -19,6 +20,7 @@
     box-shadow:0 0 12px 2px rgba(255,255,255,0.08);
     border-left:2px solid rgba(255,255,255,0.3);
     text-align:center;
+    overflow:auto;
 }
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
@@ -3996,4 +3998,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .reply-item {
     border-radius:0;
     background:rgba(255,255,255,0.07);
+}
+.assetsLargeMaskUserPopout-12EBBc {
+    mask:none !important;
+    -webkit-mask:none;
 }
