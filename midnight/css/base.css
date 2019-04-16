@@ -4003,3 +4003,43 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     mask:none !important;
     -webkit-mask:none;
 }
+/*MacOS Titlebar, Made by MasicoreLord*/
+.platform-osx .toolbar-94eLIm {
+    margin-right: 0!important;
+}
+
+.typeMacOS-3EmCyP {
+    transform: none;
+}
+
+.platform-osx .bg-AYqtMd {
+    margin-top: 38px;
+}
+
+.platform-osx .container-2lgZY8 {
+    padding-top: 20px;
+}
+
+.platform-osx .container-2lgZY8::before {
+    position: absolute;
+    margin-left: 70px;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    content: '';
+    -webkit-app-region: drag;
+}
+
+.platform-osx .headerBarDrag-3bf7wG,
+.platform-osx .pageHeaderDrag-OPlmbm {
+    -webkit-app-region: no-drag;
+}
+
+.macButtons-2MuSAC {
+    height: 20px;
+}
+
+.platform-osx .theme-dark .guildsWrapper-5TJh6A,
+.platform-osx .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
+    height: calc(100vh - 73px)!important;
+}
