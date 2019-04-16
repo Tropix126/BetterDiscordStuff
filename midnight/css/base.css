@@ -4043,3 +4043,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .platform-osx .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
     height: calc(100vh - 73px)!important;
 }
+
+.bd-detached-editor .platform-osx #bd-customcss-detach-container {
+    margin-top: 58px;
+}
