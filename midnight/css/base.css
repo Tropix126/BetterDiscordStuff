@@ -4957,3 +4957,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .selectorNitroIcon-2rQO-z g path {
 	fill: var(--accent);
 }
+
+.divider-2PMBlV {
+	display:none;
+}
