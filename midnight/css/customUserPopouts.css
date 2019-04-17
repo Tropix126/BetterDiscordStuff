@@ -40,7 +40,7 @@
     -webkit-mask: linear-gradient(black, transparent 60%);
     background-position:0 100%;
     background-size:cover;
-    border-radius:0;
+    border-radius:0 !important;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="254362351170617345"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="286208664623120384"] + .online-2S838R,
