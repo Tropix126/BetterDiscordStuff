@@ -3959,7 +3959,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 .layer-3QrUeG[layer-id*="user-settings"] {
     position:fixed;
-    z-index:3002;
+    margin-top:29px;
+}
+.titleBar-AC4pGV {
+    background:var(--lv1);
 }
 .contentWrapper-3WC1ID,
 .pill-1dHPfk {
