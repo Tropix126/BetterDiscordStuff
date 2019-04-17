@@ -1380,9 +1380,6 @@ background-color: var(--invisible) !important;
     top:auto;
     z-index:100;
 }
-.layers-3iHuyZ>.layer-3QrUeG {
-    position:fixed;
-}
 .bd-detached-editor .layers-3iHuyZ>.layer-3QrUeG {
     position:absolute !important;
 }
