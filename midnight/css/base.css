@@ -4961,3 +4961,35 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .divider-2PMBlV {
 	display:none;
 }
+
+.rightSplit-2US0xy,
+.canvas-3XuBXe {
+	display: none;
+}
+
+.authBox-hW6HRx {
+	border-radius: 0;
+	background: rgba(255, 255, 255, 0.07) !important;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.leftSplit-1qOwnR {
+	position: static;
+	width: 100%;
+}
+
+.wrapper-6URcxg {
+	right: 0;
+}
+
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+	background-image: linear-gradient(0deg, transparent, transparent 1px, var(--accent) 0, var(--accent) 2px, transparent 0);
+}
+
+.wrapper-3Q5DdO {
+	background: none !important;
+}
