@@ -2479,7 +2479,7 @@ polyline[stroke*="#7289da"] {
 }
 
 .friendsRow-2yicud:hover .inner-1W0Bkn {
-	transform: scale(1.1.2);
+	transform: scale(1.1);
 }
 
 .friendsRow-2yicud .inner-1W0Bkn {
@@ -4868,7 +4868,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v1.1';
+	content: 'v1.1.2';
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
