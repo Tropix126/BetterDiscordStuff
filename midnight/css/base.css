@@ -795,7 +795,6 @@ a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	box-shadow: 0 0 12px 1px var(--accent);
-	transition: 150ms all ease;
 	border-left: 2px solid rgba(255, 255, 255, 0.8);
 	text-shadow: 0 0 12px;
 }
