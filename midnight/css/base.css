@@ -3958,4 +3958,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .wordmark-2iDDfm svg {
   display:none;
 }
-
+.channels-Ie2l6A .scroller-2FKFPG {
+    padding-bottom:35px;
+}
+.layer-3QrUeG[layer-id*="user-settings"] {
+    position:fixed;
+    z-index:3002;
+}
