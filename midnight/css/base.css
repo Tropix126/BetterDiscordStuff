@@ -6,22 +6,6 @@
   color:#fff;
   text-shadow:0 0 12px #fff !important;
 }
-#bd-settingspane-container .bda-slist::before {
-    content:"Midnight Release 1.0\aNeed support with the theme, want to report a bug, have a suggestion, or want extra features like a tag or custom popout? Join the Black Box server\a for support, polls, addons and more. https://bit.ly/blackboxserver";
-    background: var(--accent);
-    line-height:20px;
-    white-space: pre;
-    display:block;
-    margin-top:10px;
-    color:#b9bbbe !important;
-    transition:250ms ease all !important;
-    background-color:rgba(255,255,255,0.08);
-    padding:15px;
-    box-shadow:0 0 12px 2px rgba(255,255,255,0.08);
-    border-left:2px solid rgba(255,255,255,0.3);
-    text-align:center;
-    overflow:auto;
-}
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
     background-color:var(--lv1);
@@ -495,7 +479,7 @@ a {
     opacity:1;
 }
 .channels-Ie2l6A {
-    width:300px;
+    width:275px;
 }
 .colorTransition-2-M2tg {
     text-align:center;
@@ -722,7 +706,7 @@ div[style*="width: 100%; height: 20px"] {
 }
 .privateChannels-1nO12o .searchBar-6Kv8R2 {
   position: absolute;
-  bottom: 40px;
+  bottom: 55px;
   right: 35px;
   padding: 0;
   border-radius:0 !important;
@@ -960,12 +944,11 @@ background-color: var(--invisible) !important;
 
 .homeButton-2Cw51C {
   background-color: #fff !important;
-  -webkit-mask: url(https://tropix126.github.io/BetterDiscordStuff/aurora/assets/asset_home.svg);
-  -webkit-mask-size: 23px;
+  -webkit-mask: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACBFBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+CAoa0AAAAq3RSTlMAAQIDBAUHCAkKCwwNDg8QERIUFRcYGRocHR4fICEiIyQlJikqKywtMDIzNTg7PT5AQUJFRkdISUpLTU5PUFFSU1dZXmFiZmdoa2xtb3Byc3R1dnl6e32AgYKEhYiKjI+RkpSWl5manJ2en6ChoqOkpaaoqaqsra6xs7i5ur2+wcLDxsjKy83O0NHS09bX2Nnb3N3f4ePl5ujp6uvt7vDx8vP09fb3+Pr7/f5i9vAlAAAEEklEQVR4AezcIa6DQBCAYR5PsqhWYzktsogatiRVXLI9QEOygiwZvt+OmXxuzDS6TpIkSZIkSZIkSZIkSZIkzfnUzd3RANvJ648GyNupywkAAAAAAAAAAAAAAAAAABwPsI5D1ca1MsDSVG6pDJBTU7X0Yx8AAAAAAAAAAAAAAAAAAND+F9VGA+imR1FTNIB+KywawHdeVAYAAAAAAAAAAAAAAECQY+jiAOn53i86wN/tvtvwCglQ0HJxgJQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ4bn6h7z7bmoqjeI4/stuYHfZAbLsUsKaAQuMBVQEFBGxA6JYsGDvWAQUewcRlQJCUEYJaCIFApw36fj/c64zyXMfnsn5voKTz5zMnTn3jxv/Bvi8zsExb7z5lnoDFkNjjo38Db7twbF4Cy0aB9D3/b/TpCPLAfiBkh+RaIDCIIkGqFwg0QDniCQD/H6fRAMUDpFogOooiQY4SyQZwPuURAOsHiTRAJVEogHOUAIAxD5Q0hMyUKrbAKEZ51iAVUFimtFYyPUNSPc55p9kAHbNE9M+n8bSPVoA9J+oThHTp4123RRdOlI+I6bOvyAAoKCXmK4AiQ6QBuwgrlokPMCcw9N/tAiJD/Ax5RYxdaRBAMCXUWJqBgQA8O2BaIDQBogG6EyHaICrgGiAGogGmCiCaIAX/8CmPBHDANdgV8mGN2Av1LUOx95QI/hSeoYdCy6YBBgvhrLstxRX18GWSr/KIEDHv1BW9o3i7E0OP489AJeh7gjFX6TEfoAaqLtNWjpkOcD4GijL6idNtVkN8DILyrZOkLa6AvYCNEPdAdLZ92JbAeqg7iZprsFKgFARlOW8J+3dsBDgVQaUlYfJhbr9tgFchLpGcqdIqV0A9VDmaSbXqrcIYGItlGX2k4u1WgPQ+R+UVc+Tq3VlxwxAOgEuQdlvR8ntJjfFCjCpEaAWDMD6goCmdrI/r4EBmCoMOPa/NoDP62Agfw8xtagBIqaOjK99MJLnMTG9y2Re1xsBuABjHSSmSPnSAeyHwapmiakOSDMOEGH+/i6W10dMd4BZwwB/RqkjA6ZrJ6bn+SOGAbJ/qpvvMDFFvxoGCOzGklQxT3w8QAKV3y0cAHgoHQDHpAOgalo4APIGhAMA96QD4IR0AJRFhQNgZY9wAOCBdACclA6ALVPCAbC8VzgA0CIdAE3SAVA6JxwAKwaEA8BzVzgAcFw6ADaHhQMg94NwAHhbhAMATdIBUDEtHAD5fcIB4GkTDgA0SgfAtrBwACwbJApLBkBSO9EfEN15yoXsSvz40R4cCAAAAAAI8rceYYFqAAAAAAEefSZtIWsy0wAAAABJRU5ErkJggg==');
+  -webkit-mask-size: 28px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-  margin-top:4px;
-  margin-left:2px;
+  margin-top:3px;
 }
 
 .homeButton-2Cw51C defs, .homeButton-2Cw51C g {
@@ -988,7 +971,7 @@ background-color: var(--invisible) !important;
 
 .button-2b6hmh {margin:0 !important;}
 .container-2Thooq {
-	width: 335px;
+	width: 310px;
 	margin-left: -55px !important;
         background:var(--lv1) !important;
         box-shadow:inset 0 0 10000px rgba(255,255,255,0.08) !important;
@@ -1001,62 +984,6 @@ background-color: var(--invisible) !important;
 }
 .membersWrap-2h-GB4 {
     border-bottom:52px solid rgba(255,255,255,0.07);
-}
-.titleBar-AC4pGV {
-  transform: translateY(-6px);
-  height: 0px;
-  margin-top: 0px;
-}
-.winButton-iRh8-Z {
-  top:8px;
-  height: 36px;
-  width: 30px;
-  right: 8px;
-  transform:scale(.9);
-  background-position: center;
-  opacity: .6;
-}
-.winButton-iRh8-Z:hover {
-  transition: all .2s ease-in-out;
-  background-color:transparent;
-  border-radius: 5px;
-  opacity: 1 !important;
-}
-.titleBar-AC4pGV .winButtonClose-1HsbF- {
-	background-image: url(https://ruben7173.github.io/BetterDiscord-Themes/Fixed-Themes-Misc/Dark-Matter-Remastered/assets/close.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 24px;
-}
-.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(3) {
-	background-image: url(https://ruben7173.github.io/BetterDiscord-Themes/Fixed-Themes-Misc/Dark-Matter-Remastered/assets/maximize.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 24px;
-}
-.titleBar-AC4pGV .winButton-iRh8-Z:nth-child(4) {
-	background-image: url(https://ruben7173.github.io/BetterDiscord-Themes/Fixed-Themes-Misc/Dark-Matter-Remastered/assets/minimize.svg) !important;
-	background-repeat: no-repeat;
-	background-position: center 7px;
-	background-size: 24px;
-}
-.titleBar-AC4pGV rect, .wordmark-2iDDfm, .winButton-iRh8-Z svg {
-	display: none;
-}
-.titleBar-AC4pGV:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 6px;
-  height: 14px;
-  z-index: 3002;
-  -webkit-app-region: drag !important;
-  pointer-events: none;
-}
-.toolbar-94eLIm {margin-right: 90px !important;}
-.app-19_DXt {
-  border:1px solid var(--lv1);
 }
 .tooltip-1OS-Ti {
     border-radius:0;
@@ -1172,7 +1099,7 @@ background-color: var(--invisible) !important;
 }
 .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
   width: fit-content !important;
-  top: 40px !important;
+  top: 65px !important;
   left: 200px !important;
   box-shadow:0 0 12px rgba(0,0,0,0.5);
   animation:scale1 300ms ease !important;
@@ -1380,7 +1307,7 @@ background-color: var(--invisible) !important;
 }
 .membersWrap-2h-GB4,
 .scroller-2FKFPG {
-    width:275px !important;
+    width:265px !important;
     max-width:unset;
 }
 .mobileIndicator-329Gd6 {
@@ -4003,47 +3930,35 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     mask:none !important;
     -webkit-mask:none;
 }
-/*MacOS Titlebar, Made by MasicoreLord*/
-.platform-osx .toolbar-94eLIm {
-    margin-right: 0!important;
+.titleBar-AC4pGV {
+    height:25px;
+      box-shadow:0 0 10px var(--lv1);
+}
+.winButton-iRh8-Z {
+    height:30px;
+    transition:100ms ease background;
+    transform:scale(1.01);
+    width:45px;
+}
+.wordmark-2iDDfm {
+  margin-top:3px;
+  margin-left:2px;
+}
+.wordmark-2iDDfm:after {
+	content:'v1.1';
+	text-shadow:0 0 12px;
+	font-weight:400;
+	color: rgba(255,255,255,0.8);
+	font-size: 16px;
+}
+.wordmark-2iDDfm:before {
+	content:'Midnight ';
+	text-shadow:0 0 12px;
+	font-weight:600;
+	color: var(--accent);
+	font-size: 16px;
+}
+.wordmark-2iDDfm svg {
+  display:none;
 }
 
-.typeMacOS-3EmCyP {
-    transform: none;
-}
-
-.platform-osx .bg-AYqtMd {
-    margin-top: 38px;
-}
-
-.platform-osx .container-2lgZY8 {
-    padding-top: 20px;
-}
-
-.platform-osx .container-2lgZY8::before {
-    position: absolute;
-    margin-left: 70px;
-    top: 0;
-    width: 100%;
-    height: 20px;
-    content: '';
-    -webkit-app-region: drag;
-}
-
-.platform-osx .headerBarDrag-3bf7wG,
-.platform-osx .pageHeaderDrag-OPlmbm {
-    -webkit-app-region: no-drag;
-}
-
-.macButtons-2MuSAC {
-    height: 20px;
-}
-
-.platform-osx .theme-dark .guildsWrapper-5TJh6A,
-.platform-osx .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
-    height: calc(100vh - 73px)!important;
-}
-
-.bd-detached-editor .platform-osx #bd-customcss-detach-container {
-    margin-top: 58px;
-}
