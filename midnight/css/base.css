@@ -4851,8 +4851,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .titleBar-AC4pGV {
-	height: 25px;
+	height: 29px;
 	box-shadow: 0 0 10px var(--lv1);
+	margin-top:0;
+	background: var(--lv1);
 }
 
 .winButton-iRh8-Z {
@@ -4860,11 +4862,16 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	transition: 100ms ease background;
 	transform: scale(1.01);
 	width: 45px;
+	top:-1px;
 }
 
 .wordmark-2iDDfm {
 	margin-top: 3px;
 	margin-left: 2px;
+}
+
+.bd-detached-editor .layers-3iHuyZ>.layer-3QrUeG {
+	margin-top:0;
 }
 
 .wordmark-2iDDfm:after {
@@ -4894,10 +4901,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .layer-3QrUeG[layer-id*="user-settings"] {
 	position: fixed;
 	margin-top: 29px;
-}
-
-.titleBar-AC4pGV {
-	background: var(--lv1);
 }
 
 .contentWrapper-3WC1ID,
