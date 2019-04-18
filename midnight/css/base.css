@@ -5130,3 +5130,38 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .theme-light .layer-3QrUeG:first-of-type * {
 	visibility: hidden;
 }
+
+.typeMacOS-3EmCyP {
+    position: relative;
+}
+
+.macButtons-2MuSAC::before,
+.macButtons-2MuSAC::after {
+    position: absolute;
+    pointer-events: none;
+    transform: translateX(-50%);
+    opacity: .8;
+}
+
+.macButtons-2MuSAC::before {
+    content: 'Midnight';
+    left: 50%;
+    text-shadow: 0 0 12px;
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 16px;
+}
+
+.macButtons-2MuSAC::after {
+    content: 'v1.1.2';
+    left: calc(50% + 52px);
+    text-shadow: 0 0 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.platform-osx .headerBarDrag-3bf7wG,
+.platform-osx .pageHeaderDrag-OPlmbm {
+    -webkit-app-region: no-drag;
+}
