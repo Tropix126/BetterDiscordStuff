@@ -19,7 +19,7 @@
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="498444458845536257"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="336678828233588736"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="331398151229669378"] + .status-oxiHuE,
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
 #app-mount .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .status-oxiHuE,
@@ -59,7 +59,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="498444458845536257"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="336678828233588736"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="331398151229669378"] + .online-2S838R,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .online-2S838R,
@@ -82,7 +82,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="498444458845536257"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="336678828233588736"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="331398151229669378"] + .idle-3DEnRT,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .idle-3DEnRT,
@@ -107,7 +107,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="498444458845536257"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="336678828233588736"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="331398151229669378"] + .dnd-1_xrcq,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .dnd-1_xrcq,
@@ -131,7 +131,7 @@
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="498444458845536257"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="336678828233588736"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="331398151229669378"] + .streaming-2_dnHe,
-.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="USER"] + .streaming-2_dnHe,
@@ -292,7 +292,15 @@
     opacity:.8;
 }
 
-/*USER*/
+/*Sydnxt*/
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] + .status-oxiHuE {
+    background-image:url('https://i.imgur.com/QmvSS36.gif') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="213220786805145600"] {
+    animation:keyframePulseMain 1.5s ease infinite;
+    opacity:.75;
+}
+
 /*USER*/
 /*USER*/
 /*USER*/
@@ -316,9 +324,15 @@
     100% {opacity:1;}
 }
 @-webkit-keyframes keyframePulseMain {
-  0% {-webkit-box-shadow: 0 0 0 0 var(--accent);}
-  70% {-webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);}
-  100% {-webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);}
+  0% {
+    -webkit-box-shadow: 0 0 16px 3px var(--accent);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 2px 1px var(--accent);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 16px 3px var(--accent);
+  }
 }
 @keyframes keyframeFallBounce {
   from {
