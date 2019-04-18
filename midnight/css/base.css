@@ -1211,6 +1211,10 @@ div[style*="width: 100%; height: 20px"] {
 	bottom: -2px !important;
 }
 
+.base-3dtUhz > .flex-1xMQg5 {
+	position: static!important;
+}
+
 .theme-dark .guildsWrapper-5TJh6A,
 .channels-Ie2l6A.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr {
 	height: calc(100vh - 53px) !important;
