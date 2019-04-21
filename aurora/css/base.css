@@ -1202,7 +1202,8 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 /*5.a. Wrapper*/
 .da-guild,
 .guild-1EfMGQ.folder,
-.friendsOnline-_wi_fM {
+.friendsOnline-_wi_fM,
+.da-guildsError {
 	margin-left:10px;
 }
 .friendsOnline-2JkivW {
