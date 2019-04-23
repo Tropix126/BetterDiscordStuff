@@ -2841,6 +2841,23 @@ polyline[stroke*="#7289da"] {
 	box-shadow: 0 0 12px var(--hover);
 }
 
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+    background:var(--hover) !important;
+    box-shadow:0 0 12px var(--hover);
+}
+.container-3gCOGc .title-29uC1r,
+.container-3gCOGc .children-19S4PO .iconWrapper-2OrFZ1,
+.divider-3FBTu8 {
+    display:none;
+}
+.divider-3FBTu8 {
+    display:none;
+}
+.topPill-30KHOu .item-PXvHYJ:hover:not(.selected-3s45Ha):not(.primary-3j8BhM) {
+    background:transparent !important;
+    color:#fff;
+}
+
 .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL):not(.primary-3j8BhM) {
 	background: rgba(255, 255, 255, 0.08) !important;
 }
