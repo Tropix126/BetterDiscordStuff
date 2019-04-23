@@ -21,7 +21,7 @@
 	display: none;
 }
 
-#app-mount .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+#app-mount .standardSidebarView-3F1I7i .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
 .standardSidebarView-3F1I7i .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item.selected {
 	background-color: var(--accent) !important;
 	border-radius: 0px;
@@ -80,7 +80,7 @@
     margin-top: 15px;
 }
 
-.side-8zPYf6 .item-PXvHYJ,
+.standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ,
 #bd-settings-sidebar .ui-tab-bar-item {
 	border-radius: 0px;
 	padding: 9px !important;
@@ -917,24 +917,29 @@ a {
 	border: none !important;
 }
 
-.da-privateChannels .da-channel .wrapper-232cHJ {
-	position: absolute;
-	top: 20px;
-	transform: scale(0.7);
-}
-
 .privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a {
 	height: 50%;
 	flex-direction: column;
 	background: transparent !important;
 }
 
-.privateChannels-1nO12o .channel-2QD9_O:hover:not([style="height: 42px; opacity: 1;"]) a,
-.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover .da-name,
-.privateChannels-1nO12o .channel-2QD9_O.da-selected:not([style="height: 42px; opacity: 1;"]) a,
-.channel-2QD9_O.da-selected:not([style="height: 42px; opacity: 1;"]) .da-name {
+.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6,
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]):hover .name-2WpE7M,
+.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6,
+.channel-2QD9_O.selected-1HYmZZ:not([style="height: 42px; opacity: 1;"]) .name-2WpE7M {
 	color: var(--accent) !important;
 	text-shadow: 0 0 12px;
+}
+.linkButtonIcon-Mlm5d6,
+.name-2WpE7M{
+    transition:150ms ease all;
+}
+
+.channel-2QD9_O.selected-1HYmZZ:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
+    position:absolute;
+    top:33%;
+    transform:scale(.9);
+    background:var(--dnd) !important;
 }
 
 .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
@@ -942,7 +947,7 @@ a {
 	margin-left: -10px !important;
 }
 
-.da-privateChannels .da-channel {
+.privateChannels-1nO12o .channel-2QD9_O {
 	padding-right: 0px;
 }
 
