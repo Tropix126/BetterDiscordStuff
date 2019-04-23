@@ -945,7 +945,7 @@ a {
     transition:150ms ease all;
 }
 
-.channel-2QD9_O.selected-1HYmZZ:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
+.channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
     position:absolute;
     top:33%;
     transform:scale(.9);
