@@ -816,6 +816,11 @@ a {
 	background: var(--accent);
 }
 
+.botTagInvert-18-95s {
+    border-radius:0;
+    color:var(--accent) !important;
+}
+
 .chat-3bRxxu form .typing-2GQL18 {
 	background-color: var(--lv1) !important;
 	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.08), 0 0 10px black;
