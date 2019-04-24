@@ -2868,10 +2868,6 @@ polyline[stroke*="#7289da"] {
 	color: #fff;
 }
 
-.topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL):not(.primary-3j8BhM) {
-	background: rgba(255, 255, 255, 0.08) !important;
-}
-
 .tabBar-1E2ExX .primarySelected-3uHKZn {
 	color: var(--accent) !important;
 	box-shadow: 0 0 12px #fff;
