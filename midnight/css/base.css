@@ -953,6 +953,7 @@ a {
 	position: absolute;
 	top: 33%;
 	transform: scale(.9);
+	box-shadow:none !important;
 	background: var(--dnd) !important;
 }
 
@@ -5403,7 +5404,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	-webkit-app-region: no-drag;
 }
 
-.listItem-2P_4kh .numberBadge-2s8kKX {
+.numberBadge-2s8kKX {
 	background: var(--accent) !important;
 	border-radius: 0px;
 	padding: 4px;
