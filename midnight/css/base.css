@@ -743,8 +743,9 @@ a {
 }
 
 .modeSelected-1zApJ_ .icon-1_QxNX,
-.modeSelected-1zApJ_ .actionIcon-2Hi9ZG {
-	color: #fff;
+.modeSelected-1zApJ_ .actionIcon-2Hi9ZG,
+.wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg {
+	color: #fff !important;
 }
 
 .wrapper-1ucjTd:not(.modeSelected-1zApJ_):hover .icon-1_QxNX {
