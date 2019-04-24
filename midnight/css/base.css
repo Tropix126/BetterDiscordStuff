@@ -5040,7 +5040,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 #bd-settingspane-container h2.ui-form-title,
 .contentRegion-3nDuYy .defaultColor-1_ajX0 {
 	position: sticky;
-	top: 0;
+	top: 29px;
 	background: var(--lv1);
 	z-index: 10;
 	height: 50px;
