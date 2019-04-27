@@ -707,6 +707,8 @@ a {
 
 .wrapper-1ucjTd {
 	animation: 250ms category ease;
+	overflow:visible;
+	height:28px;
 }
 
 .wrapper-1ucjTd:hover .name-3_Dsmg {
@@ -761,7 +763,8 @@ a {
 	transition: 150ms all ease;
 	background: rgba(255, 255, 255, 0.08);
 	margin-top: 7px;
-	padding-bottom: 7px;
+	padding-bottom: 0;
+	height:27px;
 	margin-left: 5px;
 	margin-right: 5px !important;
 	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08);
@@ -798,7 +801,8 @@ a {
 	margin-top: 0;
 	background: var(--accent) !important;
 	animation: 2s unread ease infinite;
-	border-radius: 0px;
+	border-radius: 0;
+	top:38%;
 }
 
 .channel-2QD9_O a {
@@ -5162,7 +5166,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v1.1.2';
+	content: 'v1.2';
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
