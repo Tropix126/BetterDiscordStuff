@@ -759,6 +759,9 @@ div[style*="width: 100%; height: 20px"] {
     background-size: 12%, cover;
     right:110px;
 }
+.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6 {
+    color:#fff;
+}
 .privateChannels-1nO12o .searchBar-6Kv8R2:hover:after {
     content:"Search Messages";
     color:#fff;
@@ -805,6 +808,35 @@ div[style*="width: 100%; height: 20px"] {
 }
 .emojiPicker-3m1S-j .scroller-3vODG7 {
     height:60vh !important;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background:transparent !important;
+    height:100% !important;
+    width:100% !important;
+}
+.children-19S4PO:after {
+    display:none;
+}
+.container-1r6BKw {
+    background:transparent !important;
+    box-shadow:none !important;
+}
+#app-mount .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+    background:var(--main-color) !important;
+}
+.divider-3FBTu8 {
+    display:none;
+}
+.akaBadge-1M-1Gw {
+    background:var(--main-color) !important;
+}
+/*search bar*/
+.iconContainer-O4O2CN {
+    width:18px;
+    height:18px;
+}
+.container-cMG81i {
+    background:transparent !important;
 }
 
 /*3.m. Invites*/
@@ -984,6 +1016,18 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .contentSelectedVoice-1WDIBM:active {
 	background: var(--main-color-faded);
 	transition: 100ms all linear;
+}
+#app-mount .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+    background:var(--main-color) !important;
+}
+.wrapper-1ucjTd .content-3at_AU {
+	transition: 100ms background linear;
+}
+.wrapper-1ucjTd:hover .content-3at_AU {
+    background:var(--main-color-faded) !important;
+}
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
+    color:#fff;
 }
 
 /*4.b. Account Deatils Container*/
@@ -1235,6 +1279,41 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	display:none;
 }
 
+.acronym-2mOFsV {
+    transition:250ms ease background;
+    background:rgba(0,0,0,0.5) !important;
+}
+.acronym-2mOFsV:hover {
+    background:var(--main-color) !important;
+}
+.listItem-2P_4kh {
+    margin-left:10px;
+}
+.pill-31IEus {
+    width:30px;
+    margin-left:-10px;
+}
+.item-2hkk8m {
+    margin-left:6px;
+    border-radius:50px;
+    width:8px !important;
+    background:var(--main-color);
+}
+.guildSeparator-3s64Iy {
+    display:none;
+}
+.homeIcon-tEMBK1 path {
+    display:none;
+}
+.button-OhfaWu {
+    background:transparent !important;
+}
+.listItem-2P_4kh:first-child .wrapper-sa6paO {
+    display:none;
+}
+.circleIconButton-jET_ig {
+    margin-left:0;
+}
 /*5.b. Add/Create Guilds Button*/
 .guildsAdd-21_IdK {
 	background:rgba(0,0,0,0.5) !important;
@@ -1292,6 +1371,10 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 }
 
 /*5.e. Tooltips*/
+.da-tooltip {
+    background: var(--main-color) !important;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
+}
 @keyframes fadetop {
 	0% {
 		opacity: 0;
