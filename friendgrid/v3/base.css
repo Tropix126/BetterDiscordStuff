@@ -6,7 +6,7 @@
 | $$__/| $$  \__/| $$| $$$$$$$$| $$  \ $$| $$  | $$| $$|_  $$| $$  \__/| $$| $$  | $$
 | $$   | $$      | $$| $$_____/| $$  | $$| $$  | $$| $$  \ $$| $$      | $$| $$  | $$
 | $$   | $$      | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$/| $$      | $$|  $$$$$$$
-|__/   |__/      |__/ \_______/|__/  |__/ \_______/ \______/ |__/      |__/ \_______/*/
+|__/   |__/      |__/ \_______/|__/  |__/ \_______/ \______/ |__/      |__/ \_______/ */
 
 .friendsTable-133bsv .scroller-2FKFPG>div:not(.friendsRow-2yicud),
 .friendsTable-133bsv .scroller-2FKFPG {
@@ -170,25 +170,8 @@
 	top: 0;
 }
 
-.container-3gCOGc .friendsTable-133bsv div[style*="width: 100%;"]:last-child::after {
-    content:'';
-    position:relative;
-    margin-top:70px;
-    border: 5px solid transparent;
-    border-top: 5px solid rgba(255,255,255,0.25);
-    border-radius:50px;
-    width: 30px;
-    height: 30px;
-    animation: friendGridSpin 1.25s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-}
-
 .image-1GzsFd {
     z-index:1;
-}
-
-@keyframes friendGridSpin {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
 }
 
 @keyframes friendGridFade {
