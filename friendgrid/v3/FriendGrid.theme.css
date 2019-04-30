@@ -10,13 +10,4 @@
 |__/   |__/      |__/ \_______/|__/  |__/ \_______/ \______/ |__/      |__/ \_______/
 */
 /*Import Base CSS File*/
-@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/base.css');
-
-/*Root*/
-:root {
-  --cardheight : 145px;
-  --cardwidth : 250px;
-  --margin : 1.8%;
-  --cardradius : 3px;
-  --cardblurlevel : 18px;
-}
+@import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
