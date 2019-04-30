@@ -20,26 +20,26 @@
 .friendsRow-2yicud {
 	position: relative;
 	display: block !important;
-	height: var(--card-height) !important;
-	width: var(--card-width);
-	margin: var(--card-margin) !important;
+	height: 145px !important;
+	width: 250px;
+	margin: 1.8% !important;
 	padding: 0 !important;
-	border-radius: var(--card-radius);
+	border-radius: 3px;
 	box-shadow: 0 0 12px rgba(0,0,0,0.25);
 	animation: friendGridFade .75s ease;
 	transition: 250ms ease all, 350ms ease background-color;
 }
 
 .friendsTable-133bsv .friendsTableHeader-32yE7d {
-	display: none;
+    display: none;
 }
 
 .friendsRow-2yicud:active {
-	transform: scale(.95);
+    transform: scale(.95);
 }
 
 .friendsRow-2yicud:hover {
-	background-color: rgba(0,0,0,0.3) !important;
+    background-color: rgba(0,0,0,0.3) !important;
 	box-shadow: 0 0 14px rgba(0,0,0,0.5) !important;
 }
 
@@ -48,14 +48,14 @@
 	display: block;
 	top: 30px;
 	left: 64px;
-	color: rgba(255,255,255,0.65);
+    color: rgba(255,255,255,0.65);
 	font-size: 13px;
 	overflow: visible;
 	transition: .15s ease color;
 }
 
 .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .username {
-	color: rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.9);
 }
 
 .friendsColumnName-1zBOKm .discriminator {
@@ -84,20 +84,20 @@
 }
 
 .friendsRow-2yicud .inner-1W0Bkn::after {
-	content: '';
-	position: absolute;
-	top: -30px;
-	left: -10px;
-	height: var(--card-height);
-	width: var(--card-width);
-	z-index: -1;
-	background: inherit;
-	filter: blur(var(--card-blur-level) brightness(.65);
-	transition:500ms ease transform, 350ms ease filter;
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -10px;
+	height: 145px;
+	width: 250px;
+    z-index: -1;
+    background: inherit;
+    filter: blur(18px) brightness(.65);
+    transition:500ms ease transform, 350ms ease filter;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .avatarSmall--gkJKA .inner-1W0Bkn::after {
-	transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 .friendsColumnActions-1LT3_M {
@@ -109,8 +109,8 @@
 }
 
 .friendsColumnGuilds-2we6jb {
-	margin-top: 2px !important;
-	margin-left: 8px !important;
+    margin-top: 2px !important;
+    margin-left: 8px !important;
 }
 
 .friendsTable-133bsv .iconSizeSmall-3aWgx9,
@@ -128,18 +128,18 @@
 .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
 	height: 30px !important;
 	width: 30px !important;
-	background-color: #2E7E5A !important;
+    background-color: #2E7E5A !important;
 	background-size: 18px !important;
-	opacity: .65;
-	transition: .75s ease opacity;
+    opacity: .65;
+    transition: .75s ease opacity;
 }
 
 .friendsColumnActions-1LT3_M .friendsActionRemove-qu8nnl {
-	background-color: #902A2A !important;
+    background-color: #902A2A !important;
 }
 
 .friendsAction-__WNE9:hover {
-	opacity: 1 !important;
+    opacity: 1 !important;
 }
 
 .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
@@ -155,8 +155,8 @@
 	margin-right: 0 !important;
 	justify-content: center;
 	opacity: .8;
-	border-radius: var(--card-radius) var(--card-radius) 0 0 !important;
-	box-shadow: 0 0 25px rgba(0,0,0,0.15);
+	border-radius: 3px 3px 0 0 !important;
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
 }
 
 .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
@@ -169,10 +169,10 @@
 }
 
 .friendsTable-133bsv div[style*="height: 0"]:last-child {
-	height:10% !important;
+    height:10% !important;
 }
 
 @keyframes friendGridFade {
-	0% {opacity:0;}
-	100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
