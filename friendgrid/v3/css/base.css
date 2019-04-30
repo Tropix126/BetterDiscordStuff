@@ -133,7 +133,7 @@
     background-color: #2E7E5A !important;
 	background-size: 18px !important;
     opacity: .65;
-    transition: .75s ease opacity;
+    transition: .75s ease opacity !important;
 }
 
 .friendsColumnActions-1LT3_M .friendsActionRemove-qu8nnl {
