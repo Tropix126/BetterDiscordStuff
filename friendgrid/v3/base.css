@@ -6,55 +6,56 @@
 | $$__/| $$  \__/| $$| $$$$$$$$| $$  \ $$| $$  | $$| $$|_  $$| $$  \__/| $$| $$  | $$
 | $$   | $$      | $$| $$_____/| $$  | $$| $$  | $$| $$  \ $$| $$      | $$| $$  | $$
 | $$   | $$      | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$/| $$      | $$|  $$$$$$$
-|__/   |__/      |__/ \_______/|__/  |__/ \_______/ \______/ |__/      |__/ \_______/ */
+|__/   |__/      |__/ \_______/|__/  |__/ \_______/ \______/ |__/      |__/ \_______/
+*/
 
 .friendsTable-133bsv .scroller-2FKFPG>div:not(.friendsRow-2yicud),
 .friendsTable-133bsv .scroller-2FKFPG {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .friendsRow-2yicud {
-	transition:250ms ease all;
-	margin:1.8% !important;
+	position: relative;
+	display: block !important;
 	height: 145px !important;
 	width: 250px;
-	border-radius:3px;
-	padding:0 !important;
-	display: block !important;
-	position: relative;
-	box-shadow:0 0 12px rgba(0,0,0,0.25);
-	animation:friendGridFade .75s ease;
-	will-change:opacity;
+	margin: 1.8% !important;
+	padding: 0 !important;
+	border-radius: 3px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.25);
+	animation: friendGridFade .75s ease;
+	transition: 250ms ease all, 350ms ease background-color;
 }
 
 .friendsTable-133bsv .friendsTableHeader-32yE7d {
-    display:none;
+    display: none;
 }
 
 .friendsRow-2yicud:active {
-    transform:scale(.95);
+    transform: scale(.95);
 }
 
 .friendsRow-2yicud:hover {
-    background-color:rgba(0,0,0,0.25) !important;
-	box-shadow:0 0 14px rgba(0,0,0,0.5) !important;
+    background-color: rgba(0,0,0,0.3) !important;
+	box-shadow: 0 0 14px rgba(0,0,0,0.5) !important;
 }
 
 .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
-	display: block;
 	position: absolute;
-	font-size: 13px;
+	display: block;
 	top: 30px;
 	left: 64px;
+    color: rgba(255,255,255,0.65);
+	font-size: 13px;
 	overflow: visible;
-    color:rgba(255,255,255,0.65);
-	transition:.15s ease color;
+	transition: .15s ease color;
 }
 
 .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .username {
-    color:rgba(255,255,255,0.9);
+    color: rgba(255,255,255,0.9);
 }
 
 .friendsColumnName-1zBOKm .discriminator {
@@ -62,13 +63,13 @@
 	position: absolute;
 	top: 15px;
 	left: 0;
-	opacity: 1 !important;
 	color: rgba(255, 255, 255, 0.3);
-	transition:.15s ease color;
+	opacity: 1 !important;
+	transition: .15s ease color;
 }
 
 .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .discriminator {
-    color:rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.5);
 }
 
 .friendsColumnName-1zBOKm {
@@ -76,46 +77,46 @@
 }
 
 .friendsRow-2yicud .avatarSmall--gkJKA {
+	height: 44px;
+	width: 44px;
 	margin-left: 10px !important;
 	margin-top: 30px !important;
-	width: 44px;
-	height: 44px;
 }
 
 .friendsRow-2yicud .inner-1W0Bkn::after {
-    content:'';
-    position:absolute;
-    top:-30px;
-    left:-10px;
-    filter:blur(18px) brightness(.65);
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -10px;
 	height: 145px;
 	width: 250px;
-    z-index:-1;
-    background:inherit;
-    transition:500ms ease transform;
+    z-index: -1;
+    background: inherit;
+    filter: blur(18px) brightness(.65);
+    transition:500ms ease transform, 350ms ease filter;
 }
 
 .friendsTable-133bsv .friendsRow-2yicud:hover .friendsColumnName-1zBOKm .avatarSmall--gkJKA .inner-1W0Bkn::after {
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
 
 .friendsColumnActions-1LT3_M {
 	position: absolute;
-	bottom: 0 !important;
 	top: 65%;
 	left: 10px;
-	visibility:visible !important; 
+	bottom: 0 !important;
+	visibility: visible !important; 
 }
 
 .friendsColumnGuilds-2we6jb {
-    margin-top:2px !important;
-    margin-left:8px !important;
+    margin-top: 2px !important;
+    margin-left: 8px !important;
 }
 
 .friendsTable-133bsv .iconSizeSmall-3aWgx9,
 .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
-	width: 20px !important;
 	height: 20px !important;
+	width: 20px !important;
 	margin: 2px !important;
 	font-size: 9px;
 }
@@ -125,24 +126,20 @@
 }
 
 .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
-	background-size: 18px !important;
-	border-radius:3px !important;
 	height: 30px !important;
-	width: 30px !important; 
+	width: 30px !important;
+    background-color: #2E7E5A !important;
+	background-size: 18px !important;
+    opacity: .65;
+    transition: .75s ease opacity;
 }
 
 .friendsColumnActions-1LT3_M .friendsActionRemove-qu8nnl {
     background-color: #902A2A !important;
 }
 
-.friendsAction-__WNE9 {
-    background-color:#2E7E5A !important;
-    opacity:.7;
-    transition:500ms ease opacity;
-}
-
 .friendsAction-__WNE9:hover {
-    opacity:1 !important;
+    opacity: 1 !important;
 }
 
 .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
@@ -151,14 +148,15 @@
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
-	width: 100% !important;
-	margin-right:0 !important;
-	opacity: .8;
-	justify-content: center;
-	height:18px !important;
 	position: absolute;
+	height: 18px !important;
+	width: 100% !important;
 	top: 0;
-	border-radius:3px 3px 0 0 !important;
+	margin-right: 0 !important;
+	justify-content: center;
+	opacity: .8;
+	border-radius: 3px 3px 0 0 !important;
+    box-shadow: 0 0 25px rgba(0,0,0,0.15);
 }
 
 .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
@@ -170,8 +168,8 @@
 	top: 0;
 }
 
-.image-1GzsFd {
-    z-index:1;
+.friendsTable-133bsv div[style*="height: 0"]:last-child {
+    height:10% !important;
 }
 
 @keyframes friendGridFade {
