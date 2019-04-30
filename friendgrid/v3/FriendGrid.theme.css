@@ -1,0 +1,22 @@
+/*//META{"name":"Friend Grid","description":"A lightweight mini-theme that changes the friends list into a card style layout.","author":"Tropical","version":"3", "website":"https://bit.ly/derealised", "source":"https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/base.css"}*//**/
+/*
+ /$$$$$$$$        /$$                           /$$  /$$$$$$            /$$       /$$
+| $$_____/       |__/                          | $$ /$$__  $$          |__/      | $$
+| $$     /$$$$$$  /$$  /$$$$$$  /$$$$$$$   /$$$$$$$| $$  \__/  /$$$$$$  /$$  /$$$$$$$
+| $$$$$ /$$__  $$| $$ /$$__  $$| $$__  $$ /$$__  $$| $$ /$$$$ /$$__  $$| $$ /$$__  $$
+| $$__/| $$  \__/| $$| $$$$$$$$| $$  \ $$| $$  | $$| $$|_  $$| $$  \__/| $$| $$  | $$
+| $$   | $$      | $$| $$_____/| $$  | $$| $$  | $$| $$  \ $$| $$      | $$| $$  | $$
+| $$   | $$      | $$|  $$$$$$$| $$  | $$|  $$$$$$$|  $$$$$$/| $$      | $$|  $$$$$$$
+|__/   |__/      |__/ \_______/|__/  |__/ \_______/ \______/ |__/      |__/ \_______/
+*/
+/*Import Base CSS File*/
+@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/base.css');
+
+/*Root*/
+:root {
+  --cardheight : 145px;
+  --cardwidth : 250px;
+  --margin : 1.8%;
+  --cardradius : 3px;
+  --cardblurlevel : 18px;
+}
