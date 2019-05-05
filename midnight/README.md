@@ -1,21 +1,21 @@
-## Midnight
-A Discord Theme by Tropical
+<h1 align="center">Midnight</h1>
+<p align="center">A flat, dark discord theme by Tropical.</p>
 ![](https://i.imgur.com/NDzyL1E.png)
 
 ---
 ## Copyright and License
 ### Terms Used
-- Tropical and Spectra ("Authors", "Coders", "Creators", "Tropical", "Tropix", "Spectra", "codedotspectra", "Jack Neth", "Our", "Us", "We", "Theme Developers", "Theme Developer", "Developers", "Developer")
+- Tropical ("Authors", "Coder", "Creator", "Tropical", "Tropix", "Theme Developer", "Developer", "Programmer", "Me", "My")
 - Content ("Themes", "product", "items", "codes", "assets")
 - User ("You", "User", "they", "them", "their")
 ---
 ### Introduction
-The authors, Tropical and Spectra reserve the right to all content found in this repository. The content is intellectual property and will remain as such indefinitely. If any one person decides to use, in whole or in part, the code, they agree to be bound by the rules stated herein by the author.
+The author, Tropical reserve the right to all content found in this repository. The content is intellectual property and will remain as such indefinitely. If any one person decides to use, in whole or in part, the code, they agree to be bound by the rules stated herein by the author.
 
 The author reserves the right to request take down of any content that is found to be in violation of these terms.
 ---
 ### Contact:
-+ Discord: Tropical#8908 (254362351170617345), Spectra#7698 (286208664623120384)
++ Discord: Tropical#8908 (254362351170617345)
 ---
 ### Allowed
 #### Users are permitted...
@@ -46,4 +46,4 @@ The author reserves the right to request take down of any content that is found 
 ---
 **All these terms apply to all files in this repository**
 ---
-Copyright © 2019 - Present, Jack "Spectra" Neth and Tropical
+Copyright © 2019 - Tropical
