@@ -4,7 +4,7 @@
 ![](https://i.imgur.com/NDzyL1E.png)
 
 ---
-<p align="center">Copyright and License.</p>
+<h1 align="center">Copyright and License</h1>
 <p align="center">Terms Used</p>
 
 - Tropical ("Authors", "Coder", "Creator", "Tropical", "Tropix", "Theme Developer", "Developer", "Programmer", "Me", "My")
