@@ -5578,4 +5578,15 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 body #app-mount .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
     background:var(--accent) !important;
 }
-
+.containerCompact-3V0ioj .username-_4ZSMR {
+    border:none;
+    box-shadow:none;
+    padding-left:25px;
+}
+.containerCompact-3V0ioj {
+    background:rgba(255,255,255,0.06);
+    margin:10px 0;
+}
+.isCompact-1hsne1 {
+    margin-left:6.5ch !important;
+}
