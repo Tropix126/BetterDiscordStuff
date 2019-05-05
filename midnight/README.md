@@ -13,8 +13,6 @@
 ---
 <h2 align="center">Introduction</h2>
 <p align="center">The author, Tropical reserve the right to all content found in this repository. The content is intellectual property and will remain as such indefinitely. If any one person decides to use, in whole or in part, the code, they agree to be bound by the rules stated herein by the author.</p>
-<h2 align="center">The author reserves the right to request take down of any content that is found to be in violation of these terms.
-</h2>
 
 ---
 ### Contact:
@@ -36,6 +34,9 @@
 - ... from distributing an edited version of any code without explicit permission from the author.
 - ... from copying and using more than 50 lines of code (in the spacing as shown in the original files) in a different theme without giving due credit.
 ---
+<h2 align="center">The author reserves the right to request take down of any content that is found to be in violation of these terms.
+</h2>
+
 ### Approved hosting locations
 - [Spectra's Github Pages](https://codedotspectra.github.io/)  
 - [Spectra's Theme Generator](https://codedotspectra.github.io/bdthemegenerator/)  
