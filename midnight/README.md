@@ -1,5 +1,6 @@
 <h1 align="center">Midnight</h1>
 <p align="center">A flat, dark discord theme by Tropical.</p>
+
 ![](https://i.imgur.com/NDzyL1E.png)
 
 ---
