@@ -4,8 +4,9 @@
 ![](https://i.imgur.com/NDzyL1E.png)
 
 ---
-## Copyright and License
-### Terms Used
+<p align="center">Copyright and License.</p>
+<p align="center">Terms Used</p>
+
 - Tropical ("Authors", "Coder", "Creator", "Tropical", "Tropix", "Theme Developer", "Developer", "Programmer", "Me", "My")
 - Content ("Themes", "product", "items", "codes", "assets")
 - User ("You", "User", "they", "them", "their")
