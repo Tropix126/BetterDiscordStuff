@@ -6026,9 +6026,13 @@ body #ace_settingsmenu {
     height:55px;
     border-bottom:2px solid var(--hover);
 }
-.quickswitcher-3JagVE .scrollerOuter-3FLELE,
+.quickswitcher-3JagVE .scrollerOuter-3FLELE {
+    margin:0 5px;
+}
 .tipsWithoutResults-lGY-De,
-.tipsWithResults-HhTE9b{
+.tipsWithResults-HhTE9b {
+    border-top: 2px solid var(--hover) !important;
+    background:rgba(255, 255, 255, 0.08) !important;
     margin:0 5px;
 }
 .resultFocused-3aIoYe {
