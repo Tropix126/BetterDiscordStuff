@@ -1891,7 +1891,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     background-color:var(--dnd) !important;
 }
 
-/*6.c. Context Menus*/
+/*7.c. Context Menus*/
 .container-3cGP6G {
 	background:rgba(0,0,0,0.5) !important;
 }
@@ -1931,7 +1931,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
   margin: 0px;
   padding: 7px 15px;
 }
-/*6.d. User Popouts*/
+/*7.d. User Popouts*/
 .body-3iLsc4,
 .footer-1fjuF6 {
     background:transparent !important;
@@ -2097,7 +2097,7 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     box-shadow:none !important;
 }
 
-/*6.f. Search Popout*/
+/*7.f. Search Popout*/
 .searchAnswer-3Dz2-q, .searchFilter-2ESiM3 {
 	background:rgba(255,255,255,0.05);
 }
