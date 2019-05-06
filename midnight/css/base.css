@@ -6012,3 +6012,29 @@ body #ace_settingsmenu {
     background-size:30%;
 }
 
+/*redesigned qs panel*/
+/*sorry for stealing your nyan cat idea baked xd*/
+.quickswitcher-3JagVE {
+    padding:0;
+    width:650px;
+    box-shadow:none !important;
+}
+.container-3qKHyN {
+    width:650px;
+}
+.quickswitcher-3JagVE .input-2VB9rf {
+    height:55px;
+    border-bottom:2px solid var(--hover);
+}
+.quickswitcher-3JagVE .scrollerOuter-3FLELE,
+.tipsWithoutResults-lGY-De,
+.tipsWithResults-HhTE9b{
+    margin:0 5px;
+}
+.resultFocused-3aIoYe {
+    background:rgba(255,255,255,0.07) !important;
+}
+.emptyState-2gL-9T {
+    background-image:url('https://media.giphy.com/media/7lsw8RenVcjCM/giphy.gif') !important;
+    background-size:40%;
+}
