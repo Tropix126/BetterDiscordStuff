@@ -5648,7 +5648,7 @@ body #app-mount .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="background-col
 }
 
 .ace_editor {
-	background-color: rgba(255, 255, 255, 0.04);
+	background-color: rgba(255, 255, 255, 0.04) !important;
 }
 
 .ace_gutter {
