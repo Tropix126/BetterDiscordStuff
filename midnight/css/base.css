@@ -993,6 +993,11 @@ div[style*="width: 100%; height: 20px"] {
 	opacity: 1;
 }
 
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx input {
+    height:100% !important;
+    cursor:pointer;
+}
+
 .container-cMG81i {
 	background: transparent !important;
 }
@@ -5181,7 +5186,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v1.5';
+	content: 'v1.5.1';
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
@@ -5986,4 +5991,13 @@ body #ace_settingsmenu {
 
 .ace_comment {
 	color:#4f6875 !important;
+}
+
+.ace_paren.ace_lparen {
+    color :#EEFFFF !important;
+}
+
+/*smooth typing*/
+.ace_cursor {
+    transition:45ms ease all;
 }
