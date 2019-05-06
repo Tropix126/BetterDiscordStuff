@@ -5983,3 +5983,7 @@ body #ace_settingsmenu {
 .ace_support.ace_constant {
 	color: #89DDF3 !important;
 }
+
+.ace_comment {
+	color:#4f6875 !important;
+}
