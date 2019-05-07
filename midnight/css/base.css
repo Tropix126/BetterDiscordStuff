@@ -6042,3 +6042,26 @@ body #ace_settingsmenu {
     background-image:url('https://media.giphy.com/media/7lsw8RenVcjCM/giphy.gif') !important;
     background-size:40%;
 }
+.tipsWithoutResults-lGY-De, .tipsWithResults-HhTE9b {
+    border-top: 2px solid var(--hover) !important;
+    background:rgba(255, 255, 255, 0.08) !important;
+}
+
+.quickswitcher-3JagVE .emptyStateNote-ZYTetQ:before {
+    content:"Looks like there's no results. Here's a nyan cat";
+    font-size:initial;
+}
+
+.quickswitcher-3JagVE .emptyStateNote-ZYTetQ:after {
+    content:"ツ";
+    font-size:initial;
+}
+
+.quickswitcher-3JagVE .emptyStateNote-ZYTetQ {
+    font-size:0;
+}
+/*unread bar fix*/
+.unreadBottom-3hWQ7c {
+    bottom:32px;
+    z-index:1 !important;
+}
