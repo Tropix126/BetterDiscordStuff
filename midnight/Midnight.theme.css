@@ -1,4 +1,4 @@
-/*//META{"name":"Midnight","description":"An almost black theme with sharp edges that is easy on the eyes and has glow in some places. Fully customizable through the theme file.","author":"Tropical and Spectra","version":"1.0", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/base.css"}*//**/
+/*//META{"name":"Midnight","description":"An almost black theme with sharp edges that is easy on the eyes and has glow in some places. Fully customizable through the theme file.","author":"Tropical","version":"1.6", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/base.css"}*//**/
 /*
 /$$      /$$ /$$       /$$           /$$           /$$         /$$
 | $$$    /$$$|__/      | $$          |__/          | $$        | $$
@@ -16,9 +16,12 @@
 /*Root*/
 :root {
 /*Primary Variables*/
-    --lv1:#00000f;
-    --accent:#1973d3;
-    --hover:#135193;
+  --lv1:#00000f;
+  --accent:#1973d3;
+  --hover:#135193;
+  --bg:url('');
+  --lvl-bg-opacity:0.25;
+  --lvl-bg-fade:80%;
 
 /*Status Variables*/
   --online: #43b581;
