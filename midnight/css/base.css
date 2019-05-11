@@ -5,7 +5,7 @@
 	background-color: var(--accent) !important;
 	color: #fff;
 	text-shadow: 0 0 12px #fff !important;
-}
+} 
 
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
@@ -5052,7 +5052,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	border-radius: 0px;
 	padding: 9px !important;
 	transition: 250ms all ease;
-	background: rgba(255, 255, 255, 0.08);
+	background: rgba(255, 255, 255, 0.08) !important;
 	margin-top: 7px;
 	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08);
 	border-left: 2px solid rgba(255, 255, 255, 0.1) !important;
