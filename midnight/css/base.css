@@ -37,9 +37,9 @@
 	border-radius: 0px;
 	margin-top: 7px;
 	padding: 15px !important;
-	box-shadow: 0 0 12px 1px var(--accent);
+	box-shadow: 0 0 12px 1px var(--accent) !important;
 	transition: 150ms all ease;
-	border-left: 2px solid rgba(255, 255, 255, 0.8);
+	border-left: 2px solid rgba(255, 255, 255, 0.8) !important;
 	color: #fff !important;
 }
 
