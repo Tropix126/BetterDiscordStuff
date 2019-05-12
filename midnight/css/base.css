@@ -7,6 +7,33 @@
 	text-shadow: 0 0 12px #fff !important;
 }
 
+/*Variable Compatibility*/
+
+:root {
+	--mc:var(--accent);
+	--hc:var(--hover);
+	--main-color:var(--accent);
+	--hover-color:var(--hover);
+	--roundness:0;
+}
+
+.theme-dark,
+.appMount-3lHmkl {
+    --primary-color: rgba(0,0,0,0.75);
+    --secondary-color: rgba(0,0,0,0.6);
+    --tertiary-color: rgba(0,0,0,0.4);
+    --quaternary-color: rgba(0,0,0,0.7);
+}
+
+.large-3ChYtB:not(.wrapper-2F3Zv8)::before,
+.large-3ChYtB:not(.wrapper-2F3Zv8):hover::before {
+	border-radius:0 !important;
+}
+
+/*End Variable Compatibility*/
+
+/*Begin Base CSS*/
+
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i .contentRegion-3nDuYy {
 	background-color: var(--lv1);
@@ -971,7 +998,7 @@ a {
 }
 
 div[style*="width: 100%; height: 20px"] {
-	height: 0px !important;
+	height: 10px !important;
 }
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 {
@@ -5050,11 +5077,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 .bda-slist li {
 	border-radius: 0px;
-	padding: 9px !important;
+	padding: 4px 9px !important;
 	transition: 250ms all ease;
 	background: rgba(255, 255, 255, 0.08) !important;
 	margin-top: 7px;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08);
+	box-shadow:0 0 12px 2px rgba(255, 255, 255, 0.08) !important;
 	border-left: 2px solid rgba(255, 255, 255, 0.1) !important;
 	border: 0;
 	width: 99%;
@@ -6465,4 +6492,32 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	background-image: var(--bg);
 	box-shadow: 0 0 12px var(--lv1), inset 0 0 10000px rgba(0, 0, 0, 0.25);
 	background-size: cover;
+}
+
+#app-mount .group-1Dw1l1 h3 {
+    position:initial !important;
+    top:initial !important;
+    border:none !Important;
+    text-align:left;
+    padding:initial !important;
+    color:#bebebe !important;
+    height:initial !important;
+    width:initial !important;
+    z-index:0 !important;
+    background:transparent !important;
+    margin:initial !important;
+    font-weight:initial !important;
+}
+
+#app-mount .group-1Dw1l1 .description-3_Ncsb {
+    margin-top:12px;
+}
+
+.channelTextAreaDisabled-rZtG8r {
+    opacity:1;
+}
+
+.embedAuthorIcon--1zR3L,
+.card-3Qj_Yx {
+    border-radius:0;
 }
