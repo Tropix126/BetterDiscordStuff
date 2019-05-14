@@ -1342,7 +1342,7 @@ div[style*="width: 100%; height: 20px"] {
 	background: var(--lv1) !important;
 	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.08) !important;
 	position: absolute;
-	z-index: 2;
+	z-index: 1000;
 	bottom: -2px !important;
 }
 
@@ -6380,8 +6380,8 @@ span:not(.spinner-2enMB9) {
 }
 
 .textArea-2Spzkt {
-	max-width: 80% !important;
-	min-width: 80% !important;
+	max-width: 94% !important;
+	min-width: 94% !important;
 }
 
 .inner-zqa7da .flex-1xMQg5 {
@@ -6521,3 +6521,27 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .card-3Qj_Yx {
     border-radius:0;
 }
+
+/*add*/
+.button-1MICoQ,
+.houseLogoWrapper-3XZ6yo,
+.appAvatar-3bgkQ9,
+.annualDiscount-1VxngV {
+    border-radius:0;
+}
+
+.noChannel-Z1DQK7 {
+    margin-top:38px;
+    border-top:2px solid var(--hover);
+}
+
+.base-3dtUhz>.flex-1xMQg5 {
+    background:rgba(255,255,255,0.02);
+}
+
+.container-2VW0UT {
+    background:var(--lv1) !important;
+    border-radius:0;
+    box-shadow:0 0 12px rgba(255,255,255,0.075),inset 0 0 99999px rgba(255,255,255,0.075);
+}
+
