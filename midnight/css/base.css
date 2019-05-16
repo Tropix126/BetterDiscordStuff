@@ -6412,7 +6412,6 @@ span:not(.spinner-2enMB9) {
 #app-mount::after {
 	content: 'Thanks for using Midnight!';
 	color: #fff;
-	text-shadow: 0 0 12px;
 	font-weight: 500;
 	z-index: 9999999999;
 	position: absolute;
