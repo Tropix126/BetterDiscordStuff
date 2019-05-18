@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Segoe UI Emoji';
+  src: local('Segoe UI Emoji'), local('SegoeUIEmoji'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUIEmoji.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUIEmoji.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI Symbol';
+  src: local('Segoe UI Symbol'), local('SegoeUISymbol'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUISymbol.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUISymbol.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe MDL2 Assets';
+  src: local('Segoe MDL2 Assets'), local('SegoeMDL2Assets'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeMDL2Assets.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeMDL2Assets.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'), local('SegoeUI'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Italic'), local('SegoeUI-Italic'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Italic.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Bold Italic'), local('SegoeUI-BoldItalic'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Bold'), local('SegoeUI-Bold'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Semibold'), local('SegoeUI-Semibold'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Semibold.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Semibold Italic'), local('SegoeUI-SemiboldItalic'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-SemiboldItalic.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-SemiboldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Light'), local('SegoeUI-Light'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-Light.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI Light Italic'), local('SegoeUI-LightItalic'),
+    url('https://intrnl.github.io/fluentdiscord/src/assets/fonts/SegoeUI-LightItalic.woff2') format('woff2'),
+    url('https://cdn.staticaly.com/gh/intrnl/fluentdiscord/master/assets/fonts/SegoeUI-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
