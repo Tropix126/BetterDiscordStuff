@@ -3413,9 +3413,12 @@ polyline[stroke*="#7289da"] {
 }
 
 .notDetected-33MY4s {
-	background: rgba(255, 255, 255, 0.1) !important;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.1) !important;
-	border-radius: 0;
+    color: #f6f6f7;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.08) !important;
+    border-left: 2px solid rgba(255, 255, 255, 0.3) !important;
+    transition:150ms ease all;
 }
 
 .categoryFade-2ybR1J,
