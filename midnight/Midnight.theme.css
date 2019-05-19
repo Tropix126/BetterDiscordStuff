@@ -1,4 +1,4 @@
-/*//META{"name":"Midnight","description":"An almost black theme with sharp edges that is easy on the eyes and has glow in some places. Fully customizable through the theme file.","author":"Tropical","version":"1.6", "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/base.css"}*//**/
+/*//META{"name":"Midnight UI","description":"An almost black theme with sharp edges that is easy on the eyes and has glow in some places. Fully customizable through the theme file.","author":"Tropical","version":"1.7x, "website":"https://bit.ly/derealised", "source":"https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/base.css"}*//**/
 /*
 /$$      /$$ /$$       /$$           /$$           /$$         /$$
 | $$$    /$$$|__/      | $$          |__/          | $$        | $$
@@ -19,7 +19,7 @@
   --lv1:#00000f;
   --accent:#1973d3;
   --hover:#135193;
-  --bg:url('');
+  --bg:url('https://i.imgur.com/GdnbuVj.jpg');
   --lvl-bg-opacity:0.25;
   --lvl-bg-fade:80%;
 
