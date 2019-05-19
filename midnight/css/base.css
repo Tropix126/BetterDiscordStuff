@@ -6659,8 +6659,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	margin-left: 5px;
 }
 
-
-/* maybe working dm indicator? */
+/*Title border functions. Credits to Dingus for DM one.*/
 
 .wrapper-1Rf91z .scroller-2TZvBN>div:not(.listItem-2P_4kh)+.listItem-2P_4kh::after {
 	content: '';
@@ -6672,11 +6671,40 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	height: 40px;
 	background-color: var(--accent);
 	box-shadow: 0 0 12px var(--accent);
-	animation: callpulse 1.25s ease;
+	animation: dmpulse 1.25s ease;
 	opacity: 0;
 	pointer-events: none;
 	overflow: visible;
 	transform-origin: center;
+}
+
+@keyframes dmpulse {
+	0% {
+		opacity: 0;
+		transform: scaleX(0);
+	}
+	50% {
+		opacity: .4;
+		transform: scaleX(1);
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.container-1UB9sr::after {
+	content: '';
+	position: fixed;
+	top: 67px;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 2px;
+	background: var(--accent);
+	box-shadow: 0 0 12px var(--accent);
+	animation: callpulse 2.25s ease infinite;
+	transform-origin: left;
+	pointer-events: none;
 }
 
 @keyframes callpulse {
@@ -6685,7 +6713,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 		transform: scaleX(0);
 	}
 	50% {
-		opacity: .4;
+		opacity: 1;
 		transform: scaleX(1);
 	}
 	100% {
