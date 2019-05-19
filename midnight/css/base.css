@@ -2173,18 +2173,34 @@ polyline[stroke*="#7289da"] {
 .bottomDivider-1K9Gao {
     border:none;
 }
+
 .gameIcon-gg34Dz {
     border-radius:0;
 }
+
 .codeRedemptionRedirect-1wVR4b {
     border:none !important;
 }
+
 .faded-3bns_w {
     text-shadow:0 0 12px;
 }
-#app-mount .anchor-3Z-8Bb {
+
+#app-mount .anchor-3Z-8Bb:not(.guildsError-b7zR5H) {
     color:var(--accent);
     text-shadow:0 0 12px;
+}
+
+#app-mount .headerSpotify-zpWxgT .anchor-3Z-8Bb {
+    color:#fff;
+}
+
+.uploadModal-2ifh8j .channelTextArea-1LDbYG {
+    width: 92%;
+}
+
+.connectionDelete-2Odoln {
+    border-radius:0;
 }
 
 .card-FDVird {
@@ -5257,7 +5273,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v1.7';
+	content: 'v1.7.2';
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
