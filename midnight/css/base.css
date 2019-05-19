@@ -237,8 +237,8 @@ a {
 
 .userSettingsAccount-2eMFVR:hover .cardPrimary-1Hv-to {
 	color: #f6f6f7;
-	background-color: rgba(255, 255, 255, 0.095) !important;
-	border-left: 2px solid rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.12) !important;
 }
 
 .defaultColor-1_ajX0 {
@@ -377,7 +377,7 @@ a {
 
 .lookOutlined-3sRXeN.colorRed-1TFJan {
 	box-shadow: 0 0 5px, inset 0 0 5px;
-	border: none;
+    border: 1px solid #f04747;
 	background: rgba(0, 0, 0, 0.25);
 	border-radius: 0px;
 }
@@ -1962,15 +1962,21 @@ div[style*="width: 100%; height: 20px"] {
 .codeRedemptionRedirect-1wVR4b {
 	color: #f6f6f7;
 	border-radius: 0;
-	background-color: rgba(255, 255, 255, 0.12) !important;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.12);
-	border-left: 2px solid rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.08) !important;
+    border-left: 2px solid rgba(255, 255, 255, 0.3) !important;
+    transition:150ms ease all;
 }
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .ui-switch.checked {
 	background: var(--accent) !important;
 	box-shadow: 0 0 12px var(--accent);
+}
+
+body .paymentPane-3bwJ6A:hover, body .codeRedemptionRedirect-1wVR4b:hover {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.12) !important;
 }
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ:after,
@@ -2148,13 +2154,37 @@ polyline[stroke*="#7289da"] {
 	margin-bottom: 14px;
 }
 
+.card-FDVird:before {
+    background-color:transparent !important;
+    border:none !important;
+}
+
+
 .card-FDVird.active-nvdKfC:before,
 .card-FDVird:hover:before {
-	color: #f6f6f7;
-	border-radius: 0;
-	background-color: rgba(255, 255, 255, 0.12) !important;
-	box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.12);
-	border-left: 2px solid rgba(255, 255, 255, 0.5) !important;
+    color: #f6f6f7;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.08) !important;
+    border-left: 2px solid rgba(255, 255, 255, 0.3) !important;
+    transition:150ms ease all;
+}
+
+.bottomDivider-1K9Gao {
+    border:none;
+}
+.gameIcon-gg34Dz {
+    border-radius:0;
+}
+.codeRedemptionRedirect-1wVR4b {
+    border:none !important;
+}
+.faded-3bns_w {
+    text-shadow:0 0 12px;
+}
+#app-mount .anchor-3Z-8Bb {
+    color:var(--accent);
+    text-shadow:0 0 12px;
 }
 
 .card-FDVird {
@@ -3511,7 +3541,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 .modal-3HD5ck {
 	background: var(--lv1) !important;
-	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.07) !important;
+    box-shadow: inset 0 0 10000px 1000px rgba(255, 255, 255, 0.05) !important;
 	border-radius: 0;
 	width: 800px;
 }
@@ -5512,7 +5542,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	left: 10px;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
 	position: absolute;
 	top: -49px;
 	left: 0;
@@ -5539,7 +5569,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	background: transparent !important;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
 	display: none;
 }
 
@@ -5845,7 +5875,7 @@ body #ace_settingsmenu {
 	background-size: cover;
 	background-repeat: no-repeat;
 	box-shadow: none;
-	box-shadow: inset 0 0 10000px rgba(255, 255, 255, 0.07) !important;
+    box-shadow: inset 0 0 10000px 1000px rgba(255, 255, 255, 0.05) !important;
 	width: 800px;
 	animation: ace 300ms cubic-bezier(.4, 0, 0, 1), opacity 100ms ease 100ms backwards;
 	padding-right: 20px;
