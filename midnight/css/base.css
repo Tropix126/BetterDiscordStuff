@@ -6731,3 +6731,266 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	background-color: var(--lv1) !important;
 	box-shadow: 0 0 12px var(--lv1);
 }
+
+/*Codeblocks*/
+
+.hljs {
+	max-height: 250px;
+}
+
+.hljs::-webkit-scrollbar-track {
+	background: transparent !important;
+}
+
+.hljs::-webkit-scrollbar-thumb {
+	background: var(--codeblockcolor) !important;
+}
+
+.hljs::-webkit-scrollbar {
+	width: 3px !important;
+}
+
+.hljs {
+	--codeblockcolor: #747f8d;
+}
+
+.hljs::before {
+	content: 'Unknown Language';
+	width: calc(100% + 4px);
+	height: 24px;
+	top: -7px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 450;
+	margin-top: -7px;
+	margin-left: -7px;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	position: sticky;
+	align-items: center;
+	display: flex;
+	font-family: 'Whitney' !important;
+	background: var(--codeblockcolor) !important;
+	box-shadow: 0 0 12px var(--codeblockcolor);
+}
+
+.hljs[class~="js" i]::before,
+.hljs[class~="javascript" i]::before {
+	content: "</> Javascript";
+}
+
+.hljs[class~="css" i]::before {
+	content: "</> Cascading Style Sheet";
+}
+
+.hljs[class~="bash" i]::before {
+	content: "</> Bash";
+}
+
+.hljs[class~="markdown" i]::before,
+.hljs[class~="md" i]::before {
+	content: "</> Markdown";
+}
+
+.hljs[class~="html" i]::before {
+	content: "</> HTML";
+}
+
+.hljs[class~="xl" i]::before {
+	content: "</> eXtensible Language";
+}
+
+.hljs[class~="coffee" i]::before {
+	content: "</> Coffee (Javascript)";
+}
+
+.hljs[class~="ruby" i]::before {
+	content: "</> Ruby";
+}
+
+.hljs[class~="sql" i]::before {
+	content: "</> SQL";
+}
+
+.hljs[class~="java" i]::before {
+	content: "</> Java";
+}
+
+.hljs[class~="py" i]::before,
+.hljs[class~="python" i]::before {
+	content: "</> Python";
+}
+
+.hljs[class~="vb" i]::before,
+.hljs[class~="visualbasic" i]::before {
+	content: "</> Visual Basic";
+}
+
+.hljs[class~="lua" i]::before {
+	content: "</> Lua";
+}
+
+.hljs[class~="php" i]::before {
+	content: "</> Php";
+}
+
+.hljs[class~="swift" i]::before {
+	content: "</> Swift";
+}
+
+.hljs[class~="makefile" i]::before {
+	content: "</> Makefile";
+}
+
+.hljs[class~="go" i]::before {
+	content: "</> Go";
+}
+
+.hljs[class~=" ini" i]::before {
+	content: "</>  ini";
+}
+
+.hljs[class~="rust" i]::before {
+	content: "</> Rust";
+}
+
+.hljs[class~="prolog" i]::before {
+	content: "</> Prolog";
+}
+
+.hljs[class~="ts" i]::before,
+.hljs[class~="typescript" i]::before {
+	content: "</> TypeScript";
+}
+
+.hljs[class~="http" i]::before {
+	content: "</> HTTP";
+}
+
+.hljs[class~="json" i]::before {
+	content: "</> Json";
+}
+
+.hljs[class~="xml" i]::before {
+	content: "</> XML";
+}
+
+.hljs[class~="less" i]::before {
+	content: "</> Less";
+}
+
+.hljs[class~="sass" i]::before,
+.hljs[class~="scss" i]::before {
+	content: "</> SCSS";
+}
+
+.hljs[class~="js" i],
+.hljs[class~="javascript" i] {
+	--codeblockcolor: #165eab;
+}
+
+.hljs[class~="css" i] {
+	--codeblockcolor: #1973d3;
+}
+
+.hljs[class~="bash" i] {
+	--codeblockcolor: #ab1663;
+}
+
+.hljs[class~="markdown" i],
+.hljs[class~="md" i] {
+	--codeblockcolor: #ab2e16;
+}
+
+.hljs[class~="html" i] {
+	--codeblockcolor: #16ab6f;
+}
+
+.hljs[class~="xl" i] {
+	--codeblockcolor: #16ab6f;
+}
+
+.hljs[class~="coffee" i] {
+	--codeblockcolor: #3a1b1b;
+}
+
+.hljs[class~="ruby" i] {
+	--codeblockcolor: #e73e3e;
+}
+
+.hljs[class~="sql" i] {
+	--codeblockcolor: #4474ca;
+}
+
+.hljs[class~="java" i] {
+	--codeblockcolor: #eb2d2f;
+}
+
+.hljs[class~="py" i],
+.hljs[class~="python" i] {
+	--codeblockcolor: #eb2d2f;
+}
+
+.hljs[class~="vb" i],
+.hljs[class~="visualbasic" i] {
+	--codeblockcolor: #839700;
+}
+
+.hljs[class~="lua" i] {
+	--codeblockcolor: #2ecc71;
+}
+
+.hljs[class~="php" i] {
+	--codeblockcolor: #6e81b6;
+}
+
+.hljs[class~="swift" i] {
+	--codeblockcolor: #fd7837;
+}
+
+.hljs[class~="makefile" i] {
+	--codeblockcolor: #8a2b0f;
+}
+
+.hljs[class~="go" i] {
+	--codeblockcolor: #75cede;
+}
+
+.hljs[class~=" ini" i] {
+	--codeblockcolor: #5a75c0;
+}
+
+.hljs[class~="rust" i] {
+	--codeblockcolor: #000;
+}
+
+.hljs[class~="prolog" i] {
+	--codeblockcolor: #ef4d25;
+}
+
+.hljs[class~="ts" i],
+.hljs[class~="typescript" i] {
+	--codeblockcolor: #03324c;
+}
+
+.hljs[class~="http" i] {
+	--codeblockcolor: #618f10;
+}
+
+.hljs[class~="json" i] {
+	--codeblockcolor: #108f66;
+}
+
+.hljs[class~="xml" i] {
+	--codeblockcolor: #8444af;
+}
+
+.hljs[class~="less" i] {
+	--codeblockcolor: #1d365d;
+}
+
+.hljs[class~="sass" i],
+.hljs[class~="scss" i] {
+	--codeblockcolor: #bf4080;
+}
