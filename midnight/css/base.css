@@ -987,11 +987,10 @@ a {
 }
 
 .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) .numberBadge-2s8kKX {
-	position: absolute;
-	top: 33%;
-	transform: scale(.9);
-	box-shadow: none !important;
-	background: var(--dnd) !important;
+    position: absolute;
+    top: 33%;
+    transform: scale(.9);
+    z-index:1 !important;
 }
 
 .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) a .name-2WpE7M {
@@ -5516,13 +5515,14 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .numberBadge-2s8kKX {
-	background: var(--accent) !important;
+	background: #f04747 !important;
 	border-radius: 0px;
 	padding: 4px;
+	padding-right:3px !important;
+	padding-left:3px;
 	z-index: 2;
 	height: 12px;
-	z-index: 100000;
-	box-shadow: 0 0 12px var(--accent);
+	width:16px !important;
 }
 
 #app-mount foreignObject {
@@ -6993,4 +6993,29 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .hljs[class~="sass" i],
 .hljs[class~="scss" i] {
 	--codeblockcolor: #bf4080;
+}
+
+.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .numberBadge-2s8kKX {
+    position:absolute;
+    transform:scale(.82);
+    top:-32px;
+    left:-35px;
+    box-shadow:0 0 0 4px rgba(255, 255, 255, 0.09), 0 0 0 4px var(--lv1) !important;
+}
+
+.unreadMentionsIndicatorTop-gA6RCh {
+    top:-1px;
+}
+
+#bd-pub-button {
+    height: 40px !important;
+    -webkit-mask-image: url("https://i.imgur.com/oHq1oDK.png");
+    -webkit-mask-size: 36px;
+    -webkit-mask-position: 50%;
+    -webkit-mask-repeat: no-repeat;
+    background:#fff;
+}
+
+#bd-pub-li {
+    height: 30px !important;
 }
