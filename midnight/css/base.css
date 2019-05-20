@@ -2768,9 +2768,9 @@ polyline[stroke*="#7289da"] {
 	display: none;
 }
 
-.topPill-30KHOu .item-PXvHYJ:hover:not(.selected-3s45Ha):not(.primary-3j8BhM) {
-	background: transparent !important;
-	color: #fff;
+#app-mount .topPill-30KHOu .item-PXvHYJ:hover:not(.selected-3s45Ha):not(.primary-3j8BhM) {
+    background: rgba(255,255,255,0.05) !important;
+    color: #fff;
 }
 
 .tabBar-1E2ExX .primarySelected-3uHKZn {
@@ -2828,13 +2828,14 @@ polyline[stroke*="#7289da"] {
 	position: absolute;
 }
 
-.container-3-pyIM,
-.icon-2Po-VO {
+.container-3-pyIM {
+    margin-bottom:-15px;
+    padding-top:10px;
 	padding-top: 25px;
 }
 
 .icon-2Po-VO {
-	margin-top: 4px;
+	margin-top: 3px;
 }
 
 .large-3ChYtB:not(.wrapper-2F3Zv8)::before {
@@ -2899,8 +2900,8 @@ polyline[stroke*="#7289da"] {
 	-webkit-mask: url(https://discordapp.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg);
 }
 
-.tabBar-1E2ExX .primarySelected-3uHKZn {
-	background: #fff !important;
+#app-mount .container-1r6BKw .children-19S4PO .tabBar-1E2ExX .primarySelected-3uHKZn {
+    background:#fff !important;
 }
 
 .input-autosize:hover .input-autosize-input,
@@ -6801,6 +6802,52 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .hljs[class~="sass" i],
 .hljs[class~="scss" i] {
 	--codeblockcolor: #bf4080;
+}
+
+/*material-design-syntax*/
+.hljs-selector-tag {
+    color:#B2CCD6 !important;
+}
+.hljs-selector-class {
+    color:#FFCB6B !important;
+}
+.hljs-selector-id,
+.hljs-meta,
+.hljs-keyword,
+.hljs-attr {
+    color:#C792EA !important;
+}
+.hljs-selector-attr {
+    color:#89DDF3 !important;
+}
+.hljs-attribute,
+.hljs-selector-pseudo,
+.hljs-literal,
+.hljs-regexp,
+.hljs-doctag,
+.hljs-meta-string {
+    color:#73d1c8 !important;
+}
+.hljs-number {
+    color:#FFE082 !important;
+}
+.hljs-variable,
+.hljs-subst,
+.hljs-bullet,
+.hljs-template-variable,
+.hljs-symbol,
+.hljs-type{
+    color:#F07178 !important;
+}
+.hljs-string,
+.hljs-link {
+    color:#C3E88D !important;
+}
+.hljs-built_in,
+.hljs-title,
+.hljs-section,
+.hljs-name {
+    color:#82AAFF !important;
 }
 
 .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .numberBadge-2s8kKX {
