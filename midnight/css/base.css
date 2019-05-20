@@ -6771,118 +6771,123 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	align-items: center;
 	display: flex;
 	font-family: 'Whitney' !important;
-	background: var(--codeblockcolor) !important;
+	background-color: var(--codeblockcolor) !important;
 	box-shadow: 0 0 12px var(--codeblockcolor);
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==') !important;
+	background-size:20px !important;
+	background-position:5px !important;
+	background-repeat:no-repeat !important;
+	text-indent:20px !important;
 }
 
 .hljs[class~="js" i]::before,
 .hljs[class~="javascript" i]::before {
-	content: "</> Javascript";
+	content: "Javascript";
 }
 
 .hljs[class~="css" i]::before {
-	content: "</> Cascading Style Sheet";
+	content: "Cascading Style Sheet";
 }
 
 .hljs[class~="bash" i]::before {
-	content: "</> Bash";
+	content: "Bash";
 }
 
 .hljs[class~="markdown" i]::before,
 .hljs[class~="md" i]::before {
-	content: "</> Markdown";
+	content: "Markdown";
 }
 
 .hljs[class~="html" i]::before {
-	content: "</> HTML";
+	content: "HTML";
 }
 
 .hljs[class~="xl" i]::before {
-	content: "</> eXtensible Language";
+	content: "eXtensible Language";
 }
 
 .hljs[class~="coffee" i]::before {
-	content: "</> Coffee (Javascript)";
+	content: "Coffee (Javascript)";
 }
 
 .hljs[class~="ruby" i]::before {
-	content: "</> Ruby";
+	content: "Ruby";
 }
 
 .hljs[class~="sql" i]::before {
-	content: "</> SQL";
+	content: "SQL";
 }
 
 .hljs[class~="java" i]::before {
-	content: "</> Java";
+	content: "Java";
 }
 
 .hljs[class~="py" i]::before,
 .hljs[class~="python" i]::before {
-	content: "</> Python";
+	content: "Python";
 }
 
 .hljs[class~="vb" i]::before,
 .hljs[class~="visualbasic" i]::before {
-	content: "</> Visual Basic";
+	content: "Visual Basic";
 }
 
 .hljs[class~="lua" i]::before {
-	content: "</> Lua";
+	content: "Lua";
 }
 
 .hljs[class~="php" i]::before {
-	content: "</> Php";
+	content: "Php";
 }
 
 .hljs[class~="swift" i]::before {
-	content: "</> Swift";
+	content: "Swift";
 }
 
 .hljs[class~="makefile" i]::before {
-	content: "</> Makefile";
+	content: "Makefile";
 }
 
 .hljs[class~="go" i]::before {
-	content: "</> Go";
+	content: "Go";
 }
 
 .hljs[class~=" ini" i]::before {
-	content: "</>  ini";
+	content: " ini";
 }
 
 .hljs[class~="rust" i]::before {
-	content: "</> Rust";
+	content: "Rust";
 }
 
 .hljs[class~="prolog" i]::before {
-	content: "</> Prolog";
+	content: "Prolog";
 }
 
 .hljs[class~="ts" i]::before,
 .hljs[class~="typescript" i]::before {
-	content: "</> TypeScript";
+	content: "TypeScript";
 }
 
 .hljs[class~="http" i]::before {
-	content: "</> HTTP";
+	content: "HTTP";
 }
 
 .hljs[class~="json" i]::before {
-	content: "</> Json";
+	content: "Json";
 }
 
 .hljs[class~="xml" i]::before {
-	content: "</> XML";
+	content: "XML";
 }
 
 .hljs[class~="less" i]::before {
-	content: "</> Less";
+	content: "Less";
 }
 
 .hljs[class~="sass" i]::before,
 .hljs[class~="scss" i]::before {
-	content: "</> SCSS";
+	content: "SCSS";
 }
 
 .hljs[class~="js" i],
