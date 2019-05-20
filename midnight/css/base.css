@@ -7024,3 +7024,17 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 #bd-pub-li {
     height: 30px !important;
 }
+
+.base-34jWEe {
+    border:1px solid rgb(67, 181, 129) !important;
+    height:48px;
+    padding-left:10px;
+    margin:15px 25px;
+    background:rgba(67, 181, 129, 0.25);
+    background-image:none !important;
+}
+
+.base-34jWEe h1:before {
+    content:'  ';
+    font-family:'Segoe MDL2 Assets';
+}
