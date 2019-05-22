@@ -7205,3 +7205,7 @@ background-color: var(--accent) !important;
 #bd-customcss-attach-controls .help-text {
     margin-top:20px;
 }
+
+.contextMenu-HLZMGh {
+    z-index:1501;
+}
