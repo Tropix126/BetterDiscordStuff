@@ -7133,6 +7133,8 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     background:rgba(255,255,255,0.1);
     text-transform:capitalize;
     transition:150ms ease all;
+    border-radius: 0;
+    color: #fff;
 }
 
 #bd-pub-button:hover {
