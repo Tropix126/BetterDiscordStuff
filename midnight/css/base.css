@@ -7128,3 +7128,80 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .container-VSDcQc ::-webkit-scrollbar {
 	display: none;
 }
+
+#bd-pub-button {
+    background:rgba(255,255,255,0.1);
+    text-transform:capitalize;
+    transition:150ms ease all;
+}
+
+#bd-pub-button:hover {
+    background:var(--accent);
+}
+
+#bd-pub-li {
+    margin-bottom:3px !important;
+    margin-top:3px;
+}
+
+#pubslayerroot .bd-server-card h5 {
+    all:initial;
+    transition:150ms ease;
+    font-family:'Whitney';
+}
+
+#pubslayer h2.ui-form-title {
+    margin-bottom:15px;
+    font-weight:500;
+    text-transform:capitalize;
+}
+
+#pubslayer button {
+    border-radius:0;
+    box-shadow:0 0 12px var(--accent);
+    transition:150ms ease;
+}
+
+#pubslayer .SIDE {
+    width:300px !important;
+    margin-left:25%;
+}
+
+#pubslayer button:hover {
+    box-shadow:0 0 12px var(--hover) !important;
+}
+
+#pubslayer .ui-tab-bar-item {
+    border-radius: 0px;
+    transition: 150ms all ease;
+    background: rgba(255, 255, 255, 0.08);
+    margin-top: 7px;
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.08);
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#pubslayer .ui-tab-bar-item:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.15);
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+    padding-left: 15px !important;
+}
+
+#pubslayer .ui-tab-bar-item.selected {
+background-color: var(--accent) !important;
+    border-radius: 0px;
+    margin-top: 7px;
+    padding: 15px !important;
+    box-shadow: 0 0 12px 1px var(--accent);
+    transition: 150ms all ease;
+    border-left: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+#bd-customcss-attach-controls .help-text .inline {
+    border-radius:0;
+    background:rgba(255,255,255,0.1);
+}
+
+#bd-customcss-attach-controls .help-text {
+    margin-top:20px;
+}
