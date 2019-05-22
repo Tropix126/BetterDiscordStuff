@@ -7211,3 +7211,16 @@ background-color: var(--accent) !important;
 .contextMenu-HLZMGh {
     z-index:1501;
 }
+
+.lookGhost-2Fn_0- {
+    border-radius:0;
+}
+
+.css-181m2lf-menu {
+	background: var(--lv1) !important;
+	border: none;
+	animation: select .3s cubic-bezier(.2, .6, .5, 1.1);
+	transform-origin: 50% 0;
+	box-shadow: inset 0 0 1000px rgba(255, 255, 255, 0.06), 0 0 12px #000 !important;
+	border-radius:0;
+}
