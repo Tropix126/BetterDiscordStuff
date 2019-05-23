@@ -7253,3 +7253,11 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .friendsTable-133bsv .friendsTableBody-1ZhKif::-webkit-scrollbar-track {
 	background: rgba(255, 255, 255, 0.1) !important;
 }
+
+.whiteButton-1lwF-y {
+	color:var(--accent) !important;
+}
+
+.reaction-1ELvT8 {
+	margin-bottom: 20px;
+}
