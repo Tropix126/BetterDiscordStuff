@@ -5358,7 +5358,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	width: 16px !important;
 }
 
-#app-mount foreignObject {
+#app-mount .wrapper-1Rf91z foreignObject {
 	mask: none !important;
 	border-radius: 0;
 	-webkit-mask: none !important;
@@ -7327,4 +7327,11 @@ background-size:70%;
 }
 .downloadButton-23tKQp {
   display:none;
+}
+.card-3DjzTQ {
+    background:rgba(255,255,255,0.1) !important;
+    box-shadow:none;
+}
+.flowerStar-1GeTsn path {
+    fill:var(--accent);
 }
