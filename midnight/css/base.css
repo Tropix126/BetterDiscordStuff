@@ -5332,7 +5332,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .macButtons-2MuSAC::before {
-	content: var(--theme-long-name) + ' ';
+	content: var(--theme-long-name);
 	left: 50%;
 	text-shadow: 0 0 12px;
 	font-weight: 600;
