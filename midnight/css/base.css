@@ -22,6 +22,12 @@
 	--roundness: 0;
 }
 
+.appMount-3lHmkl {
+	--theme-name: 'Midnight';
+	--theme-long-name: 'Midnight UI';
+	--theme-version: 'v1.8.1';
+}
+
 .theme-dark,
 .appMount-3lHmkl {
 	--primary-color: rgba(0, 0, 0, 0.75);
@@ -5110,7 +5116,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v1.8.1';
+	content: var(--theme-version);
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
@@ -5118,7 +5124,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:before {
-	content: 'Midnight UI ';
+	content: var(--theme-long-name) + ' ';
 	text-shadow: 0 0 12px;
 	font-weight: 600;
 	color: var(--accent);
@@ -5326,7 +5332,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .macButtons-2MuSAC::before {
-	content: 'Midnight';
+	content: var(--theme-long-name) + ' ';
 	left: 50%;
 	text-shadow: 0 0 12px;
 	font-weight: 600;
@@ -5335,7 +5341,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .macButtons-2MuSAC::after {
-	content: 'v1.1.2';
+	content: var(--theme-version);
 	left: calc(50% + 52px);
 	text-shadow: 0 0 12px;
 	font-weight: 400;
