@@ -1521,7 +1521,8 @@ div[style*="width: 100%; height: 20px"] {
 	background: rgba(255, 255, 255, 0.1) !important;
 }
 
-.icon-2doZ3q {
+.icon-2doZ3q,
+.premiumGuildIcon-BhwtRn {
 	margin: 0;
 }
 
@@ -1560,11 +1561,11 @@ div[style*="width: 100%; height: 20px"] {
 .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
 	width: fit-content !important;
 	top: 65px !important;
-	left: 190px !important;
+	left: 60px!important;
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 	animation: scale1 300ms ease !important;
 	border-radius: 0;
-	transform: translateX(-50%) !important;
+	transform: none!important;
 	border: 2px solid var(--accent);
 	animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
 }
