@@ -22,6 +22,12 @@
 	--roundness: 0;
 }
 
+.appMount-3lHmkl {
+	--theme-name: 'Midnight';
+	--theme-long-name: 'Midnight UI';
+	--theme-version: 'v1.8.2';
+}
+
 .theme-dark,
 .appMount-3lHmkl {
 	--primary-color: rgba(0, 0, 0, 0.75);
@@ -1308,6 +1314,11 @@ div[style*="width: 100%; height: 20px"] {
 	border-radius: 0px !important;
 }
 
+/* Fixes issue of home button not being shown on screen */
+.scrollerWrap-2lJEkd {
+    contain: layout style;
+}
+
 .homeButton-2Cw51C {
 	background-color: #fff !important;
 	-webkit-mask: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACBFBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+CAoa0AAAAq3RSTlMAAQIDBAUHCAkKCwwNDg8QERIUFRcYGRocHR4fICEiIyQlJikqKywtMDIzNTg7PT5AQUJFRkdISUpLTU5PUFFSU1dZXmFiZmdoa2xtb3Byc3R1dnl6e32AgYKEhYiKjI+RkpSWl5manJ2en6ChoqOkpaaoqaqsra6xs7i5ur2+wcLDxsjKy83O0NHS09bX2Nnb3N3f4ePl5ujp6uvt7vDx8vP09fb3+Pr7/f5i9vAlAAAEEklEQVR4AezcIa6DQBCAYR5PsqhWYzktsogatiRVXLI9QEOygiwZvt+OmXxuzDS6TpIkSZIkSZIkSZIkSZIkzfnUzd3RANvJ648GyNupywkAAAAAAAAAAAAAAAAAABwPsI5D1ca1MsDSVG6pDJBTU7X0Yx8AAAAAAAAAAAAAAAAAAND+F9VGA+imR1FTNIB+KywawHdeVAYAAAAAAAAAAAAAAECQY+jiAOn53i86wN/tvtvwCglQ0HJxgJQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ4bn6h7z7bmoqjeI4/stuYHfZAbLsUsKaAQuMBVQEFBGxA6JYsGDvWAQUewcRlQJCUEYJaCIFApw36fj/c64zyXMfnsn5voKTz5zMnTn3jxv/Bvi8zsExb7z5lnoDFkNjjo38Db7twbF4Cy0aB9D3/b/TpCPLAfiBkh+RaIDCIIkGqFwg0QDniCQD/H6fRAMUDpFogOooiQY4SyQZwPuURAOsHiTRAJVEogHOUAIAxD5Q0hMyUKrbAKEZ51iAVUFimtFYyPUNSPc55p9kAHbNE9M+n8bSPVoA9J+oThHTp4123RRdOlI+I6bOvyAAoKCXmK4AiQ6QBuwgrlokPMCcw9N/tAiJD/Ax5RYxdaRBAMCXUWJqBgQA8O2BaIDQBogG6EyHaICrgGiAGogGmCiCaIAX/8CmPBHDANdgV8mGN2Av1LUOx95QI/hSeoYdCy6YBBgvhrLstxRX18GWSr/KIEDHv1BW9o3i7E0OP489AJeh7gjFX6TEfoAaqLtNWjpkOcD4GijL6idNtVkN8DILyrZOkLa6AvYCNEPdAdLZ92JbAeqg7iZprsFKgFARlOW8J+3dsBDgVQaUlYfJhbr9tgFchLpGcqdIqV0A9VDmaSbXqrcIYGItlGX2k4u1WgPQ+R+UVc+Tq3VlxwxAOgEuQdlvR8ntJjfFCjCpEaAWDMD6goCmdrI/r4EBmCoMOPa/NoDP62Agfw8xtagBIqaOjK99MJLnMTG9y2Re1xsBuABjHSSmSPnSAeyHwapmiakOSDMOEGH+/i6W10dMd4BZwwB/RqkjA6ZrJ6bn+SOGAbJ/qpvvMDFFvxoGCOzGklQxT3w8QAKV3y0cAHgoHQDHpAOgalo4APIGhAMA96QD4IR0AJRFhQNgZY9wAOCBdACclA6ALVPCAbC8VzgA0CIdAE3SAVA6JxwAKwaEA8BzVzgAcFw6ADaHhQMg94NwAHhbhAMATdIBUDEtHAD5fcIB4GkTDgA0SgfAtrBwACwbJApLBkBSO9EfEN15yoXsSvz40R4cCAAAAAAI8rceYYFqAAAAAAEefSZtIWsy0wAAAABJRU5ErkJggg==');
@@ -1521,7 +1532,8 @@ div[style*="width: 100%; height: 20px"] {
 	background: rgba(255, 255, 255, 0.1) !important;
 }
 
-.icon-2doZ3q {
+.icon-2doZ3q,
+.premiumGuildIcon-BhwtRn {
 	margin: 0;
 }
 
@@ -1560,11 +1572,11 @@ div[style*="width: 100%; height: 20px"] {
 .popoutBottom-1YbShG[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
 	width: fit-content !important;
 	top: 65px !important;
-	left: 190px !important;
+	left: 60px !important;
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 	animation: scale1 300ms ease !important;
 	border-radius: 0;
-	transform: translateX(-50%) !important;
+	transform: none !important;
 	border: 2px solid var(--accent);
 	animation: popoutanim-min 300ms cubic-bezier(.4, 0, 0, 1);
 }
@@ -5109,7 +5121,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v1.8.1';
+	content: var(--theme-version);
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
@@ -5117,7 +5129,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:before {
-	content: 'Midnight UI ';
+	content: var(--theme-long-name) ' ';
 	text-shadow: 0 0 12px;
 	font-weight: 600;
 	color: var(--accent);
@@ -5325,8 +5337,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .macButtons-2MuSAC::before {
-	content: 'Midnight';
-	left: 50%;
+	content: var(--theme-long-name);
+	left: calc(50% - 31px);
 	text-shadow: 0 0 12px;
 	font-weight: 600;
 	color: var(--accent);
@@ -5334,8 +5346,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .macButtons-2MuSAC::after {
-	content: 'v1.1.2';
-	left: calc(50% + 52px);
+	content: var(--theme-version);
+	left: calc(50% + 31px);
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, 0.8);
