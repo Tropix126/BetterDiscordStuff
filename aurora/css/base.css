@@ -762,6 +762,13 @@ div[style*="width: 100%; height: 20px"] {
 .channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6 {
     color:#fff;
 }
+.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6 {
+    color:#fff;
+}
+.channel-2QD9_O .linkButtonIcon-Mlm5d6,
+.linkButtonIcon-Mlm5d6 + .name-2WpE7M{
+    color:rgba(255,255,255,0.35);
+}
 .privateChannels-1nO12o .searchBar-6Kv8R2:hover:after {
     content:"Search Messages";
     color:#fff;
@@ -1164,6 +1171,15 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 	box-shadow:none !important; 
 	border-radius:5px !important;
 }
+.verified-1eC5dy {
+    color:var(--hover-color);
+}
+.theme-dark .iconBackgroundTierOne-2LhaMB,
+.theme-dark .iconBackgroundTierThree-3qw3JX,
+.theme-dark .iconBackgroundTierTwo-3bCmdc,
+.theme-dark .iconTierNone-3xOaeG {
+    color:var(--main-color-faded);
+}
 .bannerImage-1jOskm {
   -webkit-mask: linear-gradient(black, transparent 100%);
   transition:.3s width ease;
@@ -1378,7 +1394,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 .homeIcon-1FoKUJ {
 	background: var(--main-color);
 	-webkit-mask: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSI0OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIxIDZoLTJ2OUg2djJjMCAuNTUuNDUgMSAxIDFoMTFsNCA0VjdjMC0uNTUtLjQ1LTEtMS0xem0tNCA2VjNjMC0uNTUtLjQ1LTEtMS0xSDNjLS41NSAwLTEgLjQ1LTEgMXYxNGw0LTRoMTBjLjU1IDAgMS0uNDUgMS0xeiIvPjwvc3ZnPg==');
-	-webkit-mask-size: 30px;
+	-webkit-mask-size: 95%;
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
 	transition:250ms all ease;
@@ -1427,6 +1443,18 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 		opacity: 0.9;
 		transform: none;
 	}
+}
+.tooltipTop-XDDSxx {
+    animation:fadetop 150ms ease;
+}
+.tooltipBottom-3ARrEK {
+    animation:fadebottom 150ms ease;
+}
+.tooltipRight-2JM5PQ {
+    animation:faderight 150ms ease;
+}
+.tooltipLeft-3EDOk1 {
+    animation:fadeleft 150ms ease;
 }
 .da-tooltip.da-tooltipTop, .bd-tooltip[x-placement^='top'] {animation: fadetop 150ms;}
 .da-tooltips .da-tooltip.da-right, .bd-tooltip[x-placement^='right'] {animation: faderight 150ms;}
