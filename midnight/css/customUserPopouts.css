@@ -253,10 +253,10 @@
 
 /*Spectra*/
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="286208664623120384"] + .status-oxiHuE {
-    background-image:url('https://cdn.discordapp.com/attachments/524430244279615488/567151135832408064/bg.png') !important;
+    background-image:url('https://i.imgur.com/BGyfYiv.gif') !important;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="286208664623120384"] {
-    animation:keyframeScaleIn 350ms cubic-bezier(0,0,0,1);
+    animation:keyframeScaleIn 350ms cubic-bezier(0,0,0,1), keyframeFadeIn 350ms ease;;
 }
 
 /*Korbs*/
@@ -469,6 +469,15 @@
     background-image:url('https://media0.giphy.com/media/BHNfhgU63qrks/giphy.gif') !important;
 }
 .userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="361318789691736064"] {
+    animation:keyframePulseMain 1.5s ease infinite;
+    opacity:.75;
+}
+
+/*FireShadow_*/
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="265907876239900674"] + .status-oxiHuE {
+    background-image:url('https://patch.com/img/cdn20/users/22941961/20180909/030158/styles/T800x600/public/processed_images/shutterstock_289828547-1536519618-492.jpg') !important;
+}
+.userPopout-3XzG_A .headerNormal-T_seeN .image-33JSyf[style*="265907876239900674"] {
     animation:keyframePulseMain 1.5s ease infinite;
     opacity:.75;
 }
