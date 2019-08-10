@@ -7465,3 +7465,47 @@ background-size:70%;
 .modal-1UGdnR {
     z-index: 1000 !important;
 }
+#app-mount .wrapper-3t9DeA {
+    border-radius:0 !important;
+}
+#app-mount .wrapper-3t9DeA foreignObject,
+.avatarHint-1qgaV3 foreignObject{
+    mask:none;
+}
+.avatarHint-1qgaV3:hover {
+    box-shadow:0 0 5px black;
+}
+/*Replace Value*/
+.avatar-17mtNa {
+    padding:10px 2px;
+}
+
+#app-mount .chat-3bRxxu .containerCozy-jafyvG .wrapper-3t9DeA {
+    height:35px !important;
+    width:35px !important;
+    box-sizing:border-box;
+    box-shadow:0 0 0 2px rgba(255,255,255,0.15);
+    transition:150ms ease box-shadow;
+}
+#app-mount .chat-3bRxxu .containerCozy-jafyvG .wrapper-3t9DeA:hover {
+    box-shadow:0 0 0 2px var(--accent);
+}
+.wrapper-3t9DeA:hover::before {
+    border-radius:0 !important;
+}
+
+/*why the fuck is it doing this i dont feel like finding the source so ill just do this*/
+.headerCozy-2N9HOL {
+    padding-bottom:10px !important;
+}
+.username-_4ZSMR {
+    height:19px;
+    padding-top:7px;
+}
+.membersWrap-2h-GB4 .wrapper-3t9DeA {
+    height:25px !important;
+    width:25px !important;
+}
+.pointerEvents-2zdfdO {
+    mask:none !important;
+}
