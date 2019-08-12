@@ -7490,3 +7490,15 @@ background-size:70%;
     transform:none !important;
     transition:none !important;
 }
+.alt-3btY0e .item-1GzJrl .status-3Kz6VS {
+	margin: 0 !important;
+	transition: 300ms ease;
+}
+
+.alt-3btY0e .item-1GzJrl:hover .status-3Kz6VS {
+	transform: scale(1.25);
+}
+
+.alt-3btY0e .item-1GzJrl:active .status-3Kz6VS {
+	transform: scale(.9);
+}
