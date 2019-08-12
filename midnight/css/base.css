@@ -7656,3 +7656,16 @@ background-size:70%;
 	height: 40px;
 	overflow: visible;
 }
+
+.modal-yWgWj- {
+	background: var(--lv1) !important;
+	box-shadow: inset 0 0 10000px 1000px rgba(255, 255, 255, 0.05) !important;
+	border-radius: 0;
+	width: 800px;
+}
+
+.footer-3rDWdC {
+	background: rgba(255, 255, 255, 0.04) !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+}
