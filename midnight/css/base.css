@@ -7462,3 +7462,31 @@ background-size:70%;
 .channel-2QD9_O.selected-1HYmZZ {
     height:60px !important;
 }
+
+.popoutBottom-2GAFPg[style*="overflow: hidden; visibility: visible;"][role*="dialog"] {
+	width: fit-content !important;
+	top: 65px !important;
+	left: 190px !important;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+	border-radius: 0;
+	transform:none !important;
+	animation: scale1 500ms ease forwards;
+	overflow:visible !important;
+}
+.popoutBottom-2GAFPg[style*="overflow: hidden; visibility: visible;"][role*="dialog"] .menu-Sp6bN1:not(.alt-3btY0e) {
+	border: 2px solid var(--accent);
+}
+.status-3Kz6VS {
+    width:30px;
+    height:30px;
+	animation: statusInner 600ms cubic-bezier(0.4, 0, 0, 1) backwards;
+
+}
+.menu-Sp6bN1.alt-3btY0e {
+	transform-origin: bottom center;
+	animation: tooltipTB .25s ease !important;
+}
+.scale-3iLZhb.animatorTop-2Y7x2r {
+    transform:none !important;
+    transition:none !important;
+}
