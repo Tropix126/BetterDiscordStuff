@@ -953,8 +953,55 @@ a {
 }
 
 .privateChannels-1nO12o header {
-	margin-top: -20px;
+	margin-top: -10px;
 }
+
+/*change*/
+.privateChannels-1nO12o header {
+    margin-top:-10px;
+}
+#app-mount div[style*="width: 100%; height: 20px"] {
+    height:20px !important;
+}
+
+.channel-2QD9_O.selected-1HYmZZ:not([style="height: 44px; opacity: 1;"]) {
+    top:-2px;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 44px; opacity: 1;"]) a {	
+	flex-direction: column;	
+	background: transparent !important;	
+}	
+
+.channel-2QD9_O.selected-1HYmZZ {
+    height: unset !important;
+}
+
+.channel-2QD9_O:hover .linkButtonIcon-Mlm5d6,	
+.channel-2QD9_O:not([style="height: 44px; opacity: 1;"]):hover .name-2WpE7M,	
+.channel-2QD9_O.selected-1HYmZZ .linkButtonIcon-Mlm5d6,	
+.channel-2QD9_O.selected-1HYmZZ:not([style="height: 44px; opacity: 1;"]) .name-2WpE7M {	
+	color: var(--accent) !important;	
+	text-shadow: 0 0 12px;	
+}	
+
+.linkButtonIcon-Mlm5d6,	
+.name-2WpE7M {	
+	transition: 150ms ease all;	
+}	
+
+.channel-2QD9_O:not([style="height: 44px; opacity: 1;"]) .numberBadge-2s8kKX {	
+	position: absolute;	
+	top: 33%;	
+	transform: scale(.9);	
+	z-index: 1 !important;	
+}	
+
+.channel-2QD9_O:not([style="height: 44px; opacity: 1;"]) a .name-2WpE7M {	
+	font-size: 11.3px !important;	
+	margin-left: -10px !important;	
+}	
+
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 {
 	position: absolute;
