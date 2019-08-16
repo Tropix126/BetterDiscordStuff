@@ -8007,10 +8007,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	text-shadow: 0 0 12px;
 }
 
-.popoutBottom-2GAFPg {
-	top: 60px!important;
-}
-
 .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.2);"] {
     background: rgba(255, 255, 255, .1) !important;
     transition:150ms ease;
