@@ -231,7 +231,7 @@
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Offline"] {
     background:#636b75;
 }
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Online"]:after {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Offline"]:after {
     content:'';
     position:absolute;
     top:0;
