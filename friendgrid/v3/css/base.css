@@ -178,3 +178,20 @@
     0% {opacity:0;}
     100% {opacity:1;}
 }
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Online"] {
+    background:#43b581;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Idle"] {
+    background:#faa61a;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Do Not Disturb"] {
+    background:#f04747;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Offline"] {
+    background:#636b75;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq[aria-label="Streaming"] {
+    background:#643da7;
+}
+
