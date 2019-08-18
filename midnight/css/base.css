@@ -8019,3 +8019,18 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .folder-21wGz3 {
     background:transparent !important;
 }
+
+.panel-VoWSbJ {
+    margin-bottom:27px;
+    background:var(--lv1) !important;
+    box-shadow:inset 0 0 1000px 1000px rgba(255,255,255,0.1);
+    border-bottom:2px solid var(--accent);
+}
+.content-N9xlZF {
+    background:var(--accent);
+    border-radius:0;
+    margin-bottom:50px !important;
+}
+.pointer-2Cnz1N {
+    border-top-color:var(--accent);
+}
