@@ -471,7 +471,7 @@ a {
 
 .headerCozy-2N9HOL {
 	padding-top: 7px;
-	padding-bottom: 4px;
+	padding-bottom: 4px !important;
 	background: rgba(255, 255, 255, 0.03);
 	width: 100%;
 	margin-left: 0;
@@ -481,8 +481,6 @@ a {
 	border-left: 3px solid currentColor;
 	padding-left: 7px;
 	margin-left: -22px;
-	padding-top: 3px;
-	padding-bottom: 5px;
 	text-shadow: 0 0 12px currentColor;
 	box-shadow: inset 10px 0px 15px -12px currentColor;
 }
@@ -7532,6 +7530,8 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 .avatar-17mtNa {
 	padding: 10px 2px;
+    margin:9px 20px 20px !important;
+    padding-left:3px;
 }
 
 #app-mount .chat-3bRxxu .containerCozy-jafyvG .wrapper-3t9DeA {
@@ -7553,13 +7553,9 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 /*why the fuck is it doing this i dont feel like finding the source so ill just do this*/
 
-.headerCozy-2N9HOL {
-	padding-bottom: 10px !important;
-}
-
 .username-_4ZSMR {
-	height: 19px;
-	padding-top: 7px;
+    padding-top:4px;
+    padding-bottom:6px;
 }
 
 .membersWrap-2h-GB4 .wrapper-3t9DeA {
