@@ -8030,3 +8030,13 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .pointer-2Cnz1N {
     border-top-color:var(--accent);
 }
+body::after {
+    content:'Midnight is currently undergoing a rewrite. Please excuse the broken elements in the theme.';
+    top:8px;
+    width:100%;
+    text-align:center;
+    pointer-events:none;
+    color:var(--accent);
+    position:fixed;
+    z-index:3002;
+}
