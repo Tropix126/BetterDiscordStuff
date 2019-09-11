@@ -8040,6 +8040,6 @@ body::after {
     position:fixed;
     z-index:3002;
 }
-.platform-osx::after {
+.platform-osx body::after {
     content: 'Midnight is currently undergoing a rewrite. Please excuse the broken elements in the theme. Settings button missing? Use CMD + ,';
 }
