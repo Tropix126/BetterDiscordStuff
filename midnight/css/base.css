@@ -8031,7 +8031,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     border-top-color:var(--accent);
 }
 body::after {
-    content:'Midnight is currently undergoing a rewrite. Please excuse the broken elements in the theme.';
+    content:'Midnight is currently undergoing a rewrite. Please excuse the broken elements in the theme. Settings button missing? Use CTRL + ,';
     top:8px;
     width:100%;
     text-align:center;
@@ -8039,4 +8039,7 @@ body::after {
     color:var(--accent);
     position:fixed;
     z-index:3002;
+}
+.platform-osx::after {
+    content: 'Midnight is currently undergoing a rewrite. Please excuse the broken elements in the theme. Settings button missing? Use CMD + ,';
 }
