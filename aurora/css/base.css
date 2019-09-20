@@ -147,6 +147,8 @@ TABLE OF CONTENTS
 14. Roundness
 
 15. Overwrite Grey SVG's
+
+16. No Longer Supported Notice
 */
 
 /*1. Background and Sizing*/
@@ -4464,3 +4466,15 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 /*Made with ♥ by Tropical and the Derealised Community.
 Also, Thank you DevilBro, for letting me use his SVG's to improve the theme!*/
 
+/*16. No Longer Supported Notice*/
+#app-mount::after {
+    content: 'Aurora is no longer supported, and will no longer receive updates.  Try Frosted Glass instead for a similar theme: https://github.com/Gibbu/BetterDiscord-Themes/tree/master/FrostedGlass';
+    font-size: 14px;
+    line-height: 20px; /* was 36px */
+    padding: 8px;
+    white-space: wrap;
+    overflow: hidden;
+    text-align: center;
+    background-color: #4a90e2;
+    color: #fff;
+}
