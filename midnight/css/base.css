@@ -8043,3 +8043,32 @@ body::after {
 .platform-osx body::after {
     content: 'Midnight is currently undergoing a rewrite. Please excuse the broken elements in the theme. Settings button missing? Use CMD + ,';
 }
+/* ==============================
+    ++  Spectra's fixes  ++
+ ============================= */
+.sidebarRegionScroller-3MXcoP,
+.messages-3amgkR,
+.scroller-2TZvBN,
+.scroller-1JbKMe,
+.scroller-1IIF0A,
+.scroller-9moviB,
+.sidebar-2K8pFh,
+.childWrapper-anI2G9,
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
+.contentRegionScroller-26nc1e {
+  background: transparent!important;
+}
+.avatar-17mtNa {margin: -5px 5px 20px !important;}
+.username-_4ZSMR {padding: 3px 0 3px 7px;}
+.timestampCozy-2hLAPV {
+  line-height: 28px;
+  height: 28px;
+  display: inline-block;
+}
+.headerStreaming-2FjmGz {background: #593695!important;}
+.layout-2DM8Md {height: 28px;}
+.sidebar-2K8pFh {width: 265px;}
+.base-3dtUhz {left: 55px;}
+.base-3dtUhz, .sidebar-2K8pFh,
+.platform-win .sidebar-2K8pFh {overflow: visible!important;}
