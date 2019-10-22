@@ -1588,7 +1588,8 @@ a {
 	background: var(--lv1) !important;
   box-shadow:none;
   padding:0;
-}
+	border:2px solid var(--hover);
+;}
 
 .name-3YKhmS {
   font-weight:500;
@@ -1602,7 +1603,6 @@ a {
 	animation: scale1 300ms ease !important;
 	border-radius: 0;
 	transform: none !important;
-	border: 2px solid var(--accent);
 
 }
 
