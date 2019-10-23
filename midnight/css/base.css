@@ -456,31 +456,25 @@ a {
 
 .headerCozy-2N9HOL {
 	flex-direction: column;
+  height:30px;
 }
 
 .avatar-17mtNa {
 	order: 2;
-	margin-left: 8px !important;
-	padding: 17px 0;
 }
 
 .headerCozyMeta-rdohGq {
 	order: 1;
-	padding: 0 20px;
 }
 
 .headerCozy-2N9HOL {
-	padding-top: 7px;
-	padding-bottom: 4px !important;
 	background: rgba(255, 255, 255, 0.03);
 	width: 100%;
-	margin-left: 0;
 }
 
 .username-_4ZSMR {
 	border-left: 3px solid currentColor;
 	padding-left: 7px;
-	margin-left: -22px;
 	text-shadow: 0 0 12px currentColor;
 	box-shadow: inset 10px 0px 15px -12px currentColor;
 }
@@ -489,7 +483,7 @@ a {
 	margin-top: 17px;
 	margin-left: 25px;
 	margin-right: 25px;
-	padding-bottom: 28px;
+	padding-bottom: 25px;
 	padding-top: 0;
 	background: rgba(255, 255, 255, 0.08);
 	border-left: 2px solid rgba(255, 255, 255, 0.08);
@@ -497,8 +491,7 @@ a {
 
 .contentCozy-3XX413 {
 	margin-left: 60px;
-	margin-top: 4px;
-	padding-top: 2px;
+	margin-top: 6px;
 }
 
 .messages-3amgkR {
@@ -3103,7 +3096,8 @@ polyline[stroke*="#7289da"] {
 }
 
 .contextMenu-HLZMGh .item-1Yvehc,
-.item-2J1YMK {
+.item-2J1YMK,
+.itemSubMenu-1vN_Yn {
 	margin: 0 !important;
 	transition: 150ms ease all;
 	padding: 7px 15px;
@@ -3116,7 +3110,8 @@ polyline[stroke*="#7289da"] {
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:hover,
-.item-2J1YMK:hover {
+.item-2J1YMK:hover,
+.itemSubMenu-1vN_Yn:hover {
 	background-color: rgba(255, 255, 255, 0.06) !important;
 	border-color: var(--accent);
 	box-shadow: inset 10px 0px 15px -12px var(--accent);
@@ -6553,6 +6548,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 .hljs {
 	max-height: 250px;
+  border-radius:0;
 }
 
 .hljs::-webkit-scrollbar-track {
@@ -7181,6 +7177,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 .contextMenu-HLZMGh {
 	z-index: 1501;
+  padding:0;
 }
 
 .lookGhost-2Fn_0- {
@@ -7569,8 +7566,13 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 /*why the fuck is it doing this i dont feel like finding the source so ill just do this*/
 
 .username-_4ZSMR {
-    padding-top:4px;
-    padding-bottom:6px;
+  padding-top:4px;
+  padding-bottom:4px;
+  display: inline-block;
+}
+
+.timestampCozy-2hLAPV {
+  margin-bottom:2px;
 }
 
 
@@ -7909,7 +7911,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
   background: transparent!important;
 }
 .avatar-17mtNa {margin: -5px 5px 20px !important;}
-.username-_4ZSMR {padding: 3px 0 3px 7px;}
 .timestampCozy-2hLAPV {
   line-height: 28px;
   height: 28px;
