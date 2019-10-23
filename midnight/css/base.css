@@ -7953,3 +7953,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .member-3-YXUe {
   max-width:240px;
 }
+
+.messagesPopout-24nkyi {
+    background:transparent !important;
+}
