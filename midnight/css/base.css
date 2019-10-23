@@ -1524,7 +1524,8 @@ a {
   color:var(--accent) !important;
 }
 
-.clickable-1JJAn8:hover .layout-2DM8Md {
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.selected-aXhQR6 .layout-2DM8Md{
   background-color:transparent !important;
 }
 
