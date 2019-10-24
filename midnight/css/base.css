@@ -8078,3 +8078,29 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
   transition: opacity 200ms ease-in-out;
   margin: 1px 1px 1px 1px;
 }
+
+.channel-2QD9_O.selected-aXhQR6 .activity-3mKQ-i,
+.akaBadge-1M-1Gw,
+#app-mount .member-3-YXUe.selected-aXhQR6 .activity-3mKQ-i{
+    color:#fff;
+}
+
+#app-mount .member-3-YXUe.selected-aXhQR6 {
+  background-color: var(--accent) !important;
+border-radius: 0px;
+cursor:pointer;
+box-shadow: 0 0 12px 1px var(--accent);
+border-left: 2px solid rgba(255, 255, 255, 0.8);
+text-shadow: 0 0 12px;
+height:58px;
+}
+#app-mount .member-3-YXUe {
+  display:flex;
+  align-items:center;
+  white-space:nowrap;
+}
+
+.activity-3mKQ-i {
+  text-overflow: ellipsis;
+  max-width:180px;
+}
