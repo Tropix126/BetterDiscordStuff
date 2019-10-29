@@ -3,10 +3,18 @@
 @import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/segoe.css');
 @import url('https://bdsources.github.io/sourcecheck/blob/master/code.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+@import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
+
 ::selection {
 	background-color: var(--accent) !important;
 	color: #fff;
 	text-shadow: 0 0 12px #fff !important;
+}
+
+.theme-dark {
+    --background-primary: var(--lv1);
+    --background-secondary: var(--lv1);
+    --background-tertiary: var(--lv1);
 }
 
 
@@ -7871,6 +7879,11 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	text-shadow: 0 0 12px;
 }
 
+.unreadBottom-3hWQ7c {
+    bottom:58px;
+    right:3px;
+}
+
 .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.2);"] {
     background: rgba(255, 255, 255, .1) !important;
     transition:150ms ease;
@@ -8160,4 +8173,10 @@ height:58px;
 .sidebar-2K8pFh .scrollerWrap-2lJEkd {
     margin-bottom:55px;
 }
-
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq, .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
+    border-radius:0 !important;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 svg {
+    width:18px;
+    height:18px;
+}
