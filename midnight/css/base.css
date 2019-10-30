@@ -8180,3 +8180,9 @@ height:58px;
     width:18px;
     height:18px;
 }
+
+.inset-GQDQYw,
+.outer-2IVh5n,
+#bd-customcss-attach-controls button {
+    border-radius:0 !important;
+}
