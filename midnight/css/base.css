@@ -8186,3 +8186,35 @@ height:58px;
 #bd-customcss-attach-controls button {
     border-radius:0 !important;
 }
+
+.perksModal-fSYqOq {
+    background:var(--lv1) !important;
+}
+
+.perk-2WeBWW {
+    background:rgba(255,255,255,0.075) !important;
+    border-radius:0;
+    border-bottom:2px solid var(--hover);
+}
+
+.tierTitle-y7BLPl,
+.tierHeaderLocked-1s2JJz {
+    color:#fff !important;
+}
+.wrapper-3nSjSv,
+.tier-1EY-yj{
+    border-radius:0;
+}
+.ctaBar-2UsjF2 {
+    background-color:var(--accent) !important;
+    border-radius:0;
+    overflow:hidden;
+    box-shadow:0 2px 12px rgba(255,255,255,0.15);
+}
+
+.ctaBar-2UsjF2 .guildIcon-3raYf3 {
+    position:absolute;
+    margin-top:-50px;
+    border-radius:0;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
