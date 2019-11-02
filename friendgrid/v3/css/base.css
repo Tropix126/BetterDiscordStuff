@@ -267,3 +267,30 @@
 .friendsTable-133bsv {
     padding-top:0;
 }
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
+    overflow:visible;
+}
+
+.customStatusEmoji-hg2dL1 {
+    position:absolute;
+    top:30px;
+    left:30%;
+    filter:grayscale(1) brightness(5);
+    opacity:.25;
+    z-index:100;
+    width:100px;
+    height:100px;
+    
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
+    text-align:center;
+    width:100%;
+    color:#fff;
+}
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 rect {
+    display:none;
+}
+
