@@ -8149,13 +8149,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 
 .hovered-d5PMVU,
-.hoverRoll-YK53gQ.forceHover-10IIq8:not(.disabled-3Vq5Ov) .default-3sgIpy,
-.hoverRoll-YK53gQ:hover:not(.disabled-3Vq5Ov) .default-3sgIpy {
-	opacity: 1;
-	transform: none;
-	position: relative;
-}
-
 .customStatus-3tC2ig {
 	color: var(--accent);
 }
