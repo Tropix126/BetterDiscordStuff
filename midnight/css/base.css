@@ -8266,3 +8266,32 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .channel-2QD9_O.selected-aXhQR6 .activity-525YDR {
 	color:#fff;
 }
+
+@keyframes userPopout {
+    0% {
+        transform:translateX(10%) scale(.95);
+        transform-origin:right center;
+    }
+    100% {
+        transform:none;
+    }
+}
+
+.userPopout-3XzG_A {
+    animation:userPopout 350ms;
+}
+
+.translate-2dAEQ6.didRender-33z1u8 {
+    transition:none !important;
+}
+
+.input-cIJ7To {
+    border-color:rgba(255,255,255,0.075);
+}
+.input-cIJ7To:hover {
+    border-color:var(--hover);
+}
+
+.userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT .marginBottom20-32qID7:first-of-type .inputDefault-_djjkz {
+    border:none !important;
+}
