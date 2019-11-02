@@ -8307,3 +8307,21 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     color:var(--accent);
     box-shadow:none !important;
 }
+
+.userInfoViewing-16kqK3 .wrapper-3t9DeA {
+    position:absolute;
+    top:0;
+    left:0;
+    filter:blur(15px);
+    z-index:-1;
+    width:100% !important;
+    height:100% !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transform:scale(6);
+}
+
+.userInfoViewing-16kqK3 {
+    overflow:hidden;
+}
