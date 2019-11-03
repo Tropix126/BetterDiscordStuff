@@ -8382,6 +8382,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     background:var(--online);
     box-shadow:0 0 25px 1px var(--online);
 }
+
 .container-3baos1 .avatar-SmRMf2:hover {
     opacity:1;
 }
@@ -8392,6 +8393,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     padding:1px 0;
     background:transparent !important;
 }
+
 #app-mount .notice-2FJMB4::after {
     content:'';
     left:0;
@@ -8405,4 +8407,8 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 }
 .dismiss-SCAH9H {
     margin-right:-185px;
+}
+
+.platformIcon-2NdO9F {	
+    transform:scale(.75);
 }
