@@ -8389,7 +8389,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 #app-mount .notice-2FJMB4 {
     position:absolute;
-    z-index:3000;
+    z-index:300;
     padding:1px 0;
     background:transparent !important;
 }
@@ -8411,4 +8411,50 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 .platformIcon-2NdO9F {	
     transform:scale(.75);
+}
+
+.container-1giJp5 {
+    position:absolute;
+    height:35px;
+    width:254px;
+    bottom:24px;
+}
+
+.container-1giJp5 .button-14-BFJ {
+    width:35px;
+    background:transparent !important;
+    border:none;
+    box-shadow:none !Important;
+}
+
+.container-1giJp5 .flex-1O1GKY {
+    width:initial;
+}
+
+.live-2o_S8y {
+    border-radius:0;
+    border-bottom:2px solid rgba(255,255,255,0.25);
+}
+
+.voiceUser-14U_Ns {
+    margin-top:3px;
+}
+
+.iconBadge-2wi9r4 {
+    position:absolute;
+    top:0;
+    left:-40px;
+    width:40px;
+    height:40px;
+    background:rgba(0,0,0,0.5);
+    border-radius:0;
+}
+
+.icon-3s6X1M {
+    width:24px;
+    color:rgba(255,255,255,0.5);
+}
+
+.guildsError-b7zR5H {
+    background:rgba(255,255,255,0.1);
 }
