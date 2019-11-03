@@ -8346,7 +8346,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 #app-mount .notice-2FJMB4 {
     position:absolute;
-    z-index:300;
+    z-index:1001;
     padding:1px 0;
     background:transparent !important;
 }
@@ -8427,3 +8427,37 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .userSmall-2t9H7n .content-3xS9Lh {
     all:unset !important;
 }
+
+.BDFDB-modal .scroller-2FKFPG {
+    width:95% !important;
+}
+
+/*new status picker*/
+.status-3Kz6VS {	
+	width: 30px;	
+	height: 30px;	
+	animation: statusInner 600ms cubic-bezier(0.4, 0, 0, 1) backwards;	
+}
+
+.alt-3btY0e .item-1GzJrl:hover .status-3Kz6VS {	
+	transform: scale(1.25);	
+}	
+
+.alt-3btY0e .item-1GzJrl:active .status-3Kz6VS {	
+	transform: scale(.9);	
+}
+
+.menu-Sp6bN1:not(.alt-3btY0e) {	
+	display: flex;	
+	width: fit-content;	
+	border-radius: 0;	
+	background: var(--lv1) !important;	
+	box-shadow: none;	
+	padding: 0;	
+	border: 2px solid var(--hover);	
+}
+
+.menu-Sp6bN1:not(.alt-3btY0e) .item-1GzJrl:hover {	
+	background: rgba(255, 255, 255, 0.1) !important;	
+}
+
