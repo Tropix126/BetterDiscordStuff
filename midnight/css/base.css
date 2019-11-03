@@ -7584,12 +7584,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	border: 2px solid var(--accent);
 }
 
-.status-3Kz6VS {
-	width: 30px;
-	height: 30px;
-	animation: statusInner 600ms cubic-bezier(0.4, 0, 0, 1) backwards;
-}
-
 .menu-Sp6bN1.alt-3btY0e {
 	transform-origin: bottom center;
 	animation: tooltipTB .25s ease !important;
@@ -7598,19 +7592,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 .scale-3iLZhb.animatorTop-2Y7x2r {
 	transform: none !important;
 	transition: none !important;
-}
-
-.alt-3btY0e .item-1GzJrl .status-3Kz6VS {
-	margin: 0 !important;
-	transition: 300ms ease;
-}
-
-.alt-3btY0e .item-1GzJrl:hover .status-3Kz6VS {
-	transform: scale(1.25);
-}
-
-.alt-3btY0e .item-1GzJrl:active .status-3Kz6VS {
-	transform: scale(.9);
 }
 
 .modal-yWgWj- {
