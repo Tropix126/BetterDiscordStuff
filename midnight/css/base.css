@@ -1542,21 +1542,8 @@ a {
 	background-color: transparent !important;
 }
 
-.menu-Sp6bN1:not(.alt-3btY0e) .item-1GzJrl {
-	width: 40px;
-	height: 35px;
-	justify-content: center;
-	transition: 150ms ease all;
-	border-radius: 0;
-	margin: 0;
-}
-
 .iconContainer-2ZxvJk {
 	margin: 0;
-}
-
-.menu-Sp6bN1:not(.alt-3btY0e) .item-1GzJrl:hover {
-	background: rgba(255, 255, 255, 0.1) !important;
 }
 
 .icon-2doZ3q,
@@ -1587,17 +1574,6 @@ a {
 	background: rgba(255, 255, 255, 0.06) !important;
 	border-radius: 0;
 	box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.06);
-}
-
-.menu-Sp6bN1:not(.alt-3btY0e) {
-	display: flex;
-	width: fit-content;
-	border-radius: 0;
-	background: var(--lv1) !important;
-	box-shadow: none;
-	padding: 0;
-	border: 2px solid var(--hover);
-	;
 }
 
 .name-3YKhmS {
@@ -8457,4 +8433,16 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 
 .guildsError-b7zR5H {
     background:rgba(255,255,255,0.1);
+}
+
+.separator-2c4hi3 {
+    display:none;
+}
+
+.avatar-3elDyV {
+    border-radius:0;
+}
+
+.userSmall-2t9H7n .content-3xS9Lh {
+    all:unset !important;
 }
