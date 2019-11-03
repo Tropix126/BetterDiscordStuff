@@ -8360,7 +8360,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	border-top: 5px solid currentColor;
 }
 .panels-j1Uci_ .wrapper-3t9DeA:hover::after {
-    color:rgba(255,255,255,0.75);
+    color:rgba(255,255,255,0.85);
 }
 
 .panels-j1Uci_ .flex-1O1GKY {
@@ -8381,4 +8381,7 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     left:0;
     z-index:0;
     box-shadow:0 0 25px 1px var(--online);
+}
+.container-3baos1 .avatar-SmRMf2:hover {
+    opacity:1;
 }
