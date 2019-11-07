@@ -8360,9 +8360,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
     background:var(--lv1);
     box-shadow:inset 0 0 1000px 1000px rgba(255,255,255,0.07);
 }
-.dismiss-SCAH9H {
-    margin-right:-185px;
-}
 
 .platformIcon-2NdO9F {	
     transform:scale(.75);
