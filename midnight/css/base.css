@@ -7799,18 +7799,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	border-radius: 0px;
 }
 
-.expandedFolderIconWrapper-1xLaU- svg[style*="color: rgb(114, 137, 218)"] {
-	color: var(--accent) !important;
-}
-
-.expandedFolderBackground-2sPsd- {
-	width: 0px;
-}
-
-.expandedFolderIconWrapper-1xLaU- {
-	width: 40px;
-	height: 40px;
-}
 
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
 	background-color: var(--accent) !important;
