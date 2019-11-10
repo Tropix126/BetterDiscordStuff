@@ -6520,11 +6520,6 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	}
 }
 
-.backdrop-1wrmKB,
-.modal-1UGdnR {
-	z-index: 1500 !important;
-}
-
 .gifTag-31zFY8 {
 	border-radius: 0;
 	background-color: var(--lv1) !important;
