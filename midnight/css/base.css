@@ -6535,8 +6535,16 @@ li[data-name*="Midnight"]:hover .scroller-wrap::after {
 	border-radius: 0;
 }
 
+.markup-2BOw-j code {
+	border:none !important;
+}
+/*bruh moment*/
 .hljs::-webkit-scrollbar-track {
-	background: transparent !important;
+  margin-top: 24px !important;
+  background: black !important;
+}
+.hljs::-webkit-scrollbar {
+  background-color: var(--codeblockcolor);
 }
 
 .hljs::-webkit-scrollbar-thumb {
