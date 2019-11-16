@@ -4,6 +4,7 @@
 @import url('https://bdsources.github.io/sourcecheck/blob/master/code.css');
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 @import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
+@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css');
 ::selection {
 	background-color: var(--accent) !important;
 	color: #fff;
