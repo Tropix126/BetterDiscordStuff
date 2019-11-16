@@ -1,5 +1,5 @@
 /*Core*/
-.avatarWrapperNormal-3wFMbf::after {
+.userPopout-3XzG_A .avatarWrapperNormal-3wFMbf::after {
     content:'';
     position:fixed;
     top:0;
@@ -16,9 +16,9 @@
     background-image:var(--popoutbg);
     -webkit-mask-image:linear-gradient(#000,transparent);
 }
-.header-2BwW8b *,
-.body-3iLsc4 *,
-.footer-1fjuF6 *{
+.userPopout-3XzG_A .header-2BwW8b *,
+.userPopout-3XzG_A .body-3iLsc4 *,
+.userPopout-3XzG_A .footer-1fjuF6 *{
     z-index:1;
 }
 /*Tropical*/
