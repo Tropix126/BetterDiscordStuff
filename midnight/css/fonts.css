@@ -97,3 +97,9 @@
   font-weight: 300;
   font-style: italic;
 }
+
+.wrapper-3t9DeA foreignObject+rect[mask*=svg-mask-status], 
+.wrapper-3t9DeA[class*=avatar] foreignObject+rect[y="22"] {
+  x:0;
+  y:0;
+}
