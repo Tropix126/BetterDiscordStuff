@@ -8108,3 +8108,12 @@ div[style*="opacity: 1; height: 56px;"] {
 .xboxPromotion-zo6w6K {
     border-radius:0;
 }
+.panel-24C3ux {
+    position:relative;
+    bottom:50px;
+    background:var(--lv1);
+    width:100%;
+}
+.panel-24C3ux + .container-1giJp5 {
+    bottom:75px;
+}
