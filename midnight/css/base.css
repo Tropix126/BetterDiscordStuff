@@ -1443,7 +1443,8 @@ body .errorPage-u8SYh4 .image-3zK3Wt {
 	position: absolute
 }
 
-.bd-detached-editor .contentRegion-3nDuYy .defaultColor-1_ajX0 {
+.bd-detached-editor .contentRegion-3nDuYy .defaultColor-1_ajX0,
+.bd-detached-editor #bd-settingspane-container:hover h2.ui-form-title{
 	top: 0
 }
 
@@ -8335,4 +8336,15 @@ div[style*="opacity: 1; height: 56px;"] {
 
 .resultsWrapper-hoiXCY {
     padding:0;
+}
+#app-mount .bda-slist li .defaultColor-1_ajX0 {
+    position:relative;
+    background:transparent;
+    border:none;
+    text-align:left;
+    padding:16px 0;
+    top:0;
+    color:#fff;
+    font-size:14px;
+    margin:0;
 }
