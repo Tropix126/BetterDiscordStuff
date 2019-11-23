@@ -8352,3 +8352,7 @@ div[style*="opacity: 1; height: 56px;"] {
 .expandedGuilds-1JMD4M {
     height:100% !important;
 }
+
+svg[name="RichActivity"] {
+    display:none;
+}
