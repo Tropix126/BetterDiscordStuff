@@ -8251,7 +8251,7 @@ div[style*="opacity: 1; height: 56px;"] {
 	border-radius: 50px
 }
 
-.inner-1gJC7_ {
+.inner-1gJC7_:not(.pulsingEllipsis-3YiXRF) {
 	position: relative;
 	border-top: 4px solid rgba(255, 255, 255, .2);
 	border-right: 4px solid rgba(255, 255, 255, .2);
