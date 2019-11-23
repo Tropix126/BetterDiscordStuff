@@ -8312,3 +8312,27 @@ div[style*="opacity: 1; height: 56px;"] {
     border:1px solid rgba(255,255,255,0.15);
     border-left:none !important;
 }
+
+.searchResult-3pzFAB:not(.expanded-v2Szsz) .searchResultMessage-2VxO12.before-1x1q5S,
+.searchResult-3pzFAB:not(.expanded-v2Szsz) .searchResultMessage-2VxO12.after-2g0jjc {
+    filter:blur(2px);
+    opacity:1 !important;
+}
+
+.expanded-v2Szsz {
+    border:none !important;
+}
+
+.channelSeparator-1X1FuH {
+    background-color:rgba(255,255,255,0.1);
+    padding:0 12px;
+    border-left:2px solid var(--hover);
+}
+
+.channelSeparator-1X1FuH::before {
+    display:none;
+}
+
+.resultsWrapper-hoiXCY {
+    padding:0;
+}
