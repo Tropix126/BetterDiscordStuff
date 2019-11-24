@@ -4675,17 +4675,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	background: 0 0!important
 }
 
-.theme-light .side-8zPYf6 .item-PXvHYJ.itemSelected-1qLhcL:nth-of-type(20) {
-	color: #fff
-}
-
-.theme-light .side-8zPYf6 .item-PXvHYJ:nth-of-type(20) {
-	border: 2px solid var(--accent);
-	color: var(--accent);
-	padding: 15px!important;
-	box-shadow: 0 0 12px var(--accent)
-}
-
 .theme-light .preview-2nSL_2.cardPrimaryOutline-29Ujqw+.marginTop40-i-78cZ .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:last-of-type,
 .theme-light .preview-2nSL_2.cardPrimaryOutline-29Ujqw+.marginTop40-i-78cZ .radioGroup-1GBvlr .item-26Dhrx:last-of-type {
 	color: var(--accent);
@@ -8363,4 +8352,47 @@ svg[name="RichActivity"] {
 .modal-yWgWj- img {
     width:initial !important;
     margin-left:21%;
+}
+
+.bd-minimal::after {
+    content:'Midnight does not support minimal mode. Disable it in Settings > BandagedBD > Core > Minimal Mode';
+    position:fixed;
+    z-index:999999;
+    color:#fff;
+    right:15px;
+    left:50%;
+    top:10px;
+    transform:translateX(-50%);
+    height:fit-content;
+    pointer-events:none;
+    width:fit-content;
+    background:var(--lv1);
+    padding:15px;
+    border:2px solid #f04747;
+    text-align:center;
+    box-shadow:0 0 12px #f04747;
+}
+
+.theme-light::after {
+    content:'Midnight does not support light mode. Disable in Settings > Appearance > Dark Mode';
+    position:fixed;
+    font-family:'Whitney';
+    z-index:999999;
+    line-height:1em;
+    color:#fff;
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+    pointer-events:none;
+    height:fit-content;
+    width:fit-content;
+    background:var(--lv1);
+    padding:15px;
+    border:2px solid #f04747;
+    text-align:center;
+    box-shadow:0 0 12px #f04747;
+}
+
+.theme-light .bd-minimal::after {
+    top:70px;
 }
