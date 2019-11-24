@@ -8400,3 +8400,8 @@ svg[name="RichActivity"] {
 .muted-1NRuDm {
     opacity:.6;
 }
+
+.container-1YxwTf > div[style*="background-color: rgba(114, 137, 218, 0."],
+[style*="background-color: rgba(114, 137, 218, 0.2)"] {
+    background:rgba(255,255,255,0.1) !important;
+}
