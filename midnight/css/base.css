@@ -8405,3 +8405,30 @@ svg[name="RichActivity"] {
 [style*="background-color: rgba(114, 137, 218, 0.2)"] {
     background:rgba(255,255,255,0.1) !important;
 }
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
+  font-weight:500;
+  font-size:18px;
+}
+
+.uploadModal-2ifh8j .footer-3mqk7D {
+  padding:10px;
+}
+
+.uploadModal-2ifh8j .primary-jw0I4K,
+.uploadModal-2ifh8j .label-cywgfr {
+  box-shadow:none;
+  background:transparent;
+}
+
+.uploadModal-2ifh8j .inner-3nWsbo {
+  background: linear-gradient(to bottom, var(--lv1), rgba(255,255,255,0.1) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAHlBMVEX///////////////////////////////////////8V2MxSAAAACnRSTlMAAgYHCAoLDRAT6dja9gAAAHtJREFUSMft1DcSgEAMQ1FbCwX3vy7MUpA2UDi0cqnxa79uu4ynOGybrD9/xbhh3rRaN/xs1bohYQUJO2Cf7bHTdthrW+y2DfbbDwfsiyP2wSF745i9cNAKElaQsIKEFSSsLFCd/kq1bWwYG8aGsWFsGBvGhrFhbFi4YScBnULqiGhGjQAAAABJRU5ErkJggg==);
+}
+
+.uploadModal-2ifh8j,
+.footer-3mqk7D {
+  box-shadow:none !important;
+}
+
+.footer-3mqk7D {
+  border-top:1px solid rgba(255,255,255,0.1);
+}
