@@ -678,7 +678,7 @@ a:hover .foreground-26ym5y {
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
 	background-color: var(--accent);
 	border-radius: 0;
-	box-shadow: 0 0 2px 2px var(--accent);
+	box-shadow: 0 0 12px 1px var(--accent);
 	transition: 150ms all ease;
 	border-left: 2px solid rgba(255, 255, 255, .8)
 }
