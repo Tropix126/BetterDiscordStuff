@@ -8252,7 +8252,7 @@ div[style*="opacity: 1; height: 56px;"] {
 	border-left: 4px solid #fff;
 	width: 25px;
 	height: 25px;
-	animation: spinner 1s infinite ease-in
+	animation: spinner 1s infinite linear;
 }
 
 @keyframes spinner {
