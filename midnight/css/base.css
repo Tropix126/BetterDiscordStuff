@@ -8430,3 +8430,13 @@ svg[name="RichActivity"] {
 .footer-3mqk7D {
   border-top:1px solid rgba(255,255,255,0.1);
 }
+
+html body #app-mount .container-1YxwTf .markup-2BOw-j > .anchor-3Z-8Bb[href*="drix.ml" i] {
+    pointer-events:none !important;
+    color:#f04747 !important;
+    text-shadow:0 0 15px #f04747;
+}
+
+html body #app-mount .container-1YxwTf .markup-2BOw-j > .anchor-3Z-8Bb[href*="drix.ml" i]::after {
+    content:' - Malicious Link';
+}
