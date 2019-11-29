@@ -8381,7 +8381,7 @@ svg[name="RichActivity"] {
 .userInfoSection-2acyCx+.userInfoSection-2acyCx {
 	border: none!important
 }
-
+/*User Profile Backgrounds*/
 .header-QKLPzZ .avatar-3EQepX::before {
 	content: '';
 	position: fixed;
@@ -8389,6 +8389,7 @@ svg[name="RichActivity"] {
 	top: 0;
 	left: 0;
 	background-image: var(--user-background);
+	background-attachment:fixed;
 	background-position: center center;
 	background-size: cover;
 	height: 230px;
