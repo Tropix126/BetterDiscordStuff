@@ -8240,6 +8240,7 @@ svg[name="RichActivity"] {
 	border-bottom-right-radius: 5px;
 	display: flex;
 	align-items: center;
+	z-index:1000
 }
 
 .activityHeader-1PExlk {
@@ -8412,4 +8413,40 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	top: 0;
 	left: 0;
 	width: 100%;
+}
+
+.connectedAccountIcon-3P3V6F {
+    position:absolute;
+    margin-left:10px;
+}
+
+.connectedAccount-36nQx7 {
+	border-radius: 0;
+	background: rgba(255,255,255,0.07)!important;
+	box-shadow: 0 0 12px rgba(255,255,255,0.07)!important;
+	height: 50px!important;
+	width: calc(50% - 25px);
+	margin: 10px;
+	padding: 0;
+	cursor: pointer
+}
+.connectedAccount-36nQx7:before {
+    content:'';
+    width:50px;
+    height:50px;
+	background-color: var(--accent);
+	box-shadow: 0 0 12px var(--accent);
+	transition: 250ms ease all
+}
+.connectedAccount-36nQx7:hover:before {
+	background-color: var(--hover);
+	box-shadow: 0 0 12px var(--hover)
+}
+
+.connectedAccountOpenIcon-2cNbq5 {
+	width: 50px
+}
+
+.connectedAccounts-repVzS {
+	justify-content: initial
 }
