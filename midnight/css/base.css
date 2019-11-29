@@ -8497,3 +8497,20 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .content-yTz4x3 .chatContent-a9vAAp:only-child .inner-zqa7da {
     padding-right: 150px;
 }
+
+#bda-qem button {
+    background: transparent; 
+}
+
+.item-1Yvehc span {
+    color:var(--interactive-normal);
+    font-size:14px;
+}
+
+.item-1Yvehc:hover span {
+    color:#fff;
+}
+
+.item-1Yvehc {
+    cursor:pointer;
+}
