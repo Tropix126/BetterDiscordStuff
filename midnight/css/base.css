@@ -8236,16 +8236,21 @@ svg[name="RichActivity"] {
 }
 
 .activity-1ythUs:not(.activityProfile-2bJRaP) {
-	background: rgba(0, 0, 0, 0.5);
+	background: transparent;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 234px;
+	right:10px;
 	width: fit-content;
 	padding: 4px 8px;
 	border-bottom-right-radius: 5px;
 	display: flex;
 	align-items: center;
 	z-index:1000
+}
+
+.customStatus-154i-H .customStatusEmoji-3BvdMX.customStatusSoloEmoji-192Z_4 {
+    height:20px;
+    width:20px;
 }
 
 .activityHeader-1PExlk {
