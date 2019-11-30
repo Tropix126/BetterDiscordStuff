@@ -1,3 +1,16 @@
+/*
+/$$      /$$ /$$       /$$           /$$           /$$         /$$
+| $$$    /$$$|__/      | $$          |__/          | $$        | $$
+| $$$$  /$$$$ /$$  /$$$$$$$ /$$$$$$$  /$$  /$$$$$$ | $$$$$$$  /$$$$$$
+| $$ $$/$$ $$| $$ /$$__  $$| $$__  $$| $$ /$$__  $$| $$__  $$|_  $$_/
+| $$  $$$| $$| $$| $$  | $$| $$  \ $$| $$| $$  \ $$| $$  \ $$  | $$
+| $$\  $ | $$| $$| $$  | $$| $$  | $$| $$| $$  | $$| $$  | $$  | $$ /$$
+| $$ \/  | $$| $$|  $$$$$$$| $$  | $$| $$|  $$$$$$$| $$  | $$  |  $$$$/
+|__/     |__/|__/ \_______/|__/  |__/|__/ \____  $$|__/  |__/   \___/
+                                         /$$  \ $$
+                                        |  $$$$$$/
+                                         \______/
+*/
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/fonts.css);
 @import url(https://bdsources.github.io/sourcecheck/code.css);
 @import url(https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css);
@@ -2972,12 +2985,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	100% {
 		opacity: 1;
 	}
-}
-
-.note-3kmerW textarea {
-	padding: 5px!important;
-	border-radius: 0;
-	transition: 150ms ease all!important
 }
 
 .note-3kmerW textarea:focus {
@@ -8119,28 +8126,15 @@ svg[name="RichActivity"] {
 	opacity: 0 !important;
 }
 
-@keyframes profile-modal {
-	0% {
-		transform: translateY(10%);
-		opacity: .5;
-	}
-	100% {
-		transform: none;
-		opacity: 1;
-	}
-}
-
 .root-SR8cQa {
 	position: fixed;
-	left: 327px;
+	right:0;
 	height: calc(100vh - 70px);
-	width: calc(100vw - 323px);
+	width: calc(100vw - 330px);
 	top: 70px;
-	perspective: 1px;
 	border-radius: 0;
 	overflow-y: auto;
-	animation: profile-modal .75s ease;
-	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	animation: opacity .75s ease;
 }
 
 .nameTag-2IFDfL .username-3gJmXY {
@@ -8164,7 +8158,7 @@ svg[name="RichActivity"] {
 .body-3ND3kc {
 	height: auto;
 	background: var(--lv1);
-	z-index: 2;
+	z-index: 1000;
 	width: 100%;
 	height: 100%;
 }
@@ -8179,29 +8173,17 @@ svg[name="RichActivity"] {
 	height: 20px;
 	margin-right: 10px;
 }
-
-.root-SR8cQa .assets-VMAukC {
-	position: absolute;
-	right: 30px;
-	height: 100%;
-	opacity: 1;
-	margin-top: -10px;
-	box-shadow: 0 0 200px 18px var(--accent);
+.assets-VMAukC {
+  margin-right:10px;
 }
-
-.assetsLargeImageActivityFeed-25vA7H,
-.assetsLargeImageActivityFeedXbox-3Tr-tf,
-.assetsLargeImageProfile-3YXDex {
-	height: 100%;
-	width: auto;
-}
-
-.assetsLargeImage-eYwpTX {
-	border-radius: 2px;
+.assetsLargeImage-eYwpTX,
+.assetsSmallImage-3_3Bzj {
+  border-radius:0;
+  mask:none !important;
+  -webkit-mask:none;
 }
 
 .root-SR8cQa .body-ZAhrcj {
-	flex-direction: column;
 	position: relative;
 }
 
@@ -8221,31 +8203,40 @@ svg[name="RichActivity"] {
 	content: 'Connections';
 	font-size: 20px;
 	color: #dad8de !important;
-	font-weight: 500;
+	font-weight: 600;
 	text-transform: capitalize;
 	width: 100%;
 }
 
-.note-3kmerW textarea[style*="height: 40px;"] {
-	height: 25px !important;
-}
-
-.note-3kmerW textarea:focus {
+.root-SR8cQa .note-3kmerW textarea {
 	border-radius: 0;
-	background: rgba(255, 255, 255, 0.1)
+  border-bottom:2px solid rgba(255,255,255,0.1);
+  background:var(--deprecated-text-input-bg);
+  transition:250ms ease all;
+  padding: 10px;
+  max-height:40px !important;
+}
+.root-SR8cQa .note-3kmerW textarea:hover {
+  border-color:var(--hover);
+}
+.root-SR8cQa .note-3kmerW textarea:focus {
+border-color: var(--accent);
+box-shadow: 0 6px 10px -8px var(--accent);
 }
 
 .activity-1ythUs:not(.activityProfile-2bJRaP) {
 	background: transparent;
 	position: absolute;
-	top: 234px;
+	top: 232px;
 	right:10px;
 	width: fit-content;
 	padding: 4px 8px;
-	border-bottom-right-radius: 5px;
-	display: flex;
-	align-items: center;
-	z-index:1000
+  display:flex;
+  align-items:center;
+}
+
+.activity-1ythUs {
+  z-index:1000;
 }
 
 .customStatus-154i-H .customStatusEmoji-3BvdMX.customStatusSoloEmoji-192Z_4 {
@@ -8268,25 +8259,24 @@ svg[name="RichActivity"] {
 }
 
 .headerInfo-30uryT {
-	position: relative;
+	position: absolute;
 	background: var(--lv1);
 	box-shadow: 0 0 12px var(--lv1);
-	right: 140px;
-	top: 116px;
+  left:0;
+	top:230px;
 	height: 35px;
-	min-width: calc(100vw - 450px);
-	padding: 0;
-	padding-left: 140px;
+  width:100%;
+	padding: 0 20px;
 	flex-direction: row;
 	display: flex;
-	z-index: 2;
+	z-index: 100;
 }
 
 .tabBarContainer-1s1u-z {
 	background: var(--lv1) !important;
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, 0.07), 0 0 12px rgba(255, 255, 255, 0.07);
 	border: 0;
-	z-index: 1;
+	z-index: 1000;
 }
 
 .tabBar-2MuP6- {
@@ -8294,25 +8284,34 @@ svg[name="RichActivity"] {
 }
 
 .root-SR8cQa .avatar-3EQepX {
-	top: 80px;
+	top: 30px;
 	width: 100px !important;
 	height: 100px !important;
 	z-index: 3;
   transition:none;
-  cursor:zoom-in;
+  cursor:pointer;
+}
+
+@keyframes zoom-in-profile {
+  0% {
+    transform:scale(.5) translateY(-12.5vw);
+  }
+  100% {
+    transform:none;
+  }
 }
 
 .root-SR8cQa .avatar-3EQepX:active {
   position:fixed;
-  top: 150%;
-  left: 50%;
-    transition:500ms ease left,500ms ease box-shadow, 500ms ease top;
+  left: 25vw;
+  top:12.5vw;
   width:300px !important;
   height:300px !important;
-  transform: translate(-50%, -50%);
   box-shadow:0 0 0 100vmax rgba(0,0,0,0.5);
   z-index:99999;
   cursor:zoom-out;
+  animation:zoom-in-profile 300ms ease;
+  transition:500ms ease box-shadow;
 }
 
 .header-QKLPzZ {
@@ -8331,19 +8330,38 @@ svg[name="RichActivity"] {
 
 .header-QKLPzZ::after {
 	content: '';
-	position: absolute;
+	position: fixed;
 	z-index: -100;
-	left: 0;
+	left:330px;
+  right:0;
+	height: 230px;
+	width: calc(100vw - 330px);
+	top: 70px;
 	background-image: linear-gradient(to bottom, var(--lv1), rgba(255, 255, 255, 0.1) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAHlBMVEX///////////////////////////////////////8V2MxSAAAACnRSTlMAAgYHCAoLDRAT6dja9gAAAHtJREFUSMft1DcSgEAMQ1FbCwX3vy7MUpA2UDi0cqnxa79uu4ynOGybrD9/xbhh3rRaN/xs1bohYQUJO2Cf7bHTdthrW+y2DfbbDwfsiyP2wSF745i9cNAKElaQsIKEFSSsLFCd/kq1bWwYG8aGsWFsGBvGhrFhbFi4YScBnULqiGhGjQAAAABJRU5ErkJggg==);
 	background-size: 10%;
 	background-position: center center;
-	height: 100%;
-	width: 100%;
-	transform: translateZ(-2px) scale(3);
 }
 
 .activityProfile-2bJRaP {
-	background-color: var(--lv1);
+  border-top:1px solid var(--hover);
+  border-bottom:1px solid var(--hover);
+  position:relative;
+  background:var(--lv1);
+  box-sizing:border-box;
+}
+
+.activityProfile-2bJRaP:after {
+  content:'';
+  top:0;
+  left:0;
+  position:absolute;
+  width:100%;
+  height:calc(100% + 1px);
+  background:url(https://i.imgur.com/VJMyFAR.png);
+  background-color:var(--accent);
+  z-index:-1;
+  opacity:.4;
+  animation:bgScroll 60s linear infinite;
 }
 
 .root-SR8cQa .header-QKLPzZ button {
@@ -8403,9 +8421,16 @@ svg[name="RichActivity"] {
 }
 
 .tabBarItem-1b8RUP {
-	padding: 0 8px;
-	height: 100%;
-	border-bottom-width: 4px;
+	padding: 2px 8px;
+  border:none !important;
+  border-radius:2px;
+  transition:150ms ease all;
+}
+
+.tabBarItem-1b8RUP[style*="rgb(255, 255, 255)"],
+.tabBarItem-1b8RUP.selected-3s45Ha {
+  background:var(--accent) !important;
+  box-shadow:0 0 12px var(--accent);
 }
 
 .connectedAccount-36nQx7,
@@ -8413,35 +8438,53 @@ svg[name="RichActivity"] {
 	border: none!important
 }
 /*User Profile Backgrounds*/
-.header-QKLPzZ .avatar-3EQepX::before {
+#app-mount .header-QKLPzZ .avatar-3EQepX::before {
 	content: '';
 	position: fixed;
 	z-index: -100 !important;
-	top: 0;
-	left: 0;
-  background-color:transparent !important;
-  animation:none !important;
-  border:none !important;
+	top: 70px;
+  left:330px;
+  right:0;
+  bottom:0;
+	width: calc(100vw - 330px);
+	height: 230px;
+	background-color:transparent !important;
+	animation:none !important;
+	border:none !important;
 	background-image: var(--user-background) !important;
 	background-position: center center;
 	background-size: cover;
-	height: 215px;
-	width: 100%;
-  font-size:0 !important;
-  transform:none !important;
+	font-size:0 !important;
 	-webkit-mask-image: linear-gradient(#000, transparent);
+  pointer-events:none;
 }
 
-.header-QKLPzZ .avatar-3EQepX:hover::before {
-	position: fixed;
-	top: 0 !important;
-	left: 0 !important;
-	width: 100% !important;
-	height: 215px;
-}
-
-.root-SR8cQa .avatar-3EQepX:active::before {
+.root-SR8cQa .avatar-3EQepX:active::before,
+#app-mount .header-QKLPzZ .avatar-3EQepX:active::after {
   display:none !important;
+}
+
+#app-mount .header-QKLPzZ .avatar-3EQepX::after {
+  content:'zoom_out_map';
+  font-family:'Material Icons';
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:24px;
+  position:absolute;
+  margin-bottom:2px;
+  margin-right:2px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+  opacity:0;
+  transition:150ms ease opacity;
+  box-sizing:borer-box;
+}
+
+#app-mount .header-QKLPzZ .avatar-3EQepX:hover::after {
+  opacity:1;
 }
 
 html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix.ml" i] {
@@ -8499,7 +8542,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 
 #bda-qem button {
-    background: transparent; 
+    background: transparent;
 }
 
 .item-1Yvehc span {
@@ -8513,4 +8556,70 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .item-1Yvehc {
     cursor:pointer;
+}
+
+.listScroller-2_vlfo {
+  display:flex;
+  flex-wrap:wrap;
+  padding:0;
+  justify-content:flex-start;
+}
+
+.listRow-hutiT_ {
+  width:calc(25% - 40px);
+  height:100px;
+  overflow:hidden;
+  margin:10px;
+  background:rgba(255,255,255,0.07);
+  position:relative;
+  align-items:flex-start;
+  border-radius:2px;
+}
+.listAvatar-1NlAhb {
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px !important;
+  height:300px !important;
+  left:-25%;
+  top:-50%;
+    filter:blur(15px);
+  box-shadow:inset 0 0 0 100vmax rgba(0,0,0,0.25);
+  transition:500ms ease;
+}
+
+.listRow-hutiT_:hover .listAvatar-1NlAhb {
+  transform:scale(1.1);
+  box-shadow:inset 0 0 0 100vmax rgba(0,0,0,0.5);
+}
+
+.listName-3w10cx {
+  z-index:1;
+  margin:5px;
+  font-size:20px !important;
+  font-weight:700;
+  color:#fff;
+  overflow:visible;
+}
+
+.guildNick-3uAm3i:empty:after {
+  content:'No Guild Nickname';
+}
+
+.listName-3w10cx {
+  font-size:inherit;
+}
+
+.guildNick-3uAm3i {
+  margin-left:5px;
+}
+
+.listDiscriminator-253zfw {
+  font-weight:500;
+}
+
+.listName-3w10cx,
+.listRowContent-3Kih4Q {
+  display:block;
+  z-index:1;
 }
