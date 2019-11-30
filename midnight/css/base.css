@@ -8577,8 +8577,6 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 .listAvatar-1NlAhb {
   position:absolute;
-  top:0;
-  left:0;
   width:300px !important;
   height:300px !important;
   left:-25%;
@@ -8600,14 +8598,13 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   font-weight:700;
   color:#fff;
   overflow:visible;
+    word-wrap:break-word;
+    white-space:normal;
+    line-height:18px;
 }
 
 .guildNick-3uAm3i:empty:after {
   content:'No Guild Nickname';
-}
-
-.listName-3w10cx {
-  font-size:inherit;
 }
 
 .guildNick-3uAm3i {
