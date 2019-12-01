@@ -8469,19 +8469,23 @@ box-shadow: 0 6px 10px -8px var(--accent);
   content:'zoom_out_map';
   font-family:'Material Icons';
   color:#fff;
-  display:flex;
+  top:0 !important;
+  left:0 !important;
+  display:flex !important;
   justify-content:center;
   align-items:center;
   font-size:24px;
   position:absolute;
-  margin-bottom:2px;
-  margin-right:2px;
-  width:100%;
-  height:100%;
-  background-color:rgba(0,0,0,0.5);
+  width:100% !important;
+  height:100% !important;
+  background:rgba(0,0,0,0.5) !important;
   opacity:0;
   transition:150ms ease opacity;
-  box-sizing:borer-box;
+  animation:none;
+  text-shadow:none;
+  border-radius:0;
+  filter:none;
+  font-weight:500;
 }
 
 #app-mount .header-QKLPzZ .avatar-3EQepX:hover::after {
