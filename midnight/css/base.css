@@ -3188,7 +3188,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	background: rgba(255, 255, 255, .08)!important
 }
 
-.headerNormal-T_seeN {
+.header-2BwW8b {
 	background: rgba(255, 255, 255, .08)!important
 }
 
@@ -3196,7 +3196,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	background: rgba(255, 255, 255, .04)!important
 }
 
-.headerPlaying-j0WQBV {
+#app-mount .headerPlaying-j0WQBV {
 	background: var(--accent)!important
 }
 
@@ -8254,7 +8254,8 @@ box-shadow: 0 6px 10px -8px var(--accent);
 
 .topSectionSpotify-1lI0-P,
 .topSectionPlaying-1J5E4n,
-.topSectionNormal-2-vo2m {
+.topSectionNormal-2-vo2m,
+.topSectionXbox-3fWLjS{
 	background: transparent;
 }
 
