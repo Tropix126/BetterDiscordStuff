@@ -839,6 +839,48 @@ a:hover .foreground-26ym5y {
 	color: var(--accent)
 }
 
+#app-mount .channel-2QD9_O[href="/activity"] .layout-2DM8Md::after,
+#app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md::after,
+#app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md::after,
+#app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md::after {
+    content:'';
+    position:absolute;
+    top:-5px;
+    width:60px;
+    height:60px;
+    border-radius:50px;
+    background:#fff;
+    z-index:-1;
+    opacity:0;
+    transform:scale(0);
+    transform-origin:center;
+}
+
+@keyframes home-ripple {
+    0% {
+        transform:scale(.35);
+        opacity:0;
+    }
+    100% {
+        transform:scale(1);
+        opacity:.15;
+    }
+}
+
+#app-mount .channel-2QD9_O[href="/activity"] .layout-2DM8Md:active::after,
+#app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md:active::after,
+#app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md:active::after,
+#app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md:active::after {
+    animation:home-ripple .15s ease backwards;
+        transform:scale(1);
+        opacity:.15;
+}
+
+.layout-2DM8Md {
+    position:relative;
+    z-index:1;
+}
+
 #app-mount .sidebar-2K8pFh .privateChannels-1nO12o header {
 	border-bottom: 2px solid var(--accent);
 	color: var(--accent);
@@ -4198,7 +4240,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	height: 26px;
 	box-shadow: 0 0 10px var(--lv1);
 	margin-top: 4px;
-	background: var(--lv1)
 }
 
 .winButton-iRh8-Z {
@@ -4213,6 +4254,13 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 .winButtonClose-1HsbF-:hover {
 	background: #e81123;
+}
+
+.winButtonClose-1HsbF-:active {
+    background:rgb(151,23,34);
+}
+.winButtonMinMax-PBQ2gm:active {
+    background:rgba(255,255,255,0.15) !important;
 }
 
 .wordmark-2iDDfm {
@@ -8646,10 +8694,4 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 .section-2VKIPC {
     margin-bottom:20px;
-}
-.winButtonClose-1HsbF-:active {
-    background:rgb(151,23,34);
-}
-.winButtonMinMax-PBQ2gm:active {
-    background:rgba(255,255,255,0.15) !important;
 }
