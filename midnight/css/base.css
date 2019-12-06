@@ -30,7 +30,7 @@
 	--roundness: 0;
 	--theme-name: 'Midnight';
 	--theme-long-name: 'Midnight UI';
-	--theme-version: 'v2.3';
+	--theme-version: 'v2.3.1';
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
@@ -8820,4 +8820,62 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 .section-2VKIPC {
     margin-bottom:20px;
+}
+.panels-j1Uci_ .wrapper-3t9DeA:hover::after {
+    background:transparent;
+    padding:0;
+    pointer-events:initial;
+    color:#fff;
+    left:-20px;
+    box-shadow:none;  
+    width:0;
+}
+.panels-j1Uci_ .wrapper-3t9DeA:hover::after {
+    pointer-events:initial;
+}
+.callAvatarBorder-uWp8Ga,
+.callAvatarVoice-29N_wG{
+    border-radius:0 !important;
+}
+
+.callAvatarMask-1SLlRi foreignObject {
+    mask:none !important;
+    -webkit-mask:none !important;
+}
+.pagination-eQpqgk .paginationNext-3Tefao,
+.pagination-eQpqgk .paginationPrevious-4Yw0Tk {
+    border-radius:0;
+    height:35px;
+    width:50px;
+    background:var(--accent);
+    box-shadow:0 0 12px var(--accent);
+    opacity:1;
+    background-image:none !important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:none !important;
+    transition:250ms ease;
+}
+.pagination-eQpqgk .paginationNext-3Tefao:hover,
+.pagination-eQpqgk .paginationPrevious-4Yw0Tk:hover {
+    background:var(--hover) !important;
+    box-shadow:0 0 12px var(--hover) !important;
+}
+.pagination-eQpqgk .paginationNext-3Tefao:after,
+.pagination-eQpqgk .paginationPrevious-4Yw0Tk:after{
+    content:'arrow_forward_ios';
+    font-family:'Material Icons';
+    color:#fff;
+    font-size:12px;
+}
+
+.status-1XNdyw rect {
+    mask:none;
+    width:8px;
+    height:8px;
+    y:3;
+}
+.emote {
+    font-size: 0;
 }
