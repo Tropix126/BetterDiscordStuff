@@ -4948,7 +4948,7 @@ body #ace_settingsmenu {
 	right: 20vw;
 	bottom: 10vh;
 	left: 20vw;
-	background: var(--lv1);
+	background: var(--lv1) !important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	box-shadow: none;
@@ -8922,4 +8922,8 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	box-shadow: 0 0 12px #fff;
 	animation: callpulse 2.25s ease infinite;
 	transform-origin: left;
+}
+
+.subMenuContext-2n_9YM {
+    left:-8px;
 }
