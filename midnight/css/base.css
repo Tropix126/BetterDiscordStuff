@@ -3477,7 +3477,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .userPopout-3XzG_A .fullWidth-1orjjo {
-    margin:10px;
+    margin:0;
+}
+
+.marginTop8-1DLZ1n {
+    padding:10px;
 }
 
 .theme-dark .theme-light .modal-3HD5ck {
@@ -7193,7 +7197,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 }
 
 .button-14-BFJ {
-	width: 45px;
+	width:100px;
 	background: rgba(255, 255, 255, .1);
 	margin-left: 5px;
 	transition: 150ms ease all;
@@ -7406,10 +7410,6 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 .panels-j1Uci_ .flex-1O1GKY {
 	width: 190px;
 	justify-content: center
-}
-
-.button-14-BFJ {
-	width: 100px
 }
 
 .panels-j1Uci_ .wrapper-3t9DeA::before {
