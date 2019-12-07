@@ -30,7 +30,7 @@
 	--roundness: 0;
 	--theme-name: 'Midnight';
 	--theme-long-name: 'Midnight UI';
-	--theme-version: 'v2.3.3';
+	--theme-version: 'v2.4';
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
@@ -9017,4 +9017,24 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   color: rgba(255, 255, 255, .8);
   text-transform:capitalize;
   font-style:normal !important;
+}
+
+.containerCozyBounded-1rKFAn.containerCozy-jafyvG.container-1YxwTf,
+.containerCozyBounded-1rKFAn.containerCozy-jafyvG.container-1YxwTf > div {
+    animation:transitionIn .35s ease-in-out;
+}
+
+@keyframes transitionIn {
+    0% {
+        opacity:0;
+        transform:translateX(-10px);
+    }
+    100% {
+        opacity:1;
+        transform:none;
+    }
+}
+
+.chatContent-a9vAAp {
+    width:0 !important;
 }
