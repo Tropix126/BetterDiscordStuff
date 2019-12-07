@@ -4223,18 +4223,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	left: 17%
 }
 
-.content-1-zrf2 {
-	padding: 25px;
-	background: rgba(255, 255, 255, .07);
-	max-width: 210px;
-	text-align: left;
-	box-shadow: 0 0 12px 2px rgba(255, 255, 255, .07), inset 0 0 12px var(--lv1)
-}
-
-.status-1JTY3j:after {
-	content: ' to Discord'
-}
-
 .quickswitcher-3JagVE {
 	background: 0 0!important;
 	border-radius: 0
@@ -8926,4 +8914,112 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .subMenuContext-2n_9YM {
     left:-8px;
+}
+
+@keyframes load-in {
+  0% {
+    transform:translateY(25%);
+    opacity:0;
+  }
+  100% {
+    transform:none;
+    opacity:1;
+  }
+}
+
+.container-16j22k {
+  position:fixed;
+  z-index:9999;
+  height:fit-content;
+  width:fit-content;
+  flex-direction:row;
+  top:unset !important;
+  left:unset;
+  bottom:10px;
+  right:10px !important;
+  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px 2px rgba(255, 255, 255, .07);
+  padding:15px !important;
+  align-items:flex-start;
+  overflow:visible;
+  animation:load-in 500ms ease;
+}
+.container-16j22k::after {
+  content:'';
+  background:var(--idle);
+  position:absolute;
+  right:0;
+  top:0;
+  height:100%;
+  width:3px;
+  box-shadow:0 0 12px var(--idle);
+}
+.container-16j22k video {
+  width:100px;
+  height:100px;
+}
+.content-1-zrf2 {
+  padding:0;
+  flex-direction: column;
+  align-items: center;
+  display:flex;
+}
+
+.problems-3mgf6w {
+  padding:10px;
+  top:0;
+  left:0;
+  display:flex;
+  width:100%;
+  height:10px;
+  justify-content: center;
+  align-items:flex-start;
+  background: rgba(0, 0, 0, .2);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.problems-3mgf6w a {
+  height:25px;
+  color:rgba(255,255,255,0.65) !important;
+  text-shadow:none !important;
+  font-size:12px;
+  line-height:normal;
+  transition:150ms ease color;
+}
+
+.problems-3mgf6w a:first-child:after {
+  content:'';
+  position:relative;
+  left:14px;
+  border-right:1px solid rgba(255,255,255,0.25);
+}
+
+.problems-3mgf6w a:hover {
+  color:rgba(255,255,255,0.95) !important;
+  opacity:1;
+  text-decoration:none;
+}
+
+.icon-3N9Bhy {
+  display:none;
+}
+
+.problemsText-1Yx-Kl {
+  display:none;
+}
+
+.status-1JTY3j {
+  max-width:280px;
+  max-height:80px;
+  overflow-y:scroll;
+  align-items:center;
+  text-transform:none;
+  padding-right:5px;
+  text-align:center;
+  color:rgba(255,255,255,0.65);
+}
+
+.quote-3aooyW {
+  color: rgba(255, 255, 255, .8);
+  text-transform:capitalize;
+  font-style:normal !important;
 }
