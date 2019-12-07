@@ -960,7 +960,10 @@ a:hover .foreground-26ym5y {
 	background-repeat: no-repeat;
 	background-size: 50%, cover;
 	transition: 150ms all ease;
-	opacity: 1
+	opacity: 1;
+	z-index:100;
+	pointer-events: initial;
+	cursor: pointer;
 }
 
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx input {
@@ -977,11 +980,6 @@ a:hover .foreground-26ym5y {
 
 .privateChannels-1nO12o .searchBar-6Kv8R2:hover {
 	background-color: var(--hover)
-}
-
-.privateChannels-1nO12o .searchBar-6Kv8R2 {
-	pointer-events: initial;
-	cursor: pointer
 }
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 ::-webkit-input-placeholder {
@@ -1318,10 +1316,6 @@ a:hover .foreground-26ym5y {
 		transform: scale(0);
 		opacity: 0
 	}
-}
-
-.privateChannels-1nO12o .searchBar-6Kv8R2 {
-	z-index: 1
 }
 
 .iconCollapsed-3hFp_8,
@@ -8975,6 +8969,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   align-items:flex-start;
   background: rgba(0, 0, 0, .2);
   border-bottom: 1px solid rgba(0, 0, 0, .1);
+  transform:none !important;
 }
 
 .problems-3mgf6w a {
