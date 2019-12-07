@@ -7,7 +7,7 @@
 | $$\  $ | $$| $$| $$  | $$| $$  | $$| $$| $$  | $$| $$  | $$  | $$ /$$
 | $$ \/  | $$| $$|  $$$$$$$| $$  | $$| $$|  $$$$$$$| $$  | $$  |  $$$$/
 |__/     |__/|__/ \_______/|__/  |__/|__/ \____  $$|__/  |__/   \___/
-                                         /$$  \ $$.panels-j1Uci_ .avatarWrapper-2yR4wp:hover::before 
+                                         /$$  \ $$
                                         |  $$$$$$/
                                          \______/
 */
@@ -8967,8 +8967,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   right:0;
   top:0;
   height:100%;
-  width:3px;
-  box-shadow:0 0 12px var(--idle);
+  width:2px;
 }
 .container-16j22k video {
   width:100px;
@@ -9052,9 +9051,11 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
         opacity:0;
         transform:translateX(-10px);
     }
-    100% {
-        opacity:1;
+    50% {
         transform:none;
+    }
+    100% {
+	opacity:1;
     }
 }
 
