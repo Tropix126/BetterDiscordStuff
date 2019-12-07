@@ -3083,13 +3083,47 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .inner-zqa7da .textArea-2Spzkt:focus {
-	border-color: var(--accent);
 	box-shadow: 0 6px 10px -8px var(--accent)
 }
 
 .inner-zqa7da .textArea-2Spzkt {
 	transition: 150ms ease border, 150ms ease box-shadow;
-	border-bottom: 2px solid rgba(255, 255, 255, .1)
+	border:none;
+}
+
+@keyframes textarea {
+    0% {
+        transform:scale(.25);
+    }
+    100% {
+        transform:none;
+    }
+}
+.slateTextArea-1bp44y:focus::before {
+    background:var(--accent);
+    box-shadow:0 0 12px var(--accent);
+    animation:textarea 250ms ease;
+    opacity:1;
+}
+
+.slateTextArea-1bp44y::before {
+    content:'';
+    bottom:0;
+    height:2px;
+    width:100%;
+    position:absolute;
+    opacity:0;
+    transition:250ms ease opacity;
+}
+
+.slateTextArea-1bp44y::after {
+    content:'';
+    bottom:0;
+    height:2px;
+    width:100%;
+    position:absolute;
+    transition:150ms ease;
+    background:rgba(255, 255, 255, .1)
 }
 
 .attachButton-1UjEWA {
