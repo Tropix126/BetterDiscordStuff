@@ -8692,7 +8692,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
   transition:150ms ease opacity;
   animation:none;
   text-shadow:none;
-  border-radius:0;
+  border-radius:var(--user-roundness);
   filter:none;
   font-weight:500;
 }
