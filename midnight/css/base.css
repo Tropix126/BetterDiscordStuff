@@ -563,7 +563,13 @@ a:hover .foreground-26ym5y {
 	color: #fff;
 	text-shadow: 0 0 12px;
 	font-weight: 300;
-	text-transform: none
+	text-transform: none;
+	text-overflow:ellipsis !important;
+	white-space:nowrap;
+	overflow:hidden;
+	height:48px;
+	line-height:48px;
+	margin:0 15px;
 }
 
 .dividerContent-2L12VI:after,
@@ -6086,7 +6092,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 .base-34jWEe {
 	border: 1px solid #43b581!important;
 	height: 48px;
-	padding-left: 10px;
+	padding:0;
 	margin: 15px 25px;
 	background: rgba(67, 181, 129, .25);
 	background-image: none!important
