@@ -31,6 +31,7 @@ body {
   overflow-x:hidden;
 }
 body::before {
+  content:'';
   position:absolute;
   opacity: .4;
 background-image: var(--bg)!important;
