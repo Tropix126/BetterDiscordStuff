@@ -7754,7 +7754,7 @@ header .clickable-3rdHwn:hover .icon-22AiRD {
 	width: 40px;
 	background: rgba(255, 255, 255, .15);
 	box-shadow: 0 0 12px rgba(255, 255, 255, .2);
-	border-radius: 0;
+	border-radius: var(--guilds-roundness);
 	left: 10px
 }
 
