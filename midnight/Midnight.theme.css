@@ -1,7 +1,7 @@
 /**
  * @name Midnight UI
  * @author Tropical#8908
- * @version 2.0
+ * @version 2.4
  * @description An almost black theme with sharp edges that is easy on the eyes and has glow in some places. Fully customizable through the theme file.
  * @source https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/base.css
  * @website https://tropix126.github.io/BetterDiscordStuff/midnight/
@@ -37,6 +37,10 @@
   --offline: #636b75;
   --invisible: #747f8d;
   --streaming: #643da7;
+
+/*Roundness Variables*/
+  --user-roundness:0px;
+  --guilds-roundness:0px;
 
 /*Other Variables*/
   --BetterDocsBlockerBlack1:var(--lv1);

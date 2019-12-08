@@ -71,7 +71,7 @@
 #app-mount .wrapper-3t9DeA[aria-label*="mobile"]:before {
 	content: "";
 	background: rgba(12, 12, 12, 0.3);
-	border-radius: 0;
+	border-radius: var(--user-roundness);
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -103,8 +103,8 @@
 	y: 0;
 	width: 100%;
 	height: 100%;
-	rx: 0%;
-	ry: 0%;
+	rx:var(--user-roundness);
+	ry: var(--user-roundness);
 	fill: transparent;
 	stroke-width: 2px;
 }
@@ -158,7 +158,7 @@
 }
 
 #app-mount .avatarHint-1qgaV3 .avatarHintInner-Dco91E {
-	border-radius: 0 !important;
+	border-radius: var(--user-roundness) !important;
 }
 
 #app-mount .header-QKLPzZ .wrapper-3t9DeA {
