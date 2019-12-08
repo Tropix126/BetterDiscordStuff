@@ -42,6 +42,7 @@
   --user-roundness:0px;
   --guilds-roundness:0px;
 
-/*Other Variables*/
-  --BetterDocsBlockerBlack1:var(--lv1);
+/*SourceCheck*/
+  --sourcecheck-unsafe-embed-bg-dark:var(--lv1);
+  --sourcecheck-unsafe-shadow-tint-dark:var(--lv1);
 }
