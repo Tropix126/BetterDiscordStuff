@@ -1510,7 +1510,29 @@ a:hover .foreground-26ym5y {
 	right: 0;
 	z-index: 100;
 	bottom: 0;
-	height: 52px
+	height: 52px;
+	    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.buttons-205you .buttonContainer-21MN7J,
+.buttons-205you button {
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    margin:0;
+    transition:250ms ease background;
+}
+
+.buttons-205you .buttonContainer-21MN7J:hover,
+.buttons-205you button:hover {
+    background:rgba(255,255,255,0.07);
+}
+
+.buttons-205you .buttonContainer-21MN7J:active,
+.buttons-205you button:active {
+    background:rgba(255,255,255,0.2);
 }
 
 body .errorPage-u8SYh4 .image-3zK3Wt {
