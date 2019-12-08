@@ -37,7 +37,11 @@ background-image: var(--bg)!important;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
--webkit-mask-image: radial-gradient(black, transparent 80%;
+-webkit-mask-image: radial-gradient(black, transparent 80%);
+width:100%:
+height:100%;
+top:0;
+left:0;
 }
 ::selection {
   background-color:var(--hover);
