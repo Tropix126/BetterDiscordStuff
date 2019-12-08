@@ -3107,23 +3107,31 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .slateTextArea-1bp44y::before {
-    content:'';
-    bottom:0;
-    height:2px;
-    width:100%;
-    position:absolute;
     opacity:0;
     transition:250ms ease opacity;
 }
 
 .slateTextArea-1bp44y::after {
-    content:'';
-    bottom:0;
-    height:2px;
-    width:100%;
-    position:absolute;
     transition:150ms ease;
     background:rgba(255, 255, 255, .1)
+}
+
+.syntaxAfter-3XEjdd,
+.syntaxBefore-lQw8oT {
+    color:var(--hover);
+}
+
+.slateContainer-3rqVBl {
+    position: static;
+}
+
+.slateTextArea-1bp44y::after,
+.slateTextArea-1bp44y::before{
+    content:'';
+    bottom:4px;
+    height:2px;
+    width:calc(100% - 54px);
+    position:absolute;
 }
 
 .attachButton-1UjEWA {
