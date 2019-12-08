@@ -6679,7 +6679,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 .container-1giJp5::after {
 	content: '';
 	position: fixed;
-	top: 67px;
+	top: 68px;
 	left: 0;
 	z-index: 1000;
 	width: 100%;
