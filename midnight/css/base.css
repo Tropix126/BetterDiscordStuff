@@ -1136,7 +1136,8 @@ a:hover .foreground-26ym5y {
 }
 
 .membersWrap-2h-GB4 {
-	border-bottom: 52px solid rgba(255, 255, 255, .07)
+	display:flex;
+	flex-direction:column;
 }
 
 #app-mount .tooltip-2QfLtc,
@@ -6748,7 +6749,22 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	position: absolute;
 	z-index: 1000;
 	bottom: -2px;
-	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07)
+	box-shadow: box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),
+    0 -10px 10px -10px var(--lv1);
+}
+
+.inner-zqa7da {
+    box-shadow: 0 -10px 10px -10px var(--lv1);
+}
+.membersWrap-2h-GB4::after {
+    content:'';
+    height:54px;
+    width:100%;
+    background:var(--lv1);
+    box-shadow:0 0 12px red;
+    z-index:1;
+    box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),
+    0 -10px 10px -10px var(--lv1);
 }
 
 .modal-1UGdnR {
