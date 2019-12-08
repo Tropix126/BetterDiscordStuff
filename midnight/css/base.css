@@ -2144,7 +2144,8 @@ body .bd-toasts {
 	color: rgba(255, 255, 255, .8);
 	background: rgba(0, 0, 0, .2);
 	font-size: 14px;
-	text-indent: 15px
+	text-indent: 15px;
+	text-align:left !important;
 }
 
 .bd-toasts .bd-toast::after {
@@ -2171,7 +2172,9 @@ body .bd-toasts {
 	height: 30px;
 	padding-top: 45px;
 	color: rgba(255, 255, 255, .65);
-	font-size: 16px
+	font-size: 16px;
+	text-align:right;
+		padding-bottom:20px;
 }
 
 .bd-toasts .bd-toast.icon {
@@ -6749,7 +6752,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	position: absolute;
 	z-index: 1000;
 	bottom: -2px;
-	box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
+	box-shadow:	inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
 }
 
 .inner-zqa7da {
