@@ -6749,8 +6749,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	position: absolute;
 	z-index: 1000;
 	bottom: -2px;
-	box-shadow: box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),
-    0 -10px 10px -10px var(--lv1);
+	box-shadow: box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
 }
 
 .inner-zqa7da {
