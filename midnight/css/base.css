@@ -3374,8 +3374,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	top: 0;
 	left: 0;
 	width: 100%;
-	border-width: calc(.65em + 4px) .5em;
-	border-style: solid;
+	border: 1em solid inherit;
 	border-color: inherit;
 	box-sizing: border-box;
 	opacity: .5
