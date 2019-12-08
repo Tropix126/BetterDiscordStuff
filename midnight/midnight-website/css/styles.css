@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
-@font-face {
-    font-family: Whitney;
-    font-weight: 500;
-    src: url("https://d33wubrfki0l68.cloudfront.net/6e2ca96e9ec9595d1739d92a677511b22b1cfd59/f200d/static/500.3bdef125.woff") format("woff")
-}
+@import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css');
 
 /*Root*/
 :root {
@@ -34,6 +30,15 @@ body {
   background:var(--lv1);
   overflow-x:hidden;
 }
+body::before {
+  position:absolute;
+  opacity: .5;
+background-image: var(--bg)!important;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+-webkit-mask-image: radial-gradient(black, transparent 80%;
+}
 ::selection {
   background-color:var(--hover);
 }
@@ -47,9 +52,6 @@ body {
   text-shadow:0 0 12px;
   animation:main 1s ease;
 }
-.contributors {
-
-}
 .description {
   color:#fff;
   font-size:18px;
@@ -62,53 +64,23 @@ body {
 #center {
   display:flex;
   justify-content:center;
+  height:fit-content;
 }
 #preview {
-  background-size:cover;
-  background: rgba(255,255,255,0.1);
+  background-color: var(--lv1);
       width: 70%;
-      height: 75%;
-      margin: auto;
-      position: absolute;
-      left: 0;
-      bottom: -25%;
-      right: 0;
-      box-shadow:0 0 120px var(--lv1);
+      height: 500px;
+      box-shadow:0 0 120px var(--lv1), inset 0 0 0 100vmax rgba(255,255,255,0.1);
       animation:main-bottom 1s ease;
       border:none;
-      border-radius:0;
+      border-radius:3px;
 }
-
-.psuedo-titlebar {
-  background: rgb(0, 0, 5);
-  line-height:30px;
-  text-indent:10px;
-  color:var(--accent);
-  box-shadow:0 0 12px var(--lv1);
-      width: 70%;
-      height: 30px;
-      margin: auto;
-      position: absolute;
-      left: 0;
-      bottom: 50%;
-      right: 1px;
-      animation:main-bottom 1s ease;
-      border:none;
-      font-weight:bold;
-      cursor:default;
-      border-radius:0;
-      font-family:'Whitney';
-      text-shadow:0 0 12px var(--accent);
+body #center.preview-container {
+  margin-top:50px;
+  height:150px;
+  position:relative;
+  z-index:1;
 }
-
-.psuedo-titlebar::after {
-  font-family: 'Material Icons';
-  content: '\e80b';
-  position:absolute;
-  right:10px;
-  cursor:pointer;
-}
-
 @keyframes fade {
   0% {
     opacity:0;
@@ -219,35 +191,6 @@ a {
 ::-webkit-scrollbar-thumb {
   background:var(--accent) !important;
 }
-.card {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 15px;
-height: 180px;
-padding: 20px 0;
-width: 200px;
-background-color: var(--lv1);
-overflow:hidden;
-}
-
-.card.tropical img {
-  width:100px;
-  height:100px;
-  box-shadow: 0 0 12px var(--lv1);
-}
-
-#flex {
-  display:flex;
-}
-
-.card-text {
-  color:#fff;
-  font-family:'Roboto';
-  font-weight:7 00;
-  font-size:25px;
-  margin-top:25px;
-}
 
 #particles {
   width: 100%;
@@ -258,4 +201,52 @@ overflow:hidden;
       z-index:-2;
       position:absolute;
       overflow: hidden;
-  }
+}
+
+#card-container {
+  margin-top:50px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:fit-content;
+}
+
+.card {
+  width:200px;
+  height:fit-content;
+  padding:20px;
+  border-top:2px solid var(--hover);
+  background:var(--lv1);
+  box-shadow:inset 0 0 0 100vmax rgba(255,255,255,0.07), 0 0 12px var(--lv1);
+  margin:12px;
+  transition:250ms ease;
+  position:relative;
+}
+.card:hover {
+  transform:translateY(-10px) scale(1.02);
+}
+.card.developer {
+  background:var(--accent);
+  box-shadow:0 0 12px var(--accent);
+  border-color:#fff;
+}
+.card.developer img {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.card .name {
+  color:#fff;
+  font-family:'Roboto';
+  font-size:14px;
+}
+
+.card .dev-desc {
+  color:rgba(255,255,255,0.5);
+  font-family:'Roboto';
+  font-size:14px;
+}
+
+.card .avatar {
+  width:200px;
+  height:auto;
+  margin-bottom:10px;
+}

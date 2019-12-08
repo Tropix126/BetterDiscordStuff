@@ -31,7 +31,7 @@ $(function(){
 //fade out on scroll -gibbu
 $(document).ready(function() {
 $(window).scroll(function() {
-    $('.title, .description, .primary-button').css("opacity", 1 - $(window).scrollTop() / 175)
+    $('.top.title, .description, .primary-button').css("opacity", 1 - $(window).scrollTop() / 175)
 });
 });
 
@@ -64,7 +64,7 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.25,
       "random": true,
       "anim": {
         "enable": false,
@@ -74,8 +74,8 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 5,
-      "random": true,
+      "value": 2,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 40,
