@@ -6707,6 +6707,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 
 .active-2h1NLh {
 	transform-origin: bottom;
+	rx:0;
 	animation: ping-counter 1s linear infinite
 }
 
