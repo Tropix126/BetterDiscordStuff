@@ -35,6 +35,7 @@
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
 	--background-tertiary: var(--lv1);
+  --channeltextarea-background:var(--lv1);
 	--online: #43b581;
 	--idle: #faa61a;
 	--dnd: #f04747;
@@ -1559,11 +1560,6 @@ body .errorPage-u8SYh4 .image-3zK3Wt {
 .bd-detached-editor .app-19_DXt {
 	background: var(--lv1);
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07)
-}
-
-.bd-detached-editor .chat-3bRxxu form .buttons-205you {
-	position: absolute;
-	right: -160px
 }
 
 .checkboxWrapper-SkhIWG * {
@@ -3110,10 +3106,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	display: none
 }
 
-.inner-zqa7da .textArea-2Spzkt:focus {
-	box-shadow: 0 6px 10px -8px var(--accent)
-}
-
 .inner-zqa7da .textArea-2Spzkt {
 	transition: 150ms ease border, 150ms ease box-shadow;
 	border:none;
@@ -3156,10 +3148,45 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .slateTextArea-1bp44y::after,
 .slateTextArea-1bp44y::before{
     content:'';
-    bottom:4px;
+    bottom:-10px;
     height:2px;
-    width:calc(100% - 54px);
+		width:calc(100% - 4px);
     position:absolute;
+}
+
+.form-2fGMdU {
+    box-shadow: 0 -10px 10px -10px var(--lv1);
+}
+.form-2fGMdU,
+.attachWrapper-1_D-pj{
+    border:0;
+}
+.scrollableContainer-38zsVD {
+  border-radius: 0;
+  overflow-x:visible !Important;
+  background:rgba(255,255,255,0.07) !important;
+}
+.inner-zqa7da {
+    background:transparent !important;
+}
+.attachWrapper-1_D-pj {
+    align-items:center;
+    display:flex;
+}
+.channelTextArea-rNsIhG,
+.textArea-2Spzkt{
+    margin:0;
+}
+.channelTextArea-rNsIhG ::-webkit-scrollbar {
+    display:none;
+}
+.placeholder-P6ptfj,
+.slateTextArea-1bp44y{
+    left:50px;
+}
+.webkit-26NYEN .buttons-205you {
+    top:unset;
+    margin-right:5px;
 }
 
 .attachButton-1UjEWA {
@@ -6770,21 +6797,19 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 }
 
 .container-3baos1 {
-	width: 304px;
+	width: 305px;
 	margin-left: -55px;
 	background: var(--lv1);
 	position: absolute;
 	z-index: 1000;
-	bottom: -2px;
+	bottom: 0;
 	box-shadow:	inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
+	height:50px !important;
 }
 
-.inner-zqa7da {
-    box-shadow: 0 -10px 10px -10px var(--lv1);
-}
 .membersWrap-2h-GB4::after {
     content:'';
-    height:54px;
+    height:56px;
     width:100%;
     background:var(--lv1);
     box-shadow:0 0 12px red;
