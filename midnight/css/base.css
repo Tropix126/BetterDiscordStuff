@@ -3189,6 +3189,24 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     margin-right:5px;
 }
 
+.innerDisabled-2mc-iF::before {
+    content:'block';
+    color:#f04747;
+    opacity:.4;
+    font-family:'Material Icons';
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    font-size:22px;
+    font-weight:bold;
+    align-items:center;
+    transition:250ms ease opacity;
+}
+.innerDisabled-2mc-iF:hover::before {
+    opacity:.8;
+}
+
 .attachButton-1UjEWA {
 	opacity: .45;
 	background-size: 80%;
