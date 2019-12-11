@@ -35,7 +35,7 @@
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
 	--background-tertiary: var(--lv1);
-  --channeltextarea-background:var(--lv1);
+	--channeltextarea-background:var(--lv1);
 	--online: #43b581;
 	--idle: #faa61a;
 	--dnd: #f04747;
@@ -45,6 +45,12 @@
 	--theme-alert-display:block;
 	--user-roundness:0px;
 	--guilds-roundness:0px;
+	--size1:.925rem;
+	--size2:.8rem;
+	--size3:.75rem;
+	--size4:.7rem;
+	--size5:.5rem;
+	--size6:.35rem;
 }
 
 .appMount-3lHmkl,
@@ -53,6 +59,34 @@
 	--secondary-color: rgba(0, 0, 0, 0.6);
 	--tertiary-color: rgba(0, 0, 0, 0.4);
 	--quaternary-color: rgba(0, 0, 0, 0.7)
+}
+
+.roleColor-rz2vM0,
+#app-mount .name-3_Dsmg,
+.containerCozy-jafyvG .markup-2BOw-j,
+.username-_4ZSMR,
+.side-8zPYf6 .item-PXvHYJ,
+#bd-settings-sidebar .ui-tab-bar-item,
+.size16-1P40sf,
+.name-3YKhmS,
+.description-3_Ncsb,
+.embedTitle-3OXDkz,
+.wordmark-2iDDfm:before,
+.wordmark-2iDDfm:after{
+    font-size:var(--size1) !important;
+}
+.size14-e6ZScH,
+.label-JWQiNe {
+    font-size:var(--size2);
+}
+.size12-3cLvbJ,
+.activity-2Gy-9S {
+    font-size:var(--size4)
+}
+.topic-TCb_qw,
+.timestampCozy-2hLAPV,
+.button-38aScr {
+    font-size:var(--size3);
 }
 
 .bda-slist::before {
@@ -188,7 +222,7 @@ a {
 	background-color: var(--accent);
 	border-radius: 0;
 	transition: 150ms all ease;
-	padding: 0 25px;
+	padding: 0 15px;
 	font-weight: 500;
 	height: 35px!important
 }
@@ -435,10 +469,17 @@ a:hover .foreground-26ym5y {
 }
 
 .username-_4ZSMR {
+	padding:0;
 	border-left: 3px solid currentColor;
-	padding-left: 7px;
+	padding-left: 8px;
 	text-shadow: 0 0 12px currentColor;
-	box-shadow: inset 10px 0 15px -12px currentColor
+	box-shadow: inset 10px 0 15px -12px currentColor;
+	height:30px;
+	align-items:center;
+	justify-content:center;
+	display:inline-flex;
+	flex-direction:column;
+	position:relative;
 }
 
 .containerCozy-jafyvG {
@@ -6871,12 +6912,6 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	border-radius: 0!important
 }
 
-.username-_4ZSMR {
-	padding-top: 4px;
-	padding-bottom: 4px;
-	display: inline-block
-}
-
 .timestampCozy-2hLAPV {
 	margin-bottom: 2px
 }
@@ -9191,4 +9226,19 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .subText-1KtqkB {
     margin:0;
+}
+
+.activity-2Gy-9S {
+    bottom:2px;
+    position:relative;
+    color:rgb(255,255,255,0.4);
+}
+
+.emptyCard-3CNsz2 {
+    border-radius:0;
+    background:rgba(255,255,255,0.07) !important;
+}
+
+.scroller-2FKFPG {
+    overflow-x:hidden;
 }
