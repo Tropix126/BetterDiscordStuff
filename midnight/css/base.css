@@ -9238,3 +9238,20 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
     border-radius:0;
     background:rgba(255,255,255,0.07) !important;
 }
+
+.slateTextArea-1bp44y,
+.placeholder-P6ptfj{
+    font-size:var(--size1) !important;
+}
+
+.placeholder-P6ptfj {
+    color:rgba(255,255,255,0.36);
+}
+
+.bd-detached-editor .chat-3bRxxu form .buttons-205you {
+    right:30%;
+}
+
+.content-yTz4x3:before {
+    display:none;
+}
