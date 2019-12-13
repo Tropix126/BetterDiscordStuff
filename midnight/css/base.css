@@ -6859,25 +6859,30 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .container-3baos1 {
-	width: 305px;
+	width: 320px;
 	margin-left: -55px;
 	background: var(--lv1);
 	position: absolute;
 	z-index: 1000;
 	bottom: 0;
 	box-shadow:	inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
-	height:51px !important;
+	height:50px !important;
 	margin-bottom:0;
+	box-sizing:border-box;
 }
 
-.membersWrap-2h-GB4::after {
-    content:'';
-    height:56px;
-    width:100%;
-    background:var(--lv1);
-    z-index:1;
-    box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),
-    0 -10px 10px -10px var(--lv1);
+.membersWrap-2h-GB4 .scrollerWrap-2lJEkd::after {
+  content:'';
+  width:100%;
+  height:50px;
+  box-shadow:0 -10px 10px -10px var(--lv1);
+  position:absolute;
+  bottom:-50px;
+  z-index:1;
+}
+
+.membersWrap-2h-GB4 {
+  border-bottom:50px solid rgba(255,255,255,0.07);
 }
 
 .modal-1UGdnR {
