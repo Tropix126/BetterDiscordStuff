@@ -5652,26 +5652,25 @@ li[data-name*=Midnight] {
 	height: 150px
 }
 
-li[data-name*=Midnight] .scroller-wrap::before {
+li[data-name*=Midnight] .scroller::before {
 	content: 'Accent';
 	background: var(--accent);
 	box-shadow: 0 0 12px var(--accent);
-	padding: 15px 25px;
-	margin-top: 47px;
-	position: absolute;
+	padding: 15px 40px;
 	cursor: pointer;
-	transition: 150ms ease
+	transition: 150ms ease;
+	margin-left:15px;
+	margin-top:5px;
 }
 
-li[data-name*=Midnight] .scroller-wrap::after {
+li[data-name*=Midnight] .scroller::after {
 	content: 'lv1';
 	background: var(--lv1);
 	box-shadow: 0 0 12px var(--lv1);
 	padding: 15px 40px;
-	margin-left: 110px;
-	position: absolute;
 	cursor: pointer;
-	transition: 150ms ease
+	transition: 150ms ease;
+	margin-top:5px;
 }
 
 li[data-name*=Midnight]:hover .scroller-wrap::before {
@@ -9243,4 +9242,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 .panels-j1Uci_ {
     height:38px;
+}
+#bd-settingspane-container .scroller-wrap .scroller {
+    flex-wrap: wrap;
 }
