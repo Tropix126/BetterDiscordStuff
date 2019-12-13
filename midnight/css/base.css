@@ -2818,7 +2818,8 @@ body .bd-toasts {
 }
 
 .unreadBar-3YD_k9 {
-	background: var(--lv1)!important;
+	background: var(--accent)!important;
+	box-shadow:0 0 12px var(--accent);
 	border-radius: 0;
 	padding: 3px
 }
@@ -7478,12 +7479,6 @@ li[data-name*=Midnight] .bda-name {
 
 .activityText-yGKsKm {
 	max-width: 170px
-}
-
-.unreadBar-3YD_k9 {
-	border-bottom: 2px solid var(--hover);
-	color: var(--accent);
-	box-shadow: none!important
 }
 
 .userInfoViewing-16kqK3 {
