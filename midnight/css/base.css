@@ -9262,3 +9262,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .notice-2FJMB4 + .layers-3iHuyZ .toolbar-1t6TWx {
     margin:0 !important;
 }
+.textAreaEnabledNoAttach-1WxUwj .placeholder-P6ptfj,
+.textAreaEnabledNoAttach-1WxUwj .slateTextArea-1bp44y {
+    left:5px;
+}
