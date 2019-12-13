@@ -6862,7 +6862,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	bottom: 0;
 	box-shadow:	inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
 	height:50px !important;
-	margin:0;
+	margin-bottom:0;
 }
 
 .membersWrap-2h-GB4::after {
