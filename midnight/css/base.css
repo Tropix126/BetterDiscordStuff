@@ -622,7 +622,6 @@ a:hover .foreground-26ym5y {
 .privateChannels-1nO12o::before {
 	content: 'Home';
 	font-weight: 600;
-	height: 40px;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -631,6 +630,11 @@ a:hover .foreground-26ym5y {
 	z-index: 1;
 	width:100%;
 	font-size:var(--size1);
+	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);
+	height: 46px;
+	border-bottom: 2px solid var(--hover);
+	box-sizing: border-box;
+	background: var(--lv1)
 }
 
 .addButtonIcon-3u-3Hu,
@@ -6805,8 +6809,7 @@ li[data-name*=Midnight] .bda-name {
 }
 
 #app-mount .container-1r6BKw,
-#app-mount .header-2o-2hj,
-.privateChannels-1nO12o::before {
+#app-mount .header-2o-2hj {
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);
 	height: 40px;
 	border-bottom: 2px solid var(--hover);
