@@ -7549,29 +7549,6 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	opacity: 1
 }
 
-#app-mount .notice-2FJMB4 {
-	position: absolute;
-	z-index: 999;
-	padding: 1px 0;
-	background: 0 0!important
-}
-
-#app-mount .notice-2FJMB4::after {
-	content: '';
-	left: 0;
-	position: fixed;
-	width: 100vw;
-	height: 37px;
-	z-index: -1;
-	border-bottom: 2px solid #f04747;
-	background: var(--lv1);
-	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07)
-}
-
-.platformIcon-2NdO9F {
-	transform: scale(.75)
-}
-
 .container-1giJp5 {
 	position: absolute;
 	width: 248px;
