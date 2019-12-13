@@ -6870,7 +6870,6 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
     height:56px;
     width:100%;
     background:var(--lv1);
-    box-shadow:0 0 12px red;
     z-index:1;
     box-shadow:inset 0 0 0 100vmax rgba(255, 255, 255, .07),
     0 -10px 10px -10px var(--lv1);
@@ -9245,4 +9244,21 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 #bd-settingspane-container .scroller-wrap .scroller {
     flex-wrap: wrap;
+}
+.notice-2FJMB4 {
+    z-index:10000;
+    transition:.5 ease height;
+    box-sizing:border-box;
+    background:var(--notice-color);
+    box-shadow:0 0 50px var(--notice-color);
+}
+.noticeInfo-3_iTE1 {
+    --notice-color:rgb(74,144,226);
+}
+.noticeDanger-7u-yT9 {
+    --notice-color:rgb(232,17,35);
+}
+.notice-2FJMB4 + .bg-h5JY_x + .layers-3iHuyZ .toolbar-1t6TWx,
+.notice-2FJMB4 + .layers-3iHuyZ .toolbar-1t6TWx {
+    margin:0 !important;
 }
