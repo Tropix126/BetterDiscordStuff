@@ -9240,7 +9240,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
     color:transparent;
 }
 .panels-j1Uci_ {
-    height:38px;
+    height:fit-content;
 }
 #bd-settingspane-container .scroller-wrap .scroller {
     flex-wrap: wrap;
