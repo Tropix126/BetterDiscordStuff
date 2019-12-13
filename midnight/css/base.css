@@ -5834,7 +5834,8 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .hljs::-webkit-scrollbar {
-	background-color: var(--codeblockcolor)
+	background-color: var(--codeblockcolor);
+	border-top: 2px solid rgba(255,255,255,0.2) !important;
 }
 
 .hljs::-webkit-scrollbar-thumb {
@@ -5860,19 +5861,19 @@ li[data-name*=Midnight] .bda-name {
 	margin-top: -7px;
 	margin-left: -7px;
 	margin-bottom: 7px;
-	text-transform: uppercase;
 	padding-left: 10px;
 	position: sticky;
 	align-items: center;
 	display: flex;
 	font-family: Whitney!important;
 	background-color: var(--codeblockcolor)!important;
-	box-shadow: 0 0 12px var(--codeblockcolor);
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==)!important;
-	background-size: 20px!important;
-	background-position: 5px!important;
+	background-size: 15px!important;
+	background-position: 8px 4px!important;
 	background-repeat: no-repeat!important;
-	text-indent: 20px!important
+	text-indent: 20px!important;
+	border-top: 2px solid rgba(255,255,255,0.2);
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
 }
 
 .hljs[class~=javascript i]::before,
@@ -5902,7 +5903,7 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .hljs[class~=coffee i]::before {
-	content: "Coffee (Javascript)"
+	content: "Coffeescript"
 }
 
 .hljs[class~=ruby i]::before {
@@ -5948,7 +5949,7 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .hljs[class~=" ini"i]::before {
-	content: " ini"
+	content: "Initialization File"
 }
 
 .hljs[class~=rust i]::before {
@@ -5965,11 +5966,11 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .hljs[class~=http i]::before {
-	content: "HTTP"
+	content: "HyperText Transfer Protocol"
 }
 
 .hljs[class~=json i]::before {
-	content: "Json"
+	content: "JSON"
 }
 
 .hljs[class~=xml i]::before {
@@ -5985,9 +5986,49 @@ li[data-name*=Midnight] .bda-name {
 	content: "SCSS"
 }
 
+.hljs[class~=elm i]::before {
+	content: "Elm"
+}
+
+.hljs[class~=cpp i]::before {
+	content: "C++"
+}
+
+.hljs[class~=hbs i]::before {
+	content: "Handlebars"
+}
+
+.hljs[class~=1c i]::before {
+	content: "1c"
+}
+
+.hljs[class~=abnf i]::before {
+	content: "abnf"
+}
+
 .hljs[class~=javascript i],
 .hljs[class~=js i] {
 	--codeblockcolor: #165eab
+}
+
+.hljs[class~=1c i] {
+	--codeblockcolor: #703B30
+}
+
+.hljs[class~=abnf i] {
+	--codeblockcolor: #227A70
+}
+
+.hljs[class~=elm i] {
+	--codeblockcolor: #50d4ee
+}
+
+.hljs[class~=cpp i] {
+	--codeblockcolor: #99182E
+}
+
+.hljs[class~=hbs i] {
+	--codeblockcolor: #f0772b
 }
 
 .hljs[class~=css i] {
