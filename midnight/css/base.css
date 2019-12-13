@@ -5648,45 +5648,6 @@ li[data-name*=Midnight] .bda-name {
 	text-shadow: 0 0 12px
 }
 
-li[data-name*=Midnight] {
-	height: 150px
-}
-
-li[data-name*=Midnight] .scroller::before {
-	content: 'Accent';
-	background: var(--accent);
-	box-shadow: 0 0 12px var(--accent);
-	padding: 15px 40px;
-	cursor: pointer;
-	transition: 150ms ease;
-	margin-left:15px;
-	margin-top:5px;
-}
-
-li[data-name*=Midnight] .scroller::after {
-	content: 'lv1';
-	background: var(--lv1);
-	box-shadow: 0 0 12px var(--lv1);
-	padding: 15px 40px;
-	cursor: pointer;
-	transition: 150ms ease;
-	margin-top:5px;
-}
-
-li[data-name*=Midnight]:hover .scroller-wrap::before {
-	content: 'Hover';
-	background: var(--hover);
-	box-shadow: 0 0 12px var(--hover);
-	padding: 15px 30px
-}
-
-li[data-name*=Midnight]:hover .scroller-wrap::after {
-	content: 'bg';
-	background-image: var(--bg);
-	box-shadow: 0 0 12px var(--lv1), inset 0 0 10000px rgba(0, 0, 0, .25);
-	background-size: cover
-}
-
 #app-mount .group-1Dw1l1 h3 {
 	position: initial!important;
 	top: initial!important;
@@ -9241,9 +9202,6 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 .panels-j1Uci_ {
     height:fit-content;
-}
-#bd-settingspane-container .scroller-wrap .scroller {
-    flex-wrap: wrap;
 }
 .notice-2FJMB4 {
     z-index:10000;
