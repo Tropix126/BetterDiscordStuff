@@ -619,17 +619,18 @@ a:hover .foreground-26ym5y {
 	visibility: hidden
 }
 
-.privateChannels-1nO12o:after {
+.privateChannels-1nO12o::before {
 	content: 'Home';
-	padding-left: 117px;
-	padding-right: 118px;
 	font-weight: 600;
 	height: 40px;
-	line-height: 38px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 	top: 0;
-	position: absolute;
 	color: #fff;
-	z-index: 1
+	z-index: 1;
+	width:100%;
+	font-size:var(--size1);
 }
 
 .addButtonIcon-3u-3Hu,
@@ -987,7 +988,7 @@ a:hover .foreground-26ym5y {
 #app-mount .channel-2QD9_O[href="/channels/@me"]:not([href="/channels/@me/"]) .layout-2DM8Md .name-uJV0GL,
 #app-mount .channel-2QD9_O[href="/library"] .layout-2DM8Md .name-uJV0GL,
 #app-mount .channel-2QD9_O[href="/store"] .layout-2DM8Md .name-uJV0GL {
-	font-size: 11px
+	font-size:var(--size4);
 }
 
 .content-3QAtGj {
@@ -1190,7 +1191,7 @@ a:hover .foreground-26ym5y {
 
 #app-mount .tooltip-2QfLtc,
 .bd-tooltip {
-	font-size: 14px;
+	font-size: var(--size1);
 	border-radius: 0;
 	background: var(--lv1);
 	border: 2px solid var(--accent);
@@ -4565,7 +4566,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	font-weight: 400;
 	color: rgba(255, 255, 255, .8);
 	margin-left: 5px;
-	font-size: 16px
 }
 
 .wordmark-2iDDfm:before {
@@ -4573,7 +4573,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	text-shadow: 0 0 12px;
 	font-weight: 600;
 	color: var(--accent);
-	font-size: 16px
 }
 
 .wordmark-2iDDfm svg {
@@ -5641,7 +5640,7 @@ body #ace_settingsmenu {
 }
 
 .privateChannels-1nO12o .scroller-2FKFPG {
-	margin-top: 40px
+	margin-top: 10px
 }
 
 li[data-name*=Midnight] .bda-name {
@@ -6847,7 +6846,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 
 #app-mount .container-1r6BKw,
 #app-mount .header-2o-2hj,
-.privateChannels-1nO12o:after {
+.privateChannels-1nO12o::before {
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);
 	height: 40px;
 	border-bottom: 2px solid var(--hover);
@@ -6864,6 +6863,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	bottom: 0;
 	box-shadow:	inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
 	height:50px !important;
+	margin:0;
 }
 
 .membersWrap-2h-GB4::after {
@@ -7464,7 +7464,8 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 }
 
 .name-uJV0GL {
-	max-width: 180px
+	max-width: 180px;
+	font-size:var(--size1);
 }
 
 .activityText-yGKsKm {
@@ -7603,7 +7604,7 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 	left: -40px;
 	width: 40px;
 	height: 40px;
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .5) !important;
 	border-radius: 0
 }
 
@@ -7823,6 +7824,10 @@ li[data-name*=Midnight]:hover .scroller-wrap::after {
 .selected-aXhQR6 .activityText-yGKsKm,
 .selected-aXhQR6 .subtext-1RtU34 {
 	color: #fff
+}
+
+.subtext-1RtU34 {
+    font-size:var(--size4);
 }
 
 .customStatus-1KPfFb {
@@ -8214,14 +8219,14 @@ div[style*="opacity: 1; height: 56px;"] {
 }
 
 .guildNameText-74xXQn {
-	font-size: 14px
+	font-size: var(--size1)
 }
 
 .avatar-3bWpYy,
 .clickableAvatar-1wQpeh,
 .emptyUser-7txhlW,
 .moreUsers-7v8yWY {
-	border-radius: 0
+	border-radius: var(--user-roundness)
 }
 
 .avatarContainerMasked-PIJ-3L foreignObject {
@@ -9254,4 +9259,11 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .content-yTz4x3:before {
     display:none;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    color:transparent;
+}
+.panels-j1Uci_ {
+    height:38px;
 }
