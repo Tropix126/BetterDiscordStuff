@@ -631,7 +631,7 @@ a:hover .foreground-26ym5y {
 	width:100%;
 	font-size:var(--size1);
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);
-	min-height: 46px;
+	min-height: 40px;
 	border-bottom: 2px solid var(--hover);
 	box-sizing: border-box;
 	background: var(--lv1)
