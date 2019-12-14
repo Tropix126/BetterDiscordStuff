@@ -631,7 +631,7 @@ a:hover .foreground-26ym5y {
 	width:100%;
 	font-size:var(--size1);
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);
-	height: 46px;
+	min-height: 46px;
 	border-bottom: 2px solid var(--hover);
 	box-sizing: border-box;
 	background: var(--lv1)
@@ -1001,14 +1001,13 @@ a:hover .foreground-26ym5y {
 
 .privateChannels-1nO12o .searchBar-6Kv8R2 {
 	position: absolute;
-	bottom: 80px;
-	right: 35px;
+	bottom: 60px;
+	right: 20px;
 	padding: 0;
 	border-radius: 0;
-	transform: translate(50%, 50%) scale(.2);
-	width: 200px;
-	height: 200px;
-	box-shadow: 0 0 24px 3px var(--accent);
+		width: 40px;
+	height: 40px;
+	box-shadow:0 0 12px black !important;
 	background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0MxNS40MSAxMi41OSAxNiAxMS4xMSAxNiA5LjUgMTYgNS45MSAxMy4wOSAzIDkuNSAzUzMgNS45MSAzIDkuNSA1LjkxIDE2IDkuNSAxNmMxLjYxIDAgMy4wOS0uNTkgNC4yMy0xLjU3bC4yNy4yOHYuNzlsNSA0Ljk5TDIwLjQ5IDE5bC00Ljk5LTV6bS02IDBDNy4wMSAxNCA1IDExLjk5IDUgOS41UzcuMDEgNSA5LjUgNSAxNCA3LjAxIDE0IDkuNSAxMS45OSAxNCA5LjUgMTR6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
 	background-color: var(--accent);
 	background-position: 50%;
@@ -1611,9 +1610,6 @@ body .errorPage-u8SYh4 .image-3zK3Wt {
 .checkboxWrapper-SkhIWG * {
 	border-radius: 0;
 	border-width: 2px;
-	background: rgba(255, 255, 255, .02);
-	transition: 150ms ease all;
-	box-shadow: 0 0 12px rgba(255, 255, 255, .06)
 }
 
 #app-mount .accountBtnInner-sj5jLs,
@@ -1756,10 +1752,6 @@ body .errorPage-u8SYh4 .image-3zK3Wt {
 
 .description-1irSAr {
 	width: 100%
-}
-
-.description-3_Ncsb {
-	left: 125px
 }
 
 .micTestButton-3lpP11 {
