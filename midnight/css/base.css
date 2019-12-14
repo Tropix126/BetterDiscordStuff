@@ -1295,6 +1295,9 @@ a:hover .foreground-26ym5y {
 .title-29uC1r {
 	margin-right: 0
 }
+.title-29uC1r {
+	font-weight:500;
+}
 
 #app-mount .item-1GzJrl.invite-271nFU {
 	color: var(--accent)
@@ -1412,6 +1415,8 @@ a:hover .foreground-26ym5y {
 .newMessagesBar-mujexs {
 	background: var(--accent);
 	border-radius: 0;
+	left:0;
+	width:100%;
 	transition: 150ms ease all
 }
 
@@ -1432,7 +1437,14 @@ a:hover .foreground-26ym5y {
 .newMessagesBar-mujexs button:last-child {
 	position: absolute;
 	right: 5px;
-	border: 1px solid
+	border: 1px solid #fff;
+	font-size:var(--size3);
+	transition:150ms ease;
+}
+
+.newMessagesBar-mujexs:hover button:last-child {
+	color:var(--hover);
+	background:#fff;
 }
 
 .wrapper-1Rf91z.foldercontent .scrollerWrap-1IAIlv {
@@ -1548,7 +1560,7 @@ a:hover .foreground-26ym5y {
 }
 
 .newMessagesBar-mujexs button:first-child {
-	font-weight: 600
+	text-align:left;
 }
 
 .chat-3bRxxu form .buttons-205you {
@@ -1560,6 +1572,10 @@ a:hover .foreground-26ym5y {
 	    display:flex;
     justify-content:center;
     align-items:center;
+}
+
+.buttons-205you button[aria-label*="open gif picker" i]:hover {
+    background:rgba(255,255,255,0.025) !important;
 }
 
 .buttons-205you .buttonContainer-21MN7J,
@@ -5850,7 +5866,8 @@ li[data-name*=Midnight] .bda-name {
 .hljs::before {
 	content: 'Unknown Language';
 	width: calc(100% + 4px);
-	height: 24px;
+	height:auto;
+	padding:3px 0;
 	top: -7px;
 	color: #fff;
 	font-size: 12px;
@@ -5860,8 +5877,7 @@ li[data-name*=Midnight] .bda-name {
 	margin-bottom: 7px;
 	padding-left: 10px;
 	position: sticky;
-	align-items: center;
-	display: flex;
+	display: block;
 	font-family: Whitney!important;
 	background-color: var(--codeblockcolor)!important;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==)!important;
@@ -7977,7 +7993,8 @@ div[style*="opacity: 1; height: 56px;"] {
 }
 
 .children-19S4PO {
-	overflow: visible;
+	overflow:hidden;
+	text-overflow:ellipsis;
 	z-index: 1
 }
 
@@ -9264,4 +9281,11 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .textAreaEnabledNoAttach-1WxUwj .placeholder-P6ptfj,
 .textAreaEnabledNoAttach-1WxUwj .slateTextArea-1bp44y {
     left:5px;
+}
+
+.error-20ZZpF {
+    border-radius:0;
+    background:var(--lv1);
+    border:2px solid #f04747;
+    box-shadow:0 0 120px #f04747, inset 0 0 0 100vmax rgba(255,255,255,0.07);
 }
