@@ -5828,7 +5828,7 @@ li[data-name*=Midnight] .bda-name {
 
 .hljs::-webkit-scrollbar {
 	background-color: var(--codeblockcolor);
-	border-top: 2px solid rgba(255,255,255,0.2) !important;
+	border-top: 2px solid rgba(255,255,255,0.1) !important;
 }
 
 .hljs::-webkit-scrollbar-thumb {
@@ -5841,6 +5841,17 @@ li[data-name*=Midnight] .bda-name {
 
 .hljs {
 	--codeblockcolor: #747f8d
+}
+
+
+.buttonContainer-KtQ8wc {
+  position:absolute;
+  right:0;
+  z-index:1;
+}
+
+.container-206Blv {
+  position:relative;
 }
 
 .hljs::before {
@@ -5865,7 +5876,7 @@ li[data-name*=Midnight] .bda-name {
 	background-position: 8px 4px!important;
 	background-repeat: no-repeat!important;
 	text-indent: 20px!important;
-	border-top: 2px solid rgba(255,255,255,0.2);
+	border-top: 2px solid rgba(255,255,255,0.1);
 	box-shadow: 0 0 12px rgba(0,0,0,0.5);
 }
 
