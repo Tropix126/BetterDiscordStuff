@@ -6862,6 +6862,7 @@ li[data-name*=Midnight] .bda-name {
 	height:50px !important;
 	margin-bottom:0;
 	box-sizing:border-box;
+	padding:0 10px;
 }
 
 .membersWrap-2h-GB4 .scrollerWrap-2lJEkd::after {
