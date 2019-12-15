@@ -1266,6 +1266,10 @@ a:hover .foreground-26ym5y {
 	display: none
 }
 
+.topic-TCb_qw {
+	max-width:75%;
+}
+
 .children-19S4PO .iconWrapper-2OrFZ1:first-child .icon-22AiRD {
 	color: #8a8e94;
 	width: 16px;
@@ -2214,7 +2218,7 @@ body .bd-toasts {
 }
 
 .bd-toasts .bd-toast::after {
-	content: 'This message will dissapear in 3 seconds.';
+	content: 'This message will disappear in 3 seconds.';
 	position: absolute;
 	bottom: 12px;
 	left: 0;
@@ -7855,7 +7859,8 @@ header .clickable-3rdHwn:hover .icon-22AiRD {
 
 .expandedFolderIconWrapper-1xLaU- {
 	width: 40px;
-	height: 40px
+	height: 40px;
+	transform:none !important;
 }
 
 .expandedFolderIconWrapper-1xLaU- svg {
