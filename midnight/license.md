@@ -40,8 +40,8 @@
 - [BetterDiscord Server 1 (#official theme list)](https://discord.gg/0Tmfo5ZbORCRqbAd)  
 - [BetterDiscord Server 2 (#official theme list)](https://discord.gg/2HScm8j)   
 - [BetterDiscordLibrary](https://betterdiscordlibrary.com)  
-## NO OTHER WEBSITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM THE THEME DEVELOPER
-# If you wish to host this theme on your webpage, please contact me via Discord.
+### NO OTHER WEBSITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM THE THEME DEVELOPER
+#### If you wish to host this theme on your webpage, please contact me via Discord.
 ---
 **All these terms apply to all files in this repository**
 ---
