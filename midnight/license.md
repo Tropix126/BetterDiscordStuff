@@ -2,7 +2,7 @@
 <h1 align="center">Copyright and License</h1>
 <p align="center">Terms Used</p>
 
-- Tropical ("Authors", "Coder", "Creator", "Tropical", "Tropix", "Theme Developer", "Developer", "Programmer", "Me", "My")
+- Tropical ("Author", "Coder", "Creator", "Tropical", "Tropix", "Theme Developer", "Developer", "Programmer", "Me", "My")
 - Content ("Themes", "product", "items", "codes", "assets")
 - User ("You", "User", "they", "them", "their")
 ---
@@ -11,7 +11,7 @@
 
 ---
 ### Contact:
-+ Discord: Tropical#8908 (254362351170617345)
++ Discord: Tropical#4104 (254362351170617345)
 ---
 ### Allowed
 #### Users are permitted...
@@ -25,9 +25,8 @@
 ### Disallowed
 #### Users are forbidden...
 - ... from redistributing the code, edited or otherwise, in any platform that Tropical and Spectra do not allow. (Contact to discuss exceptions.)
-- ... from re-uploading anything in the "Previews" directory, edited or otherwise, in any platform that Tropcal/Spectra does not allow. (Contact to discuss exceptions.)
-- ... from distributing an edited version of any code without explicit permission from the author.
-- ... from copying and using more than 50 lines of code (in the spacing as shown in the original files) in a different theme without giving due credit.
+- ... from distributing a lightly edited version of the base code without credit or prior permission from the developer.
+- ... from copying large amounts of code from the source and using it without discussing it with me beforehand.
 ---
 <h2 align="center">The author reserves the right to request take down of any content that is found to be in violation of these terms.
 </h2>
@@ -41,7 +40,8 @@
 - [BetterDiscord Server 1 (#official theme list)](https://discord.gg/0Tmfo5ZbORCRqbAd)  
 - [BetterDiscord Server 2 (#official theme list)](https://discord.gg/2HScm8j)   
 - [BetterDiscordLibrary](https://betterdiscordlibrary.com)  
-## NO OTHER WEBSITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM EITHER THEME DEVELOPER
+## NO OTHER WEBSITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM THE THEME DEVELOPER
+# If you wish to host this theme on your webpage, please contact me via Discord.
 ---
 **All these terms apply to all files in this repository**
 ---
