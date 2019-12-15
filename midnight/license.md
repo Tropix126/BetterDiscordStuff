@@ -43,6 +43,6 @@
 ### NO OTHER WEBSITE MAY USE THESE WITHOUT EXPLICIT PERMISSION FROM THE THEME DEVELOPER
 #### If you wish to host this theme on your webpage, please contact me via Discord.
 ---
-**These terms apply to all files in the /midnight/ directory, excluding customUserPopouts.css, which theme developers are free to include in their themes.**
+**These terms apply to all files in the /midnight/ directory excluding customUserPopouts.css, which theme developers are free to include in their themes.**
 ---
 Copyright © 2019 - Tropical
