@@ -6262,6 +6262,10 @@ li[data-name*=Midnight] .bda-name {
 	background-image: none!important
 }
 
+.base-34jWEe strong {
+    margin:0 4px;
+}
+
 .base-34jWEe h1:before {
 	content: '  ';
 	font-family: 'Segoe MDL2 Assets';
