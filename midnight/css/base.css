@@ -2821,10 +2821,13 @@ body .bd-toasts {
 }
 
 .unreadBar-3YD_k9 {
-	background: var(--accent)!important;
-	box-shadow:0 0 12px var(--accent);
+	background: var(--hover)!important;
 	border-radius: 0;
 	padding: 3px
+}
+
+.unreadBar-3YD_k9:hover {
+	background:var(--accent) !important;
 }
 
 .notDetected-33MY4s {
