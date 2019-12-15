@@ -1,6 +1,6 @@
 <h1 align="center">Midnight UI</h1>
-<p align="center">A flat, dark discord theme by Tropical.</p>
+<p align="center">A clean, dark, and modern user interface for DiscordApp.</p>
 
-![](https://i.imgur.com/Jv2Sp3p.png)
+![](https://i.imgur.com/CLQoAtb.png)
 
 ---
