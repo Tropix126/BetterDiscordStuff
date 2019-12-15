@@ -3160,7 +3160,29 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	transition: 150ms ease border, 150ms ease box-shadow;
 	border:none;
 }
-
+.characterCount-1WlRq9 {
+    position:absolute;
+    top:-30px;
+    left:1px;
+    height:fit-content;
+    background:#f04747;
+    width:100%;
+    border-top:2px solid rgba(255,255,255,0.3);
+    padding:8px;
+    font-size:var(--size2);
+    color:#fff !important;
+	box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+.characterCount-1WlRq9:after {
+    content:'Characters Left';
+    margin-left:2px;
+}
+.attachWrapper-1_D-pj {
+    position:sticky;
+    top:10px;
+    height:fit-content;
+    margin-bottom:2px;
+}
 @keyframes textarea {
     0% {
         transform:scale(.25);
