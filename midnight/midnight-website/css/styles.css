@@ -76,14 +76,14 @@ left:0;
 #preview {
   background-color: var(--lv1);
       width: 70%;
-      height: 500px;
+      height: 100%;
       box-shadow:0 0 120px var(--lv1), inset 0 0 0 100vmax rgba(255,255,255,0.1);
       animation:main-bottom 1s ease;
       border:none;
       border-radius:3px;
 }
 body #center.preview-container {
-  margin-top:50px;
+  margin-top:35vw;
   height:150px;
   position:relative;
   z-index:1;
