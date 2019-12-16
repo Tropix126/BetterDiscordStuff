@@ -14,7 +14,7 @@
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/fonts.css);
 @import url(https://bdsources.github.io/sourcecheck/code.css);
 @import url(https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css);
-@import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/customUserPopouts.css);
+@import url(https://discord-custom-covers.github.io/usrbg/bd/snippets/userPopouts.css);
 @import url(https://monstrousdev.github.io/themes/addons/user-tags.css);
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/status.css);
 
@@ -1177,6 +1177,12 @@ a:hover .foreground-26ym5y {
 .membersWrap-2h-GB4 {
 	display:flex;
 	flex-direction:column;
+}
+
+.members-1998pB {
+    --bulk: 300px;
+    height: calc(100% + var(--bulk));
+    padding-bottom: calc(20px + var(--bulk));
 }
 
 #app-mount .tooltip-2QfLtc,
@@ -6948,7 +6954,8 @@ li[data-name*=Midnight] .bda-name {
   content:'';
   width:100%;
   height:50px;
-  box-shadow:0 -10px 10px -10px var(--lv1);
+  box-shadow:0 -10px 10px -10px var(--lv1), inset 0 0 0 100vmax rgba(255,255,255,0.07);
+	background:var(--lv1);
   position:absolute;
   bottom:-50px;
   z-index:1;
