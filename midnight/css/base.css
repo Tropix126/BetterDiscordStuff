@@ -1108,7 +1108,8 @@ a:hover .foreground-26ym5y {
 }
 
 .scroller-2TZvBN {
-	padding-bottom: 50px
+	padding-bottom: 50px;
+	contain:initial;
 }
 
 .chatContent-a9vAAp .typing-2GQL18 {
