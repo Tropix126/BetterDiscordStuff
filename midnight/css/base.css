@@ -4833,13 +4833,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
 	position: absolute;
 	top: -44px;
-	left: 0;
 	display: flex;
 	justify-content: center;
-	margin: 0;
 	height: 42px;
 	border-bottom: 2px solid var(--hover);
-	width: 55px
 }
 
 .homeIcon-tEMBK1 {
