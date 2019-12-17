@@ -9381,3 +9381,22 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
     border:2px solid #f04747;
     box-shadow:0 0 120px #f04747, inset 0 0 0 100vmax rgba(255,255,255,0.07);
 }
+.attachPopout-1n-ZKM {
+    border-radius: 0;
+    background: var(--lv1)!important;
+    box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .06), 0 0 12px #000;
+    padding:0;
+}
+.attachPopoutRow-KrE-f6 {
+    border-radius:0;
+    margin:0;
+    transition: 150ms ease all;
+    padding: 7px 15px;
+    border-radius: 0;
+    border-left: 2px solid rgba(255, 255, 255, .2)
+}
+.attachPopoutRow-KrE-f6:hover {
+    background-color: rgba(255, 255, 255, .06)!important;
+    border-color: var(--accent);
+    box-shadow: inset 10px 0 15px -12px var(--accent);
+}
