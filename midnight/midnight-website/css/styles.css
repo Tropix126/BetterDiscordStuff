@@ -23,37 +23,47 @@
 /*Other Variables*/
   --BetterDocsBlockerBlack1:var(--lv1);
 }
+body {
+  outline:none;
+}
+div, h1, p, button, a, canvas {
+  font-family:'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+a, button {
+  text-decoration:none;
+  outline:none;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
   background:var(--lv1);
   overflow-x:hidden;
+  margin:0;
 }
-body::before {
-  content:'';
+#image-bg {
   position:absolute;
   opacity: .4;
-background-image: var(--bg)!important;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
--webkit-mask-image: radial-gradient(black, transparent 80%);
-width:100%;
-height:100%;
-top:0;
-left:0;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-mask-image: radial-gradient(black, transparent 80%);
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
   z-index:-1;
   pointer-events:none;
 }
 ::selection {
-  background-color:var(--hover);
+  background-color:rgba(255,255,255,0.15);
 }
 .title {
   color:#fff;
   font-size:50px;
   text-align:center;
-  font-family: 'Roboto', sans-serif;
   font-weight:200;
   margin-top:8%;
   text-shadow:0 0 12px;
@@ -64,28 +74,32 @@ left:0;
   font-size:18px;
   text-align:center;
   max-width:450px;
-  font-family: 'Roboto', sans-serif;
   font-weight:300;
-    animation:main 750ms ease;
+  animation:main 750ms ease;
 }
 #center {
   display:flex;
   justify-content:center;
   height:fit-content;
+  position:relative;
 }
 #preview {
   background-color: var(--lv1);
-      width: 70%; 
-      height: 100%;
-      box-shadow:0 0 120px var(--lv1), inset 0 0 0 100vmax rgba(255,255,255,0.1);
-      animation:main-bottom 1s ease;
-      border:none;
-      border-radius:3px;
+  width: 70%;
+  height: 100%;
+  box-shadow:0 0 120px 2px var(--lv1);
+  animation:main-bottom 1s ease;
+  border:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1;
 }
+
 body #center.preview-container {
   margin-top:50px;
   height:35vw;
-  position:relative;
+  align-items:center;
   z-index:1;
 }
 @keyframes fade {
@@ -117,17 +131,25 @@ body #center.preview-container {
   }
 }
 
-#background-deco {
+#tilted-section {
   background:var(--lv1);
   box-shadow:0 0 25px 2px rgba(255,255,255,0.075), inset 0 0 1000px 1000px rgba(255,255,255,0.075);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+#rotate-container {
+  transform:rotate(-5deg);
+  position:absolute;
+  z-index:-1;
+  animation:main-bottom 2s ease;
   width:150%;
   top:80%;
   height:50%;
   left:-20%;
-  position:absolute;
-  z-index:-1;
-  rotate:-5deg;
-  animation:main-bottom 2s ease;
 }
 
 #particles-js{
@@ -142,18 +164,21 @@ canvas {
   vertical-align: bottom;
 }
 
+.button-link {
+  min-width: 64px;
+  height: 34px;
+  margin:0 5px;
+  margin-top:10px;
+}
+
 .primary-button {
   background-color:var(--accent);
-  border:none !important;
-  margin-top:10px;
   color:#fff;
   text-transform:uppercase;
-  font-family: Roboto,sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
   font-size: .725rem;
   font-weight: 600;
   letter-spacing: .0892857143em;
+  border:none;
   min-width: 64px;
   height: 34px;
   padding: 0 16px 0 16px;
@@ -164,6 +189,7 @@ canvas {
   cursor:pointer;
   display:flex;
   align-items:center;
+  position:relative;
 }
 
 .download-button {
@@ -178,10 +204,6 @@ canvas {
   animation-delay:.95s;
 }
 
-a {
-  text-decoration:none !important;
-}
-
 .primary-button:hover {
   box-shadow:0 0 100px var(--hover);
   background:var(--hover);
@@ -193,10 +215,24 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width:3px;
+  width:10px;
+  border-radius:50%;
 }
-::-webkit-scrollbar-thumb {
-  background:var(--accent) !important;
+body::-webkit-scrollbar-thumb {
+  background:rgba(255,255,255,0.1);
+  border-radius:50px;
+  border:3px solid var(--lv1);
+  background-clip:padding-box;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background:rgba(255,255,255,0.15  );
+}
+body::-webkit-scrollbar-thumb:active {
+  background:rgba(255,255,255,0.25);
+}
+
+body::-webkit-scrollbar-track {
+  background:transparent;
 }
 
 #particles {
@@ -243,13 +279,11 @@ a {
 }
 .card .name {
   color:#fff;
-  font-family:'Roboto';
   font-size:18px;
 }
 
 .card .dev-desc {
   color:rgba(255,255,255,0.5);
-  font-family:'Roboto';
   font-size:14px;
 }
 
@@ -257,4 +291,11 @@ a {
   width:200px;
   height:auto;
   margin-bottom:10px;
+}
+
+#bottom-section {
+  position:absolute;
+  top:75%;
+  width:100%;
+  height:auto;
 }
