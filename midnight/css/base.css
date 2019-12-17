@@ -90,7 +90,7 @@
 }
 
 .bda-slist::before {
-    content:'Thanks for using Midnight! Although this theme is perfectly usable right now, we recommend you download any plugin by DevilBro, so that you can get access to tags and user backgrounds (Midnight relies on these plugins to get the users ID for user-specific related things.). If you ever need help, want a custom tag/background, or jut want to share feed back, feel free to join our support server at https://discord.gg/TeRQEPb. Have a good time!';
+    content:'Thanks for using Midnight! Although this theme is perfectly usable right now, we recommend you download any plugin by DevilBro, so that you can get access to tags and user backgrounds (Midnight relies on these plugins to get the users ID for user-specific related things.). If you ever need help, want a custom tag/background, or just want to share feed back, feel free to join our support server at https://discord.gg/TeRQEPb. Have a good time!';
     word-wrap:break-word;
     color:#fff;
     max-width:85%;
@@ -7568,6 +7568,10 @@ li[data-name*=Midnight] .bda-name {
 	right: 0;
 	padding-left: 30px;
 	z-index: 1;
+}
+
+.platform-linux .panels-j1Uci_ .avatarWrapper-2yR4wp {
+    top:5px;
 }
 
 .panels-j1Uci_ .avatarWrapper-2yR4wp .wrapper-3t9DeA {
