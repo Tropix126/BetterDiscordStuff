@@ -72,7 +72,8 @@
 .description-3_Ncsb,
 .embedTitle-3OXDkz,
 .wordmark-2iDDfm:before,
-.wordmark-2iDDfm:after{
+.wordmark-2iDDfm:after,
+.item-2J1YMK {
     font-size:var(--size1) !important;
 }
 .size14-e6ZScH,
@@ -414,7 +415,8 @@ a:hover .foreground-26ym5y {
 .markup-2BOw-j pre {
 	border-radius: 0;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
-	background-color: rgba(0, 0, 0, .25)
+	background-color: rgba(0, 0, 0, .25);
+	backdrop-filter:blur(10px);
 }
 
 .inner-zqa7da {
@@ -442,7 +444,8 @@ a:hover .foreground-26ym5y {
 }
 
 #app-mount .isMentionedCozy-3isp7y {
-	background: rgba(0, 0, 0, .25)
+	background: rgba(0, 0, 0, .25);
+	backdrop-filter:blur(10px);
 }
 
 .isMentionedCozy-3isp7y,
@@ -452,7 +455,10 @@ a:hover .foreground-26ym5y {
 
 .headerCozy-2N9HOL {
 	flex-direction: column;
-	height: 30px
+	height: 30px;
+	backdrop-filter:blur(10px);
+	background: rgba(255, 255, 255, .03);
+	width: 100%
 }
 
 .avatar-17mtNa {
@@ -461,11 +467,6 @@ a:hover .foreground-26ym5y {
 
 .headerCozyMeta-rdohGq {
 	order: 1
-}
-
-.headerCozy-2N9HOL {
-	background: rgba(255, 255, 255, .03);
-	width: 100%
 }
 
 .username-_4ZSMR {
@@ -589,6 +590,7 @@ a:hover .foreground-26ym5y {
 	text-transform: none;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	backdrop-filter:blur(10px);
 	padding: 5px
 }
 
@@ -1109,7 +1111,7 @@ a:hover .foreground-26ym5y {
 
 .scroller-2TZvBN {
 	padding-bottom: 50px;
-	contain:initial;
+	contain:none;
 }
 
 .chatContent-a9vAAp .typing-2GQL18 {
@@ -7823,6 +7825,7 @@ li[data-name*=Midnight] .bda-name {
 	font-weight: 500;
 	text-transform: capitalize;
 	color: rgba(255, 255, 255, .5)!important;
+	backdrop-filter:blur(10px);
 	display: flex
 }
 
