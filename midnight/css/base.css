@@ -3592,6 +3592,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   top:0;
   background:rgba(0,0,0,0.5);
   box-shadow:0 0 5px rgba(0,0,0,0.5);
+	backdrop-filter:blur(10px);
   text-align:left;
   z-index:1;
 }
