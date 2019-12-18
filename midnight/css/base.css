@@ -3609,7 +3609,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 .userPopout-3XzG_A .headerName-fajvi9 {
   font-size:20px;
-  font-size:500;
 }
 
 .userPopout-3XzG_A .header-2BwW8b {
@@ -3621,7 +3620,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   font-weight:600;
 }
 
-.userPopout-3XzG_A .customStatus-1bh2V9 {
+.userPopout-3XzG_A .customStatus-1bh2V9,
+.userPopout-3XzG_A .headerNameWrapper-3res2c {
   text-align:left;
 }
 
