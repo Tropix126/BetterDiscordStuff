@@ -474,7 +474,7 @@ a:hover .foreground-26ym5y {
 	border-left: 3px solid currentColor;
 	padding-left: 8px;
 	text-shadow: 0 0 12px currentColor;
-	box-shadow: inset 10px 0 15px -12px currentColor;
+	box-shadow: inset 10px 0 10px -12px currentColor;
 	height:30px;
 	align-items:center;
 	justify-content:center;
