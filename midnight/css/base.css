@@ -462,7 +462,10 @@ a:hover .foreground-26ym5y {
 }
 
 .avatar-17mtNa {
-	order: 2
+	order: 2;
+	padding: 10px 2px;
+	margin: 9px 20px 20px!important;
+	padding-left: 3px
 }
 
 .headerCozyMeta-rdohGq {
@@ -3018,7 +3021,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .searchHeader-1l-wpR {
-	background: 0 0!important
+	box-shadow:0 0 12px var(--lv1) !important;
+	background: transparent!important
 }
 
 #app-mount .hintValue-29ny8Z,
@@ -3453,18 +3457,18 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .userPopout-3XzG_A {
 	border-radius: 0;
 	background: var(--lv1)!important;
-	box-shadow: 0 0 12px 1px var(--lv1)
+	box-shadow: 0 0 12px 1px var(--lv1);
+	animation: userPopout 350ms
 }
 
 .footer-1fjuF6 {
-	background: rgba(255, 255, 255, .08)!important
+	background: rgba(255, 255, 255, .08)!important;
+	padding:0;
+	border:none;
 }
 
+.body-3iLsc4,
 .header-2BwW8b {
-	background: rgba(255, 255, 255, .08)!important
-}
-
-.body-3iLsc4 {
 	background: rgba(255, 255, 255, .04)!important
 }
 
@@ -3629,8 +3633,9 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   text-align:left;
 }
 
-#app-mount .headerPlaying-j0WQBV {
+#app-mount .headerPlaying-j0WQBV .headerTop-3C2Zn0 {
   background-image:linear-gradient(var(--accent), rgba(0,0,0,0.75)) !important;
+	background-color:var(--accent);
 }
 
 .userPopout-3XzG_A .customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
@@ -6980,12 +6985,6 @@ li[data-name*=Midnight] .bda-name {
 	box-shadow: 0 0 5px #000
 }
 
-.avatar-17mtNa {
-	padding: 10px 2px;
-	margin: 9px 20px 20px!important;
-	padding-left: 3px
-}
-
 #app-mount .chat-3bRxxu .containerCozy-jafyvG .wrapper-3t9DeA {
 	height: 35px!important;
 	width: 35px!important;
@@ -7163,7 +7162,12 @@ li[data-name*=Midnight] .bda-name {
 	width: 100% !important;
 }
 
-.search-36MZv-:hover::before {
+.open-6_Y_aH .search-2oPWTC::before,
+.open-6_Y_aH .search-2oPWTC::after {
+	display:none;
+}
+
+.search-36MZv-:hover .search-2oPWTC::before {
 	content: '';
 	position: absolute;
 	top: 30px;
@@ -7176,7 +7180,7 @@ li[data-name*=Midnight] .bda-name {
 	height: 0
 }
 
-.search-36MZv-:hover::after {
+.search-36MZv-:hover .search-2oPWTC::after {
 	content: 'Search';
 	position: absolute;
 	top: 39px;
@@ -7313,10 +7317,6 @@ li[data-name*=Midnight] .bda-name {
 	background: 0 0!important
 }
 
-.avatar-17mtNa {
-	margin: -5px 5px 20px!important
-}
-
 .timestampCozy-2hLAPV {
 	line-height: 28px;
 	height: 28px;
@@ -7357,7 +7357,12 @@ li[data-name*=Midnight] .bda-name {
 	padding-bottom: 0;
 	height: 30px;
 	box-shadow: 0 0 2px 2px rgba(255, 255, 255, .08);
-	border-left: 2px solid rgba(255, 255, 255, .1)
+	border-left: 2px solid rgba(255, 255, 255, .1);
+	max-width: 240px;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	cursor:pointer
 }
 
 #app-mount .member-3-YXUe:hover {
@@ -7372,10 +7377,6 @@ li[data-name*=Midnight] .bda-name {
 .member-3-YXUe .wrapper-3t9DeA {
 	width: 26px!important;
 	height: 26px!important
-}
-
-.member-3-YXUe {
-	max-width: 240px
 }
 
 .messagesPopout-24nkyi {
@@ -7397,13 +7398,6 @@ li[data-name*=Midnight] .bda-name {
 	text-shadow: 0 0 12px;
 	height: 58px
 }
-
-#app-mount .member-3-YXUe {
-	display: flex;
-	align-items: center;
-	white-space: nowrap
-}
-
 .activity-3mKQ-i {
 	text-overflow: ellipsis;
 	max-width: 180px
@@ -7533,9 +7527,6 @@ li[data-name*=Midnight] .bda-name {
 	}
 }
 
-.userPopout-3XzG_A {
-	animation: userPopout 350ms
-}
 
 .translate-2dAEQ6.didRender-33z1u8 {
 	transition: none!important
@@ -7840,8 +7831,6 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .activityUserPopout-2yItg2 {
-	background: var(--lv1);
-	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .04);
 	padding: 0
 }
 
@@ -7872,10 +7861,6 @@ li[data-name*=Midnight] .bda-name {
 
 .protip-YaFfgO {
 	display: none
-}
-
-.footer-1fjuF6 {
-	padding: 0
 }
 
 .accountBtn-2Nozo3 {
@@ -9348,10 +9333,9 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 .notice-2FJMB4 {
     z-index:10000;
-    transition:.5 ease height;
+    transition:.5s ease height;
     box-sizing:border-box;
     background:var(--notice-color);
-    box-shadow:0 0 50px var(--notice-color);
 }
 .noticeInfo-3_iTE1 {
     --notice-color:rgb(74,144,226);
