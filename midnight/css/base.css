@@ -1157,7 +1157,7 @@ a:hover .foreground-26ym5y {
 	border-radius: 0
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .upperBadge-2XnnGB {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .upperBadge-2XnnGB {
 	top: 20px
 }
 
@@ -1450,11 +1450,6 @@ a:hover .foreground-26ym5y {
 .newMessagesBar-mujexs:hover button:last-child {
 	color:var(--hover);
 	background:#fff;
-}
-
-.wrapper-1Rf91z.foldercontent .scrollerWrap-1IAIlv {
-	border-top: 2px solid var(--hover);
-	margin-top: -2px
 }
 
 .container-2lgZY8 {
@@ -4840,7 +4835,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	margin: 0 0 10px
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
 	position: absolute;
 	top: -44px;
 	display: flex;
@@ -4860,7 +4855,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	width: 100%
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-1BJsBx {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-1BJsBx {
 	height: 43px
 }
 
@@ -4874,7 +4869,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	background: 0 0!important
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
 	display: none
 }
 
@@ -6255,7 +6250,7 @@ li[data-name*=Midnight] .bda-name {
 	color: #82aaff!important
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .numberBadge-2s8kKX {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .numberBadge-2s8kKX {
 	position: absolute;
 	transform: scale(.82);
 	top: -32px;
@@ -6604,7 +6599,7 @@ li[data-name*=Midnight] .bda-name {
 	height: 105%!important
 }
 
-.wrapper-1Rf91z:not(.foldercontent) .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .badgeWrapper-3e8pMZ {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .badgeWrapper-3e8pMZ {
 	width: 100%!important;
 	height: 100%!important
 }
