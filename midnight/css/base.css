@@ -499,7 +499,8 @@ a:hover .foreground-26ym5y {
 }
 
 .messages-3amgkR {
-	padding-bottom: 25px
+	padding-bottom: 25px;
+	contain:none !important;
 }
 
 .messageCozy-2JPAPA:last-of-type:not(:only-of-type) {
