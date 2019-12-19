@@ -465,7 +465,7 @@ a:hover .foreground-26ym5y {
 	order: 2;
 	padding: 0 !important;
 	margin: 0!important;
-	top:5px;
+	top:6px;
 	left:10px;
 }
 
@@ -3468,8 +3468,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	border:none;
 }
 
-.body-3iLsc4,
-.header-2BwW8b {
+.body-3iLsc4 {
 	background: rgba(255, 255, 255, .04)!important
 }
 
@@ -3622,6 +3621,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 .userPopout-3XzG_A .header-2BwW8b {
   position:relative;
+	background: rgba(255, 255, 255, .06)!important
 }
 
 .userPopout-3XzG_A .username-2b1r56 {
