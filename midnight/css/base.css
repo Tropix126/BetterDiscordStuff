@@ -3455,9 +3455,9 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	animation: userPopout 350ms
 }
 
-.assetsLargeImageStreamPreview-1A9lfF,
-.assetsLargeImageUserPopout-3Pp8BK,
-.assetsLargeImageUserPopoutXbox-2hgKt0 {
+.userPopout-3XzG_A .assetsLargeImageStreamPreview-1A9lfF,
+.userPopout-3XzG_A .assetsLargeImageUserPopout-3Pp8BK,
+.userPopout-3XzG_A .assetsLargeImageUserPopoutXbox-2hgKt0 {
 	width: auto;
     height: 70px;
 }
