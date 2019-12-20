@@ -427,6 +427,7 @@ a:hover .foreground-26ym5y {
 	border: none;
 	background: var(--accent);
 	width: 4px;
+	left:-4px;
 	box-shadow: 0 0 12px var(--accent)
 }
 
