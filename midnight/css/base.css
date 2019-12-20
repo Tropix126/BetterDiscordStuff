@@ -2267,7 +2267,6 @@ body .bd-toasts {
 	overflow: hidden;
 	padding: 15px;
 	text-indent: 15px;
-	background-image: none;
 	padding-left: 0;
 	position: relative;
 	margin-right: 10px;
@@ -2292,6 +2291,7 @@ body .bd-toasts {
 
 #app-mount .toast.icon {
 	text-indent:15px;
+	padding-left:15px !important;
 }
 
 .bd-toasts .toast-success {
