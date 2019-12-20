@@ -5946,9 +5946,13 @@ li[data-name*=Midnight] .bda-name {
   --codeblockcolor: #747f8d;
   position:relative;
   box-sizing:border-box;
-  padding-left:32px;
+  padding-left:32px !important;
   padding-bottom:2px;
-  padding-top:30px;
+  padding-top:30px !important;
+}
+
+.hljs * {
+	font-size:12px;
 }
 
 .container-206Blv {
@@ -5993,9 +5997,9 @@ li[data-name*=Midnight] .bda-name {
   padding:0 4px;
   position:absolute;
   left:0;
-  padding-top:30px;
+  padding-top:26px;
   line-height:18px;
-  height:calc(100% - 30px);
+  height:calc(100% - 26px);
   overflow:hidden;
   color:rgba(255,255,255,0.75);
   box-shadow:0 0 5px rgba(0,0,0,0.5);
