@@ -432,6 +432,7 @@ a:hover .foreground-26ym5y {
 #app-mount .isMentionedCozy-3isp7y {
 	background: rgba(0, 0, 0, .25);
 	backdrop-filter:blur(10px);
+	padding-left:10px;
 }
 
 .isMentionedCozy-3isp7y,
