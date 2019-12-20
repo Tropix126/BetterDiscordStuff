@@ -403,17 +403,6 @@ a:hover .foreground-26ym5y {
 	display: none
 }
 
-.markup-2BOw-j code {
-	background: 0 0
-}
-
-.markup-2BOw-j pre {
-	border-radius: 0;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
-	background-color: rgba(0, 0, 0, .25);
-	backdrop-filter:blur(10px);
-}
-
 .inner-zqa7da {
 	border-radius: 0;
 	padding: 0;
@@ -5932,13 +5921,6 @@ li[data-name*=Midnight] .bda-name {
 	box-shadow: 0 0 12px var(--lv1)
 }
 
-.hljs {
-	border-radius: 0
-}
-
-.markup-2BOw-j code {
-	border: none!important
-}
 
 .hljs {
   --codeblockcolor: #747f8d;
@@ -5947,10 +5929,11 @@ li[data-name*=Midnight] .bda-name {
   padding-left:32px !important;
   padding-bottom:2px;
   padding-top:30px !important;
-}
+  border-radius: 0;
+  border: none!important;
+  background:transparent;
+  font-size:12px !important;
 
-.hljs * {
-	font-size:12px;
 }
 
 .container-206Blv {
@@ -5987,6 +5970,11 @@ li[data-name*=Midnight] .bda-name {
 .markup-2BOw-j pre {
   position:relative;
   overflow:hidden;
+  margin-bottom:5px;
+  border-radius: 0;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .25);
+  backdrop-filter:blur(10px);
 }
 
 .markup-2BOw-j pre:before {
