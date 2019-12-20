@@ -2201,40 +2201,38 @@ polyline[stroke*="#7289da"] {
 	right:10px;
 	border-left:2px solid var(--accent);
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
-  }
-  
-  .powercord-toast .header {
-	  border-bottom: 1px solid rgba(0, 0, 0, .1);
-	  padding:10px 20px;
+}
+.powercord-toast .header {
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	padding:10px 20px;
 	color: rgba(255, 255, 255, .8);
-	  background: rgba(0, 0, 0, .2);
-	  font-size: 14px;
+	background: rgba(0, 0, 0, .2);
+	font-size: 14px;
 	text-indent: 15px;
 	align-items:center;
 	border-radius:0;
 	box-shadow:none !important;
-  }
+}
   
-  .powercord-toast .header .dismiss {
+.powercord-toast .header .dismiss {
 	right:40px;
 	position:absolute;
 	margin-left:0;
-  }
-  
-  .powercord-toast .contents .inner {
+}
+.powercord-toast .contents .inner {
 	color: rgba(255, 255, 255, .65);
 	border:none;
 	background:transparent;
 	text-align:left;
 	font-size: 16px;
 	padding:0 5px;
-  }
+}
   
-  .powercord-toast .icon {
+.powercord-toast .icon {
 	display:flex;
 	align-items:center;
 	margin-right:0;
-  }
+}
 
 body .bd-toasts {
 	top: 0!important;
