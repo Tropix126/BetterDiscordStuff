@@ -5931,9 +5931,8 @@ li[data-name*=Midnight] .bda-name {
   padding-top:30px !important;
   border-radius: 0;
   border: none!important;
-  background:transparent;
+  background:transparent !important;
   font-size:12px !important;
-
 }
 
 .container-206Blv {
