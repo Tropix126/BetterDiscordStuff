@@ -93,10 +93,8 @@
 .bda-slist::before {
     content:'Thanks for using Midnight! Although this theme is perfectly usable right now, we recommend you download any plugin by DevilBro, so that you can get access to tags and user backgrounds (Midnight relies on these plugins to get the users ID for user-specific related things.). If you ever need help, want a custom tag/background, or just want to share feed back, feel free to join our support server at https://discord.gg/TeRQEPb. Have a good time!';
     word-wrap:break-word;
-    color:#fff;
     max-width:85%;
     padding:10px;
-    display:block;
     color:#43b581;
     border: 1px solid #43b581!important;
     background: rgba(67, 181, 129, .25);
@@ -2309,7 +2307,7 @@ body .bd-toasts {
 	background: rgba(255, 255, 255, .1)
 }
 
-.resultAsset-2ULFWc {
+.resultAsset-2ULFWc {	
 	border-radius: 0
 }
 
@@ -3463,7 +3461,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	border:none;
 }
 
-.body-3iLsc4 {
+.body-3iLsc4,
+.activityUserPopout-2yItg2 {
 	background: rgba(255, 255, 255, .04)!important
 }
 
@@ -3573,6 +3572,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .userPopout-3XzG_A .headerTop-3C2Zn0 {
   padding:10px;
   padding-top:40px;
+  background:rgba(255,255,255,0.07);
   align-items:flex-start;
 }
 
@@ -3600,6 +3600,9 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .userPopout-3XzG_A .username-2b1r56 {
   margin-left:10px;
   line-height:normal;
+  white-space:nowrap;
+  overflow:hidden;
+  max-width:80%;
 }
 
 .userPopout-3XzG_A .username-2b1r56:before {
@@ -3616,7 +3619,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 
 .userPopout-3XzG_A .header-2BwW8b {
   position:relative;
-	background: rgba(255, 255, 255, .06)!important
+	background: transparent!important
 }
 
 .userPopout-3XzG_A .username-2b1r56 {
@@ -7823,11 +7826,12 @@ li[data-name*=Midnight] .bda-name {
 }
 
 .userPopout-3XzG_A .note-3kmerW textarea {
-	height: 25px!important
+	height: 25px!important;
 }
 
 .activityUserPopout-2yItg2 {
-	padding: 0
+	padding: 0;
+	position:relative;
 }
 
 .bodyTitle-Y0qMQz:first-child:before {
