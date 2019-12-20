@@ -3450,17 +3450,17 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     height: 70px;
 }
 
-.headerXbox-3G-4PF .headerTop-3C2Zn0 {
+.userPopout-3XzG_A .headerXbox-3G-4PF .headerTop-3C2Zn0 {
 	background-image:linear-gradient(#0e7a0d, rgba(0,0,0,0.75)) !important;
 	background-color:#0e7a0d !important;
 }
 
-.headerSpotify-zpWxgT .headerTop-3C2Zn0 {
+.userPopout-3XzG_A .headerSpotify-zpWxgT .headerTop-3C2Zn0 {
 	background-image:linear-gradient(#1db954, rgba(0,0,0,0.75)) !important;
 	background-color:#1db954 !important;
 }
 
-.headerStreaming-2FjmGz .headerTop-3C2Zn0 {
+.userPopout-3XzG_A .headerStreaming-2FjmGz .headerTop-3C2Zn0 {
 	background-image:linear-gradient(var(--streaming), rgba(0,0,0,0.75)) !important;
 	background-color:var(--streaming) !important;
 }
