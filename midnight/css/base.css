@@ -2271,7 +2271,7 @@ body .bd-toasts {
 	padding-left: 0;
 	position: relative;
 	margin-right: 10px;
-	background: var(--lv1);
+	background: var(--lv1) !important;
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
 	border: 1px solid var(--lv1);
 	border-left: 2px solid var(--accent);
@@ -2290,6 +2290,10 @@ body .bd-toasts {
 	background-position: 13px 45px
 }
 
+#app-mount .toast.icon {
+	text-indent:15px;
+}
+
 .bd-toasts .toast-success {
 	border-left: 2px solid #43b581
 }
@@ -2306,10 +2310,6 @@ body .bd-toasts {
 .bd-toasts .toast-warn,
 .bd-toasts .toast-warning {
 	border-left: 2px solid #ffa600
-}
-
-#app-mount .bd-toasts .icon {
-	text-indent: 55px
 }
 
 .container-3JkMqB .search-MFQ5bU {
