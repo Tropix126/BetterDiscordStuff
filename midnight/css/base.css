@@ -208,15 +208,6 @@ a {
 	margin-top: 0
 }
 
-.standardSidebarView-3F1I7i ::-webkit-scrollbar-thumb {
-	background-color: var(--accent);
-	border-radius: 0
-}
-
-#app-mount .standardSidebarView-3F1I7i ::-webkit-scrollbar {
-	width: 3px!important
-}
-
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
 	background-color: var(--accent);
 	border-radius: 0;
@@ -402,10 +393,6 @@ a:hover .foreground-26ym5y {
 	display: none
 }
 
-.channelTextArea-rNsIhG {
-	border: none
-}
-
 .markup-2BOw-j code {
 	background: 0 0
 }
@@ -562,25 +549,29 @@ a:hover .foreground-26ym5y {
 	left: 0
 }
 
-#app-mount ::-webkit-scrollbar {
-	border: none;
-	width: 4px
+::-webkit-scrollbar {
+  width:5px !important;
 }
 
-::-webkit-scrollbar-track {
-	background: 0 0;
-	border: none
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+	background:transparent !important;
+  border: none !important;
+  border-radius:0 !important;
 }
 
-#app-mount ::-webkit-scrollbar-track-piece {
-	background: 0 0;
-	border: none
+::-webkit-scrollbar-thumb {
+  border:none !important;
+  background:rgba(255,255,255,0.1) !important;
+  border-radius:8px;
 }
 
-#app-mount ::-webkit-scrollbar-thumb {
-	background: var(--accent);
-	border-radius: 0;
-	border: none
+::-webkit-scrollbar-thumb:hover {
+  background:rgba(255,255,255,0.15) !important;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background:rgba(255,255,255,0.2) !important;
 }
 
 .dividerContent-2L12VI {
@@ -815,17 +806,13 @@ a:hover .foreground-26ym5y {
 .chat-3bRxxu form .typing-2GQL18 {
 	background: var(--lv1);
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .08), 0 0 10px #000;
-	bottom: 100%;
-	padding-left: 20px;
-	z-index: 0;
+	top:-40px;
 	animation: opacity .3s ease;
 	transform-origin: bottom left;
 	transform: scale(1);
 	width: auto;
-	padding-right: 20px;
-	padding-top: 0;
-	border-radius: 0;
-	margin-left: 15px;
+	padding:0 20px;
+	margin:0 10px;
 	opacity: 1;
 	transition: all .2s ease;
 	text-overflow: ellipsis;
@@ -1570,7 +1557,9 @@ a:hover .foreground-26ym5y {
 	height: 52px;
 	    display:flex;
     justify-content:center;
-    align-items:center;
+	align-items:center;
+    top:unset;
+    margin-right:5px;
 }
 
 .buttons-205you button[aria-label*="open gif picker" i]:hover {
@@ -3270,10 +3259,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .placeholder-P6ptfj,
 .slateTextArea-1bp44y{
     left:50px;
-}
-.webkit-26NYEN .buttons-205you {
-    top:unset;
-    margin-right:5px;
 }
 
 .innerDisabled-2mc-iF::before {
