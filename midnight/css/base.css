@@ -551,7 +551,7 @@ a:hover .foreground-26ym5y {
 }
 
 ::-webkit-scrollbar {
-  width:5px !important;
+  width:3px !important;
 }
 
 ::-webkit-scrollbar-track,
@@ -563,16 +563,11 @@ a:hover .foreground-26ym5y {
 
 ::-webkit-scrollbar-thumb {
   border:none !important;
-  background:rgba(255,255,255,0.1) !important;
-  border-radius:8px;
+  background:var(--accent) !important;
+  border-radius:0;
 }
-
-::-webkit-scrollbar-thumb:hover {
-  background:rgba(255,255,255,0.15) !important;
-}
-
 ::-webkit-scrollbar-thumb:active {
-  background:rgba(255,255,255,0.2) !important;
+  background:var(--hover) !important;
 }
 
 .dividerContent-2L12VI {
