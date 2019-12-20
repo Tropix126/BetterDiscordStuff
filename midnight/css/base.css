@@ -4673,7 +4673,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:after {
-	content: var(--theme-version);
+	content: 'v' var(--theme-version)
 	text-shadow: 0 0 12px;
 	font-weight: 400;
 	color: rgba(255, 255, 255, .8);
@@ -4681,7 +4681,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .wordmark-2iDDfm:before {
-	content: var(--theme-long-name) ' ';
+	content: var(--theme-long-name);
 	text-shadow: 0 0 12px;
 	font-weight: 600;
 	color: var(--accent);
@@ -5756,6 +5756,15 @@ body #ace_settingsmenu {
 li[data-name*=Midnight] .bda-name {
 	color: var(--accent);
 	text-shadow: 0 0 12px
+}
+
+li[data-name*=Midnight] .bda-version {
+    font-size:0;
+}
+
+li[data-name*=Midnight] .bda-version:after {
+    content:var(--theme-version);
+    font-size:var(--size3);
 }
 
 #app-mount .group-1Dw1l1 h3 {
