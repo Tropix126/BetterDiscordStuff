@@ -203,7 +203,7 @@ a {
 #bd-settings-sidebar .ui-tab-bar-header,
 .side-8zPYf6 .header-2RyJ0Y {
 	border-bottom: 2px solid var(--hover);
-	color: var(--accent);
+	color: var(--accent) !important;
 	text-align: center;
 	margin-top: 10px
 }
@@ -272,7 +272,7 @@ a {
 }
 
 .contentColumnDefault-1VQkGM {
-    padding: 60px 100px 80px !important;
+    padding: 60px 80px !important;
 }
 
 .contentColumnDefault-1VQkGM:hover .defaultColor-1_ajX0 {
@@ -371,6 +371,7 @@ a:hover .foreground-26ym5y {
 	font-weight: 600;
   color: var(--accent);
   display:flex;
+  font-size:var(--size1);
   align-items:center;
   left:45px;
   padding:0 12px;
