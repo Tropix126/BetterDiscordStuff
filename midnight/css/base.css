@@ -6061,311 +6061,426 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
   background:rgba(255,255,255,0.05);
 }
 
+.hljs[class~=diff i]::before {
+  content: "Diff";
+  --codeblockcolor: #81c529;
+}
+
+.hljs[class~=cs i]::before,
+.hljs[class~=csharp i]::before {
+  content: "C#";
+  --codeblockcolor: #f4b41c;
+}
+
+.hljs[class~=ini i]::before {
+  content: "Initialization File";
+  --codeblockcolor:#5d91ff;
+}
+
+.hljs[class~=autohotkey i]::before {
+  content: "AutoHotkey";
+  --codeblockcolor: #dc5159;
+}
+
+.hljs[class~=asciidoc i]::before {
+  content: "Ascii";
+  --codeblockcolor: #5c87e2;
+}
+
+.hljs[class~=TOML i]::before {
+  content: "TOML";
+  --codeblockcolor:#30088f;
+}
+
+.hljs[class~=nginx i]::before {
+  content: "NGINX";
+  --codeblockcolor: #4bd1a9;
+}
+
+.hljs[class~=perl i]::before {
+  content: "Perl";
+  --codeblockcolor: #a462d0;
+}
+
+.hljs[class~=d i]::before {
+  content: "d";
+  --codeblockcolor: #B03931;
+}
+
 .hljs[class~=javascript i]::before,
 .hljs[class~=js i]::before {
-	content: "Javascript"
+  content: "Javascript";
+  --codeblockcolor: #165eab;
 }
 
 .hljs[class~=css i]::before {
-	content: "Cascading Style Sheet"
+  content: "Cascading Style Sheet";
+  --codeblockcolor: #1973d3;
 }
 
 .hljs[class~=bash i]::before {
-	content: "Bash"
+  content: "Bash";
+  --codeblockcolor: #ab1663;
 }
 
 .hljs[class~=markdown i]::before,
 .hljs[class~=md i]::before {
-	content: "Markdown"
+  content: "Markdown";
+  --codeblockcolor: #ab2e16;
 }
 
 .hljs[class~=html i]::before {
-	content: "HTML"
+  content: "HTML";
+  --codeblockcolor: #f16529
 }
 
 .hljs[class~=xl i]::before {
-	content: "eXtensible Language"
+  content: "eXtensible Language";
+  --codeblockcolor: #16ab6f;
 }
 
 .hljs[class~=coffee i]::before {
-	content: "Coffeescript"
+  content: "CoffeeScript";
+  --codeblockcolor: #3a1b1b;
 }
 
 .hljs[class~=ruby i]::before {
-	content: "Ruby"
+  content: "Ruby";
+  --codeblockcolor: #e73e3e;
 }
 
 .hljs[class~=sql i]::before {
-	content: "SQL"
+  content: "SQL";
+  --codeblockcolor: #4474ca;
 }
 
 .hljs[class~=java i]::before {
-	content: "Java"
+  content: "Java";
+  --codeblockcolor: #eb2d2f;
 }
 
 .hljs[class~=py i]::before,
 .hljs[class~=python i]::before {
-	content: "Python"
+  content: "Python";
+  --codeblockcolor: #eb2d2f;
 }
 
 .hljs[class~=vb i]::before,
-.hljs[class~=visualbasic i]::before {
-	content: "Visual Basic"
+.hljs[class~=visualbasic i]::before,
+.hljs[class~=vbs i]::before {
+  content: "Visual Basic";
+  --codeblockcolor: #839700;
 }
 
 .hljs[class~=lua i]::before {
-	content: "Lua"
+  content: "Lua";
+  --codeblockcolor: #2ecc71;
 }
 
 .hljs[class~=php i]::before {
-	content: "Php"
+  content: "Php";
+  --codeblockcolor: #6e81b6;
 }
 
 .hljs[class~=swift i]::before {
-	content: "Swift"
+  content: "Swift";
+  --codeblockcolor: #fd7837;
 }
 
 .hljs[class~=makefile i]::before {
-	content: "Makefile"
+  content: "Makefile";
+  --codeblockcolor: #8a2b0f;
 }
 
 .hljs[class~=go i]::before {
-	content: "Go"
-}
-
-.hljs[class~=" ini"i]::before {
-	content: "Initialization File"
+  content: "Go";
+  --codeblockcolor: #75cede;
 }
 
 .hljs[class~=rust i]::before {
-	content: "Rust"
+  content: "Rust";
+  --codeblockcolor: #000000;
 }
 
 .hljs[class~=prolog i]::before {
-	content: "Prolog"
+  content: "Prolog";
+  --codeblockcolor: #ef4d25;
 }
 
 .hljs[class~=ts i]::before,
 .hljs[class~=typescript i]::before {
-	content: "TypeScript"
+  content: "TypeScript";
+  --codeblockcolor: #03324c;
 }
 
 .hljs[class~=http i]::before {
-	content: "HyperText Transfer Protocol"
+  content: "HyperText Transfer Protocol";
+  --codeblockcolor: #618f10;
 }
 
 .hljs[class~=json i]::before {
-	content: "JSON"
+  content: "JSON";
+  --codeblockcolor: #108f66;
 }
 
 .hljs[class~=xml i]::before {
-	content: "XML"
+  content: "XML";
+  --codeblockcolor: #8444af;
 }
 
 .hljs[class~=less i]::before {
-	content: "Less"
+  content: "Less";
+  --codeblockcolor: #1d365d;
 }
 
 .hljs[class~=sass i]::before,
 .hljs[class~=scss i]::before {
-	content: "SCSS"
+  content: "SCSS";
+  --codeblockcolor: #bf4080;
 }
 
 .hljs[class~=elm i]::before {
-	content: "Elm"
+  content: "Elm";
+--codeblockcolor: #50d4ee;
 }
 
 .hljs[class~=cpp i]::before {
-	content: "C++"
+  content: "C++";
+  --codeblockcolor: #99182E;
 }
 
 .hljs[class~=hbs i]::before {
-	content: "Handlebars"
+  content: "Handlebars";
+  --codeblockcolor: #f0772b;
 }
 
 .hljs[class~=1c i]::before {
-	content: "1c"
+  content: "1c"
+  --codeblockcolor: #703B30;
 }
 
 .hljs[class~=abnf i]::before {
-	content: "ABNF"
+  content: "ABNF";
+  --codeblockcolor: #227A70;
 }
 
 .hljs[class~=clojure i]::before {
-	content: "Clojure"
+  content: "Clojure";
+  --codeblockcolor: #5cc70c;
 }
 
 .hljs[class~=objc i]::before {
-	content: "Objective-C"
+  content: "Objective-C";
+  --codeblockcolor: #0092db;
 }
 
 .hljs[class~=yaml i]::before {
-	content: "YAML"
+  content: "YAML";
+  --codeblockcolor: #0295a5;
 }
 
 .hljs[class~=shell i]::before,
 .hljs[class~=sh i]::before {
-	content: "Shell"
+  content: "Shell";
+  --codeblockcolor: #99b9f9;
 }
 
 .hljs[class~=kotlin i]::before {
-	content: "Kotlin"
+  content: "Kotlin";
+  --codeblockcolor: #497bbc;
 }
-	
+
 .hljs[class~=apache i]::before {
-	content: "Apache"
+  content: "Apache";
+  --codeblockcolor: #402a72;
 }
 
-.hljs[class~=apache i] {
-	--codeblockcolor: #402a72
+.hljs[class~=stylus i]::before {
+  content: "Stylus";
+  --codeblockcolor: #8205b4;
 }
 
-.hljs[class~=kotlin i] {
-	--codeblockcolor: #497bbc
+.hljs[class~=avrasm i]::before {
+  content: "AVR Assembler";
+  --codeblockcolor: #8205b4;
 }
 
-.hljs[class~=shell i],
-.hljs[class~=sh i] {
-	--codeblockcolor: #99b9f9
+.hljs[class~=llvm i]::before {
+  content: "LLVM IR";
+  --codeblockcolor: #0014a5;
 }
 
-.hljs[class~=yaml i] {
-	--codeblockcolor: #0295a5
+.hljs[class~=mipsasm i]::before {
+  content: "MIPS Assembly";
+  --codeblockcolor: #fc6675;
 }
 
-.hljs[class~=javascript i],
-.hljs[class~=js i] {
-	--codeblockcolor: #165eab
+.hljs[class~=x86asm i]::before {
+  content: "Intel x86 Assembly";
+  --codeblockcolor: #0071c5;
 }
 
-.hljs[class~=1c i] {
-	--codeblockcolor: #703B30
+.hljs[class~=crmsh i]::before {
+  content: "crmsh";
+  --codeblockcolor: #be0078;
 }
 
-.hljs[class~=objc i] {
-	--codeblockcolor: #0092db
+.hljs[class~=dns i]::before {
+  content: "DNS Zone File";
+  --codeblockcolor: #00c704;
 }
 
-.hljs[class~=clojure i] {
-	--codeblockcolor: #5cc70c
+.hljs[class~=dockerfile i]::before {
+  content: "Dockerfile";
+  --codeblockcolor: #c70000;
 }
 
-.hljs[class~=abnf i] {
-	--codeblockcolor: #227A70
+.hljs[class~=dsconfig i]::before {
+  content: "dsconfig";
+  --codeblockcolor: #2cb0cc;
 }
 
-.hljs[class~=elm i] {
-	--codeblockcolor: #50d4ee
+.hljs[class~=jboss-cli i]::before {
+  content: "jboss-cli";
+  --codeblockcolor: #e2bb88;
 }
 
-.hljs[class~=cpp i] {
-	--codeblockcolor: #99182E
+.hljs[class~=ldif i]::before {
+  content: "LDIF";
+  --codeblockcolor: #a32ec5;
 }
 
-.hljs[class~=hbs i] {
-	--codeblockcolor: #f0772b
+.hljs[class~="pf.conf" i]::before {
+  content: "pf.conf";
+  --codeblockcolor: #ff845e;
 }
 
-.hljs[class~=css i] {
-	--codeblockcolor: #1973d3
+.hljs[class~="puppet" i]::before {
+  content: "Puppet";
+  --codeblockcolor: #804d7f;
 }
 
-.hljs[class~=bash i] {
-	--codeblockcolor: #ab1663
+.hljs[class~="roboconf" i]::before {
+  content: "Roboconf";
+  --codeblockcolor: #81150e;
 }
 
-.hljs[class~=markdown i],
-.hljs[class~=md i] {
-	--codeblockcolor: #ab2e16
+.hljs[class~="axapta" i]::before {
+  content: "Microsoft Dynamics AX";
+  --codeblockcolor: #8c7e8d;
 }
 
-.hljs[class~=html i] {
-	--codeblockcolor: #f16529
+.hljs[class~="cos" i]::before {
+  content: "Caché Object Script";
+  --codeblockcolor: #47553c;
 }
 
-.hljs[class~=xl i] {
-	--codeblockcolor: #16ab6f
+.hljs[class~="isbl" i]::before {
+  content: "ISBL";
+  --codeblockcolor: #a6e3d9;
 }
 
-.hljs[class~=coffee i] {
-	--codeblockcolor: #3a1b1b
+.hljs[class~="livecodeserver" i]::before {
+  content: "LiveCode";
+  --codeblockcolor: #aad036;
 }
 
-.hljs[class~=ruby i] {
-	--codeblockcolor: #e73e3e
+.hljs[class~="ldif" i]::before {
+  content: "LDIF";
+  --codeblockcolor: #3e04c1;
 }
 
-.hljs[class~=sql i] {
-	--codeblockcolor: #4474ca
+.hljs[class~="ruleslanguage" i]::before {
+  content: "Oracle Rules Language";
+  --codeblockcolor: #010640;
 }
 
-.hljs[class~=java i] {
-	--codeblockcolor: #eb2d2f
+.hljs[class~="clean" i]::before {
+  content: "Clean";
+  --codeblockcolor: #f51b70;
 }
 
-.hljs[class~=py i],
-.hljs[class~=python i] {
-	--codeblockcolor: #eb2d2f
+.hljs[class~="coq" i]::before {
+  content: "Coq";
+  --codeblockcolor: #40deb2;
 }
 
-.hljs[class~=vb i],
-.hljs[class~=visualbasic i] {
-	--codeblockcolor: #839700
+.hljs[class~="elixir" i]::before {
+  content: "Elixir";
+  --codeblockcolor: #fc3cf1;
 }
 
-.hljs[class~=lua i] {
-	--codeblockcolor: #2ecc71
+.hljs[class~="erlang-repl" i]::before {
+  content: "Erlang REPL";
+  --codeblockcolor: #a8c348;
 }
 
-.hljs[class~=php i] {
-	--codeblockcolor: #6e81b6
+.hljs[class~="erlang" i]::before {
+  content: "Erlang";
+  --codeblockcolor: #611cfb;
 }
 
-.hljs[class~=swift i] {
-	--codeblockcolor: #fd7837
+.hljs[class~="flix" i]::before {
+  content: "Flix";
+  --codeblockcolor: #e50914;
 }
 
-.hljs[class~=makefile i] {
-	--codeblockcolor: #8a2b0f
+.hljs[class~="fsharp" i]::before,
+.hljs[class~="fs" i]::before {
+  content: "F#";
+  --codeblockcolor: #6f1023;
 }
 
-.hljs[class~=go i] {
-	--codeblockcolor: #75cede
+.hljs[class~="haskell" i]::before {
+  content: "Haskell";
+  --codeblockcolor: #a213ad;
 }
 
-.hljs[class~=rust i] {
-	--codeblockcolor: #000
+.hljs[class~="ocaml" i]::before {
+  content: "OCaml";
+  --codeblockcolor: #34a3a3;
 }
 
-.hljs[class~=prolog i] {
-	--codeblockcolor: #ef4d25
+.hljs[class~="scala" i]::before {
+  content: "Scala";
+  --codeblockcolor: #e00000;
 }
 
-.hljs[class~=ts i],
-.hljs[class~=typescript i] {
-	--codeblockcolor: #03324c
+.hljs[class~="sml" i]::before {
+  content: "SML (Standard ML)";
+  --codeblockcolor: #3d59b1;
 }
 
-.hljs[class~=http i] {
-	--codeblockcolor: #618f10
+.hljs[class~="xquery" i]::before {
+  content: "XQuery";
+  --codeblockcolor: #a64fe3;
 }
 
-.hljs[class~=json i] {
-	--codeblockcolor: #108f66
+.hljs[class~="glsl" i]::before {
+  content: "GLSL";
+  --codeblockcolor: #353771;
 }
 
-.hljs[class~=xml i] {
-	--codeblockcolor: #8444af
+.hljs[class~="mel" i]::before {
+  content: "MEL";
+  --codeblockcolor: #367e3e;
 }
 
-.hljs[class~=less i] {
-	--codeblockcolor: #1d365d
+.hljs[class~="processing" i]::before {
+  content: "Processing";
+  --codeblockcolor: #04a8a7;
 }
 
-.hljs[class~=sass i],
-.hljs[class~=scss i] {
-	--codeblockcolor: #bf4080
+.hljs[class~="rib" i]::before {
+  content: "RenderMan RIB";
+  --codeblockcolor: #e2cc08;
 }
+
+.hljs[class~="rsl" i]::before {
+  content: "RenderMan RSL";
+  --codeblockcolor: #77a805;
+}
+
 
 .hljs-selector-tag {
 	color: #b2ccd6!important
