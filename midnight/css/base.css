@@ -8650,6 +8650,15 @@ svg[name="RichActivity"] {
 	animation: opacity .75s ease;
 }
 
+.platform-linux .root-SR8cQa {
+    height:calc(100vh - 40px);
+}
+
+.platform-linux .header-QKLPzZ::after,
+.platform-linux .root-SR8cQa{
+    top:40px;
+}
+
 .nameTag-2IFDfL .username-3gJmXY {
 	font-size: 18px;
 	overflow: visible;
