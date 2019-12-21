@@ -8141,6 +8141,11 @@ header .clickable-3rdHwn:hover .icon-22AiRD {
 	z-index: 100
 }
 
+.emojiPicker-3m1S-j .scroller-3vODG7 .row-3j9Kuo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .emojiPicker-3m1S-j .noSearchResultsContainer-3Dee0U {
 	height: 290px
 }
