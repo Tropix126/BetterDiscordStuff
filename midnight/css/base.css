@@ -5114,6 +5114,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .contentRegion-3nDuYy #bd-customcss-attach-controls {
 	background: rgba(255, 255, 255, .07);
 	box-shadow: none;
+	position:relative;
 	height: 55px
 }
 
@@ -5139,7 +5140,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .bd-detached-css-editor #bd-customcss-attach-controls button:last-of-type,
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:last-of-type {
 	position: absolute;
-	right: 5.5%
+	right: 15px;
 }
 
 .bd-detached-css-editor #bd-customcss-attach-controls button:last-of-type:hover:after,
