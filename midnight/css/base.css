@@ -8854,6 +8854,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
 .header-QKLPzZ {
 	height: 225px;
 	transform: none !important;
+	position:relative;
 }
 
 @keyframes bgScroll {
@@ -8904,16 +8905,27 @@ box-shadow: 0 6px 10px -8px var(--accent);
 .root-SR8cQa .header-QKLPzZ button {
 	position: absolute;
 	right: 10px;
-	margin-top: 70px;
+	bottom: 50px;
 	cursor: pointer;
 	background: var(--lv1) !important;
-	border-radius: 0;
 	border: 1px solid var(--accent) !important;
 	color: rgba(255, 255, 255, 0.8) !important;
 	font-size: 12px;
 	transition: border-color 0.2s, background-color 0.2s, color 0.2s;
 	box-shadow: 0 0 12px var(--lv1) !important;
 	z-index: 100;
+}
+
+.root-SR8cQa .header-QKLPzZ .headerInfo-30uryT + .flex-1xMQg5 button {
+	position:relative;
+	right:0;
+	bottom:0;
+}
+
+.root-SR8cQa .header-QKLPzZ .headerInfo-30uryT + .flex-1xMQg5 {
+	position:absolute;
+	right:10px;
+	bottom:50px;
 }
 
 .additionalActionsIcon-1FoUlE {
@@ -8928,7 +8940,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
 	z-index: 100;
 }
 
-.root-SR8cQa .header-QKLPzZ button:hover {
+#app-mount .root-SR8cQa .header-QKLPzZ button:hover {
 	background-color: var(--hover) !important;
 	border-color: var(--hover) !important;
 	color: #fff !important;
