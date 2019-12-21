@@ -6188,6 +6188,14 @@ li[data-name*=Midnight] .bda-version:after {
 	content: "abnf"
 }
 
+.hljs[class~=clojure i]::before {
+	content: "clojure"
+}
+
+.hljs[class~=objc i]::before {
+	content: "Object C"
+}
+
 .hljs[class~=javascript i],
 .hljs[class~=js i] {
 	--codeblockcolor: #165eab
@@ -6195,6 +6203,14 @@ li[data-name*=Midnight] .bda-version:after {
 
 .hljs[class~=1c i] {
 	--codeblockcolor: #703B30
+}
+
+.hljs[class~=objc i] {
+	--codeblockcolor: #0092db
+}
+
+.hljs[class~=clojure i] {
+	--codeblockcolor: #5cc70c
 }
 
 .hljs[class~=abnf i] {
@@ -6885,6 +6901,18 @@ li[data-name*=Midnight] .bda-version:after {
 
 .hljs[class~=perl i]::before {
 	content: "Perl"
+}
+
+.hljs[class~=d i]::before {
+	content: "Perl"
+}
+
+.hljs[class~=d i]::before {
+	content: "d"
+}
+
+.hljs[class~=d i] {
+	--codeblockcolor: #B03931
 }
 
 .hljs[class~=diff i] {
