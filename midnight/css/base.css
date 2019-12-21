@@ -6031,6 +6031,10 @@ li[data-name*=Midnight] .bda-version:after {
   box-sizing:border-box;
 }
 
+body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
+    content: 'Plain Text';
+}
+
 .markup-2BOw-j pre {
   position:relative;
   overflow:hidden;
