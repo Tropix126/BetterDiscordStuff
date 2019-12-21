@@ -193,11 +193,12 @@ a {
 
 .sidebar-CFHs9e {
     padding:40px 0;
-    width:auto;
+    width:100%;
 }
 
 .sidebarRegion-VFTUkN {
-    flex:unset;
+	flex:unset;
+	width:350px;
 }
 
 #bd-settings-sidebar .ui-tab-bar-header,
