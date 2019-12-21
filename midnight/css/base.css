@@ -3162,6 +3162,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   top:0 !important;
   padding-top:0;
 }
+
+.standardSidebarView-3F1I7i {
+    z-index:3002;
+}
+
 #app-mount .standardSidebarView-3F1I7i::before {
   content:'';
   position:fixed;
@@ -6044,6 +6049,7 @@ li[data-name*=Midnight] .bda-version:after {
   box-shadow:0 0 5px rgba(0,0,0,0.5);
   background:rgba(255,255,255,0.05);
 }
+
 .hljs[class~=javascript i]::before,
 .hljs[class~=js i]::before {
 	content: "Javascript"
