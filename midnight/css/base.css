@@ -6192,7 +6192,41 @@ li[data-name*=Midnight] .bda-version:after {
 }
 
 .hljs[class~=objc i]::before {
-	content: "Objective-C"
+	content: "objective-C"
+}
+
+.hljs[class~=yaml i]::before {
+	content: "YAML"
+}
+
+.hljs[class~=shell i]::before,
+.hljs[class~=sh i]::before {
+	content: "shell"
+}
+
+.hljs[class~=kotlin i]::before {
+	content: "kotlin"
+}
+
+.hljs[class~=apache i]::before {
+	content: "apache"
+}
+
+.hljs[class~=apache i] {
+	--codeblockcolor: #402a72
+}
+
+.hljs[class~=kotlin i] {
+	--codeblockcolor: #497bbc
+}
+
+.hljs[class~=shell i],
+.hljs[class~=sh i] {
+	--codeblockcolor: #99b9f9
+}
+
+.hljs[class~=yaml i] {
+	--codeblockcolor: #bob42b
 }
 
 .hljs[class~=javascript i],
@@ -6242,7 +6276,7 @@ li[data-name*=Midnight] .bda-version:after {
 }
 
 .hljs[class~=html i] {
-	--codeblockcolor: #16ab6f
+	--codeblockcolor: #f16529
 }
 
 .hljs[class~=xl i] {
@@ -6293,10 +6327,6 @@ li[data-name*=Midnight] .bda-version:after {
 
 .hljs[class~=go i] {
 	--codeblockcolor: #75cede
-}
-
-.hljs[class~=" ini"i] {
-	--codeblockcolor: #5a75c0
 }
 
 .hljs[class~=rust i] {
@@ -6874,11 +6904,13 @@ li[data-name*=Midnight] .bda-version:after {
 	content: "Difference"
 }
 
-.hljs[class~=cs i]::before {
+.hljs[class~=cs i]::before,
+.hljs[class~=csharp i]::before {
 	content: "CS"
 }
 
-.hljs[class~=ini i]::before {
+.hljs[class~=ini i]::before,
+.hljs[class~=toml i]::before {
 	content: "InItialization File"
 }
 
@@ -6922,7 +6954,8 @@ li[data-name*=Midnight] .bda-version:after {
 	--codeblockcolor: #f4b41c
 }
 
-.hljs[class~=ini i] {
+.hljs[class~=ini i],
+.hljs[class~=TOML i] {
 	--codeblockcolor: #5d91ff
 }
 
@@ -6932,10 +6965,6 @@ li[data-name*=Midnight] .bda-version:after {
 
 .hljs[class~=asciidoc i] {
 	--codeblockcolor: #5c87e2
-}
-
-.hljs[class~=TOML i] {
-	--codeblockcolor: #4dc7d9
 }
 
 .hljs[class~=nginx i] {
