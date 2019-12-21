@@ -7170,10 +7170,18 @@ li[data-name*=Midnight] .bda-version:after {
 }
 
 .header-2tA9Os .defaultColor-1_ajX0 {
-  font-size:18px;
   font-weight:500;
   text-transform:none;
   text-align:center;
+}
+
+.checked-3_4uQ9[style*="background-color: rgb(114, 137, 218)"] {
+    background:var(--accent) !important;
+}
+.medium-zmzTW-,
+.titleDefault-a8-ZSr,
+.header-2tA9Os .defaultColor-1_ajX0 {
+    font-size:var(--size1);
 }
 
 .close-1kwMUs {
