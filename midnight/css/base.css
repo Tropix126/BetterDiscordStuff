@@ -6035,6 +6035,7 @@ li[data-name*=Midnight] .bda-version:after {
   padding:0 4px;
   position:absolute;
   left:0;
+  text-align:right;
   padding-top:30px;
   line-height:1.125rem;
   height:calc(100% - 30px);
