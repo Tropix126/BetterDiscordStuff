@@ -1124,10 +1124,6 @@ a:hover .foreground-26ym5y {
 	background: rgba(255, 255, 255, .1)
 }
 
-.unreadMentionsIndicatorBottom-BXS58x {
-	bottom: 50px
-}
-
 .mention-1f5kbO {
 	background: var(--accent);
 	border-radius: 0;
@@ -4984,7 +4980,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .unreadMentionsIndicatorBottom-BXS58x {
-	bottom: 36px!important
+	bottom: 34px!important
 }
 
 .pill-31IEus {
