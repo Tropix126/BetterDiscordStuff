@@ -6184,15 +6184,15 @@ li[data-name*=Midnight] .bda-version:after {
 }
 
 .hljs[class~=abnf i]::before {
-	content: "abnf"
+	content: "ABNF"
 }
 
 .hljs[class~=clojure i]::before {
-	content: "clojure"
+	content: "Clojure"
 }
 
 .hljs[class~=objc i]::before {
-	content: "objective-C"
+	content: "Objective-C"
 }
 
 .hljs[class~=yaml i]::before {
@@ -6201,15 +6201,15 @@ li[data-name*=Midnight] .bda-version:after {
 
 .hljs[class~=shell i]::before,
 .hljs[class~=sh i]::before {
-	content: "shell"
+	content: "Shell"
 }
 
 .hljs[class~=kotlin i]::before {
-	content: "kotlin"
+	content: "Kotlin"
 }
-
+	
 .hljs[class~=apache i]::before {
-	content: "apache"
+	content: "Apache"
 }
 
 .hljs[class~=apache i] {
@@ -6226,7 +6226,7 @@ li[data-name*=Midnight] .bda-version:after {
 }
 
 .hljs[class~=yaml i] {
-	--codeblockcolor: #bob42b
+	--codeblockcolor: #0295a5
 }
 
 .hljs[class~=javascript i],
