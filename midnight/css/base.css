@@ -6193,7 +6193,7 @@ li[data-name*=Midnight] .bda-version:after {
 }
 
 .hljs[class~=objc i]::before {
-	content: "Object C"
+	content: "Objective-C"
 }
 
 .hljs[class~=javascript i],
