@@ -489,7 +489,9 @@ a:hover .foreground-26ym5y {
 	height: 30px;
 	backdrop-filter:blur(10px);
 	background: rgba(255, 255, 255, .03);
-	width: 100%
+	width: 100%;
+	z-index:1;
+    position:relative;
 }
 
 .avatar-17mtNa {
