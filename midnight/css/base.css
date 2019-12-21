@@ -187,14 +187,17 @@ a {
 #app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd,
 .sidebarRegionScroller-3MXcoP {
 	justify-content: center;
-	margin-left: -62px
+	margin:0;
+	padding:0 20px;
 }
 
-#bd-settings-sidebar .ui-tab-bar-header,
-#bd-settings-sidebar .ui-tab-bar-item,
-.side-8zPYf6 .header-2RyJ0Y,
-.side-8zPYf6 .item-PXvHYJ {
-	width: 300px
+.sidebar-CFHs9e {
+    padding:40px 0;
+    width:auto;
+}
+
+.sidebarRegion-VFTUkN {
+    flex:unset;
 }
 
 #bd-settings-sidebar .ui-tab-bar-header,
