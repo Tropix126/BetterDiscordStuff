@@ -6589,6 +6589,10 @@ li[data-name*=Midnight] .bda-version:after {
 	padding: 3px
 }
 
+.layerContainer-yqaFcK {
+	z-index:3002;
+}
+
 .popout-3sVMXz section {
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .06), 0 0 3px #000!important;
 	margin-top: -7px!important;
@@ -8325,10 +8329,8 @@ div[style*="opacity: 1; height: 56px;"] {
 }
 
 .container-VSDcQc .header-2bNvm4,
-.positionTop-3e-X1p .sectionTag-pXyto9 {
+.container-VSDcQc .sectionTag-pXyto9 {
 	background: var(--lv1)!important;
-	margin: 6px;
-	margin-right: 30px
 }
 
 .container-VSDcQc .header-2bNvm4 {
@@ -8344,10 +8346,8 @@ div[style*="opacity: 1; height: 56px;"] {
 	padding: 3px
 }
 
-.positionTop-3e-X1p .sectionTag-pXyto9 {
-	box-shadow: inset 0 0 450px rgba(255, 255, 255, .06), 0 0 3px #000!important;
-	margin-top: -7px!important;
-	margin-bottom: -7px!important
+.container-VSDcQc .sectionTag-pXyto9 {
+	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 3px #000!important;
 }
 
 .friendnotifications-dnd-toast,
