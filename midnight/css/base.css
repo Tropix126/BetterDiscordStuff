@@ -1443,7 +1443,14 @@ a:hover .foreground-26ym5y {
 }
 
 .imageWrapper-2p5ogY {
-	border-radius: 0
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+    transition: 200ms cubic-bezier(0.2, 0, 0, 1) !important;
+    background: rgba(255,255,255,0.075);
+	border-radius: 0;
+}
+
+.imageWrapper-2p5ogY {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .newMessagesBar-mujexs {
