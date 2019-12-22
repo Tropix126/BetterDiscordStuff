@@ -9,7 +9,8 @@
 |__/     |__/|__/ \_______/|__/  |__/|__/ \____  $$|__/  |__/   \___/
                                          /$$  \ $$
                                         |  $$$$$$/
-                                         \______/
+										 \______/
+								 By Tropical
 */
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/fonts.css);
 @import url(https://bdsources.github.io/sourcecheck/code.css);
@@ -30,7 +31,7 @@
 	--roundness: var(--user-roundness);
 	--theme-name: 'Midnight';
 	--theme-long-name: 'Midnight UI';
-	--theme-version: '2.6';
+	--theme-version: '2.6.1';
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
@@ -238,7 +239,6 @@ a {
 }
 
 .faded-3bns_w,
-.h5-18_1nd,
 .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
 	color: var(--accent);
 	font-size: 14px;
@@ -543,13 +543,6 @@ a:hover .foreground-26ym5y {
 
 .messageCozy-2JPAPA:last-of-type:not(:only-of-type) {
 	margin-bottom: -20px
-}
-
-#app-mount .footer-1kmXd4,
-#app-mount .wrapper-35wsBm {
-	border-radius: 0;
-	border: none;
-	background: rgba(255, 255, 255, .05)
 }
 
 .channelTextArea-rNsIhG {
@@ -1422,24 +1415,6 @@ a:hover .foreground-26ym5y {
 	border-radius: 0;
 	box-shadow: 0 0 12px rgba(255, 255, 255, .1);
 	text-shadow: 0 0 12px
-}
-
-.status-2L8Zc7 {
-	border-radius: 0
-}
-
-.wrapper-35wsBm {
-	margin-bottom: 5px;
-	padding: 10px
-}
-
-#app-mount .guildIconImage-3qTk45 {
-	border-radius: 0;
-	background-color: rgba(255, 255, 255, .1)
-}
-
-.wrapper-35wsBm .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-	margin-left: 20px
 }
 
 .imageWrapper-2p5ogY {
@@ -2889,17 +2864,6 @@ body .bd-toasts {
 	min-width: 28px!important
 }
 
-.markup-2BOw-j code.inline,
-.spoilerText-3p6IlD.hidden-HHr2R9,
-.spoilerWarning-2aAZq1 {
-	background: var(--lv1)!important;
-	border-radius: 0
-}
-
-.markup-2BOw-j code.inline {
-	box-shadow: 0 0 12px #000
-}
-
 .unreadBar-3YD_k9 {
 	background: var(--hover)!important;
 	border-radius: 0;
@@ -3089,6 +3053,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	background: var(--accent)!important;
 	border-radius: 0!important;
 	box-shadow: 0 0 12px var(--accent)
+}
+
+.actionButtons-14P9IC,
+.actionButtons-1sUUug {
+  z-index:100;
 }
 
 .search-2oPWTC * {
@@ -6266,7 +6235,7 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 }
 
 .hljs[class~=1c i]::before {
-  content: "1c"
+  content: "1c";
   --codeblockcolor: #703B30;
 }
 
@@ -8697,12 +8666,86 @@ div[style*="opacity: 1; height: 56px;"] {
 
 .embed-IeVjo6 {
 	border-radius: 0;
-	border-left-width: 4px;
 }
 
-.grid-1nZz7S {
-	border: 1px solid rgba(255, 255, 255, 0.15);
-	border-left: none !important;
+#app-mount .embed-IeVjo6 .embedAuthorNameLink-1gVryT {
+  color:rgba(255,255,255,0.8);
+  text-shadow:none;
+}
+
+#app-mount .embed-IeVjo6 a code.inline {
+  color:var(--online);
+}
+
+/*Embeds*/
+
+.embedFull-2tM8--,
+.markup-2BOw-j code.inline,
+.wrapper-35wsBm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0,.35);
+  background-color: rgba(0, 0, 0, .35);
+  backdrop-filter:blur(10px);
+  border-left-width:2px;
+  border-radius:0;
+  box-sizing:border-box;
+  position:relative;
+  overflow:hidden;
+}
+
+.spoilerText-3p6IlD.hidden-HHr2R9 {
+	filter:blur(2.5px);
+	transition:150ms ease filter;
+	background:transparent;
+}
+  
+.spoilerText-3p6IlD {
+	background:transparent !important;
+}
+  
+.spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {
+	opacity:1;
+}
+
+.wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY {
+  box-shadow:none;
+}
+
+.wrapper-35wsBm .guildIconImage-3qTk45 {
+  overflow:visible;
+  position:initial;
+}
+
+.h5-18_1nd {
+  font-weight:600;
+  color:rgba(255,255,255,0.75)
+}
+
+.wrapper-35wsBm .guildIconImage-3qTk45::after {
+  content:'';
+  background-image:inherit;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+  opacity:.1;
+  filter:blur(15px);
+  background-size:100%;
+  background-position:center;
+  transition:transform 150ms ease;
+}
+
+.wrapper-35wsBm:hover .guildIconImage-3qTk45::after {
+  transform:scale(1.05);
+}
+
+.guildIconExpired-2Qcq05 {
+  display:none;
+}
+
+.embedFull-2tM8--[style*="rgb(114, 137, 218)"] {
+  border-color:var(--hover) !important;
 }
 
 .searchResult-3pzFAB:not(.expanded-v2Szsz) .searchResultMessage-2VxO12.before-1x1q5S,
