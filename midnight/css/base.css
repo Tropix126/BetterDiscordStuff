@@ -9171,6 +9171,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
 	opacity: .85;
 	background: var(--lv1);
 	pointer-events: none;
+	backdrop-filter:blur(7px);
 }
 
 #app-mount .uploadModal-2ifh8j:before  {
