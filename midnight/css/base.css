@@ -8574,10 +8574,13 @@ div[style*="opacity: 1; height: 56px;"] {
   backdrop-filter:blur(10px);
   border-left-width:2px;
   border-radius:0;
-  border:none;
   box-sizing:border-box;
   position:relative;
   overflow:hidden;
+}
+
+#app-mount .invite-18yqGF {
+	border:none;
 }
 
 .partyAvatar-34PPpo {
