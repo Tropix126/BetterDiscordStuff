@@ -4213,7 +4213,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ {
 	background: var(--accent);
 	border-radius: 0;
-	box-shadow: 0 0 12px var(--accent)
+}
+
+.uploadModal-2ifh8j ::-webkit-scrollbar {
+	display:none !important;
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K {
