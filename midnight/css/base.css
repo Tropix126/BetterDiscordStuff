@@ -9144,7 +9144,9 @@ box-shadow: 0 6px 10px -8px var(--accent);
 .modal-yWgWj-:before,
 .inner-1ilYF7 .imageWrapper-2p5ogY:before,
 .slide-2pHaq5:before,
-.inner-1ilYF7 .theme-light:before {
+.inner-1ilYF7 .theme-light:before,
+.quickswitcher-3JagVE:before,
+.regionSelectModal-12e-57:before {
 	content: '';
 	z-index: -1;
 	position: fixed;
