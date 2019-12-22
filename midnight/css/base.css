@@ -6014,18 +6014,17 @@ li[data-name*=Midnight] .bda-version:after {
 	color: #fff;
 	font-size: 12px;
 	font-weight: 450;
-  padding:0 10px;
+  padding:0 30px;
   line-height:0;
 	position: absolute;
   display: flex;
   align-items:center;
-	font-family: Whitney!important;
-	background-color: var(--codeblockcolor)!important;
+	font-family: Whitney;
+	background-color: var(--codeblockcolor);
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==)!important;
-	background-size: 15px!important;
-	background-position: 8px center!important;
-	background-repeat: no-repeat!important;
-	text-indent: 20px!important;
+	background-size: 15px;
+	background-position: 8px center;
+	background-repeat: no-repeat;
 	border-top: 2px solid rgba(255,255,255,0.1);
   box-shadow: 0 0 12px rgba(0,0,0,0.5);
   box-sizing:border-box;
@@ -6481,6 +6480,16 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
   --codeblockcolor: #77a805;
 }
 
+.hljs[class~="armasm" i]::before {
+	content: "Arm Assembly";
+	--codeblockcolor: #b44142;
+}  
+
+.hljs[class~="asm" i]::before,
+.hljs[class~="assembly" i]::before {
+	content: "Assembly";
+	--codeblockcolor: #25344c;
+} 
 
 .hljs-selector-tag {
 	color: #b2ccd6!important
