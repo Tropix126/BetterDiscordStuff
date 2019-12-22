@@ -664,6 +664,10 @@ a:hover .foreground-26ym5y {
 	background: var(--lv1)
 }
 
+.activityText-OW8WYb {
+    max-width:175px;
+}
+
 .addButtonIcon-3u-3Hu,
 .wrapper-KpKNwI .foreground-2W-aJk {
 	opacity: 1
