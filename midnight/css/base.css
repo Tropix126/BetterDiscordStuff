@@ -5993,7 +5993,8 @@ li[data-name*=Midnight] .bda-version:after {
   position:relative;
   box-sizing:border-box;
   padding-left:32px !important;
-  padding-bottom:2px;
+  padding-right:.25em !important;
+  padding-bottom:.25em;
   padding-top:30px !important;
   border-radius: 0;
   border: none!important;
