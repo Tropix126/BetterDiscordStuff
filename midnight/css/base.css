@@ -7325,8 +7325,8 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
   left:0;
   width:100%;
   height:2px;
-  background:var(--online);
-  box-shadow:0 0 12px var(--online);
+  background:var(--accent);
+  box-shadow:0 0 12px var(--accent);
 }
 
 .header-2tA9Os,
@@ -8816,6 +8816,7 @@ svg[name="RichActivity"] {
 
 .modal-3c3bKg {
 	transform: none !important;
+	z-index:9999 !important;
 }
 
 .backdrop-1wrmKB {
