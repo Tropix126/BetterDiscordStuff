@@ -9506,7 +9506,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   content:'';
   background:var(--idle);
   position:absolute;
-  right:0;
+  left:0;
   top:0;
   height:100%;
   width:2px;
