@@ -186,11 +186,14 @@ a {
 	margin-top: 9px
 }
 
-#app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd,
-.sidebarRegionScroller-3MXcoP {
+#app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd {
 	justify-content: center;
 	margin:0;
 	padding:0 20px;
+}
+
+.layer-3QrUeG[aria-label*="GUILD_SETTINGS"] .sidebarRegion-VFTUkN {
+	width:350px;
 }
 
 .sidebar-CFHs9e {
@@ -200,7 +203,6 @@ a {
 
 .sidebarRegion-VFTUkN {
 	flex:unset;
-	width:350px;
 }
 
 #bd-settings-sidebar .ui-tab-bar-header,
