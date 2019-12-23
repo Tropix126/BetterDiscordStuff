@@ -2665,10 +2665,6 @@ body .bd-toasts {
   padding:0;
 }
 
-.label-JWQiNe {
-	text-align:left;
-}
-
 .menu-Sp6bN1 {
   width:180px;
   left:8px;
@@ -2747,6 +2743,10 @@ body .bd-toasts {
   opacity:.5;
   cursor:default;
   pointer-events:none;
+}
+
+.item-2J1YMK {
+	text-align:left;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:hover,
