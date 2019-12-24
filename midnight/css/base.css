@@ -6768,6 +6768,11 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	z-index:9999;
 }
 
+.popout-2iWAc-,
+.popouts-2bnG9Z {
+    z-index: 99999 !important;
+}
+
 .popout-3sVMXz section {
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .06), 0 0 3px #000!important;
 	margin-top: -7px!important;
@@ -8361,7 +8366,8 @@ div[style*="opacity: 1; height: 56px;"] {
 }
 
 .backdropWithLayer-3_uhz4 {
-	background: var(--lv1)!important
+	background: var(--lv1)!important;
+	backdrop-filter:blur(8px);
 }
 
 .role-2irmRk:not(:hover) .roleRemoveIcon-2-TeGW {
@@ -8830,6 +8836,7 @@ svg[name="RichActivity"] {
 }
 
 .root-SR8cQa {
+	border-left: 1px solid rgba(255,255,255,0.1);
 	position: fixed;
 	right:0;
 	height: calc(100vh - 70px);
