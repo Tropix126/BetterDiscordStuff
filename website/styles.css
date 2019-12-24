@@ -79,6 +79,15 @@ body {
     background-image:url(img/mcons.png);
 }
 
+.usrbg {
+    background-image:url(img/usrbg.png);
+}
+
+.bdsources {
+    background-image:url(img/bdsources.svg);
+}
+
+
 #header {
     font-family:'acumin-pro', sans-serif;
     color:#fff;
@@ -89,10 +98,19 @@ body {
 
 #subtext {
     font-family:'acumin-pro', sans-serif;
-    color:#fff;
+    color:#b5b5b5;
     font-size:16px;
     font-weight:300;
     transition:250ms ease padding;
+}
+
+.discont {
+    font-family:'acumin-pro', sans-serif;
+    color:#f04747;
+    font-size:12px;
+    font-weight:500;
+    margin-left:4px;
+    display:inline-block;
 }
 
 .project:nth-child(1) {
@@ -127,10 +145,6 @@ body {
 .project:hover #subtext,
 .project:hover #header {
     padding-left:25px;
-}
-
-.project:active {
-    background:rgba(25,115,211,0.25);
 }
 
 .link-button {
