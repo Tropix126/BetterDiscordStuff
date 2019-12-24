@@ -1,0 +1,170 @@
+@import url("https://use.typekit.net/uxr0xoa.css");
+::-webkit-scrollbar {
+    display:none;
+}
+
+svg {
+    fill:currentColor;
+}
+
+body {
+    margin:0;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+    background:#121212;
+    backface-visibility: hidden;
+}
+
+@keyframes load {
+    0% {
+        transform:translateX(-30%);
+        opacity:.5;
+    }
+    100% {
+        transform:none;
+        opacity:1;
+    }
+}
+
+#projects {
+    width:100%;
+    height:100%;
+    display:block;
+    position:absolute;
+}
+
+.project {
+    height:25%;
+    width:100%;
+    position:relative; 
+    background:rgba(0,0,0,0.45); 
+    display:block;
+    padding:25px;
+    text-decoration:none;
+    animation:load 1s ease backwards;
+    overflow:hidden;
+}
+
+.project .background {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    transform:scale(1.025);
+    transition:250ms ease transform, 250ms ease background-color;
+}
+
+.midnight {
+    background-image:url(img/midnight.png);
+}
+
+.aurora {
+    background-image:url(img/aurora.png);
+}
+
+.blackbox {
+    background-image:url(img/blackbox.png);
+}
+
+.friendgrid {
+    background-image:url(img/friendgrid.png);
+}
+
+.materialcons {
+    background-image:url(img/mcons.png);
+}
+
+#header {
+    font-family:'acumin-pro', sans-serif;
+    color:#fff;
+    font-size:48px;
+    font-weight:700;
+    transition:250ms ease padding;
+}
+
+#subtext {
+    font-family:'acumin-pro', sans-serif;
+    color:#fff;
+    font-size:16px;
+    font-weight:300;
+    transition:250ms ease padding;
+}
+
+.project:nth-child(1) {
+    animation-delay:200ms;
+}
+
+.project:nth-child(2) {
+    animation-delay:400ms;
+}
+
+.project:nth-child(3) {
+    animation-delay:600ms;
+}
+
+.project:nth-child(4) {
+    animation-delay:800ms;
+}
+
+.project:nth-child(5) {
+    animation-delay:1s;
+}
+
+.project:hover {
+    background:rgba(0,0,0,0.65);
+    transition:350ms ease background;
+}
+
+.project:hover .background {
+    transform:scale(1.05);
+}
+
+.project:hover #subtext,
+.project:hover #header {
+    padding-left:25px;
+}
+
+.project:active {
+    background:rgba(25,115,211,0.25);
+}
+
+.link-button {
+    position:absolute;
+    right:50px;
+    height:100%;
+    width:15%;
+    top:0;
+    background:#121212;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:0;
+    transform:translateX(25%) scaleX(.75);
+    transform-origin:right;
+}
+
+.link-button svg {
+    display:block;
+    width:25%;
+    height:25%;
+    color:#fff;
+}
+
+.project:hover .link-button {
+    transform:none;
+    opacity:1;
+    transition:250ms ease;
+}
+
+.link-button:hover {
+    background:#242424;
+}
+
+.link-button:active {
+    background:#464646;
+}
