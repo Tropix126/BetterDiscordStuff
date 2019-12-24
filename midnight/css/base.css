@@ -7269,6 +7269,29 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	padding:0 10px;
 }
 
+.button-14-BFJ[aria-label^="Mute"] svg,
+.button-14-BFJ[aria-label^="Deafen"] svg {
+    display:none;
+}
+
+.button-14-BFJ[aria-label^="Mute"] .contents-18-Yxp,
+.button-14-BFJ[aria-label^="Deafen"] .contents-18-Yxp {
+    display:flex;
+    align-items:center;
+}
+
+.button-14-BFJ[aria-label^="Deafen"] .contents-18-Yxp:before {
+    content:'volume_up';
+    font-family:'Material Icons';
+    font-size:20px;
+}
+
+.button-14-BFJ[aria-label^="Mute"] .contents-18-Yxp:before {
+    content:'mic';
+    font-family:'Material Icons';
+    font-size:20px;
+}
+
 .membersWrap-2h-GB4 .scrollerWrap-2lJEkd::after {
   content:'';
   width:100%;
