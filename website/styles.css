@@ -114,23 +114,31 @@ body {
 }
 
 .project:nth-child(1) {
-    animation-delay:200ms;
+    animation-delay:.2s;
 }
 
 .project:nth-child(2) {
-    animation-delay:400ms;
+    animation-delay:.4s;
 }
 
 .project:nth-child(3) {
-    animation-delay:600ms;
+    animation-delay:.6s;
 }
 
 .project:nth-child(4) {
-    animation-delay:800ms;
+    animation-delay:.8s;
 }
 
 .project:nth-child(5) {
     animation-delay:1s;
+}
+
+.project:nth-child(6) {
+    animation-delay:1.2s;
+}
+
+.project:nth-child(7) {
+    animation-delay:1.4s;
 }
 
 .project:hover {
