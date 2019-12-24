@@ -837,7 +837,6 @@ a:hover .foreground-26ym5y {
 
 .botTagRegular-2HEhHi {
 	border-radius: 0;
-	box-shadow: 0 0 12px 1px var(--accent);
 	background: var(--accent)
 }
 
@@ -9668,20 +9667,10 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 
 .membersWrap-2h-GB4 .botTagRegular-2HEhHi {
-    width:20px;
-    height:20px;
-    font-size:0;
-    padding:0;
     display:flex;
     align-items:center;
     justify-content:center;
     line-height:normal;
-}
-.membersWrap-2h-GB4 .botTagRegular-2HEhHi:after {
-    content:'power';
-    text-transform:none;
-    font-family:'Material Icons';
-    font-size:16px;
 }
 
 .subText-1KtqkB {
