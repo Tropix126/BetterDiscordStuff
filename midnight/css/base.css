@@ -9787,3 +9787,33 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .guildPopout-3CgKqR .guildIconBase-2U7aA8 {
     margin:15px 0;
 }
+
+/*temp christmas thing*/
+
+@keyframes welcomeMessage {
+	from {transform: translate(-50%, -100%);}
+  
+	20% {transform: translate(-50%, 20%);}
+  
+	80% {transform: translate(-50%, 20%);}
+  
+	to {transform: translate(-50%, -100%);}
+}
+body:before {
+    content: "Merry Christmas!";
+    z-index:3002;
+    color: black;
+    font-weight:600;
+    background-color: red;
+    background-image: linear-gradient(45deg, #dbdbdb 25%, transparent 25.5%, transparent 50%, #dbdbdb 50.5%, #dbdbdb 75%, transparent 75.5%, transparent);
+    background-size: 20px 20px;
+    top: 0;
+    left: 50%;
+    position: fixed;
+    padding: 5px 15px;
+    transform: translate(-50%, -100%);
+    animation: welcomeMessage 3s ease;
+    animation-delay: 4s;
+    font-family:'Whitney';
+    text-shadow:0 0 12px black;
+}
