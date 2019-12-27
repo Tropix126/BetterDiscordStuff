@@ -5895,6 +5895,10 @@ li[data-name*=Midnight] .bda-version:after {
 	background: rgba(255, 255, 255, .02)
 }
 
+.noticeRegion-1YviSH {
+	z-index:10;
+}
+
 .container-2VW0UT {
 	background: var(--lv1)!important;
 	border-radius: 0;
