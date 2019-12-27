@@ -8672,6 +8672,11 @@ div[style*="opacity: 1; height: 56px;"] {
   -webkit-mask:none !important;
 }
 
+#app-mount .wrapper-35wsBm .guildIconImage-3qTk45 {
+    margin-right:15px !important;
+    display:block;
+}
+
 .partyMemberEmpty-2iyh5g,
 .moreUsers-1sZP3U {
   background:rgba(255,255,255,0.075) !important;
