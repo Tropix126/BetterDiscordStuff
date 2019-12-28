@@ -1584,6 +1584,10 @@ a:hover .foreground-26ym5y {
     margin-right:5px;
 }
 
+.chatContent-a9vAAp:only-child .inner-MADQqc {
+    padding-right:125px;
+}
+
 .buttons-3JBrkn .buttonContainer-21MN7J,
 .buttons-3JBrkn button {
     width:42px;
@@ -5839,7 +5843,7 @@ body #ace_settingsmenu {
 }
 
 .privateChannels-1nO12o .scroller-2FKFPG {
-	margin-top: 10px
+	padding-top: 10px
 }
 
 li[data-name*=Midnight] .bda-name {
@@ -9352,10 +9356,6 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .bd-backdrop {
   background:var(--lv1) !important;
-}
-
-.content-yTz4x3 .chatContent-a9vAAp:only-child .inner-zqa7da {
-    padding-right: 150px;
 }
 
 #bda-qem button {
