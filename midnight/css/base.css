@@ -1577,7 +1577,7 @@ a:hover .foreground-26ym5y {
 	z-index: 100;
 	bottom: 0;
 	height: 52px;
-	    display:flex;
+	display:flex;
     justify-content:center;
 	align-items:center;
     top:unset;
@@ -2699,7 +2699,7 @@ body .bd-toasts {
 .layer-v9HyYc[style*="left: 102px;"] .menu-Sp6bN1,
 .layer-v9HyYc[style*="left: 101px;"] .menu-Sp6bN1,
 .layer-v9HyYc[style*="left: 100px;"] .menu-Sp6bN1 {
-  margin-left:-40px;
+  margin-left:-38px;
   width:256px;
   left:0;
 }
