@@ -6984,19 +6984,20 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 
 .attachment-33OFj0 {
 	border-radius: 0!important;
-	box-shadow: 0 2px 12px var(--lv1), inset 0 0 1000px rgba(255, 255, 255, .1)!important;
+	box-shadow: 0 4px 15px var(--lv1), inset 0 0 1000px rgba(255, 255, 255, .1)!important;
 	padding: 15px;
 	max-width: 375px;
 	border: none!important;
 	background: var(--lv1)!important;
-	position: relative
+	position: relative;
+	overflow:hidden;
 }
 
 .attachmentInner-3vEpKt::before {
 	content: '';
 	display: flex;
 	top: 42px;
-	left: -61px;
+	left: -62px;
 	background: rgba(255, 255, 255, .05);
 	position: relative;
 	width: 50px!important;
