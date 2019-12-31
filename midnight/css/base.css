@@ -6592,9 +6592,10 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 }
 
 .base-34jWEe {
-	border: 1px solid #43b581!important;
+	border: 2px solid #43b581!important;
 	height: 48px;
 	padding:0;
+	border-radius:2px;
 	margin: 15px 25px;
 	background: rgba(67, 181, 129, .25);
 	background-image: none!important
