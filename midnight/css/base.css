@@ -3742,7 +3742,6 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   text-transform: capitalize;
   color: rgba(255, 255, 255, .5)!important;
   height:28px;
-  display:flex;
   align-items:center;
   justify-content:flex-start;
   position:absolute;
@@ -3755,6 +3754,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	backdrop-filter:blur(10px);
   text-align:left;
   z-index:1;
+}
+
+.userPopout-3XzG_A .headerTag-2pZJzA span + span {
+	line-height:normal;
 }
 
 .userPopout-3XzG_A .username-2b1r56 {
