@@ -836,13 +836,14 @@ a:hover .foreground-26ym5y {
 }
 
 .botTagRegular-2HEhHi {
-	border-radius: 0;
+	border-radius: 2px;
 	background: var(--accent)
 }
 
 .botTagInvert-18-95s {
-	border-radius: 0;
-	color: var(--accent)
+	border-radius: 2px;
+	color: var(--accent);
+	font-size: .8em;
 }
 
 .chat-3bRxxu form .typing-2GQL18 {
@@ -1127,17 +1128,6 @@ a:hover .foreground-26ym5y {
 	background: rgba(255, 255, 255, .1)
 }
 
-.mention-1f5kbO {
-	background: var(--accent);
-	border-radius: 0;
-	padding-left: 3px;
-	padding-right: 3px
-}
-
-.mention-1f5kbO:hover {
-	background: var(--hover)
-}
-
 .scroller-2TZvBN {
 	padding-bottom: 50px;
 	contain:none;
@@ -1413,6 +1403,10 @@ a:hover .foreground-26ym5y {
 	border-radius: 0;
 	box-shadow: 0 0 12px rgba(255, 255, 255, .1);
 	text-shadow: 0 0 12px
+}
+
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    background:var(--accent);
 }
 
 .imageWrapper-2p5ogY {
@@ -3820,6 +3814,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
   content:'Dev';
   position:absolute;
   right:10px;
+  border-radius:2px;
   color: var(--accent);
   font-size: .8em;
   font-weight: 500;
@@ -9832,4 +9827,17 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 /*Custom status clear modal*/
 .emoji-MCvpgl {
 	background:var(--lv1);
+}
+
+.title-3qD0b- .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    margin:0 8px;
+    border-radius:2px !important;
+}
+
+.unreadMentionsIndicatorTop-gA6RCh .bar-30k2ka {
+    border-radius:0 0 3px 3px;
+}
+
+.unreadMentionsIndicatorBottom-BXS58x .bar-30k2ka {
+    border-radius:3px 3px 0 0;
 }
