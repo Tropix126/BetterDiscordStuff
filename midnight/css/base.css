@@ -3402,7 +3402,8 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 .placeholder-37qJjk,
 .slateTextArea-1Mkdgw {
-    left:5px;
+	left:5px;
+	padding:0;
 }
 
 .innerDisabled-1YTFPN::before {
