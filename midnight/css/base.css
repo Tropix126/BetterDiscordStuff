@@ -5554,11 +5554,6 @@ body #ace_settingsmenu {
 	font-size: 0
 }
 
-.unreadBottom-3hWQ7c {
-	bottom: 32px;
-	z-index: 1!important
-}
-
 .messagesWrapper-3lZDfY::after {
 	content: '';
 	position: absolute;
@@ -7649,11 +7644,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	border-radius: 0;
 	box-shadow: 0 0 12px #f04747;
 	text-shadow: 0 0 12px
-}
-
-.unreadBottom-3hWQ7c {
-	bottom: 58px;
-	right: 3px
 }
 
 .folderIconWrapper-226oVY[style="background-color: rgba(114, 137, 218, 0.2);"] {
