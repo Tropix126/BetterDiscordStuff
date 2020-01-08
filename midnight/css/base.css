@@ -9153,7 +9153,6 @@ box-shadow: 0 6px 10px -8px var(--accent);
   height:calc(100% + 1px);
   background:url(https://i.imgur.com/VJMyFAR.png);
   background-color:var(--accent);
-  z-index:-1;
   opacity:.4;
   animation:bgScroll 60s linear infinite;
 }
