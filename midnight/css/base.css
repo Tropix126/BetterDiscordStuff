@@ -7217,7 +7217,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	height: 20px;
 	background: var(--lv1)!important;
 	box-shadow: 0 0 12px var(--lv1);
-	margin-bottom: 27px;
 	border-bottom: 2px solid var(--accent)
 }
 
@@ -8005,12 +8004,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	opacity: 1
 }
 
-.container-1giJp5 {
-	position: absolute;
-	width: 248px;
-	bottom: 24px
-}
-
 .container-1giJp5 .button-14-BFJ {
 	width: 35px;
 	background: 0 0!important;
@@ -8324,12 +8317,7 @@ div[style*="opacity: 1; height: 56px;"] {
 .panel-24C3ux {
 	box-shadow:0 0 12px var(--lv1), inset 0 0 0 100vmax rgba(255,255,255,0.07);
 	position: relative;
-	bottom: 50px;
 	background: var(--lv1)
-}
-
-.panel-24C3ux+.container-1giJp5 {
-	bottom: 72px
 }
 
 .theme-light .modal-yWgWj-,
