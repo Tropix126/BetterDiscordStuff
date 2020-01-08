@@ -8327,7 +8327,7 @@ div[style*="opacity: 1; height: 56px;"] {
 .wumpusWrapper-yrvoR3 {
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	margin: 0;
 	width: 75px;
 	height: 75px
@@ -8352,13 +8352,13 @@ div[style*="opacity: 1; height: 56px;"] {
 
 #app-mount .wumpusTooltip-65YlMT::before {
 	content: 'New';
-	font-size: 14px;
+	font-size: var(--size2);
 	color: #fff;
 	position: relative;
-	transform: rotate(-45deg);
+	transform: rotate(45deg);
 	transform-origin: center;
 	top: 12px;
-	left: 12px
+	left: -12px
 }
 
 #app-mount .wumpusTooltip-65YlMT {
@@ -8373,7 +8373,7 @@ div[style*="opacity: 1; height: 56px;"] {
 	display: flex;
 	justify-content: center;
 	border-radius: 0;
-	clip-path: polygon(50% 0, 100% 0, 0 100%, 0 50%)
+	clip-path: polygon(0% 0%, 50% 0, 100% 50%, 100% 100%);
 }
 
 #app-mount .root-1gCeng {
