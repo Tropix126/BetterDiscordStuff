@@ -7289,7 +7289,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	width: 330px;
 	margin-left: -60px;
 	background: var(--lv1);
-	position: absolute;
 	z-index: 1000;
 	bottom: 0;
 	box-shadow:	inset 0 0 0 100vmax rgba(255, 255, 255, .07),0 -10px 10px -10px var(--lv1);
@@ -7842,10 +7841,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	box-shadow: 0 0 12px var(--accent)
 }
 
-.sidebar-2K8pFh .scrollerWrap-2lJEkd {
-	margin-bottom: 50px
-}
-
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq {
 	border-radius: 0!important
@@ -7945,15 +7940,14 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 }
 
 .panels-j1Uci_ .avatarWrapper-2yR4wp {
-	position: fixed;
-	top: 35px;
+	position: absolute;
+	top: -2px;
 	right: 0;
+	height:40px;
 	padding-left: 30px;
 	z-index: 1;
-}
-
-.platform-linux .panels-j1Uci_ .avatarWrapper-2yR4wp {
-    top:5px;
+	display:flex;
+	align-items:center;
 }
 
 .panels-j1Uci_ .avatarWrapper-2yR4wp .wrapper-3t9DeA {
@@ -7967,10 +7961,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 
 .panels-j1Uci_ {
 	z-index: 101
-}
-
-.bd-detached-editor .panels-j1Uci_ .avatarWrapper-2yR4wp {
-	right: 30%!important
 }
 
 .panels-j1Uci_ .wrapper-3t9DeA::after {
@@ -8003,7 +7993,7 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 .panels-j1Uci_ .wrapper-3t9DeA::before {
 	content: '';
 	width: 3px;
-	height: 51px;
+	height: 50px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
