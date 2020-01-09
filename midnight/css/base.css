@@ -15,7 +15,7 @@
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/fonts.css);
 @import url(https://bdsources.github.io/sourcecheck/code.css);
 @import url(https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css);
-@import url(https://discord-custom-covers.github.io/usrbg/bd/snippets/userPopouts.css);
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 @import url(https://monstrousdev.github.io/themes/addons/user-tags.css);
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/status.css);
 
