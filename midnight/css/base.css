@@ -190,6 +190,10 @@ a {
 #app-mount .sidebarRegion-VFTUkN .scrollerWrap-2lJEkd {
 	justify-content: center;
 	margin:0;
+	padding:0;
+}
+
+.sidebarRegionScroller-3MXcoP {
 	padding:0 20px;
 }
 
