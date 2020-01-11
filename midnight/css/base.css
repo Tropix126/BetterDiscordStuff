@@ -197,12 +197,8 @@ a {
 	padding:0 20px;
 }
 
-.layer-3QrUeG[aria-label*="GUILD_SETTINGS"] .sidebarRegion-VFTUkN {
-	width:350px;
-}
-
 .sidebar-CFHs9e {
-    padding:40px 0;
+    padding:20px 0;
     width:100%;
 }
 
@@ -219,7 +215,14 @@ a {
 }
 
 #app-mount .side-8zPYf6 .header-2RyJ0Y:first-child {
-	margin-top: 0
+	margin-top: 0;
+	border: none;
+    color: #fff !important;
+    text-align: left;
+    font-size: 24px;
+    padding: 25px 10px;
+    text-transform: none;
+    font-weight: 600;
 }
 
 .button-38aScr {
