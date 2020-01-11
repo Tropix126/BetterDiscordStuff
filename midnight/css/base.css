@@ -9,8 +9,8 @@
 |__/     |__/|__/ \_______/|__/  |__/|__/ \____  $$|__/  |__/   \___/
                                          /$$  \ $$
                                         |  $$$$$$/
-										 \______/
-								 By Tropical
+					\______/
+		              	 By Tropical
 */
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/fonts.css);
 @import url(https://bdsources.github.io/sourcecheck/code.css);
@@ -8787,11 +8787,7 @@ svg[name="RichActivity"] {
 	box-shadow: 0 0 12px #f04747;
 }
 
-.modal-3c3bKg .theme-light::after {
-	display: none;
-}
-
-.theme-light::after {
+html.theme-light::after {
 	content: 'Midnight does not support light mode. Disable in Settings > Appearance > Dark Mode';
 	position: fixed;
 	font-family: 'Whitney';
