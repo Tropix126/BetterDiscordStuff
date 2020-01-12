@@ -7362,10 +7362,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	box-shadow: 0 0 0 2px var(--accent)
 }
 
-.wrapper-3t9DeA:hover::before {
-	border-radius: 0!important
-}
-
 .timestampCozy-2hLAPV {
 	margin-bottom: 2px
 }
