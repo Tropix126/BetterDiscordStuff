@@ -4160,12 +4160,11 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 #bd-settingspane-container h2.ui-form-title {
-	text-transform: none;
+	text-transform: capitalize;
 	text-align: center;
 	color: rgba(255, 255, 255, .5)!important;
 	border-bottom: 2px solid rgba(255, 255, 255, .3);
 	padding-bottom: 5px;
-	width: 100%;
 	transition: 250ms all ease;
 	font-weight: 300
 }
@@ -8493,12 +8492,6 @@ div[style*="opacity: 1; height: 56px;"] {
 	border-bottom-color: var(--accent)
 }
 
-#app-mount .searchBox-3Y2Vi7 {
-	background: rgba(255, 255, 255, .16);
-	border-radius: 0;
-	box-shadow: none
-}
-
 .button-3AYNKb {
 	color: rgba(255, 255, 255, .4);
 	transition: .2s ease all
@@ -9180,7 +9173,6 @@ box-shadow: 0 6px 10px -8px var(--accent);
 .uploadModal-2ifh8j:before,
 .modal-yWgWj-:before,
 .inner-1ilYF7 .imageWrapper-2p5ogY:before,
-.slide-2pHaq5:before,
 .inner-1ilYF7 .theme-light:before,
 .quickswitcher-3JagVE:before,
 .regionSelectModal-12e-57:before {
@@ -9889,4 +9881,87 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .item-1TLUig {
 	font-size:var(--size3);
+}
+
+.modal-yWgWj-.popout-103y-5 {
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.modal-yWgWj-.popout-103y-5::before {
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.children-rWhLdy div h5 + div {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.container-1RjyoP .children-rWhLdy div h5 + div,
+.userSettingsVoice-iwdUCU .children-rWhLdy div h5 + div,
+.children-rWhLdy div h5 + .radioGroup-1GBvlr {
+  display:block;
+}
+
+.item-3eFBNF {
+  width:150px;
+  height:140px;
+  margin:8px;
+  flex-direction:column;
+}
+
+.item-3eFBNF .horizontal-1ae9ci:last-child,
+.image-z8whH4 {
+  display:flex;
+  flex-direction: column;
+  order:-1;
+  align-items: center;
+}
+
+.item-3eFBNF .horizontal-1ae9ci,
+.image-z8whH4 {
+  margin:0 !important;
+}
+
+.image-z8whH4 {
+  width:67px;
+  height:45px;
+} 
+
+.item-3eFBNF .description-3_Ncsb,
+.item-3eFBNF .description-3_Ncsb:hover {
+  background:transparent;
+  border:none;
+  box-shadow:none;
+  text-align: center;
+  color:rgba(255, 255, 255, .8);
+  cursor: pointer;
+  padding:0 !important;
+  padding-top:8px !important;
+}
+
+.item-3eFBNF {
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, .08)!important;
+  background: rgba(255, 255, 255, .08)!important;
+  border: 2px solid transparent!important;
+  transition: .1s ease all;
+}
+
+.item-3eFBNF:hover .description-3_Ncsb {
+  color:#fff;
+}
+
+.item-3eFBNF:active {
+  border:2px solid var(--hover) !important;
+}
+
+.label-cywgfr {
+  font-size:var(--size3) !important;
+}
+
+.item-3eFBNF .checkbox-1ix_J3 {
+  width:16px !important;
+  height:16px !important;
 }
