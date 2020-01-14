@@ -17,7 +17,6 @@
 @import url(https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css);
 @import url(https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css);
 @import url(https://monstrousdev.github.io/themes/addons/user-tags.css);
-@import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/status.css);
 
 ::selection {
 	background-color: var(--accent)
@@ -2288,6 +2287,10 @@ body .bd-toasts {
 	font-size: 11px
 }
 
+.notice-2FJMB4 {
+	border-radius:0;
+}
+
 .bd-toasts .bd-toast {
 	overflow: hidden;
 	padding: 15px;
@@ -2305,7 +2308,7 @@ body .bd-toasts {
 	color: rgba(255, 255, 255, .65);
 	font-size: 16px;
 	text-align:right;
-		padding-bottom:20px;
+	padding-bottom:20px;
 }
 
 .bd-toasts .bd-toast.icon {
@@ -2544,8 +2547,8 @@ body .bd-toasts {
 	stroke: var(--accent)!important
 }
 
-.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
-	box-shadow: inset 0 0 0 2px var(--accent)
+.callAvatarBorder-uWp8Ga.video-3SrWSI.selected-2tLJQ6.notSpeaking-a3bIkW.notSoundsharing-2sYlLk {
+	box-shadow: inset 0 0 0 2px var(--accent);
 }
 
 .quickSelectPopout-X1hvgV {
@@ -4952,6 +4955,10 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	-webkit-app-region: no-drag
 }
 
+.lowerBadge-29hYVK {
+    z-index:1;
+}
+
 .numberBadge-2s8kKX {
 	background: #f04747!important;
 	border-radius: 0;
@@ -5896,10 +5903,6 @@ li[data-name*=Midnight] .bda-version:after {
 
 .base-3dtUhz>.flex-1xMQg5 {
 	background: rgba(255, 255, 255, .02)
-}
-
-.noticeRegion-1YviSH {
-	z-index:10;
 }
 
 .container-2VW0UT {
@@ -9704,18 +9707,6 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .panels-j1Uci_ {
     height:fit-content;
 }
-.notice-2FJMB4 {
-    z-index:10000;
-    transition:.5s ease height;
-    box-sizing:border-box;
-    background:var(--notice-color);
-}
-.noticeInfo-3_iTE1 {
-    --notice-color:rgb(74,144,226);
-}
-.noticeDanger-7u-yT9 {
-    --notice-color:rgb(232,17,35);
-}
 
 .channelTextAreaDisabled-8rmlrp {
   opacity:1;
@@ -9964,4 +9955,56 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .item-3eFBNF .checkbox-1ix_J3 {
   width:16px !important;
   height:16px !important;
+}
+
+/*Status*/
+.wrapper-3t9DeA[aria-label*=", Online"] {--status:var(--online);}
+.wrapper-3t9DeA[aria-label*=", Idle"] {--status:var(--idle);}
+.wrapper-3t9DeA[aria-label*=", Do Not Disturb"] {--status:var(--dnd);}
+.wrapper-3t9DeA[aria-label*=", Offline"] {--status:var(--offline);}
+.wrapper-3t9DeA[aria-label*=", Invisible"] {--status:var(--invisible);}
+.wrapper-3t9DeA[aria-label*=", Streaming"] {--status:var(--streaming);}
+.wrapper-3t9DeA rect {display:none;}
+.wrapper-3t9DeA foreignObject {
+    mask:none;
+    border-radius:50%;
+}
+
+.wrapper-3t9DeA img {
+    border: 2px solid var(--status);
+    border-radius:inherit;
+    box-sizing:border-box;
+}
+
+.cursorDefault-dsQJ1n,
+.dots-3Bkt3k{
+	overflow: visible;
+}
+
+/*Typing Indicator*/
+
+.dots-3Bkt3k circle {fill:var(--status);}
+.dots-3Bkt3k circle:nth-child(1) {
+	cy: -8;
+	cx: -8.5;
+}
+
+.dots-3Bkt3k circle:nth-child(2) {
+	cy: -8;
+	cx: -2.25;
+}
+
+.dots-3Bkt3k circle:nth-child(3) {
+	cy: -8;
+	cx: 4;
+}
+
+.wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
+	fill: rgba(0, 0, 0, 0.5);
+	width:28px;
+	height:28px;
+	x: 2px;
+	y: 2px;
+	rx:50;
+	display:block;
 }
