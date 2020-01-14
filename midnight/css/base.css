@@ -9067,10 +9067,11 @@ box-shadow: 0 6px 10px -8px var(--accent);
 
 .root-SR8cQa .avatar-3EQepX:active {
   position:fixed;
-  left: 25vw;
-  top:12.5vw;
+  left: 50%;
+  top:50%;
   width:300px !important;
   height:300px !important;
+  transform:translateX(-50%) translateY(-50%);
   box-shadow:0 0 0 100vmax rgba(0,0,0,0.5);
   z-index:99999;
   cursor:zoom-out;
@@ -9178,7 +9179,8 @@ box-shadow: 0 6px 10px -8px var(--accent);
 .inner-1ilYF7 .imageWrapper-2p5ogY:before,
 .inner-1ilYF7 .theme-light:before,
 .quickswitcher-3JagVE:before,
-.regionSelectModal-12e-57:before {
+.regionSelectModal-12e-57:before,
+#app-mount .header-QKLPzZ .avatar-3EQepX:active::after {
 	content: '';
 	z-index: -1;
 	position: fixed;
@@ -9236,8 +9238,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
   pointer-events:none;
 }
 
-.root-SR8cQa .avatar-3EQepX:active::before,
-#app-mount .header-QKLPzZ .avatar-3EQepX:active::after {
+.root-SR8cQa .avatar-3EQepX:active::before {
   display:none !important;
 }
 
