@@ -28,15 +28,14 @@
 	--main-color: var(--accent);
 	--hover-color: var(--hover);
 	--roundness: var(--user-roundness);
-	--theme-name: 'Midnight';
 	--theme-long-name: 'Midnight UI';
 	--theme-version: '2.7';
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
 	--background-tertiary: var(--lv1);
-  --channeltextarea-background:var(--lv1);
-  --background-modifier-active:transparent;
+	--channeltextarea-background:var(--lv1);
+	--background-modifier-active:transparent;
 	--online: #43b581;
 	--idle: #faa61a;
 	--dnd: #f04747;
@@ -7481,10 +7480,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	background: var(--accent)!important
 }
 
-.colorMuted-HdFt4q {
-	top: 50px
-}
-
 .css-1wqqa50-container {
 	background: rgba(255, 255, 255, .15);
 	border-radius: 0;
@@ -10008,4 +10003,15 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	y: 2px;
 	rx:50;
 	display:block;
+}
+
+.info-1VyQPT .colorMuted-HdFt4q {
+  font-weight:600;
+  color:rgba(255, 255, 255, .5)!important;
+  font-size:12px;
+}
+
+.info-1VyQPT .colorMuted-HdFt4q:last-child:after {
+  content:'Midnight UI v' var(--theme-version) ' by Tropical';
+  display:block;
 }
