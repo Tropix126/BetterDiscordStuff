@@ -10033,3 +10033,13 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   content:'Midnight UI v' var(--theme-version) ' by Tropical';
   display:block;
 }
+
+#powercord-spotify-modal{
+    width: unset;
+    margin-left: 0;
+    box-sizing: unset;
+}
+
+#powercord-spotify-modal .avatarWrapper-2yR4wp{
+    display: none;
+}
