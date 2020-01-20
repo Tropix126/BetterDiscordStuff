@@ -9061,12 +9061,12 @@ box-shadow: 0 6px 10px -8px var(--accent);
     transform:scale(.5) translateX(-50%) translateY(-50%);
   }
   100% {
-    transform:none;
+    transform:translateX(-50%) translateY(-50%);
   }
 }
 
 .root-SR8cQa .avatar-3EQepX:active {
-  position:fixed;
+  position:fixed !important;
   left: 50%;
   top:50%;
   width:300px !important;
@@ -9090,6 +9090,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
 	background: var(--lv1) !important;
 	pointer-events: none;
 	backdrop-filter:blur(7px);
+	transform:translateX(-50%) translateY(-50%);
 }
 
 .header-QKLPzZ {
@@ -9192,8 +9193,7 @@ box-shadow: 0 6px 10px -8px var(--accent);
 .inner-1ilYF7 .imageWrapper-2p5ogY:before,
 .inner-1ilYF7 .theme-light:before,
 .quickswitcher-3JagVE:before,
-.regionSelectModal-12e-57:before,
-#app-mount .header-QKLPzZ .avatar-3EQepX:active::after {
+.regionSelectModal-12e-57:before {
 	content: '';
 	z-index: -1;
 	position: fixed;
