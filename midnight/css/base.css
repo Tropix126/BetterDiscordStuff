@@ -10188,6 +10188,14 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	display:none;
 }
 
+.isUnread-3Ef-o9 {
+    display:none;
+}
+
+.beforeGroup-1rH1F0 {
+    display:flex !important;
+}
+
 /*New Canary Guilds Fixes*/
 .scroller-2TZvBN {
 	position:static;
