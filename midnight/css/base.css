@@ -10009,10 +10009,18 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .clickableHeader-2Cygs8 .avatar-1BDn8e {
   left:0;
-  margin:0 8px; 
+  margin:0 10px; 
   display:block;
   z-index:10;
-  margin-top:35px;
+  margin-top:38px;
+  height: 32px!important;
+  width: 32px!important;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, .15);
+  transition: 150ms ease box-shadow;
+}
+
+.headerCozy-2H1QuU .avatar-1BDn8e:hover {
+	box-shadow: 0 0 0 2px var(--accent)
 }
 
 .container-3FojY8 {
@@ -10179,6 +10187,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 .mentioned-xhSam7:before {
 	z-index:1;
 }
+
 .mentioned-xhSam7 {
 	background:rgba(250, 166, 26, 0.15) !important;
 }
