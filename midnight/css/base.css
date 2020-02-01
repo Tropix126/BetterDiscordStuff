@@ -1,3 +1,4 @@
+
 /*
 /$$      /$$ /$$       /$$           /$$           /$$         /$$
 | $$$    /$$$|__/      | $$          |__/          | $$        | $$
@@ -30,7 +31,7 @@
 	--hover-color: var(--hover);
 	--roundness: var(--user-roundness);
 	--theme-long-name: 'Midnight UI';
-	--theme-version: '2.7';
+	--theme-version: '2.8';
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
@@ -548,7 +549,6 @@ a:hover .foreground-26ym5y {
 }
 
 .messages-3amgkR {
-	padding-bottom: 25px;
 	contain:none !important;
 }
 
@@ -3380,6 +3380,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
     height:2px;
 		width:calc(100% - 4px);
     position:absolute;
+    left:0;
 }
 
 .form-2fGMdU {
@@ -3416,7 +3417,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 .placeholder-37qJjk,
 .slateTextArea-1Mkdgw {
 	left:5px;
-	padding:0;
+	padding:0 !important;
 }
 
 .innerDisabled-1YTFPN::before {
@@ -9992,4 +9993,202 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 #powercord-spotify-modal .avatarWrapper-2yR4wp{
     display: none;
+}
+
+/*New Messages*/
+.headerCozy-2H1QuU {
+  padding:0;
+  margin:0;
+  height:30px;
+  background-color:rgba(255,255,255,0.025);
+  position:relative;
+  backdrop-filter:blur(10px);
+  display:flex;
+  align-items:center;
+}
+
+.clickableHeader-2Cygs8 .avatar-1BDn8e {
+  left:0;
+  margin:0 8px; 
+  display:block;
+  z-index:10;
+  margin-top:35px;
+}
+
+.container-3FojY8 {
+	padding-left:0;
+	position:relative;
+}
+
+.container-3FojY8:not(.groupStart-23k01U) .markup-2BOw-j {
+	position:relative;
+	margin-top:-25px;
+}
+
+.groupStart-23k01U .markup-2BOw-j:not(.embedFull-2tM8--) {
+	padding-top:.25rem !important;
+}
+
+.container-3FojY8 .markup-2BOw-j:not(.embedFull-2tM8--) {
+  padding-left:3.5rem;
+  padding-bottom:25px;
+  font-size:var(--size1) !important;
+  max-width:calc(100% - 125px);
+}
+
+.headerCozy-2H1QuU .username-1A8OIy {
+  border-left:3px solid currentColor;
+  height:30px;
+  padding-left:8px;
+  line-height:normal;
+  vertical-align:middle;
+  display:flex;
+  align-items:center;
+  box-shadow:inset 10px 0 10px -12px currentColor;
+  text-shadow:0 0 12px currentColor;
+  margin-right:0;
+  font-size:var(--size1);
+}
+
+.container-3FojY8 {
+  padding-top:0;
+  padding-right:0;
+}
+
+.container-3FojY8 {
+  background:rgba(255,255,255,0.075) !important;
+  border-left:2px solid rgba(255,255,255,0.075) !important;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.groupStart-23k01U {
+  margin-top:15px !important;
+}
+
+.container-1ov-mD {
+	position:relative;
+	top:-24px;
+	left:55px;
+}
+
+.isUnread-3Ef-o9 {
+	top:-25px;
+	margin:0 !important;
+}
+
+.timestampCozy-1HNQR2 {
+	font-size:var(--size3) !important;
+    cursor:text;
+}
+
+.headerCozy-2H1QuU:hover .timestampCozy-1HNQR2 {
+	color:#bebeb3;
+}
+
+.avatar-1BDn8e[src*="254362351170617345"] + span + .timestampCozy-1HNQR2::after {
+    color: white !important;
+    content: 'Theme Dev';
+    text-transform:uppercase;
+    font-size: .85em !important;
+    font-weight: 10px;
+    padding: 2px 4px;
+    line-height: normal;
+    display: inline-block;
+    text-align:center;
+    white-space:nowrap;
+	border:2px solid #e78e4e;
+	border-radius:1px;
+    background:rgba(231, 142, 78, 0.5);
+    text-shadow:none;
+    color:rgba(255,255,255,0.95) !important;
+    position:absolute;
+    right:0px;
+    margin:0 6px;
+    top:50%;
+    transform:translateY(-50%);
+	cursor:default;
+}
+
+.avatar-1BDn8e[src*="254362351170617345"] + span {
+    color:#e78e4e;
+}
+
+.headerCozy-2H1QuU .avatar-1BDn8e[src*="254362351170617345"] + .username-1A8OIy:not([style*="color:"])::before {
+    background:linear-gradient(90deg, #e78e4e, transparent);
+}
+
+.headerCozy-2H1QuU .username-1A8OIy:not([style*="color:"])::before {
+    background:linear-gradient(90deg, var(--accent), transparent);
+}
+
+.headerCozy-2H1QuU .username-1A8OIy::before {
+    content:'';
+    width:100%;
+    height:100%;
+    background:linear-gradient(90deg, currentColor, transparent);
+    top:0;
+    left:0;
+    position:absolute;
+    opacity:0;
+    transform:scaleX(0);
+    transform-origin:left;
+    z-index:-1;
+}
+
+.headerCozy-2H1QuU:hover .username-1A8OIy::before {
+    opacity:.2;
+	transform:none;
+    transition:175ms ease;
+}
+
+.separator-42rNt0 {
+    display: none;
+}
+
+.wrapper-2aW0bm,
+.wrapper-2aW0bm:hover {
+	box-shadow: none;
+	background:transparent !important;
+}
+
+.container-3npvBV {
+	top: -30px !important;
+	background:transparent !important;
+}
+
+.button-1ZiXG9 {
+	display:none;
+}
+
+.button-1ZiXG9:nth-last-child(2),
+.button-1ZiXG9:nth-last-child(1) {
+    display: flex !important;
+	background-color: transparent;
+	top:0;
+}
+
+.icon-3Gkjwa {
+	height:14px;
+	width:14px;
+}
+
+.isHeader-2dII4U {
+	top:30px !important;
+}
+
+.mentioned-xhSam7:before {
+	z-index:1;
+}
+.mentioned-xhSam7 {
+	background:rgba(250, 166, 26, 0.15) !important;
+}
+
+.timestampCozyAlt-1Hs08c {
+	display:none;
+}
+
+/*New Canary Guilds Fixes*/
+.scroller-2TZvBN {
+	position:static;
 }
