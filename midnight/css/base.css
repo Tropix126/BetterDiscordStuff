@@ -10087,11 +10087,10 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 
 .avatar-1BDn8e[src*="254362351170617345"] + span + .timestampCozy-1HNQR2::after {
-    color: white !important;
     content: 'Theme Dev';
     text-transform:uppercase;
-    font-size: .85em !important;
-    font-weight: 10px;
+    font-size: 10px !important;
+    font-weight: 500;
     padding: 2px 4px;
     line-height: normal;
     display: inline-block;
@@ -10101,7 +10100,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	border-radius:1px;
     background:rgba(231, 142, 78, 0.5);
     text-shadow:none;
-    color:rgba(255,255,255,0.95) !important;
+    color:rgba(255,255,255,0.95);
     position:absolute;
     right:0px;
     margin:0 6px;
