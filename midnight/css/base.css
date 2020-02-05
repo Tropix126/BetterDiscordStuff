@@ -10094,7 +10094,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	color:#bebeb3;
 }
 
-.avatar-1BDn8e[src*="254362351170617345"] + span + .timestampCozy-1HNQR2::after {
+.avatar-1BDn8e[src*="254362351170617345"] + span + .timestampCozy-1HNQR2::before {
     content: 'Theme Dev';
     text-transform:uppercase;
     font-size: 10px !important;
