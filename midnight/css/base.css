@@ -10224,6 +10224,16 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   color:var(--accent) !important;
 }
 
+.searchResult-3pzFAB .hit-NLlWXA .messageGroupCozy-1BZuO8 {
+  background:rgba(255,255,255,0.075) !important;
+  padding:0;
+  border-radius:0 !important;
+  border-left:2px solid rgba(255,255,255,0.075) !important;
+}
+.searchResultMessage-2VxO12.hit-NLlWXA {
+    border-radius:0;
+}
+
 /*New Canary Guilds Fixes*/
 .scroller-2TZvBN {
 	position:static;
