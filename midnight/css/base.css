@@ -17,6 +17,7 @@ x`/*
 @import url(https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css);
 @import url(https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css);
 @import url(https://tropix126.github.io/BetterDiscordStuff/midnight/css/status.css);
+@import url(https://rsms.me/inter/inter.css);
 
 ::selection {
 	background-color: var(--accent)
@@ -29,7 +30,7 @@ x`/*
 	--hover-color: var(--hover);
 	--roundness: var(--user-roundness);
 	--theme-long-name: 'Midnight UI';
-	--theme-version: '2.8';
+	--theme-version: '2.8.1';
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
@@ -51,7 +52,15 @@ x`/*
 	--size4:.7rem;
 	--size5:.5rem;
 	--size6:.35rem;
+	--font:'Inter';
+	--letter-spacing:-.02rem;
 	--toast-background:var(--lv1);
+    font-size:14px !important;
+}
+
+#app-mount {
+    font-family:var(--font);
+    letter-spacing:var(--letter-spacing);
 }
 
 .appMount-3lHmkl,
@@ -6066,7 +6075,7 @@ li[data-name*=Midnight] .bda-version:after {
 	position: absolute;
   display: flex;
   align-items:center;
-	font-family: Whitney;
+	font-family: var(--font);
 	background-color: var(--codeblockcolor);
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAA+VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9BnGuhAAAAUnRSTlMAAgMEBRobHB0eHyAkJSYnKS0uMzc4OTpFRkdISUpLTFBRUlNUVldYWW9wcXJzdHV2d3p7f4CBh4iJioyNjo+oq8XGx8je3+Hj5Oru9vf4+fr8vTsUbAAAAjdJREFUeAHt2VlPU1EUxfElqGhxEBykUBRwQJECVdGCs0hVpLXd3//DGOLqzbXbuPZ5OImB83/l4ZcTsrKTW5TORKVSabrLbiBfl43dQr7uGruAfD2mMTyHfLWJfEXG3hP5hIx9JPIBGftC5A0y9p3IBvJ1fkTkwWncYtnixjX8vXdEPsN1/SmS2rejudQtzh3ZfpphVGJbpGFUwgaV8BbnTwwqYeNEmY9vkQaVuEEltMWbP2zcHgK9sKpBC5PdMXYR9ZZ/WtXz2DvY8QJcj8ZbnMIfLRybeIs29BabfadEjGboLqYre1bVb8otakUbcota0Ub6XVwUijL8FqWijMXAXdSKMPRd5BZdSzWlGzf0FrXijaXwXdSKNvQWtSINvUWt7IJ1haG26GoNaoo3WnDpLWqFhr8feotxZVcZeotaCf1D3F2ckUjfql4DHasaroAlbtG1MrSqDqAVtUVh7ABa0Vt0rXoD2NGK3qIwtKK3KAynrMa3qIxtIFmZHm/xYarBtgPKJbVFYWhF3EVhxBW5xbWasQWfVvQW10fSALaEIraoDaespW7xiTTYK6sa3MNkB/zTW8B3353DyFtG68Etune0IWp7RW8x0fjXqZwxdhuTLQ+s6iVY7C292egWr36zcZsI1faG3OJsL2ywzd9GI75FKjTiymEjbYuNHo24QiO2RSqH9iz5U5TYovgU9d9+RxVbTE/fxVy5LWZIbFFXftPI0cFp+U2jbDGpKx02hVKpVDoL/QKk+Asua0/jMQAAAABJRU5ErkJggg==)!important;
 	background-size: 15px;
@@ -6868,7 +6877,7 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 #pubslayerroot .bd-server-card h5 {
 	all: initial;
 	transition: 150ms ease;
-	font-family: Whitney
+	font-family: var(--font)
 }
 
 #pubslayer h2.ui-form-title {
@@ -7316,29 +7325,6 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	margin-bottom:0;
 	box-sizing:border-box;
 	padding:0 10px;
-}
-
-.button-14-BFJ[aria-label^="Mute"] svg,
-.button-14-BFJ[aria-label^="Deafen"] svg {
-    display:none;
-}
-
-.button-14-BFJ[aria-label^="Mute"] .contents-18-Yxp,
-.button-14-BFJ[aria-label^="Deafen"] .contents-18-Yxp {
-    display:flex;
-    align-items:center;
-}
-
-.button-14-BFJ[aria-label^="Deafen"] .contents-18-Yxp:before {
-    content:'volume_up';
-    font-family:'Material Icons';
-    font-size:20px;
-}
-
-.button-14-BFJ[aria-label^="Mute"] .contents-18-Yxp:before {
-    content:'mic';
-    font-family:'Material Icons';
-    font-size:20px;
 }
 
 .membersWrap-2h-GB4 .scrollerWrap-2lJEkd::after {
@@ -8790,7 +8776,7 @@ svg[name="RichActivity"] {
 html.theme-light::after {
 	content: 'Midnight does not support light mode. Disable in Settings > Appearance > Dark Mode';
 	position: fixed;
-	font-family: 'Whitney';
+	font-family: var(--font);
 	z-index: 999999;
 	line-height: 1em;
 	color: #fff;
