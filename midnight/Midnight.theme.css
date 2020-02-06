@@ -29,6 +29,9 @@
   --bg:url('https://i.imgur.com/GdnbuVj.jpg');
   --lvl-bg-opacity:0.25;
   --lvl-bg-fade:80%;
+	--font:'Inter', sans-serif;
+	--letter-spacing:-.02rem;
+  font-size:14px !important;
 
 /*Status Variables*/
   --online: #43b581;

@@ -52,7 +52,7 @@ x`/*
 	--size4:.7rem;
 	--size5:.5rem;
 	--size6:.35rem;
-	--font:'Inter';
+	--font:'Inter', sans-serif;
 	--letter-spacing:-.02rem;
 	--toast-background:var(--lv1);
     font-size:14px !important;
