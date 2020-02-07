@@ -10093,7 +10093,6 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 }
 
 .separator-42rNt0,
-.button-1ZiXG9,
 .timestampCozyAlt-1Hs08c,
 .isUnread-3Ef-o9,
 .mentioned-xhSam7:before {
@@ -10111,11 +10110,17 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 	background:transparent !important;
 }
 
-.button-1ZiXG9:nth-last-child(2),
-.button-1ZiXG9:nth-last-child(1) {
-  display: flex !important;
+.buttonContainer-DHceWr .buttons-cl5qTG div .emojiButton-jE9tXC, .buttonContainer-DHceWr .buttons-cl5qTG div .emojiSeparator-10VgEJ {
+	display:none;
+}
+
+.buttonContainer-DHceWr .buttons-cl5qTG .button-1ZiXG9 {
 	background-color: transparent;
 	top:0;
+	height:16px !important;
+	width:16px !important;
+	min-height:16px !important;
+	min-width:16px !important;
 }
 
 .icon-3Gkjwa {
