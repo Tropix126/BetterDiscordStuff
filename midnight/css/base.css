@@ -10240,6 +10240,10 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
     border-radius:0;
 }
 
+.container-3FojY8 .markup-2BOw-j:not(.embedFull-2tM8--) {
+	animation:transitionIn .35s ease-in-out;
+}
+
 /*New Canary Guilds Fixes*/
 .scroller-2TZvBN {
 	position:static;
