@@ -10135,7 +10135,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
 
 .mentioned-xhSam7 .markup-2BOw-j:not(.embedFull-2tM8--) {
   position:relative;
-  padding-left:calc(3.5rem + 5px);
+  padding-left:calc(3.5rem + 6px);
   z-index:1;
   max-width:calc(100% - 135px);
 }
@@ -10145,7 +10145,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   top:0;
   left:0;
   width:calc(100% - 55px);
-  height:calc(100% - 25px);
+  height:calc(100% - 22px);
   background-color:var(--accent);
   position:absolute;
   opacity:.25;
@@ -10158,7 +10158,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   top:0;
   left:0;
   width:2px;
-  height:calc(100% - 25px);
+  height:calc(100% - 22px);
   background-color:var(--accent);
   position:absolute;
   margin-left:3.5rem;
