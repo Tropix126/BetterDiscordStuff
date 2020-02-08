@@ -10025,6 +10025,7 @@ html body #app-mount .container-1YxwTf .markup-2BOw-j>.anchor-3Z-8Bb[href*="drix
   display:block;
   z-index:100000;
   margin-top:36px;
+  border-radius:var(--user-roundness);
   height: 32px!important;
   width: 32px!important;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, .15);
