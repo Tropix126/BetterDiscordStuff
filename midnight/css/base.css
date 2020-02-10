@@ -1897,8 +1897,11 @@ polyline[stroke*="#7289da"] {
 }
 
 #app-mount .headerSpotify-zpWxgT .anchor-3Z-8Bb {
-	color: #fff;
 	text-shadow:none;
+}
+
+.activityStreamPreview-3r3GiX .textRow-19NEd_, .activityUserPopout-2yItg2 .textRow-19NEd_ {
+	font-size:var(--size1);
 }
 
 .uploadModal-2ifh8j .channelTextArea-1LDbYG {
@@ -3296,7 +3299,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .note-3kmerW textarea:focus {
-	background: rgba(255, 255, 255, .075)!important
+	background: transparent!important;
 }
 
 .theme-dark .incomingCallInner-2VmFiR {
@@ -3654,6 +3657,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 	box-shadow: none!important;
 	border-radius: 0;
 	border: none;
+	font-size:var(--size1);
 	border-bottom: 2px solid rgba(255, 255, 255, .1)!important
 }
 
@@ -3759,7 +3763,7 @@ img[src*="/assets/9e8f566e6d49e8f4bba138e1d6a50578.svg"] {
 }
 
 .userPopout-3XzG_A .headerTag-2pZJzA {
-  font-size: 12px;
+  font-size: var(--size2);
   font-weight: 500;
   text-transform: capitalize;
   color: rgba(255, 255, 255, .5)!important;
@@ -8068,8 +8072,8 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 	background: rgba(255, 255, 255, .07)!important;
 	height: 28px!important;
 	line-height: 28px;
-	padding-left: 10px;
-	font-size: 12px;
+	padding:0 10px;
+	font-size: var(--size2);
 	font-weight: 500;
 	text-transform: capitalize;
 	color: rgba(255, 255, 255, .5)!important;
@@ -8083,6 +8087,7 @@ body #app-mount .da-container .da-markup pre .hljs[class$="hljs"]::before {
 
 .userPopout-3XzG_A .note-3kmerW textarea {
 	height: 25px!important;
+	font-size:var(--size2) !important;
 }
 
 .activityUserPopout-2yItg2 {
