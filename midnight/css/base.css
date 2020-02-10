@@ -1900,12 +1900,9 @@ polyline[stroke*="#7289da"] {
 	text-shadow:none;
 }
 
-.activityStreamPreview-3r3GiX .textRow-19NEd_, .activityUserPopout-2yItg2 .textRow-19NEd_ {
+.activityStreamPreview-3r3GiX .textRow-19NEd_,
+.activityUserPopout-2yItg2 .textRow-19NEd_ {
 	font-size:var(--size1);
-}
-
-.uploadModal-2ifh8j .channelTextArea-1LDbYG {
-	width: 92%
 }
 
 .connectionDelete-2Odoln {
