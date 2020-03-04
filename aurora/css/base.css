@@ -200,6 +200,7 @@ body::before {
 .divider-3gKybi,
 .typing-2GQL18,
 .typing-2GQL18,
+.bg-h5JY_x,
 .guild-1EfMGQ .guildInner-3DSoA4 {
 	background: transparent !important;
 }
@@ -534,7 +535,9 @@ body::before {
 .button-2vd_v_ {
 	margin-left:7px;
 }
-
+.form-2fGMdU:before {
+    display: none;
+}
 /*3.e. Chat Header*/
 .title-3qD0b- .icon-1R19_H[name="Pin"] {
     background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbHF1ZV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI0IDI0IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSJub25lIiBkPSJNMCwwaDI0djI0SDBWMHoiLz4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iMTcuOSwxMy43IDE1LjgsMTIuNiAxNS4xLDUuMyAxNi40LDUgMTYuNCwzIDcuNiwzIDcuNiw1IDguOSw1LjMgOC4yLDEyLjYgNi4xLDEzLjcgNi4xLDE1LjcgDQoJMTEsMTUuNyAxMSwyMSAxMywyMSAxMywxNS43IDE3LjksMTUuNyAiLz4NCjwvc3ZnPg0K) !important;
@@ -602,6 +605,9 @@ body::before {
 }
 
 /*3.h. Scrollbar*/
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
 .da-messagesWrapper .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
 	width:10px !important;
 }
@@ -2968,7 +2974,9 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
   display:none;
   border:none !important;
 }
-
+.userPopout-3XzG_A {
+    backdrop-filter: blur(10px) brightness(0.6);
+}
 /*8.i. Download Apps Screen*/
 .backdrop-1wrmKB {
 	background:rgba(0,0,0,0.75) !important;
