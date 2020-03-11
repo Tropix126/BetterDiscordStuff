@@ -1,10 +1,12 @@
 /**
  * @name Midnight UI
  * @author Tropical#8908
- * @version 2.6
- * @description A clean, dark, and modern user interface for DiscordApp. Fully customizable through the theme file.
- * @source https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/base.css
+ * @version Auto
+ * @description A dark, flat and modern user interface for DiscordApp.
+ * @source https://github.com/tropix126/betterDiscordStuff/blob/master/midnight/css/base.css
  * @website https://tropix126.github.io/BetterDiscordStuff/midnight/
+ * @invite TeRQEPb 
+ * @authorId 254362351170617345
 */
 /*
 /$$      /$$ /$$       /$$           /$$           /$$         /$$
@@ -27,8 +29,8 @@
   --accent:#1973d3;
   --hover:#135193;
   --bg:url('https://i.imgur.com/GdnbuVj.jpg');
-  --lvl-bg-opacity:0.25;
-  --lvl-bg-fade:80%;
+  --bg-opacity:0.25;
+  --bg-fade:80%;
 	--font:'Inter', sans-serif;
 	--letter-spacing:-.02rem;
   font-size:14px !important;
