@@ -4231,7 +4231,8 @@ html.theme-light body.bd-minimal #app-mount::before {
 	width:calc(100% - 6px);
 	transition: 150ms ease all;
 	padding: 3px;
-	z-index:11;
+	z-index:30;
+	opacity:1;
 }
 
 .newMessagesBar-mujexs:hover {
@@ -8153,8 +8154,7 @@ body .bd-toasts {
 .lookLink-9FtZy-,
 .lookOutlined-3sRXeN,
 .lookGhost-2Fn_0-,
-.lookInverted-2D7oAl,
-.button-14-BFJ {
+.lookInverted-2D7oAl {
 	font-size:var(--size3);
 	border-radius:2px;
 	font-weight:400;
