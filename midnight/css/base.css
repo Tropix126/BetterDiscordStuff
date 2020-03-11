@@ -2366,6 +2366,13 @@ html.theme-light body.bd-minimal #app-mount::before {
 	padding-top: 10px
 }
 
+.privateChannels-1nO12o .scroller-2FKFPG div[style*="width: 100%; height: 8px"]:last-child {
+	height:75px !important;
+	background:url('https://i.imgur.com/If5FgCx.png');
+	background-size:70px;
+	background-repeat:no-repeat;
+}
+
 /*7.b. Top Entry Tabs*/
 
 @keyframes home-ripple {
@@ -6567,8 +6574,14 @@ body .bd-toasts {
 }
 
 .titleDefault-a8-ZSr,
-.header-2tA9Os .defaultColor-1_ajX0 {
+.header-2tA9Os .defaultColor-1_ajX0,
+.content-8biNdB,
+.content-8biNdB h1 {
     font-size:var(--size1);
+}
+
+.content-8biNdB h1 {
+	text-transform:none ;
 }
 
 .close-1kwMUs {
@@ -6580,12 +6593,22 @@ body .bd-toasts {
   box-shadow:0 0 6px var(--hover);
 }
 
-.guildName-3WI6ml {
+.guildName-3WI6ml,
+.date-2WJGyu {
   text-align:center;
 }
 
 .inner-ZyuQk0 {
   padding:20px;
+}
+
+.small-3iVZYw {
+	max-height:600px;
+}
+
+.close-1kwMUs {
+	position:absolute;
+	right:15px;
 }
 
 
@@ -8684,8 +8707,9 @@ body .bd-toasts {
 
 /*15.b. Common Elements*/
 
-.contentRegion-3nDuYy .description-3_Ncsb {
-	font-size:var(--size2);
+.description-3_Ncsb, 
+.labelDescriptor-1PqHgD {
+	font-size:var(--size2) !important;
 }
 
 /*16. Guild Settings Content*/
