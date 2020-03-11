@@ -4715,6 +4715,10 @@ html.theme-light body.bd-minimal #app-mount::before {
 	font-size:var(--size2);
 }
 
+.itemSlider-FZeYw0 .mini-dmm9yo .grabber-3mFHz2 {
+	margin-top:10px;
+}
+
 /*9.b. User Popouts*/
 
 @keyframes userPopout {
