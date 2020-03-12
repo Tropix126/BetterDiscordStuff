@@ -224,7 +224,7 @@ TABLE OF CONTENTS
 	11.g. Nitro Advertising Tab
 
 12. Controls and Common Elements
-	12.a. Checkboxes
+	12.a. Checkboxes & Radios
 	12.b. Radios
 	12.c. Sliders
 	12.d. Switches
@@ -243,6 +243,7 @@ TABLE OF CONTENTS
 15. User Settings Content
 	15.a. Content Column Layout
 	15.b. Common Elements
+	15.c. Close Button
 
 16. Guild Settings Content
 
@@ -2061,6 +2062,8 @@ html.theme-light body.bd-minimal #app-mount::before {
 	font-size: var(--size2);
 	font-weight: 400;
 	text-transform:none;
+	width:fit-content;
+	flex:unset;
 }
 
 .addButtonIcon-3u-3Hu,
@@ -2068,8 +2071,13 @@ html.theme-light body.bd-minimal #app-mount::before {
 	opacity: 1;
 }
 
+.addButtonIcon-3u-3Hu {
+	width:12px;
+	height:12px;
+}
+
 .addButton-1BORro polygon {
-	fill: var(--accent);
+	fill: var(--interactive-normal);
 }
 
 #app-mount .containerDefault-3GGEv_ .collapsed-4WdoJ7 .addButton-1BORro polygon {
@@ -8060,9 +8068,95 @@ body .bd-toasts {
 
 /*12. Controls*/
 
-/*12.a. Checkboxes*/
+/*12.a. Checkboxes & Radios*/
 
+@keyframes checkbox {
+	0% {
+		transform: scale(1);
+	}
+	25% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
 
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+	background-color: var(--accent);
+	border-color: var(--accent);
+	box-shadow: 0 0 5px var(--hover);
+	animation: checkbox 400ms cubic-bezier(0.52, 0.01, 0, 1);
+}
+
+.radioGroup-1GBvlr {
+	padding: 16px;
+	background: rgba(255, 255, 255, 0.07);
+	border-radius: 2px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox-1ix_J3 {
+	height: 22px !important;
+	width: 22px !important;
+	position: relative;
+}
+
+.checkbox-1ix_J3 svg {
+	display: none;
+}
+
+.item-26Dhrx {
+	background: rgba(255, 255, 255, 0.07) !important;
+	border: none !important;
+	margin-bottom: 8px;
+	box-shadow: 0 2px 4px var(--lv1);
+	transition: 150ms ease;
+}
+
+.item-26Dhrx:hover {
+	box-shadow: 0 2px 12px var(--lv1);
+}
+
+.checked-3_4uQ9 {
+	border-color: var(--accent) !important;
+	background: transparent !important;
+}
+
+.checkbox-1ix_J3::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-origin: 50%;
+	top: 0;
+	left: 0;
+	transform: scale(0);
+	border-radius: 50%;
+	background: var(--accent);
+	transition: 250ms transform ease;
+}
+
+.checkbox-1ix_J3.checked-3_4uQ9::after {
+	transform: scale(.725);
+}
+
+.checkbox-1ix_J3 {
+	border-radius: 50px;
+	background: transparent;
+	box-sizing: border-box;
+	border: 2px solid;
+}
+
+.title-3BE6m5 {
+	font-size: var(--size1);
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.checkboxWrapper-SkhIWG {
+	display:flex;
+	align-items:center;
+}
 
 /*12.b. Radios*/
 
@@ -8722,6 +8816,12 @@ body .bd-toasts {
 .customColumn-Rb6toI {
 	max-width:unset;
 	min-width:unset;
+	flex:unset;
+}
+
+#bd-settingspane-container .contentColumn-2hrIYH, 
+#bd-settingspane-container .customColumn-Rb6toI {
+	flex:1 1 auto;
 }
 
 /*15.b. Common Elements*/
@@ -8729,6 +8829,29 @@ body .bd-toasts {
 .description-3_Ncsb, 
 .labelDescriptor-1PqHgD {
 	font-size:var(--size2) !important;
+}
+
+/*15.c. Close Button*/
+
+#app-mount .closeButton-1tv5uR path:last-child {
+	fill:rgba(255,255,255,0.7);
+}
+
+#app-mount .closeButton-1tv5uR{
+	border:none;
+	transition:200ms all linear;
+}
+
+#app-mount .closeButton-1tv5uR:hover {
+	background:rgba(255,255,255,0.07);
+}
+
+#app-mount .closeButton-1tv5uR:active {
+	background:rgba(255,255,255,0.1);
+}
+
+#app-mount .keybind-KpFkfr {
+	font-size:var(--size2);
 }
 
 /*16. Guild Settings Content*/
