@@ -873,6 +873,16 @@ html.theme-light body.bd-minimal #app-mount::before {
 	font-weight:500;
 }
 
+.channelName-qsg_a_ {
+	margin:0;
+}
+
+#app-mount .container-1MGX4D .input-2A_zIr {
+	all:unset;
+	cursor:text !important;
+	font-size:var(--size1);
+}
+
 .akaBadge-1M-1Gw {
 	border-radius: 0;
 	background: var(--hover) !important;
