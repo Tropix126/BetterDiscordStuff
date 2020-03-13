@@ -843,6 +843,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07);
 	-webkit-mask:linear-gradient(-90deg, var(--lv1), transparent);
 	right:-1px;
+	height:40px;
 }
 
 #app-mount .container-1r6BKw {	
@@ -880,6 +881,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 #app-mount .container-1MGX4D .input-2A_zIr {
 	all:unset;
 	cursor:text !important;
+	white-space:nowrap;
 	font-size:var(--size1);
 }
 
@@ -925,7 +927,8 @@ html.theme-light body.bd-minimal #app-mount::before {
 .divider-3FBTu8,
 .container-1r6BKw .toolbar-1t6TWx a,
 .toolbar-1t6TWx .icon-22AiRD path[d="M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z"] ~ path,
-.toolbar-1t6TWx .icon-22AiRD .strikethrough-3Wiitd ~ path {
+.toolbar-1t6TWx .icon-22AiRD .strikethrough-3Wiitd ~ path,
+path[d="M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z"] ~ path {
 	display: none;	
 }
 
@@ -973,6 +976,11 @@ html.theme-light body.bd-minimal #app-mount::before {
 	top:2px;
 	right:4px;
 	box-shadow:0 0 0 2px rgb(240, 71, 71, 0.5);
+}
+
+path[d="M14 8.00598C14 10.211 12.206 12.006 10 12.006C7.795 12.006 6 10.211 6 8.00598C6 5.80098 7.794 4.00598 10 4.00598C12.206 4.00598 14 5.80098 14 8.00598ZM2 19.006C2 15.473 5.29 13.006 10 13.006C14.711 13.006 18 15.473 18 19.006V20.006H2V19.006Z"] {
+	d:path('M12 12.041v-0.825c1.102-0.621 2-2.168 2-3.716 0-2.485 0-4.5-3-4.5s-3 2.015-3 4.5c0 1.548 0.898 3.095 2 3.716v0.825c-3.392 0.277-6 1.944-6 3.959h14c0-2.015-2.608-3.682-6-3.959z M5.112 12.427c0.864-0.565 1.939-0.994 3.122-1.256-0.235-0.278-0.449-0.588-0.633-0.922-0.475-0.863-0.726-1.813-0.726-2.748 0-1.344 0-2.614 0.478-3.653 0.464-1.008 1.299-1.633 2.488-1.867-0.264-1.195-0.968-1.98-2.841-1.98-3 0-3 2.015-3 4.5 0 1.548 0.898 3.095 2 3.716v0.825c-3.392 0.277-6 1.944-6 3.959h4.359c0.227-0.202 0.478-0.393 0.753-0.573z');
+	transform:scale(1.35);
 }
 
 /*3.c. Message Search*/
