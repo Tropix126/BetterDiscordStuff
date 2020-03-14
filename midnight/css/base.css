@@ -2311,7 +2311,8 @@ html.theme-light body.bd-minimal #app-mount::before {
 	margin:0;
 }
 
-.subText-1KtqkB {
+.subText-1KtqkB,
+.nameAndDecorators-5FJ2dg {
 	max-width:200px;
 }
 
@@ -5787,7 +5788,7 @@ body .bd-toasts {
 .bd-toasts .bd-toast::after {
 	content: 'This notice will close in a few seconds.';
 	position: absolute;
-	bottom: 10px;
+	bottom: 12px;
 	left: 0;
 	padding-left:15px;
 	font-size: var(--size2);
@@ -5800,7 +5801,7 @@ body .bd-toasts {
 	padding: 15px;
 	padding-left: 15px;
 	padding-top: 45px;
-	padding-bottom:25px;
+	padding-bottom:30px;
 	position: relative;
 	margin-right: 10px;
 	background-color: var(--lv1) !important;
