@@ -1523,10 +1523,6 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*4.f. Badges and Indicators*/
 
-.lowerBadge-29hYVK {
-    z-index:1;
-}
-
 .numberBadge-2s8kKX {
 	background: #f04747 !important;
 	border-radius: 0;
@@ -4161,7 +4157,6 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 .reactionMe-wv5HKu {
 	background: transparent !important;
-	transform:none !important;
 }
 
 .reactionMe-wv5HKu::before {
