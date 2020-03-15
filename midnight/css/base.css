@@ -4762,7 +4762,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .callAvatarVideo-2ItXvV,
-.callAvatarBorder-uWp8Ga.video-3SrWSI.selected-2tLJQ6.notSpeaking-a3bIkW.notSoundsharing-2sYlLk {
+.callAvatarBorder-uWp8Ga {
 	border-radius:var(--user-roundness);
 }
 
