@@ -3295,11 +3295,9 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .welcomeMessage-ULm0mo .itemContainer-1tq6cd,
-.placeholder-3PlVv6 {
-	display:none;
-}
-
-.emptyMessage-3-SPAD.base-19D3Qq {
+.placeholder-3PlVv6,
+.emptyMessage-3-SPAD.base-19D3Qq,
+.base-19D3Qq .description-wKrf4z {
 	display:none;
 }
 
@@ -3314,6 +3312,8 @@ html.theme-light body.bd-minimal #app-mount::before {
 	background-image: none !important;
 	box-sizing:border-box;
 	align-items:flex-start;
+	justify-content:center;
+	padding-bottom:0;
 }
 
 .base-19D3Qq h1,
