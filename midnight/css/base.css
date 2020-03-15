@@ -1497,6 +1497,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	background: var(--accent);
 	opacity: .4;
 	z-index: -1;
+	border-radius:var(--guilds-roundness);
 }
 
 .colorPickerSwatch-5GX3Ve.default-cS_caM {
@@ -1523,11 +1524,18 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*4.f. Badges and Indicators*/
 
+.upperBadge-2XnnGB {
+	z-index:0;
+}
+
+.lowerBadge-29hYVK {
+	z-index:1;
+}
+
 .numberBadge-2s8kKX {
 	background: #f04747 !important;
 	border-radius: 0;
 	padding:4px 2px !important;
-	z-index: 2;
 	height: 12px;
 	position:relative;
 }
@@ -1597,7 +1605,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	width: 40px;
 	height: 40px;
 	background: rgba(0, 0, 0, .5) !important;
-	border-radius: 0;
+	border-radius: var(--guilds-roundness);
 }
 
 .icon-3s6X1M {
@@ -2802,10 +2810,11 @@ html.theme-light body.bd-minimal #app-mount::before {
 	font-size: var(--size1);
 }
 
-.message-2qnXI6 .botTag-2WPJ74 {
+#app-mount .message-2qnXI6 .botTag-2WPJ74 {
 	order:0;
 	margin-right:0;
 	margin-left:4px;
+	margin-top:2px;
 }
 
 .groupStart-23k01U .markup-2BOw-j {
@@ -4435,7 +4444,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 /*8.m. Spoilers*/
 
 .spoilerText-3p6IlD.hidden-HHr2R9 {
-	filter:blur(2.5px);
+	filter:blur(4px);
 	transition:150ms ease filter;
 	background:transparent;
 }
@@ -4446,6 +4455,16 @@ html.theme-light body.bd-minimal #app-mount::before {
   
 .spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {
 	opacity:1;
+}
+
+.spoilerWarning-2aAZq1 {
+	text-transform:none;
+	font-size:var(--size1);
+	border-radius:2px;
+	font-size:var(--size3);
+	border-radius:2px !important;
+	font-weight:400;
+	transition:150ms ease;
 }
 
 /*8.n. Blocked Messages*/
@@ -4739,17 +4758,31 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 .separator-2IZ9ro {
 	background:rgba(255,255,255,0.25);
+	margin-bottom:20px;
 }
 
 .gatedContent-3-B7qB::after {	
-	content:'';
+	content:'To send messages, please verify you are over the age of 18.';
 	height:50px;
-	width:100%;
+	width:calc(100% - 590px);
 	box-shadow:0 -10px 10px -10px var(--lv1), inset 0 0 0 100vmax rgba(255,255,255,0.07);
 	background:var(--lv1);
 	z-index:100;
 	position:fixed;
 	bottom:0;
+	left:325px;
+	color:rgba(255,255,255,0.25);
+	font-size:var(--size1);
+	display:flex;
+	padding:0 8px;
+	align-items:center;
+	cursor:not-allowed;
+}
+
+.gatedContent-3-B7qB .image-2LqJex {
+	width:150px;
+	height:150px;
+	opacity:.8;
 }
 
 /*9. Popouts*/
@@ -5024,6 +5057,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	box-shadow:none;
 	background-color:rgba(0,0,0,0.5) !important;
 	font-size:0;
+	border-radius:var(--user-roundness);
 }
 
 .activityUserPopout-2yItg2 .headerText-1HLrL7,
@@ -5052,7 +5086,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	align-items:center;
 }
 
-.userPopout-3XzG_A .bot-2Fta1w {
+#app-mount .userPopout-3XzG_A .bot-2Fta1w {
 	position: absolute;
 	right: 10px;
 	margin: 0;
@@ -5781,12 +5815,9 @@ body .bd-toasts {
 
 .bd-toasts .bd-toast::after {
 	content: 'This notice will close in a few seconds.';
-	position: absolute;
-	bottom: 12px;
-	left: 0;
-	padding-left:15px;
 	font-size: var(--size2);
 	font-weight:400;
+	padding-top:5px;
 }
 
 .bd-toasts .bd-toast {
@@ -5795,8 +5826,10 @@ body .bd-toasts {
 	padding: 15px;
 	padding-left: 15px;
 	padding-top: 45px;
-	padding-bottom:30px;
+	padding-bottom:10px;
 	position: relative;
+	display:flex;
+	flex-direction:column;
 	margin-right: 10px;
 	background-color: var(--lv1) !important;
 	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
@@ -5889,8 +5922,8 @@ body .bd-toasts {
 	bottom:10px;
 	right:10px;
 	border-left:2px solid var(--accent);
-  box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
-  z-index:3000;
+	box-shadow: inset 0 0 0 100vmax rgba(255, 255, 255, .07), 0 0 12px rgba(255, 255, 255, .025);
+	z-index:3000;
 }
 
 .powercord-toast[data-toast-type=info] .icon {
@@ -6502,8 +6535,7 @@ body .bd-toasts {
 /*9.r. Notices*/
 
 .platformIcon-2NdO9F {
-	width:20px;
-	height:20px;
+	transform:scale(.75);
 }
 
 .notice-2FJMB4 {
