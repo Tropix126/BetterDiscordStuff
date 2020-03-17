@@ -5818,7 +5818,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 #bda-qem {
 	border-radius: 3px 3px 0 0;
-	box-shadow:inset 0 0 0 100vmax rgba(255,255,255,0.1);
+	box-shadow:inset 0 0 0 100vmax rgba(255,255,255,0.1), 0 2px 10px var(--lv1);
 	background:var(--lv1);
 	box-sizing:border-box;
 	border:1px solid rgba(255,255,255,0.2) !important;
@@ -9060,107 +9060,107 @@ body .bd-toasts {
 	display: none;
 }
 
-.layer-3QrUeG[id="user-settings"] .side-8zPYf6 .item-PXvHYJ:before,
-.layer-3QrUeG[id="user-settings"] .side-8zPYf6 .ui-tab-bar-item:before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 .item-PXvHYJ:before,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .side-8zPYf6 .ui-tab-bar-item:before {
 	font-family: 'Material Icons';
 	content: 'settings ';
 	margin-right: 8px;
 	font-size:var(--size0);
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(2):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(2):before {
 	content: 'person ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(3):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(3):before {
 	content: 'security ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(4):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(4):before {
 	content: 'input ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(5):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(5):before {
 	content: 'rss_feed ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(6):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(6):before {
 	content: 'credit_card ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(8):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(8):before {
 	content: 'favorite ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(9):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(9):before {
 	content: 'card_giftcard ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(10):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(10):before {
 	content: 'flight_takeoff ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(11):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(11):before {
 	content: 'flag ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(14):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(14):before {
 	content: 'mic ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(15):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(15):before {
 	content: 'aspect_ratio ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(16):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(16):before {
 	content: 'notifications ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(17):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(17):before {
 	content: 'keyboard ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(18):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(18):before {
 	content: 'games ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(19):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(19):before {
 	content: 'text_format ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(20):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(20):before {
 	content: 'dashboard ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(21):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(21):before {
 	content: 'airplay ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(22):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ:nth-of-type(22):before {
 	content: 'language ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(3):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(3):before {
 	content: 'build ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(4):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(4):before {
 	content: 'tag_faces ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(5):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(5):before {
 	content: 'extension ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(6):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(6):before {
 	content: 'format_paint ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(7):before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .ui-tab-bar-item:nth-of-type(7):before {
 	content: 'edit ';
 }
 
-.layer-3QrUeG[id="user-settings"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ[style*="rgb(240, 71, 71)"]:before {
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ[style*="rgb(240, 71, 71)"]:before {
 	content: 'exit_to_app ';
 }
 
