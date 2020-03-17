@@ -5510,6 +5510,21 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 /*9.e. Emoji Picker*/
 
+@keyframes emojiPicker {
+	0% {
+		transform:translateY(-10px);
+		opacity:.5;
+	}
+	100% {
+		opacity:1;
+		transform:none;
+	}
+}
+
+.layer-v9HyYc[style*="right: 5px;"] {
+	animation:emojiPicker 150ms ease;
+}
+
 .layer-v9HyYc {
 	z-index:10;
 }
