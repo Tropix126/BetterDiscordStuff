@@ -5562,7 +5562,6 @@ html.theme-light body.bd-minimal #app-mount::before {
 	left:0;
 	width:100%;
 	height:30px;
-	color:#fff;
 	font-size:var(--size2);
 	border-radius: 3px 3px 0 0;
 	box-shadow:inset 0 0 0 100vmax rgba(255,255,255,0.1);
@@ -5574,6 +5573,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	align-items:center;
 	padding:0 16px;
 	font-weight:600;
+	color:rgba(255,255,255,0.85) !important;
 }
 
 .emojiPicker-3m1S-j .scrollerWrap-2lJEkd,
@@ -5805,7 +5805,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 #bda-qem::after {
 	content:'Select an Emote';
-	color:#fff;
+	color:rgba(255,255,255,0.85);
 	position:absolute;
 	left:0;	
 	height:100%;
