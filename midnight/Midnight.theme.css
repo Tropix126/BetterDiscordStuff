@@ -8,6 +8,7 @@
  * @invite TeRQEPb 
  * @authorId 254362351170617345
 */
+
 /*
 /$$      /$$ /$$       /$$           /$$           /$$         /$$
 | $$$    /$$$|__/      | $$          |__/          | $$        | $$
@@ -20,34 +21,43 @@
                                          /$$  \ $$
                                         |  $$$$$$/
                                          \______/
+Registered: Black Box Theme
+
 /Import Base CSS File*/
+
 @import url('https://tropix126.github.io/BetterDiscordStuff/midnight/css/base.css');
+
 /*Root*/
+
 :root {
-/*Primary Variables*/
-  --lv1:#00000f;
-  --accent:#1973d3;
-  --hover:#135193;
-  --bg:url('https://i.imgur.com/GdnbuVj.jpg');
-  --bg-opacity:0.25;
-  --bg-fade:80%;
-	--font:'Inter', sans-serif;
-	--letter-spacing:-.02rem;
-  font-size:14px !important;
-
-/*Status Variables*/
-  --online: #43b581;
-  --idle: #faa61a;
-  --dnd: #f04747;
-  --offline: #636b75;
-  --invisible: #747f8d;
-  --streaming: #9146FF;
-
-/*Roundness Variables*/
-  --user-roundness:0px;
-  --guilds-roundness:0px;
-
-/*SourceCheck*/
-  --sourcecheck-unsafe-embed-bg-dark:var(--lv1);
-  --sourcecheck-unsafe-shadow-tint-dark:var(--lv1);
+	/*Primary Variables*/
+	--lv1: #00000f;
+	--accent: #1973d3;
+	--hover: #135193;
+	--bg: url('https://i.imgur.com/GdnbuVj.jpg');
+	--bg-opacity: 0.25;
+	--bg-fade: 80%;
+	--font: 'Inter', sans-serif;
+	--letter-spacing: -.02rem;
+  font-size: 14px !important;
+  
+	/*Status Variables*/
+  --success: #11d85d;
+	--caution: #ffd104;
+	--danger: #e20b0b;
+	--unavailable: #636b75;
+	--invisible: #747f8d;
+	--information: #4a90e2;
+	--twitch-purple: #9146FF;
+	--spotify-green: #1DB954;
+	--xbox-green: #0e7a0d;
+  --netflix-red: #e50914;
+  
+	/*Roundness Variables*/
+	--user-roundness: 0px;
+  --guilds-roundness: 0px;
+  
+	/*SourceCheck*/
+	--sourcecheck-unsafe-embed-bg-dark: var(--lv1);
+	--sourcecheck-unsafe-shadow-tint-dark: var(--lv1);
 }
