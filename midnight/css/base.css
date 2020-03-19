@@ -305,6 +305,7 @@ TABLE OF CONTENTS
 	--deprecated-store-bg: var(--lv1);
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
+	--background-secondary-alt:var(--lv1);
 	--background-tertiary: var(--lv1);
 	--channeltextarea-background:var(--lv1);
 	--background-modifier-active:transparent;
@@ -4992,12 +4993,17 @@ html.theme-light body.bd-minimal #app-mount::before {
 .contextMenu-HLZMGh .item-1Yvehc,
 .item-2J1YMK,
 .itemSlider-FZeYw0,
-.itemSubMenu-1vN_Yn {
+.itemSubMenu-1vN_Yn,
+.wrapper-35dUTv {
 	margin: 0 !important;
 	transition: 150ms ease all;
 	padding: 7px 15px !important;
 	border-radius: 0 !important;
-	border-left: 2px solid rgba(255, 255, 255, .2)
+	border-left: 2px solid rgba(255, 255, 255, .2);
+}
+
+.wrapper-35dUTv {
+	background:transparent !important;
 }
 
 .contextMenu-HLZMGh .item-1Yvehc:hover,
