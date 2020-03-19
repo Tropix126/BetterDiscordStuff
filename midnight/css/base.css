@@ -302,7 +302,7 @@ TABLE OF CONTENTS
 	--theme-version: '3.2';
 
 	/*Discord Vars*/
-	--deprecated-store-bg: var(--lv1);
+	--deprecated-store-bg: var(--lv1);	
 	--background-primary: var(--lv1);
 	--background-secondary: var(--lv1);
 	--background-secondary-alt:var(--lv1);
@@ -5003,6 +5003,10 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .wrapper-35dUTv {
+	padding:0 !important;
+}
+
+.button-1I8KM5 {
 	background:transparent !important;
 }
 
