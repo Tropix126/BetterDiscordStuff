@@ -8546,6 +8546,15 @@ body .bd-toasts {
 	}
 }
 
+@keyframes authBox {
+	0% {
+		transform:translateY(-45px);
+	}
+	100% {
+		transform:none;
+	}
+}
+
 .image-2jyRAK,
 .rightSplit-2US0xy + canvas,
 .wrapper-3Q5DdO::before {
@@ -8649,6 +8658,7 @@ body .bd-toasts {
 	padding:0;
 	box-shadow:0 4px 24px 8px var(--lv1) !important;
 	overflow:hidden;
+	animation:authBox 500ms ease;
 }
 
 .centeringWrapper-2Rs1dR {
@@ -9087,7 +9097,7 @@ header + .peopleListItem-2nzedh {
 }
 
 .addFriendInput-4bcerK:hover {
-	box-shadow:0 1px 4px var(--lv1) 0 0 0 1px var(--lv1);
+	box-shadow:0 1px 4px var(--lv1), 0 0 0 1px var(--lv1);
 }
 
 .addFriendInput-4bcerK:focus {
@@ -9669,7 +9679,7 @@ header + .peopleListItem-2nzedh {
 
 .input-2A_zIr:hover,
 .input-cIJ7To:not(.multiInput-1e2xJ7):hover {
-	box-shadow:0 1px 4px var(--lv1) 0 0 0 1px var(--lv1);
+	box-shadow:0 1px 4px var(--lv1), 0 0 0 1px var(--lv1);
 }
 
 .input-cIJ7To:not(.multiInput-1e2xJ7).focused-1mmYsC,
