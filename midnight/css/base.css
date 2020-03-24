@@ -4861,6 +4861,11 @@ html.theme-light body.bd-minimal #app-mount::before {
 	margin-right:8px;
 }
 
+.iconContainer-3GkGRf div[style*='url("/assets/c30220457097b064286a8759a9b6c4af.svg")'] {
+	-webkit-mask:url("/assets/c30220457097b064286a8759a9b6c4af.svg") center/1rem no-repeat;
+	background:var(--success) !important;
+}
+
 .content-2M3n_H {
 	color: #dadada !important;
 	font-weight: 500 !important;
@@ -8924,6 +8929,12 @@ body .bd-toasts {
 	font-weight:500;
 }
 
+#app-mount .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv {
+	background:transparent !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+
 .clearIcon-2N9YIn, .searchIcon-1a1-yA {
 	height:var(--sizelg);
 	width:var(--sizelg);
@@ -8996,16 +9007,86 @@ body .bd-toasts {
 	margin-top:0;
 }
 
-.card-3DjzTQ {
-	background:rgba(255,255,255,0.1) !important;
-	border-radius:0;
-	min-height:250px;
-	max-height:250px;
+.guildList-1ItbxP {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:center;
 }
 
-.card-3DjzTQ:focus, 
-.card-3DjzTQ:hover {
-	transform:none;
+.card-3DjzTQ,
+.cardPlaceholder-1zrbbe {
+	border-radius:3px;
+	overflow:hidden;
+	background:transparent !important;
+	box-shadow:none !important;
+	margin:8px;
+	min-width:520px;
+	min-height:unset;
+	height:272px;
+	transform:translateZ(0) !important;
+}
+
+#app-mount .splash-3N0nhD {
+	width:100%;
+	height:100%;
+	position:relative;
+	top:0;
+	left:0;
+	border-radius:5px;
+	overflow:hidden;
+}
+
+.splash-3N0nhD svg,
+.splash-3N0nhD foreignObject {
+	width:100%;
+	height:100%;
+	mask:none;
+}
+
+.pageWrapper-1PgVDX .cardHeader-Int16m {
+	flex:0 0 auto;
+}
+
+.pageWrapper-1PgVDX .description-2QALGo {
+	height:auto;
+	margin:0;
+}
+
+.pageWrapper-1PgVDX .splashImage-1wJ3Sk {
+	filter:blur(5px) brightness(.75);
+	transform:scale(1.15);
+	background:rgba(255,255,255,0.1) !important;
+}
+
+.pageWrapper-1PgVDX .guildInfo-2wGKIg {
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:0;
+	margin:16px;
+}
+
+.guildIcon-3W0pfo {
+	top:16px;
+}
+
+.viewButton-3jDZqV {
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	z-index:10;
+}
+
+.card-3DjzTQ:hover::after {
+	content:'';
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	background:var(--lv1);
+	opacity:.5;
+	position:absolute;
 }
 
 .sectionSeparator-2OWiNT {
@@ -9014,16 +9095,6 @@ body .bd-toasts {
 
 .guildInfo-2wGKIg {
 	position:static;
-}
-
-.memberInfo-3r4FKx {
-	position:absolute;
-	top:0px;	
-	left:0;
-	height:30px;
-	width:100%;
-	background:linear-gradient(rgba(0,0,0,0.75) 20%,transparent);
-	justify-content:center;
 }
 
 .roundButton-2CW1Hh {
@@ -9053,6 +9124,14 @@ body .bd-toasts {
 
 .card-3DjzTQ .guildIcon-3W0pfo {
 	border-radius:var(--guilds-roundness);
+}
+
+.dotOnline-8Ag7EB {
+	background:var(--success);
+}
+
+.dotOffline-3DXoDy {
+	background:var(--unavailable);
 }
 
 /*11.d. Friends List*/
@@ -10573,5 +10652,3 @@ header + .peopleListItem-2nzedh {
 .plugin-settings .titleDefault-a8-ZSr {
 	font-size:var(--size2);
 }
-
-/*20. Reduced Motion*/
