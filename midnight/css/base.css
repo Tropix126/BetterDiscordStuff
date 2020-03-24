@@ -9032,14 +9032,84 @@ header + .peopleListItem-2nzedh {
 	width:28px !important;
 }
 
-.peopleListItem-2nzedh .discriminator-22Okc1,
-.text-GwUZgS {
+.peopleListItem-2nzedh .discriminator-22Okc1 {
 	visibility:visible;
 	font-size:var(--size1);
 }
 
 .text-3MU_QQ {
 	font-size:var(--size2);
+}
+
+.text-GwUZgS,
+.description-1EvxpH {
+	font-size:var(--size1);
+	font-weight:500;
+	text-transform:none;
+}
+
+.image-1GzsFd {
+	filter:grayscale(1) brightness(1.25);
+	opacity:.5;
+}
+
+.header-1-dBpZ {
+	color:#fff;
+	font-size:52px;
+	font-weight:700;
+	text-transform:none;
+	margin-top:30px;
+}
+
+.addInputWrapper-1BOZ3d {
+	padding-top:0;
+}
+
+.wrapper-1cBijl {
+	background:transparent;
+	border:none;
+	border-radius:0;
+	padding:0;
+	height:28px;
+}
+
+.addFriendInput-4bcerK {
+	border-radius: 2px;
+	border: none;
+	transition:150ms ease all;
+	background: rgba(255,255,255,0.07);
+	font-size:var(--size2);
+	box-sizing:border-box;
+	box-shadow:0 1px 3px var(--lv1), 0 0 0 1px var(--lv1);
+	padding:2px 6px;
+	height:28px;
+	letter-spacing:.015em;
+}
+
+.addFriendInput-4bcerK:hover {
+	box-shadow:0 1px 4px var(--lv1) 0 0 0 1px var(--lv1);
+}
+
+.addFriendInput-4bcerK:focus {
+	box-shadow:0 0 2px var(--lv1), inset 0 0 0 1px var(--accent);
+}
+
+.addFriendInput-4bcerK::-webkit-input-placeholder {
+	color:rgba(255,255,255,0.4);
+}
+
+.addFriendHint-3Y70FX {
+	color:rgba(255,255,255,0.35);
+	font-size:var(--size2);
+	top:0;
+	left:0;
+	padding:2px 6px;
+	line-height:normal;
+	height:28px;
+	align-items:center;
+	display:flex;
+	box-sizing:border-box;
+	letter-spacing:var(--letter-spacing);
 }
 
 /*11.e. Store*/
