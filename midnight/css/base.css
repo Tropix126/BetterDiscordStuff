@@ -1438,7 +1438,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 .unreadMentionsIndicatorTop-gA6RCh {
 	padding: 0;
 	width: 60px;
-	z-index:1;
+	z-index:2;
 }
 
 .mention-1f5kbO {
@@ -1565,6 +1565,11 @@ html.theme-light body.bd-minimal #app-mount::before {
 
 .folder-21wGz3 {
 	background: transparent !important;
+}
+
+.closedFolderIconWrapper-15K9MK {
+	position:relative;
+	z-index:1;
 }
 
 .expandedFolderIconWrapper-1xLaU- {
@@ -3169,6 +3174,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	opacity:.25;
 	background: var(--accent) !important;
 	transition: background-color .3s ease;
+	z-index:-1;
 }
 
 /*8.c. Attachments*/
@@ -9012,6 +9018,11 @@ body .bd-toasts {
 	flex-wrap:wrap;
 	flex-direction:row;
 	justify-content:center;
+}
+
+.guildCard-2arfcG {
+	width:unset;
+	background:transparent !important;
 }
 
 .card-3DjzTQ,
