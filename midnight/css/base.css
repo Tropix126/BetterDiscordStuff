@@ -1478,7 +1478,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	line-height:40px;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .tutorialContainer-1v44GL {
 	position: absolute;
 	top: -44px;
 	display: flex;
@@ -1675,7 +1675,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	left:5px;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .numberBadge-2s8kKX {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .tutorialContainer-1v44GL .listItem-2P_4kh:first-child .numberBadge-2s8kKX {
 	position: absolute;
 	transform: scale(.82);
 	top: -31px;
@@ -1695,15 +1695,15 @@ html.theme-light body.bd-minimal #app-mount::before {
 	max-height:28px;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .wrapper-1BJsBx {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .tutorialContainer-1v44GL .listItem-2P_4kh:first-child .wrapper-1BJsBx {
 	height: 43px;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .pill-2uzAFe {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .tutorialContainer-1v44GL .listItem-2P_4kh:first-child .pill-2uzAFe {
 	display: none;
 }
 
-.wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child .upperBadge-2XnnGB {
+.wrapper-1Rf91z .scrollerWrap-1IAIlv .tutorialContainer-1v44GL .listItem-2P_4kh:first-child .upperBadge-2XnnGB {
 	top: 20px;
 }
 
@@ -2942,15 +2942,16 @@ html.theme-light body.bd-minimal #app-mount::before {
 }
 
 .groupStart-23k01U ~ .message-2qnXI6:not(.groupStart-23k01U) .messageContent-2qWWxC {
-	margin-top:-25px;
+	top:-25px;
 	overflow:visible;
+	padding-bottom:0 !important;
 }
 
 .cozy-3raOZG + .cozy-3raOZG:not(.groupStart-23k01U) .container-1ov-mD:not(:empty),
 .isUnread-3Ef-o9 + .cozy-3raOZG:not(.groupStart-23k01U) .container-1ov-mD:not(:empty) {
-  padding-bottom: 25px;
-  margin-top: -25px;
-  width:100%;
+    top: -25px;
+    position: relative;
+    width: 100%;
 }
 
 .cozy-3raOZG .contents-2mQqc9 .avatar-1BDn8e {
