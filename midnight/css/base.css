@@ -2002,11 +2002,17 @@ html.theme-light body.bd-minimal #app-mount::before {
 	}
 }
 
+.containerDefault-1ZnADq, 
+.containerDragAfter-1F4fgZ, 
+.containerDragBefore-31UGCO, 
+.containerUserOver-1U5YnL {
+	margin-top:5px;
+}
+
 .content-3at_AU {
 	border-radius: 0;
 	transition: 150ms all ease;
 	background: rgba(255, 255, 255, .08);
-	margin-top: 7px;
 	padding-bottom: 0;
 	height: 27px;
 	margin-left: 5px;
@@ -2633,7 +2639,7 @@ html.theme-light body.bd-minimal #app-mount::before {
     }
 }
 
-#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .header-zu8eWb {
+#app-mount .sidebar-2K8pFh .privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 {
 	text-align: left;
 	color: rgba(255,255,255,0.9);
 	border-image: linear-gradient(90deg, var(--hover) 90%, transparent);
@@ -2773,6 +2779,7 @@ html.theme-light body.bd-minimal #app-mount::before {
 	box-shadow: 0 0 2px 2px rgba(255, 255, 255, .08);
 	border-left: 2px solid rgba(255, 255, 255, .1);
 	max-width:100%;
+	height:36px;
 }
 
 .channel-2QD9_O:not(.selected-aXhQR6):hover,
