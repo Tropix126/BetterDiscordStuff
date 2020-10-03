@@ -1,0 +1,113 @@
+/*Variables*/
+
+.platform-win {
+    --classic-titlebar-height:20px;
+    --classic-titlebar-active:linear-gradient(90deg,#0a246a,#a6caf0);
+    --classic-titlebar-inactive:linear-gradient(90deg,#808080,#c0c0c0);
+    --classic-titlebar-wordmark-content:'Discord';
+    --classic-app-padding:3px;
+}
+
+
+/*Source*/
+
+.typeWindows-1za-n7 {
+    position:relative;
+    display:flex;
+    align-items:center;
+    margin-top:0;
+    top:0;
+    height:var(--classic-titlebar-height);
+    padding:3px 2px 3px 3px;
+    box-sizing:border-box;
+    z-index:9999;
+}
+
+.winButton-iRh8-Z {
+    top:unset;
+    width:16px;
+    height:14px;
+    cursor:default;
+    background-color: silver !important;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    background-repeat: no-repeat;
+}
+
+.winButton-iRh8-Z:active {
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
+}
+
+.winButtonClose-1HsbF- {
+    margin-left:2px;
+    background-position: top 3px left 4px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0h2v1h1v1h2V1h1V0h2v1H7v1H6v1H5v1h1v1h1v1h1v1H6V6H5V5H3v1H2v1H0V6h1V5h1V4h1V3H2V2H1V1H0V0z' fill='%23000'/%3E%3C/svg%3E");
+}
+
+.winButton-iRh8-Z:nth-last-child(2) {
+    background-position:top 2px left 3px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='9' height='9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 0H0v9h9V0zM8 2H1v6h7V2z' fill='%23000'/%3E%3C/svg%3E");
+}
+
+.winButton-iRh8-Z:last-child {
+    background-position:bottom 3px left 4px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='6' height='2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23000' d='M0 0h6v2H0z'/%3E%3C/svg%3E");
+}
+
+.winButton-iRh8-Z svg {
+    display:none;
+}
+
+.wordmarkWindows-1v0lYD {
+    top:0;
+    left:0;
+    padding:0 3px;
+    box-sizing:border-box;
+    width:100%;
+    height:var(--classic-titlebar-height);
+    display:flex;
+    align-items:center;
+    background-image:var(--classic-titlebar-inactive);
+}
+
+.app-focused .wordmarkWindows-1v0lYD {
+    background-image:var(--classic-titlebar-active);
+}
+
+.app-focused .wordmarkWindows-1v0lYD::before {
+    opacity:1;
+}
+
+.wordmarkWindows-1v0lYD::before {
+    content:var(--classic-titlebar-wordmark-content);
+    height:var(--classic-titlebar-height);
+    z-index:1;
+    position:relative;
+    font-family: 'Tahoma';
+    font-size: 11px;
+    color:#fff;
+    font-weight:bold;
+    opacity:.8;
+    padding:0 3px;
+    line-height:var(--classic-titlebar-height);
+    font-smooth: never;
+}
+
+.wordmarkWindows-1v0lYD svg {
+    display:none;
+}
+
+.platform-win #app-mount,
+.platform-win .backdrop-1wrmKB,
+.platform-win .backdropWithLayer-3_uhz4 {
+    padding:var(--classic-app-padding);
+    box-sizing:border-box;
+    background-color:silver;
+    box-shadow:inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}
+
+.platform-win .bg-h5JY_x,
+.platform-win .layer-3QrUeG,
+.platform-win .standardSidebarView-3F1I7i {
+    top:0;
+    padding-top:0;
+}
