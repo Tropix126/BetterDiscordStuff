@@ -10702,3 +10702,4 @@ h2.da-membersGroup{overflow:visible visible;z-index:1000;}/*fixed text being cut
 #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.chat-3bRxxu.da-chat > div > div
 {margin-bottom:20px;border:none;}.da-members{padding-bottom:0px;}/*The 320px padding causes the scroller to scroll WAY too far. Instead we want to push the top of the memberswrap up. This avoids collision with the bottom message bar. border:none; fixes the bright square that appears to the right*/
 #app-mount .guilds-1SWlCJ {margin-top: 0px;}/*not a bug fix, just cleans up the ui a bit*/
+.da-newMessagesBar{z-index:100000;}/*edit: fixes bar underneath names*/
