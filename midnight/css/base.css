@@ -10717,3 +10717,5 @@ it leaves a gap where messages are visible and also the DM button since there is
 at the top of the server scroller. The top margin from before was a cheap fix.*/
 #app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.inner-3nWsbo.da-inner > div.file-34mY5K.da-file.expandable-3khGbD.da-expandable > img{
 width: calc(55% - 175px) !important;}/*fixes overlapping with comment box*/
+#app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.chat-3bRxxu.da-chat > div.wrapper-2qzCYF.da-wrapper.normal-1oavYI.video--KPXCT.da-video.theme-dark > div
+{margin-top:0px;} /*fixes issue #89*/
