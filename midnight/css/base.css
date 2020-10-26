@@ -10716,4 +10716,4 @@ top:33px;}/*fixes comment box margin on images but breaks them on videos*/
 it leaves a gap where messages are visible and also the DM button since there is no bar
 at the top of the server scroller. The top margin from before was a cheap fix.*/
 #app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.inner-3nWsbo.da-inner > div.file-34mY5K.da-file.expandable-3khGbD.da-expandable > img{
-width: calc(55% - 175px);}/*fixes overlapping with comment box*/
+width: calc(55% - 175px) !important;}/*fixes overlapping with comment box*/
