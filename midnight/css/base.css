@@ -343,6 +343,9 @@ TABLE OF CONTENTS
 
 	/*Toasts*/
 	--toast-background:var(--lv1);
+	
+	/*Profile*/
+	--user-gradient:linear-gradient(0deg, rgba(0,0,15,0.6054796918767507) 0%, rgba(0,0,0,0) 100%);
 }
 
 /*More Compatibility Variables*/
@@ -7490,7 +7493,7 @@ body .bd-toasts {
 	left:0;
 	width:100%;
 	height:100%;
-	background:var(--user-background) center/cover no-repeat;
+	background:var(--user-gradient), var(--user-background) center/cover no-repeat;
 	z-index:-1;
 	box-sizing:border-box;
 	box-shadow:inset 0 0 100vmax var(--lv1);
