@@ -3610,9 +3610,10 @@ html.theme-light body.bd-minimal #app-mount::before {
 /*8.f. Textarea*/
 
 .buttons-3JBrkn{
-    background: rgba(055,055,055,0.87) !important;
+    background: rgba(19,19,33,0.87) !important;
+    height:50px;
 } /*Highlight emoji/gif/gift buttons so that they stand out more
-Removes the need to fix overlapping with member list as well*/
+Removes the need to fix overlapping with member list*/
 
 @keyframes textarea {
     0% {
