@@ -10720,8 +10720,21 @@ padding-top:10px;}/*Prevent region selector from hiding beneath top bar*/
 }/*forces DM calls to use the default values, preventing it from spazzing*/
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K.expandable-3khGbD .description-2ug5H_ {
 padding: 16px 16px 16px;margin-top: 20px;}/*fixes upload names on images but breaks them on videos. still better than before*/
-#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.inner-3nWsbo.da-inner > div.comment-4IWttf.da-comment{
-top:33px;}/*fixes comment box margin on images but breaks them on videos*/
+
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.inner-3nWsbo.da-inner > div.comment-4IWttf.da-comment
+{top:55px;} #app-mount .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr{margin-top:55px !important;}#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.inner-3nWsbo.da-inner > div.file-34mY5K.da-file.expandable-3khGbD.da-expandable > div{line-height: 1;text-rendering: optimizeLegibility;letter-spacing: var(--letter-spacing);user-select: none;pointer-events: auto;color: var(--header-primary);-webkit-box-direction: normal;margin: 0;border: 0;font-weight: inherit;font-style: inherit;font-family: inherit;font-size: 100%;vertical-align: baseline;outline: 0;box-sizing: border-box;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;background: var(--success) !important;box-shadow: 0 0 12px rgba(0,0,0,0.25) !important;border-radius: 0 !important;height: 40px;padding: 0 12px;display: flex;align-items: center;}
+/*fixes comment box margin on images. this is a temporary solution.
+The bug was caused by discord's inconsistent placement of the filename element. 
+On images it is placed at the bottom instead of the top
+Until we figure out how to move it in plain CSS, we will have to use this bandaid fix.
+
+The bug causes the comment box to be too low and collide with the filename when the image is
+in a landscape aspect ratio. Previously we fixed this by setting the comment top offset from 55px
+to 33px, but this broke the comment box on all other files because those files had their filename in a
+different position. Instead we want to force the image thumbnail to have a top margin equal to the comment box.
+
+This does cause some jank on some images, but it fixes the overlap problem without breaking other files.*/
+
 #app-mount .standardSidebarView-3F1I7i {top: 0px;}/*setting this to 42px was a bad idea,
 it leaves a gap where messages are visible and also the DM button since there is no bar
 at the top of the server scroller. The top margin from before was a cheap fix.*/
