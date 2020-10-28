@@ -259,6 +259,7 @@ TABLE OF CONTENTS
 	18.b. TopRoleEverywhere
 	18.c. GoogleTranslateOption
 	18.d. ReadAllNotification
+	18.e. LastMessageDate, JoinedAtDate, CreationDate
 
 19. BetterDiscord
 	19.a. Theme and Plugin Entries
@@ -10666,6 +10667,11 @@ header + .peopleListItem-2nzedh {
 .listItem-2P_4kh[style*="height: 20px;"] {
 	order:-1;
 }
+
+/*18.e. LastMessageDate, JoinedAtDate, CreationDate*/
+
+.da-headerInfo .da-joinedAtDate, .da-headerInfo .da-creationDate, .da-headerInfo .da-lastMessageDate
+{margin-left:10px;} /*DevilBro's profile date plugins*/
 
 /*19. BetterDiscord*/
 
