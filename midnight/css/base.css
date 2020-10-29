@@ -4506,7 +4506,7 @@ Removes the need to fix overlapping with member list*/
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	height: 52px;
+	height: 50px; /*This should match the height of the text area*/
 	display:flex;
     justify-content:center;
 	align-items:center;
