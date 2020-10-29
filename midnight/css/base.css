@@ -4506,7 +4506,7 @@ Removes the need to fix overlapping with member list*/
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	height: 52px;
+	height: 50px; /*This should match the height of the text area*/
 	display:flex;
     justify-content:center;
 	align-items:center;
@@ -8200,6 +8200,28 @@ body .bd-toasts {
 
 .downloadLink-1ywL9o {
 	font-size:var(--size1);
+}
+
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.topSectionNormal-2-vo2m.da-topSectionNormal > div > div > div.size16-1P40sf.customStatusText-39gdCI.da-customStatusText,
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.topSectionNormal-2-vo2m.da-topSectionNormal > header > div.headerInfo-30uryT.da-headerInfo
+{
+    text-shadow: 1px 1px 3px black, 1px 1px 3px black !important;
+    overflow: visible visible !important;
+}
+
+.da-headerInfo .da-creationDate,    
+.da-headerInfo  .da-joinedAtDate,   /*Devilbro plugin support*/
+.da-headerInfo  .da-lastMessageDate,
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.topSectionNormal-2-vo2m.da-topSectionNormal > header > div.headerInfo-30uryT.da-headerInfo > div.nameTag-2IFDfL.da-nameTag.nameTag-m8r81H.da-nameTag > span.username-2b1r56.da-username.username-3gJmXY.da-username,
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.topSectionNormal-2-vo2m.da-topSectionNormal > div > div > div.size16-1P40sf.customStatusText-39gdCI.da-customStatusText > div > span,
+#app-mount > div:nth-child(6) > div.modal-3c3bKg.da-modal > div > div > div.topSectionNormal-2-vo2m.da-topSectionNormal > header > div.headerInfo-30uryT.da-headerInfo > div.nameTag-2IFDfL.da-nameTag.nameTag-m8r81H.da-nameTag > span.discriminator-xUhQkU.da-discriminator
+{
+    width: -webkit-fill-available;
+    /* Fixes horizontal shadow cutoff */
+    
+    padding-bottom: 3px;
+    margin-bottom: -3px;
+    /* Fixes vertical shadow cutoff */
 }
 
 /*10.e. Keyboard Shortcuts Modal*/
