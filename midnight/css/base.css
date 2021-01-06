@@ -4036,6 +4036,11 @@ Removes the need to fix overlapping with member list*/
 	--codeblockcolor: #eb2d2f;
 }
 
+.hljs[class~=gml i]::before {
+	content: "GameMaker Language";
+	--codeblockcolor: #008900;
+}
+
 .hljs[class~=py i]::before,
 .hljs[class~=python i]::before {
 	content: "Python";
